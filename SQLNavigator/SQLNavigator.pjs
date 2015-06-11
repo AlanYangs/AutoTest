@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Nodes [
+
+<!ENTITY % NameValue "CDATA">
+<!ENTITY % PropType "(I|S|D|L|H|B)">
+<!ENTITY % VersionValue "CDATA">
+
+<!ELEMENT Prp (#PCDATA)>
+<!ELEMENT Node (Node|Prp)*>
+<!ELEMENT Nodes (Node)+>
+
+<!ATTLIST Nodes version CDATA "1">
+
+<!ATTLIST Node name CDATA #REQUIRED>
+
+<!ATTLIST Prp name CDATA #REQUIRED>
+<!ATTLIST Prp type CDATA #REQUIRED>
+<!ATTLIST Prp value CDATA #REQUIRED>
+]>
+<Nodes version="1">
+	<Node name="root">
+		<Node name="analysis">
+			<Prp name="key" type="S" value="{12B65888-E7A2-4812-A61C-39432A91F2CD}"/>
+		</Node>
+		<Node name="child list">
+			<Node name="item0000000000">
+				<Node name="item data">
+					<Prp name="relpath" type="S" value="AutoTest\AutoTest.mds"/>
+				</Node>
+				<Prp name="index" type="I" value="0"/>
+				<Prp name="key" type="S" value="{BA6D911E-4419-4DBC-9579-E0BF035909A2}"/>
+				<Prp name="pluginname" type="S" value=""/>
+				<Prp name="type" type="S" value="{362A8EE5-675E-43A9-869D-06ECE80B0CB4}"/>
+				<Prp name="typename" type="S" value="Project"/>
+			</Node>
+		</Node>
+		<Node name="files">
+			<Node name="autotest\autotest.mds">
+				<Prp name="relpath" type="S" value="AutoTest\AutoTest.mds"/>
+			</Node>
+		</Node>
+		<Node name="folders">
+			<Node name="folders"/>
+		</Node>
+		<Node name="scc"/>
+		<Node name="settings">
+			<Node name="{5a85e200-b5d2-4f74-972a-0221f2956a19}">
+				<Prp name="type" type="I" value="5"/>
+				<Prp name="value" type="S" value="Log"/>
+			</Node>
+			<Prp name="key" type="S" value="{5F6DB438-63D1-40FB-AFB8-CB008468E614}"/>
+			<Prp name="settingsversion" type="S" value="9.31"/>
+		</Node>
+		<Node name="test data">
+			<Node name="child list">
+				<Node name="item0000000000">
+					<Prp name="description" type="S" value=""/>
+					<Prp name="enabled" type="B" value="-1"/>
+					<Prp name="index" type="I" value="0"/>
+					<Prp name="key" type="S" value="{BA6D911E-4419-4DBC-9579-E0BF035909A2}"/>
+					<Prp name="stoponerror" type="B" value="-1"/>
+					<Prp name="timeout" type="I" value="0"/>
+				</Node>
+			</Node>
+			<Prp name="key" type="S" value="{0E148EFB-50ED-4548-8F58-DA24E0E6D5C6}"/>
+		</Node>
+		<Node name="variables">
+			<Prp name="key" type="S" value="{CA716DCC-470E-48DE-9729-A58B47A2680D}"/>
+		</Node>
+		<Prp name="key" type="S" value="{BC18F8B8-31C9-4C51-918A-B2E947B9B851}"/>
+		<Prp name="signature" type="S" value="{24B6FA0B-0143-461A-9758-AEB9E9A9428B}"/>
+		<Prp name="version" type="S" value="9.0"/>
+	</Node>
+</Nodes>

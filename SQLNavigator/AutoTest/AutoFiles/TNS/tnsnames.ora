@@ -1,0 +1,428 @@
+DEV817 =
+  (DESCRIPTION =
+    (ADDRESS_LIST =
+      (ADDRESS = (PROTOCOL = TCP)(HOST = 10.30.149.136)(PORT = 1521))
+    )
+    (CONNECT_DATA =
+      (SID = ORA817)
+    )
+  )
+
+DEV92 =
+  (DESCRIPTION =
+    (ADDRESS_LIST =
+      (ADDRESS = (PROTOCOL = TCP)(HOST = 10.30.149.91)(PORT = 1521))
+    )
+    (CONNECT_DATA =
+      (SERVICE_NAME = ORA92)
+      (SERVER = DEDICATED)
+    )
+  )
+
+DEV102 =
+  (DESCRIPTION =
+    (ADDRESS_LIST =
+      (ADDRESS = (PROTOCOL = TCP)(HOST = 10.30.149.24)(PORT = 1521))
+    )
+    (CONNECT_DATA =
+      (SERVICE_NAME = ORA102)
+      (SERVER = DEDICATED)
+    )
+  )
+
+
+DEV11g =
+  (DESCRIPTION =
+    (ADDRESS_LIST =
+      (ADDRESS = (PROTOCOL = TCP)(HOST = 10.30.149.55)(PORT = 1521))
+    )
+    (CONNECT_DATA =
+      (SERVICE_NAME = ORA11G)
+      (SERVER = DEDICATED)
+    )
+  )
+
+#navdev/navdev
+DEV11gR2 =
+  (DESCRIPTION =
+    (ADDRESS_LIST =
+      (ADDRESS = (PROTOCOL = TCP)(HOST = 10.30.149.44)(PORT = 1521))
+    )
+    (CONNECT_DATA =
+      (SERVICE_NAME = ORA11g2)
+      (SERVER = DEDICATED)
+    )
+  )
+
+
+TC10GVSS =
+  (DESCRIPTION =
+    (ADDRESS_LIST =
+      (ADDRESS = (PROTOCOL = TCP)(HOST = 10.30.149.145)(PORT = 1521))
+    )
+    (CONNECT_DATA =
+      (SERVICE_NAME = ORA102)
+      (SERVER = DEDICATED)
+    )
+  )
+
+TC10GCVS =
+  (DESCRIPTION =
+    (ADDRESS_LIST =
+      (ADDRESS = (PROTOCOL = TCP)(HOST = 10.30.149.10)(PORT = 1521))
+    )
+    (CONNECT_DATA =
+      (SERVICE_NAME = ORA102)
+      (SERVER = DEDICATED)
+    )
+  )
+
+TC10GSVN =
+  (DESCRIPTION =
+    (ADDRESS_LIST =
+      (ADDRESS = (PROTOCOL = TCP)(HOST = 10.30.149.60)(PORT = 1521))
+    )
+    (CONNECT_DATA =
+      (SERVICE_NAME = ORA102)
+      (SERVER = DEDICATED)
+    )
+  )
+
+ZHU_ORA92 =
+  (DESCRIPTION =
+    (ADDRESS_LIST =
+      (ADDRESS = (PROTOCOL = TCP)(HOST = 10.30.149.49)(PORT = 1521))
+    )
+    (CONNECT_DATA =
+      (SERVICE_NAME = ora92)
+    )
+  )
+
+ZHU_ORA102 =
+  (DESCRIPTION =
+    (ADDRESS_LIST =
+      (ADDRESS = (PROTOCOL = TCP)(HOST = 10.30.149.51)(PORT = 1521))
+    )
+    (CONNECT_DATA =
+      (SERVICE_NAME = ora102)
+    )
+  )
+
+ZHU_ORA11G =
+  (DESCRIPTION =
+    (ADDRESS_LIST =
+      (ADDRESS = (PROTOCOL = TCP)(HOST = 10.30.149.78)(PORT = 1521))
+    )
+    (CONNECT_DATA =
+      (SERVICE_NAME = ora11g)
+    )
+  )
+
+ZHU_ORA102TC =
+  (DESCRIPTION =
+    (ADDRESS_LIST =
+      (ADDRESS = (PROTOCOL = TCP)(HOST = 10.30.149.36)(PORT = 1521))
+    )
+    (CONNECT_DATA =
+      (SERVICE_NAME = ora102)
+    )
+  )
+
+QA92=
+  (DESCRIPTION =
+    (ADDRESS_LIST =
+      (ADDRESS = (PROTOCOL = TCP)(HOST = 10.30.150.120)(PORT = 1521))
+    )
+    (CONNECT_DATA =
+      (SERVICE_NAME = ora92)
+    )
+  )
+
+
+QA102 =
+  (DESCRIPTION =
+    (ADDRESS_LIST =
+      (ADDRESS = (PROTOCOL = TCP)(HOST = 10.30.150.121)(PORT = 1521))
+    )
+    (CONNECT_DATA =
+      (SERVICE_NAME = ora102)
+    )
+  )
+
+
+QA11G =
+  (DESCRIPTION =
+    (ADDRESS_LIST =
+      (ADDRESS = (PROTOCOL = TCP)(HOST = 10.30.150.122)(PORT = 1521))
+    )
+    (CONNECT_DATA =
+      (SERVICE_NAME = ora11g)
+    )
+  )
+
+QA102TC =
+  (DESCRIPTION =
+    (ADDRESS_LIST =
+      (ADDRESS = (PROTOCOL = TCP)(HOST = 10.30.154.226)(PORT = 1521))
+    )
+    (CONNECT_DATA =
+      (SERVICE_NAME = ora102)
+    )
+  )
+
+#--------------------mel-----------------------------
+
+#hpham/hpham
+NAV10G =
+  (DESCRIPTION =
+    (ADDRESS_LIST =
+      (ADDRESS = (PROTOCOL = TCP)(HOST = melvdborcx64)(PORT = 1521))
+    )
+    (CONNECT_DATA =
+      (SID = NAV10G)
+    )
+  )
+
+NAV817 =
+  (DESCRIPTION =
+    (ADDRESS_LIST =
+      (ADDRESS = (PROTOCOL = TCP)(HOST = melnavvs01)(PORT = 1521))
+    )
+    (CONNECT_DATA =
+      (SID = NAV817)
+    )
+  )
+
+#scott/tiger
+Toad_Oracle_11R2=
+  (DESCRIPTION=
+    (ADDRESS=
+      (PROTOCOL=TCP)
+      (HOST=10.30.154.11)
+      (PORT=1521)
+    )
+    (CONNECT_DATA=
+      (SERVER=dedicated)
+      (SERVICE_NAME=ora11g2)
+    )
+  )
+
+#navdev/navdev; sys/sys
+
+
+SHIRLY_11gR2 =
+  (DESCRIPTION =
+    (ADDRESS_LIST =
+      (ADDRESS = (PROTOCOL = TCP)(HOST = zhu13718)(PORT = 1521))
+    )
+    (CONNECT_DATA =
+      (SERVICE_NAME = ora11gR2)
+    )
+  )
+
+V11gR2 =
+  (DESCRIPTION =
+    (ADDRESS_LIST =
+      (ADDRESS = (PROTOCOL = TCP)(HOST = ZHU13606)(PORT = 1521))
+    )
+    (CONNECT_DATA =
+      (SERVICE_NAME = ORA11gR2)
+      (SERVER = DEDICATED)
+    )
+  )
+
+UNI11G32 =
+  (DESCRIPTION =
+    (ADDRESS = (PROTOCOL = TCP)(HOST = MelNavDB1)(PORT = 1521))
+    (CONNECT_DATA =
+      (SERVER = DEDICATED)
+      (SERVICE_NAME = UNI11G32)
+    )
+  )
+
+#LIDIA Quest123
+pink =
+  (DESCRIPTION =
+    (ADDRESS_LIST =
+      (ADDRESS = (PROTOCOL = TCP)(HOST = 10.20.25.28)(PORT = 1521))
+    )
+    (CONNECT_DATA =
+      (SERVICE_NAME = pink)
+    )
+  )
+
+NAV10GQCTO =
+  (DESCRIPTION =
+    (ADDRESS_LIST =
+      (ADDRESS = (PROTOCOL = TCP)(HOST = melvdborcx64QCT)(PORT = 1521))
+    )
+    (CONNECT_DATA =
+      (SID = NAV10G)
+    )
+  )
+
+#Lidia's DB, SYSTEM\Quest123,LIDIA\Quest123
+BLUE =
+  (DESCRIPTION =
+    (ADDRESS_LIST =
+      (ADDRESS = (PROTOCOL = TCP)(HOST = 10.20.25.75)(PORT = 1522))
+    )
+    (CONNECT_DATA =
+      (SERVICE_NAME = BLUE)
+    )
+  )
+
+#QSOO 10.2 sys/sqlexp, sqlexp/sqlexp, qso/qso
+QSOO102=
+  (DESCRIPTION =
+    (ADDRESS_LIST =
+      (ADDRESS = (PROTOCOL = TCP)(HOST = 10.30.150.45)(PORT = 1521))
+    )
+    (CONNECT_DATA =
+      (SERVICE_NAME = ORA102)
+      (SERVER = DEDICATED)
+    )
+  )
+
+#QSOO 11g sys/sqlexp, sqlexp/sqlexp, qso/qso
+QSOO11g=
+  (DESCRIPTION =
+    (ADDRESS_LIST =
+      (ADDRESS = (PROTOCOL = TCP)(HOST = 10.30.150.52)(PORT = 1521))
+    )
+    (CONNECT_DATA =
+      (SERVICE_NAME = ORA11g)
+      (SERVER = DEDICATED)
+    )
+  )
+
+#QSOO 11gR2 sys/sqlexp, sqlexp/sqlexp, qso/qso
+QSOO11gR2=
+  (DESCRIPTION =
+    (ADDRESS_LIST =
+      (ADDRESS = (PROTOCOL = TCP)(HOST = 10.30.149.47)(PORT = 1521))
+    )
+    (CONNECT_DATA =
+      (SERVICE_NAME = SCN11GR2)
+      (SERVER = DEDICATED)
+    )
+  )
+
+#QSOO 12Gc sys/demo, mluo/mluo
+DEV12gC =
+  (DESCRIPTION =
+    (ADDRESS_LIST =
+      (ADDRESS = (PROTOCOL = TCP)(HOST = 10.30.152.244)(PORT = 1521))
+    )
+    (CONNECT_DATA =
+      (SERVICE_NAME = cdb)
+      (SERVER = DEDICATED)
+    )
+  )
+
+CDB =
+  (DESCRIPTION =
+    (ADDRESS_LIST =
+      (ADDRESS = (PROTOCOL = TCP)(HOST = 10.30.152.244)(PORT = 1521))
+    )
+    (CONNECT_DATA =
+      (SERVICE_NAME = cdb)
+      (SERVER = DEDICATED)
+    )
+  )
+
+#navdev/navdev
+
+mluo =
+  (DESCRIPTION =
+    (ADDRESS_LIST =
+      (ADDRESS = (PROTOCOL = TCP)(HOST = 10.30.152.244)(PORT = 1521))
+    )
+    (CONNECT_DATA =
+      (SERVICE_NAME = pdb1)
+      (SERVER = DEDICATED)
+    )
+  )
+
+#candy/candy 
+
+candy_PDB1= 
+  (DESCRIPTION= 
+    (ADDRESS= 
+      (PROTOCOL=TCP) 
+      (HOST=zhuvm2012tuc02) 
+      (PORT=1521) 
+    ) 
+    (CONNECT_DATA= 
+      (SERVER=dedicated) 
+      (SERVICE_NAME=PDB1) 
+    ) 
+  )
+
+
+#navdev/navdev, sys/demo  #12.1.0.2#
+
+DEV12C=
+  (DESCRIPTION=
+    (ADDRESS=
+      (PROTOCOL=TCP)
+      (HOST=10.30.152.209)
+      (PORT=1521)
+    )
+    (CONNECT_DATA=
+      (SERVER=dedicated)
+      (SERVICE_NAME=pdb1)
+    )
+  )
+
+#bmf/bmf , ora12c2, sys/sqlexp
+NAV12C2=
+  (DESCRIPTION=
+    (ADDRESS=
+      (PROTOCOL=TCP)
+      (HOST=10.30.154.255)
+      (PORT=1521)
+    )
+    (CONNECT_DATA=
+      (SERVER=dedicated)
+      (SERVICE_NAME=pdb)
+    )
+  )
+
+#12cR2 sys/sqlexp, bmf/bmf
+DEV12CR2 =
+  (DESCRIPTION =
+    (ADDRESS_LIST =
+      (ADDRESS = (PROTOCOL = TCP)(HOST = 10.30.154.224)(PORT = 1521))
+    )
+    (CONNECT_DATA =
+      (SERVICE_NAME = pdb)
+      (SERVER = DEDICATED)
+    )
+  )
+
+#Automation database 12CR1  sys/sqlexp, navdev/navdev
+AUTO_ORA12CR1 =
+  (DESCRIPTION =
+    (ADDRESS_LIST =
+      (ADDRESS = (PROTOCOL = TCP)(HOST = 10.30.152.244)(PORT = 1521))
+    )
+    (CONNECT_DATA =
+      (SERVICE_NAME = pdb1)
+      (SERVER = DEDICATED)
+    )
+  )
+
+#Automation database 12CR2  sys/sqlexp, navdev/navdev
+AUTO_ORA12CR2 =
+  (DESCRIPTION=
+    (ADDRESS=
+      (PROTOCOL=TCP)
+      (HOST=10.30.154.255)
+      (PORT=1521)
+    )
+    (CONNECT_DATA=
+      (SERVER=dedicated)
+      (SERVICE_NAME=pdb)
+    )
+  )

@@ -1,0 +1,1992 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Root Signature="{5DCBAC3B-D39C-497C-9BE8-744CBADD37AA}" NameMappingVersion="4" Cookie="507">
+	<Nodes Name="NameMapping" Key="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}" ParallelWalk="True">
+		<Properties />
+		<Children>
+			<Child0 Name="Sys" Key="{5F0F10FC-6191-42FF-88F5-7ACC5A07D709}" ParallelWalk="True">
+				<Properties>
+					<Property0 Name="Name" Cookie="0" />
+					<Property1 Name="Id" Cookie="1" />
+				</Properties>
+				<Children>
+					<Child0 Name="MSIprocess" Key="{4F8D9FDF-15D6-4AC1-8104-3A7AAD0490BC}" ParallelWalk="True">
+						<Properties>
+							<Property0 Name="ProcessName" Cookie="6" />
+							<Property1 Name="Index" Cookie="7" />
+						</Properties>
+						<Children>
+							<Child0 Name="wnMSIDialog" Key="{11487D0D-C53E-4B8A-A7D9-CAE8CE89C26E}" ParallelWalk="True">
+								<Properties>
+									<Property0 Name="WndClass" Cookie="8" />
+									<Property1 Name="WndCaption" Cookie="9" />
+								</Properties>
+								<Children>
+									<Child0 Name="labWelcome" Key="{B57203A4-21D5-484F-B605-C4DBCA707CBC}" ParallelWalk="True">
+										<Properties>
+											<Property0 Name="WndClass" Cookie="10" />
+											<Property1 Name="WndCaption" Cookie="11" />
+										</Properties>
+										<Children />
+									</Child0>
+									<Child1 Name="btnNext" Key="{EBB14681-EB99-4D7D-B7F5-4B5BB0665B01}" ParallelWalk="True">
+										<Properties>
+											<Property0 Name="WndClass" Cookie="12" />
+											<Property1 Name="WndCaption" Cookie="13" />
+										</Properties>
+										<Children />
+									</Child1>
+									<Child2 Name="chkAccept" Key="{0A7B8B76-EDE1-473D-B893-D6FE159E53C9}" ParallelWalk="True">
+										<Properties>
+											<Property0 Name="WndClass" Cookie="14" />
+											<Property1 Name="WndCaption" Cookie="15" />
+										</Properties>
+										<Children />
+									</Child2>
+									<Child3 Name="btnBrowse" Key="{15E01AE7-475B-427F-BA52-4EE6DD247AAF}" ParallelWalk="True">
+										<Properties>
+											<Property0 Name="WndClass" Cookie="16" />
+											<Property1 Name="WndCaption" Cookie="17" />
+										</Properties>
+										<Children />
+									</Child3>
+									<Child4 Name="btnInstall" Key="{A33E5BA1-90D4-4D6B-8141-A7DF175C8420}" ParallelWalk="True">
+										<Properties>
+											<Property0 Name="WndClass" Cookie="18" />
+											<Property1 Name="WndCaption" Cookie="19" />
+										</Properties>
+										<Children />
+									</Child4>
+									<Child5 Name="progressBar" Key="{D952BC29-FF16-49F4-B695-D11B2E31C132}" ParallelWalk="True">
+										<Properties>
+											<Property0 Name="WndClass" Cookie="20" />
+										</Properties>
+										<Children />
+									</Child5>
+									<Child6 Name="btnFinish" Key="{4AC7A7A0-E2CC-4348-B944-22F510EB2652}" ParallelWalk="True">
+										<Properties>
+											<Property0 Name="WndClass" Cookie="21" />
+											<Property1 Name="WndCaption" Cookie="22" />
+										</Properties>
+										<Children />
+									</Child6>
+								</Children>
+							</Child0>
+						</Children>
+					</Child0>
+					<Child1 Name="Sqlnavigator" Key="{670BEEEC-7022-421D-84BF-9BABD5BED74C}" ParallelWalk="True">
+						<Properties>
+							<Property0 Name="ProcessName" Cookie="23" />
+						</Properties>
+						<Children>
+							<Child0 Name="frmMain" Key="{B9635DCF-44B0-4EA2-A2DC-A6B56917A37F}" ParallelWalk="True">
+								<Properties>
+									<Property0 Name="WndClass" Cookie="24" />
+									<Property1 Name="WndCaption" Cookie="25" />
+								</Properties>
+								<Children>
+									<Child0 Name="HeadZone" Key="{92CBA6C1-0D43-43B3-B216-E8CD9F766B24}" ParallelWalk="True">
+										<Properties>
+											<Property0 Name="WndClass" Cookie="266" />
+											<Property1 Name="ChildCount" Cookie="267" />
+										</Properties>
+										<Children>
+											<Child0 Name="MainMenuBar" Key="{BB681AAC-36D3-4819-877E-93F6F0040C30}" ParallelWalk="True">
+												<Properties>
+													<Property0 Name="WndClass" Cookie="184" />
+													<Property1 Name="WndCaption" Cookie="185" />
+												</Properties>
+												<Children />
+											</Child0>
+											<Child1 Name="EditToolbar" Key="{EBA1F5B9-348F-4991-B62D-DA9308EC439B}" ParallelWalk="True">
+												<Properties>
+													<Property0 Name="WndClass" Cookie="270" />
+													<Property1 Name="WndCaption" Cookie="271" />
+												</Properties>
+												<Children />
+											</Child1>
+											<Child2 Name="SessionToolbar" Key="{408926CD-7E3D-45FC-8E91-E94D075F7498}" ParallelWalk="True">
+												<Properties>
+													<Property0 Name="WndClass" Cookie="272" />
+													<Property1 Name="WndCaption" Cookie="273" />
+												</Properties>
+												<Children />
+											</Child2>
+											<Child3 Name="ObjectToolbar" Key="{40810BF5-363A-4BBD-A184-62018EE0AC80}" ParallelWalk="True">
+												<Properties>
+													<Property0 Name="WndClass" Cookie="274" />
+													<Property1 Name="WndCaption" Cookie="275" />
+												</Properties>
+												<Children />
+											</Child3>
+											<Child4 Name="TeamCodingToolbar" Key="{08F524D9-38D2-40D3-9E97-F8A82E52EFE2}" ParallelWalk="True">
+												<Properties>
+													<Property0 Name="WndClass" Cookie="276" />
+													<Property1 Name="WndCaption" Cookie="277" />
+												</Properties>
+												<Children />
+											</Child4>
+											<Child5 Name="FunctionToolbar" Key="{4443AFEB-E384-47BB-9BC3-EA6E7D9C4383}" ParallelWalk="True">
+												<Properties>
+													<Property0 Name="WndClass" Cookie="278" />
+													<Property1 Name="WndCaption" Cookie="279" />
+												</Properties>
+												<Children />
+											</Child5>
+										</Children>
+									</Child0>
+									<Child1 Name="MiddleZone" Key="{FBE27E23-D8DF-4FD3-847E-CCEFB0CD5802}" ParallelWalk="True">
+										<Properties>
+											<Property0 Name="WndClass" Cookie="89" />
+										</Properties>
+										<Children>
+											<Child0 Name="frmUnifiedEditor" Key="{3895A02D-E58A-4E7F-AAE2-6472D404E41A}" ParallelWalk="True">
+												<Properties>
+													<Property0 Name="Name" Cookie="280" />
+												</Properties>
+												<Children>
+													<Child0 Name="pnlTabBar" Key="{FD85500C-7447-4113-9646-EB68AEFED564}" ParallelWalk="True">
+														<Properties>
+															<Property0 Name="ClassName" Cookie="92" />
+															<Property1 Name="NativeDelphiObject.Name" Cookie="93" />
+														</Properties>
+														<Children>
+															<Child0 Name="TabScripts" Key="{9FBBD395-4F7E-4640-9A28-5E9DD4B233E4}" ParallelWalk="True">
+																<Properties>
+																	<Property0 Name="ClassName" Cookie="162" />
+																	<Property1 Name="NativeDelphiObject.Name" Cookie="163" />
+																</Properties>
+																<Children />
+															</Child0>
+														</Children>
+													</Child0>
+													<Child1 Name="pnlEditor" Key="{A59D3415-7690-4069-AF30-5A6D70C037F6}" ParallelWalk="True">
+														<Properties>
+															<Property0 Name="Name" Cookie="281" />
+														</Properties>
+														<Children>
+															<Child0 Name="splDataGrid" Key="{849312A4-001C-4ED3-8506-32C7A608F15B}" ParallelWalk="True">
+																<Properties>
+																	<Property0 Name="Name" Cookie="282" />
+																</Properties>
+																<Children>
+																	<Child0 Name="TAdvPane" Key="{404F7ABF-292B-4FF5-B2F5-08C5B7E86F32}" ParallelWalk="True">
+																		<Properties>
+																			<Property0 Name="WndClass" Cookie="240" />
+																			<Property1 Name="Index" Cookie="241" />
+																			<Property2 Name="ChildCount" Cookie="242" />
+																		</Properties>
+																		<Children>
+																			<Child0 Name="splCompare" Key="{7F28DE94-35CD-405E-A2B4-0BCA86E6EE32}" ParallelWalk="True">
+																				<Properties>
+																					<Property0 Name="Name" Cookie="283" />
+																				</Properties>
+																				<Children>
+																					<Child0 Name="TAdvPane" Key="{FFAB44B8-0F36-4474-89AC-8F156658C087}" ParallelWalk="True">
+																						<Properties>
+																							<Property0 Name="WndClass" Cookie="337" />
+																						</Properties>
+																						<Children>
+																							<Child0 Name="SqlEditor" Key="{034A3672-3B52-47EA-80E0-38D47FA04C1F}" ParallelWalk="True">
+																								<Properties>
+																									<Property0 Name="WndClass" Cookie="341" />
+																								</Properties>
+																								<Children />
+																							</Child0>
+																						</Children>
+																					</Child0>
+																				</Children>
+																			</Child0>
+																		</Children>
+																	</Child0>
+																	<Child1 Name="TAdvPane2" Key="{F4B8C8D8-3536-4D78-B207-99C34F94E450}" ParallelWalk="True">
+																		<Properties>
+																			<Property0 Name="WndClass" Cookie="333" />
+																		</Properties>
+																		<Children>
+																			<Child0 Name="frmBrowseData" Key="{CA27EC69-6A00-48C0-88CD-DDB388772497}" ParallelWalk="True">
+																				<Properties>
+																					<Property0 Name="Name" Cookie="334" />
+																				</Properties>
+																				<Children>
+																					<Child0 Name="DataGrid" Key="{C3B1E651-E84E-4B53-8E76-3F66830034D1}" ParallelWalk="True">
+																						<Properties>
+																							<Property0 Name="ClassName" Cookie="335" />
+																							<Property1 Name="NativeDelphiObject.Name" Cookie="336" />
+																						</Properties>
+																						<Children />
+																					</Child0>
+																				</Children>
+																			</Child0>
+																		</Children>
+																	</Child1>
+																</Children>
+															</Child0>
+														</Children>
+													</Child1>
+												</Children>
+											</Child0>
+											<Child1 Name="frmHtmlEditor" Key="{10623CFD-7E65-4C27-8F40-ED0BBFCD83C7}" ParallelWalk="True">
+												<Properties>
+													<Property0 Name="Name" Cookie="284" />
+												</Properties>
+												<Children>
+													<Child0 Name="PageTab" Key="{124EE44F-C80C-481A-A2C0-5CA3A25AFE48}" ParallelWalk="True">
+														<Properties>
+															<Property0 Name="Name" Cookie="285" />
+														</Properties>
+														<Children>
+															<Child0 Name="tsSource" Key="{D39B545C-F82F-4033-AB45-AF098AE5D7DA}" ParallelWalk="True">
+																<Properties>
+																	<Property0 Name="Name" Cookie="286" />
+																</Properties>
+																<Children>
+																	<Child0 Name="editHtmlSource" Key="{E6B34310-CB34-4639-8615-EAC1FB58B298}" ParallelWalk="True">
+																		<Properties>
+																			<Property0 Name="Name" Cookie="287" />
+																		</Properties>
+																		<Children />
+																	</Child0>
+																</Children>
+															</Child0>
+															<Child1 Name="tsPreview" Key="{F058D430-BB25-4B22-B612-DCDB099A8895}" ParallelWalk="True">
+																<Properties>
+																	<Property0 Name="Name" Cookie="288" />
+																</Properties>
+																<Children>
+																	<Child0 Name="fv" Key="{31E25737-EC2F-40E9-AA55-3AD126F1EB8F}" ParallelWalk="True">
+																		<Properties>
+																			<Property0 Name="Name" Cookie="289" />
+																		</Properties>
+																		<Children>
+																			<Child0 Name="ShellDocObjectView" Key="{41E4E474-6FA0-4E09-A8A8-21D53DE3826F}" ParallelWalk="True">
+																				<Properties>
+																					<Property0 Name="WndClass" Cookie="108" />
+																				</Properties>
+																				<Children>
+																					<Child0 Name="IEServer" Key="{F7AF5968-ED54-4192-9A12-E01F02C46E18}" ParallelWalk="True">
+																						<Properties>
+																							<Property0 Name="WndClass" Cookie="109" />
+																						</Properties>
+																						<Children />
+																					</Child0>
+																				</Children>
+																			</Child0>
+																		</Children>
+																	</Child0>
+																</Children>
+															</Child1>
+														</Children>
+													</Child0>
+												</Children>
+											</Child1>
+											<Child2 Name="frmTableEditor" Key="{E1BAFE0E-1FD8-4E4C-BF28-8ADB2AB46163}" ParallelWalk="True">
+												<Properties>
+													<Property0 Name="Name" Cookie="396" />
+												</Properties>
+												<Children />
+											</Child2>
+											<Child3 Name="frmDescribe" Key="{5988113B-0148-401E-9ABF-3827A26289A1}" ParallelWalk="True">
+												<Properties>
+													<Property0 Name="Name" Cookie="350" />
+												</Properties>
+												<Children />
+											</Child3>
+											<Child4 Name="frmCodeSearch" Key="{6FEA1044-1BF8-496A-A9E1-99D89007B896}" ParallelWalk="True">
+												<Properties>
+													<Property0 Name="Name" Cookie="379" />
+												</Properties>
+												<Children>
+													<Child0 Name="Panel1" Key="{8B8EB88B-264A-4578-8005-EF30AA8E86D0}" ParallelWalk="True">
+														<Properties>
+															<Property0 Name="Name" Cookie="369" />
+														</Properties>
+														<Children>
+															<Child0 Name="PageTabs" Key="{3C08CFEE-00F7-4045-95E1-E8DD4C5536F4}" ParallelWalk="True">
+																<Properties>
+																	<Property0 Name="Name" Cookie="370" />
+																</Properties>
+																<Children>
+																	<Child0 Name="tabWhat" Key="{9A22F997-6940-46D9-96BB-46DAEDBA609B}" ParallelWalk="True">
+																		<Properties>
+																			<Property0 Name="Name" Cookie="374" />
+																		</Properties>
+																		<Children>
+																			<Child0 Name="cmbFindText" Key="{EA89F0C1-F865-469D-BF41-5348BDF04416}" ParallelWalk="True">
+																				<Properties>
+																					<Property0 Name="Name" Cookie="375" />
+																				</Properties>
+																				<Children />
+																			</Child0>
+																		</Children>
+																	</Child0>
+																	<Child1 Name="tabWhere" Key="{5C7F0A00-B856-400B-8ADD-A0425578C7D5}" ParallelWalk="True">
+																		<Properties>
+																			<Property0 Name="Name" Cookie="376" />
+																		</Properties>
+																		<Children>
+																			<Child0 Name="grpScope" Key="{4AA031EC-A399-4ED9-984F-A3D8E68B4206}" ParallelWalk="True">
+																				<Properties>
+																					<Property0 Name="Name" Cookie="377" />
+																				</Properties>
+																				<Children>
+																					<Child0 Name="edtSchema" Key="{68C7C90F-30CC-4DF1-B164-D6E01297D1DC}" ParallelWalk="True">
+																						<Properties>
+																							<Property0 Name="Name" Cookie="378" />
+																						</Properties>
+																						<Children />
+																					</Child0>
+																				</Children>
+																			</Child0>
+																			<Child1 Name="edtObjectName" Key="{B08858AB-D53C-4E09-A05E-542340678D01}" ParallelWalk="True">
+																				<Properties>
+																					<Property0 Name="Name" Cookie="380" />
+																				</Properties>
+																				<Children />
+																			</Child1>
+																		</Children>
+																	</Child1>
+																</Children>
+															</Child0>
+															<Child1 Name="Panel2" Key="{691C5B32-05AF-44BE-A2C9-DFD0B2287382}" ParallelWalk="True">
+																<Properties>
+																	<Property0 Name="Name" Cookie="381" />
+																</Properties>
+																<Children>
+																	<Child0 Name="btnSearch" Key="{8F1C115B-06DE-46AA-9846-5B3AD01E5C30}" ParallelWalk="True">
+																		<Properties>
+																			<Property0 Name="Name" Cookie="382" />
+																		</Properties>
+																		<Children />
+																	</Child0>
+																</Children>
+															</Child1>
+														</Children>
+													</Child0>
+													<Child1 Name="listResults" Key="{567D06DE-1C8D-4005-8DA5-405B022D4C8A}" ParallelWalk="True">
+														<Properties>
+															<Property0 Name="Name" Cookie="383" />
+														</Properties>
+														<Children />
+													</Child1>
+												</Children>
+											</Child4>
+											<Child5 Name="frmFindObject" Key="{95DED43E-1151-49B2-939E-9351B0E7B87B}" ParallelWalk="True">
+												<Properties>
+													<Property0 Name="Name" Cookie="384" />
+												</Properties>
+												<Children>
+													<Child0 Name="pnlTop" Key="{50FD0232-6699-4661-BD57-0CBF01D1F7E1}" ParallelWalk="True">
+														<Properties>
+															<Property0 Name="Name" Cookie="385" />
+														</Properties>
+														<Children>
+															<Child0 Name="cmbObjectName" Key="{24FE5B5B-B4C8-43EE-A7CE-77EE1E4901EA}" ParallelWalk="True">
+																<Properties>
+																	<Property0 Name="Name" Cookie="386" />
+																</Properties>
+																<Children />
+															</Child0>
+															<Child1 Name="btnSearch" Key="{400F05EE-591D-4D5F-AAE6-C249339B5CD2}" ParallelWalk="True">
+																<Properties>
+																	<Property0 Name="Name" Cookie="387" />
+																</Properties>
+																<Children />
+															</Child1>
+														</Children>
+													</Child0>
+													<Child1 Name="vstResults" Key="{34BAD0EA-CA9D-422A-90F5-C8C94E839043}" ParallelWalk="True">
+														<Properties>
+															<Property0 Name="Name" Cookie="388" />
+														</Properties>
+														<Children />
+													</Child1>
+												</Children>
+											</Child5>
+											<Child6 Name="frmFindRecycleBinObj" Key="{DB4D552A-F5AC-4E14-B2E7-03CCF1A72716}" ParallelWalk="True">
+												<Properties>
+													<Property0 Name="Name" Cookie="389" />
+												</Properties>
+												<Children>
+													<Child0 Name="Panel1" Key="{F3448DD5-37A7-4C7B-B2CC-FCA2D64B32F6}" ParallelWalk="True">
+														<Properties>
+															<Property0 Name="Name" Cookie="390" />
+														</Properties>
+														<Children>
+															<Child0 Name="cmbName" Key="{8A2EBDE0-63E7-47A5-800A-17DC555B360E}" ParallelWalk="True">
+																<Properties>
+																	<Property0 Name="Name" Cookie="391" />
+																</Properties>
+																<Children />
+															</Child0>
+															<Child1 Name="btnSearch" Key="{E2008C7B-02FB-40A0-920D-193939D20489}" ParallelWalk="True">
+																<Properties>
+																	<Property0 Name="Name" Cookie="392" />
+																</Properties>
+																<Children />
+															</Child1>
+														</Children>
+													</Child0>
+													<Child1 Name="vstResults" Key="{7D0F943C-A528-474B-BFE9-B536A39902EC}" ParallelWalk="True">
+														<Properties>
+															<Property0 Name="Name" Cookie="393" />
+														</Properties>
+														<Children />
+													</Child1>
+												</Children>
+											</Child6>
+											<Child7 Name="frmDBNavigator" Key="{A16FA24E-9BDD-46F1-8A21-B874DDCFDDC8}" ParallelWalk="True">
+												<Properties>
+													<Property0 Name="Name" Cookie="397" />
+												</Properties>
+												<Children>
+													<Child0 Name="pnlLeft" Key="{C3F03C18-572A-4582-8358-EA6F38A7F1F3}" ParallelWalk="True">
+														<Properties>
+															<Property0 Name="Name" Cookie="398" />
+														</Properties>
+														<Children>
+															<Child0 Name="DBTree" Key="{343F28D8-64C7-4802-8507-D52068E8D8FA}" ParallelWalk="True">
+																<Properties>
+																	<Property0 Name="Name" Cookie="399" />
+																</Properties>
+																<Children />
+															</Child0>
+														</Children>
+													</Child0>
+													<Child1 Name="pnlDetail" Key="{C31119A9-2CF0-42B2-A261-6F461921ED07}" ParallelWalk="True">
+														<Properties>
+															<Property0 Name="Name" Cookie="409" />
+														</Properties>
+														<Children />
+													</Child1>
+												</Children>
+											</Child7>
+											<Child8 Name="frmCodeRoadMap" Key="{F6A9A2B5-BF5E-4DB9-AAE4-B9159CC9B2B9}" ParallelWalk="True">
+												<Properties>
+													<Property0 Name="Name" Cookie="404" />
+												</Properties>
+												<Children />
+											</Child8>
+											<Child9 Name="frmERDiagram" Key="{A942D3A7-C1B6-40ED-B7E9-5D4D61C1A823}" ParallelWalk="True">
+												<Properties>
+													<Property0 Name="Name" Cookie="405" />
+												</Properties>
+												<Children />
+											</Child9>
+											<Child10 Name="frmRoleEditor" Key="{643A84C4-D6E5-4D5C-B358-F1E35F153EDC}" ParallelWalk="True">
+												<Properties>
+													<Property0 Name="Name" Cookie="413" />
+												</Properties>
+												<Children />
+											</Child10>
+											<Child11 Name="frmExportData" Key="{1C423356-77F7-4AA4-BC34-6D4757A54110}" ParallelWalk="True">
+												<Properties>
+													<Property0 Name="Name" Cookie="495" />
+												</Properties>
+												<Children />
+											</Child11>
+											<Child12 Name="frmSqlModeler" Key="{0C8D0057-7786-4764-8AF9-B42F238C4938}" ParallelWalk="True">
+												<Properties>
+													<Property0 Name="Name" Cookie="496" />
+												</Properties>
+												<Children />
+											</Child12>
+											<Child13 Name="frmAnalyze" Key="{28B48A54-87FE-4845-8A99-CA603CE77B44}" ParallelWalk="True">
+												<Properties>
+													<Property0 Name="Name" Cookie="505" />
+												</Properties>
+												<Children />
+											</Child13>
+										</Children>
+									</Child1>
+									<Child2 Name="BottomZone" Key="{A1EC0A1B-4283-49CF-A8B0-D328C4A4B224}" ParallelWalk="True">
+										<Properties>
+											<Property0 Name="Name" Cookie="302" />
+										</Properties>
+										<Children>
+											<Child0 Name="pnlOutput" Key="{58D280BF-1F5E-45A7-A698-615040001048}" ParallelWalk="True">
+												<Properties>
+													<Property0 Name="Name" Cookie="303" />
+												</Properties>
+												<Children>
+													<Child0 Name="frmOutput" Key="{DADFDD75-A9FF-49A8-9EF1-DCA92597CEDA}" ParallelWalk="True">
+														<Properties>
+															<Property0 Name="Name" Cookie="304" />
+														</Properties>
+														<Children>
+															<Child0 Name="pcOutput" Key="{73C56B0D-06B6-45B7-B0AA-1B8216A9793D}" ParallelWalk="True">
+																<Properties>
+																	<Property0 Name="Name" Cookie="305" />
+																</Properties>
+																<Children>
+																	<Child0 Name="tabGeneral" Key="{085160CA-15AE-43E4-863E-1DAACEE61AF9}" ParallelWalk="True">
+																		<Properties>
+																			<Property0 Name="Name" Cookie="306" />
+																		</Properties>
+																		<Children>
+																			<Child0 Name="t_Output" Key="{3284FCE0-CDD4-4D42-9D65-61A7F61EC584}" ParallelWalk="True">
+																				<Properties>
+																					<Property0 Name="Name" Cookie="307" />
+																				</Properties>
+																				<Children />
+																			</Child0>
+																		</Children>
+																	</Child0>
+																</Children>
+															</Child0>
+														</Children>
+													</Child0>
+												</Children>
+											</Child0>
+										</Children>
+									</Child2>
+									<Child3 Name="RightZone" Key="{12202923-7091-4BFC-922D-A2AE8E10905B}" ParallelWalk="True">
+										<Properties>
+											<Property0 Name="Name" Cookie="290" />
+										</Properties>
+										<Children>
+											<Child0 Name="RightTabContainer" Key="{A855DFC3-5536-4BB5-890F-0A662A1C21DB}" ParallelWalk="True">
+												<Properties>
+													<Property0 Name="Name" Cookie="291" />
+												</Properties>
+												<Children>
+													<Child0 Name="dpWorkspace" Key="{F0117023-6E13-41F0-BE4A-A8C535B88785}" ParallelWalk="True">
+														<Properties>
+															<Property0 Name="Name" Cookie="292" />
+														</Properties>
+														<Children>
+															<Child0 Name="frmWorkspace" Key="{1673C8BD-3C86-49AD-B129-21E1E3C362A7}" ParallelWalk="True">
+																<Properties>
+																	<Property0 Name="Name" Cookie="293" />
+																</Properties>
+																<Children>
+																	<Child0 Name="ToolBtnViewTree" Key="{13783957-C69F-4F20-9993-0C274112B003}" ParallelWalk="True">
+																		<Properties>
+																			<Property0 Name="Name" Cookie="294" />
+																		</Properties>
+																		<Children />
+																	</Child0>
+																	<Child1 Name="treePM" Key="{B66A87C6-99B9-4E2F-9F55-B39B5ABF1A81}" ParallelWalk="True">
+																		<Properties>
+																			<Property0 Name="Name" Cookie="295" />
+																		</Properties>
+																		<Children />
+																	</Child1>
+																</Children>
+															</Child0>
+														</Children>
+													</Child0>
+												</Children>
+											</Child0>
+										</Children>
+									</Child3>
+									<Child4 Name="TaskBarZone" Key="{61DF2143-D588-467C-9B5C-F299FE66176B}" ParallelWalk="True">
+										<Properties>
+											<Property0 Name="WndClass" Cookie="252" />
+											<Property1 Name="ChildCount" Cookie="253" />
+										</Properties>
+										<Children>
+											<Child0 Name="TaskBar" Key="{C765011E-805F-426F-AD15-9E13F2FE31BC}" ParallelWalk="True">
+												<Properties>
+													<Property0 Name="WndClass" Cookie="250" />
+													<Property1 Name="WndCaption" Cookie="251" />
+												</Properties>
+												<Children />
+											</Child0>
+										</Children>
+									</Child4>
+								</Children>
+							</Child0>
+							<Child1 Name="wnAuthorizeForm" Key="{484D6067-9F20-41E9-8562-5868F3814D0B}" ParallelWalk="True">
+								<Properties>
+									<Property0 Name="WndClass" Cookie="394" />
+									<Property1 Name="WndCaption" Cookie="395" />
+								</Properties>
+								<Children>
+									<Child0 Name="btnOK" Key="{9BA3D121-E5CE-4D65-8C36-259D11E38C9D}" ParallelWalk="True">
+										<Properties>
+											<Property0 Name="WndClass" Cookie="31" />
+											<Property1 Name="WndCaption" Cookie="32" />
+										</Properties>
+										<Children />
+									</Child0>
+									<Child1 Name="edtKey" Key="{01A87992-5946-4C9A-96EE-4BE67C356BBE}" ParallelWalk="True">
+										<Properties>
+											<Property0 Name="WndClass" Cookie="33" />
+											<Property1 Name="Index" Cookie="34" />
+										</Properties>
+										<Children />
+									</Child1>
+									<Child2 Name="edtMesage" Key="{294075F1-F808-480C-B85F-FA16E91467A0}" ParallelWalk="True">
+										<Properties>
+											<Property0 Name="WndClass" Cookie="35" />
+											<Property1 Name="Index" Cookie="36" />
+										</Properties>
+										<Children />
+									</Child2>
+								</Children>
+							</Child1>
+							<Child2 Name="wnAuthorizeConfirm" Key="{A38C64EC-91DC-472C-AE19-682EE42D5905}" ParallelWalk="True">
+								<Properties>
+									<Property0 Name="WndClass" Cookie="37" />
+									<Property1 Name="WndCaption" Cookie="38" />
+								</Properties>
+								<Children>
+									<Child0 Name="DirectUI" Key="{BE6460A3-CEB6-4C51-BC7D-D384CCB33F37}" ParallelWalk="True">
+										<Properties>
+											<Property0 Name="WndClass" Cookie="39" />
+										</Properties>
+										<Children>
+											<Child0 Name="NotifySink" Key="{01265B88-915C-4490-BEAF-112A8A24A4F2}" ParallelWalk="True">
+												<Properties>
+													<Property0 Name="WndClass" Cookie="40" />
+													<Property1 Name="Index" Cookie="41" />
+												</Properties>
+												<Children>
+													<Child0 Name="btnOK" Key="{27EB13D5-8E52-46C7-9CAA-D0E93103E7A0}" ParallelWalk="True">
+														<Properties>
+															<Property0 Name="WndClass" Cookie="42" />
+															<Property1 Name="WndCaption" Cookie="43" />
+														</Properties>
+														<Children />
+													</Child0>
+												</Children>
+											</Child0>
+										</Children>
+									</Child0>
+								</Children>
+							</Child2>
+							<Child3 Name="frmLogon" Key="{E67EE6F8-65D8-469A-8905-BEC79196D302}" ParallelWalk="True">
+								<Properties>
+									<Property0 Name="Name" Cookie="308" />
+								</Properties>
+								<Children>
+									<Child0 Name="grpConnection" Key="{DED5CFEB-100B-47A7-AA3E-6D9D12378458}" ParallelWalk="True">
+										<Properties>
+											<Property0 Name="Name" Cookie="310" />
+										</Properties>
+										<Children>
+											<Child0 Name="pnlPages" Key="{5B308852-0F8D-44C5-A6FE-EE99870B7DFB}" ParallelWalk="True">
+												<Properties>
+													<Property0 Name="Name" Cookie="311" />
+												</Properties>
+												<Children>
+													<Child0 Name="pgTypes" Key="{56E6D46E-940B-421C-8490-2E56AA8218E9}" ParallelWalk="True">
+														<Properties>
+															<Property0 Name="Name" Cookie="312" />
+														</Properties>
+														<Children>
+															<Child0 Name="tabsTNS" Key="{34A1DD54-984D-43C5-A6AE-120CE248573B}" ParallelWalk="True">
+																<Properties>
+																	<Property0 Name="Name" Cookie="320" />
+																</Properties>
+																<Children>
+																	<Child0 Name="cmbTNSList" Key="{C3E0F165-9098-4835-A867-BCF2B843309D}" ParallelWalk="True">
+																		<Properties>
+																			<Property0 Name="Name" Cookie="321" />
+																		</Properties>
+																		<Children />
+																	</Child0>
+																</Children>
+															</Child0>
+															<Child1 Name="tabsDirect" Key="{FC212358-6241-435F-8EDD-9E03FB45B093}" ParallelWalk="True">
+																<Properties>
+																	<Property0 Name="Name" Cookie="313" />
+																</Properties>
+																<Children>
+																	<Child0 Name="edtHost" Key="{D5896F53-59F1-49D6-83DA-40CC1F09D834}" ParallelWalk="True">
+																		<Properties>
+																			<Property0 Name="Name" Cookie="314" />
+																		</Properties>
+																		<Children />
+																	</Child0>
+																	<Child1 Name="edtPort" Key="{4D2ACA81-394D-46F5-9C91-2AA080D6AC2D}" ParallelWalk="True">
+																		<Properties>
+																			<Property0 Name="Name" Cookie="315" />
+																		</Properties>
+																		<Children />
+																	</Child1>
+																	<Child2 Name="edtServiceName" Key="{CD75ACFA-FC4B-491F-9BFC-B86F7174BE9E}" ParallelWalk="True">
+																		<Properties>
+																			<Property0 Name="Name" Cookie="316" />
+																		</Properties>
+																		<Children />
+																	</Child2>
+																</Children>
+															</Child1>
+															<Child2 Name="tabsLDAP" Key="{61090905-0CEF-47BD-B94B-08D382E6E30A}" ParallelWalk="True">
+																<Properties>
+																	<Property0 Name="Name" Cookie="317" />
+																</Properties>
+																<Children>
+																	<Child0 Name="cmbServer" Key="{64261416-7DD7-459A-8055-C24DB4F1452D}" ParallelWalk="True">
+																		<Properties>
+																			<Property0 Name="Name" Cookie="319" />
+																		</Properties>
+																		<Children />
+																	</Child0>
+																	<Child1 Name="cmbDescriptor" Key="{160910A5-86D9-443F-B351-FCB74B20CCF9}" ParallelWalk="True">
+																		<Properties>
+																			<Property0 Name="Name" Cookie="318" />
+																		</Properties>
+																		<Children />
+																	</Child1>
+																</Children>
+															</Child2>
+														</Children>
+													</Child0>
+												</Children>
+											</Child0>
+											<Child1 Name="pnlUser" Key="{CD47E858-06FC-4FC2-9D7B-593708D2781C}" ParallelWalk="True">
+												<Properties>
+													<Property0 Name="Name" Cookie="322" />
+												</Properties>
+												<Children>
+													<Child0 Name="edtUserName" Key="{B2BC38CA-FA62-479A-827F-B50080951913}" ParallelWalk="True">
+														<Properties>
+															<Property0 Name="Name" Cookie="324" />
+														</Properties>
+														<Children />
+													</Child0>
+													<Child1 Name="edtPassword" Key="{532D5B16-7599-4494-BC94-AD30B3A92EA5}" ParallelWalk="True">
+														<Properties>
+															<Property0 Name="Name" Cookie="323" />
+														</Properties>
+														<Children />
+													</Child1>
+												</Children>
+											</Child1>
+										</Children>
+									</Child0>
+									<Child1 Name="btnOK" Key="{DBA01DCF-8834-4B43-B1AF-F3FF1D88FACD}" ParallelWalk="True">
+										<Properties>
+											<Property0 Name="Name" Cookie="309" />
+										</Properties>
+										<Children />
+									</Child1>
+								</Children>
+							</Child3>
+							<Child4 Name="dlgOpenFile" Key="{2D3D665F-68B2-4D4A-8A5A-975BC047083F}" ParallelWalk="True">
+								<Properties>
+									<Property0 Name="WndClass" Cookie="114" />
+									<Property1 Name="WndCaption" Cookie="115" />
+								</Properties>
+								<Children />
+							</Child4>
+							<Child5 Name="dlgErrorOccurred" Key="{80B702C6-2603-4D49-B5E8-51E0A8EFA8A7}" ParallelWalk="True">
+								<Properties>
+									<Property0 Name="WndClass" Cookie="148" />
+									<Property1 Name="WndCaption" Cookie="149" />
+								</Properties>
+								<Children>
+									<Child0 Name="btnOK" Key="{02063D74-F067-4100-B7B1-F718D814F08B}" ParallelWalk="True">
+										<Properties>
+											<Property0 Name="WndClass" Cookie="150" />
+											<Property1 Name="WndCaption" Cookie="151" />
+										</Properties>
+										<Children />
+									</Child0>
+								</Children>
+							</Child5>
+							<Child6 Name="dlgError" Key="{FAD89C61-5BEA-423F-9EF3-21030EB9466F}" ParallelWalk="True">
+								<Properties>
+									<Property0 Name="ClassName" Cookie="156" />
+									<Property1 Name="NativeDelphiObject.Name" Cookie="157" />
+								</Properties>
+								<Children>
+									<Child0 Name="btnOK" Key="{D52F74DF-80F0-474D-8183-AB35BF6D756E}" ParallelWalk="True">
+										<Properties>
+											<Property0 Name="ClassName" Cookie="158" />
+											<Property1 Name="NativeDelphiObject.Name" Cookie="159" />
+										</Properties>
+										<Children />
+									</Child0>
+								</Children>
+							</Child6>
+							<Child7 Name="dlgConfirmation" Key="{99CF0082-4AAF-4966-9C73-F74AD0E02BD3}" ParallelWalk="True">
+								<Properties>
+									<Property0 Name="WndClass" Cookie="208" />
+									<Property1 Name="WndCaption" Cookie="209" />
+								</Properties>
+								<Children>
+									<Child0 Name="btnYes" Key="{28F8124C-0BA8-4D78-AB61-BF2044FF334F}" ParallelWalk="True">
+										<Properties>
+											<Property0 Name="WndClass" Cookie="210" />
+											<Property1 Name="WndCaption" Cookie="211" />
+										</Properties>
+										<Children />
+									</Child0>
+									<Child1 Name="btnNo" Key="{9D555930-081A-4737-8632-0D2FD582EBF8}" ParallelWalk="True">
+										<Properties>
+											<Property0 Name="WndClass" Cookie="489" />
+											<Property1 Name="WndCaption" Cookie="490" />
+										</Properties>
+										<Children />
+									</Child1>
+								</Children>
+							</Child7>
+							<Child8 Name="frmSaveCloseConfirm" Key="{CEE89924-C5A3-4182-AB40-EAAC8E3D3D81}" ParallelWalk="True">
+								<Properties>
+									<Property0 Name="Name" Cookie="296" />
+								</Properties>
+								<Children>
+									<Child0 Name="Panel1" Key="{D8E07DB3-531F-4D08-BE1C-7285121A881D}" ParallelWalk="True">
+										<Properties>
+											<Property0 Name="Name" Cookie="297" />
+										</Properties>
+										<Children>
+											<Child0 Name="btnOK" Key="{23E74A65-ADFC-4379-AE98-4B6CDF228931}" ParallelWalk="True">
+												<Properties>
+													<Property0 Name="Name" Cookie="299" />
+												</Properties>
+												<Children />
+											</Child0>
+											<Child1 Name="btnClearAll" Key="{E8465F6B-1C94-4DB5-B139-BCFDF8F66650}" ParallelWalk="True">
+												<Properties>
+													<Property0 Name="Name" Cookie="298" />
+												</Properties>
+												<Children />
+											</Child1>
+										</Children>
+									</Child0>
+								</Children>
+							</Child8>
+							<Child9 Name="dlgToolBarCustomize" Key="{2732BC1E-8FE9-4FC1-9AB8-14F206E2A43D}" ParallelWalk="True">
+								<Properties>
+									<Property0 Name="Name" Cookie="325" />
+								</Properties>
+								<Children>
+									<Child0 Name="PageControl" Key="{F903C26D-3E50-45DC-BC83-13CFF4FFEA46}" ParallelWalk="True">
+										<Properties>
+											<Property0 Name="Name" Cookie="326" />
+										</Properties>
+										<Children>
+											<Child0 Name="tsToolbars" Key="{459255B1-2E51-4AA0-9C0D-2AE20605C761}" ParallelWalk="True">
+												<Properties>
+													<Property0 Name="Name" Cookie="327" />
+												</Properties>
+												<Children>
+													<Child0 Name="ToolBarList" Key="{99E7F05B-BF55-4F9F-A71A-6D8AFCAC2868}" ParallelWalk="True">
+														<Properties>
+															<Property0 Name="Name" Cookie="328" />
+														</Properties>
+														<Children />
+													</Child0>
+												</Children>
+											</Child0>
+										</Children>
+									</Child0>
+								</Children>
+							</Child9>
+							<Child10 Name="wnPrintPreview" Key="{9B65FC30-852C-4AEC-A188-FDB8527A70CD}" ParallelWalk="True">
+								<Properties>
+									<Property0 Name="Name" Cookie="301" />
+								</Properties>
+								<Children />
+							</Child10>
+							<Child11 Name="frmGotoLine" Key="{8C5B9E64-883D-4706-A835-717441C25C40}" ParallelWalk="True">
+								<Properties>
+									<Property0 Name="Name" Cookie="342" />
+								</Properties>
+								<Children>
+									<Child0 Name="btnGo" Key="{EF2F0F76-D16E-44ED-93E0-D3F08DA963B2}" ParallelWalk="True">
+										<Properties>
+											<Property0 Name="Name" Cookie="343" />
+										</Properties>
+										<Children />
+									</Child0>
+								</Children>
+							</Child11>
+							<Child12 Name="frmBookmarkList" Key="{FD1226D2-D9F9-4EAB-97E8-ED3F44B249E6}" ParallelWalk="True">
+								<Properties>
+									<Property0 Name="Name" Cookie="344" />
+								</Properties>
+								<Children>
+									<Child0 Name="TreeList" Key="{10EC915C-0798-42B8-95CE-1F16C067868C}" ParallelWalk="True">
+										<Properties>
+											<Property0 Name="Name" Cookie="345" />
+										</Properties>
+										<Children />
+									</Child0>
+									<Child1 Name="Panel1" Key="{D145C655-C877-4A70-80C3-A23A1291F392}" ParallelWalk="True">
+										<Properties>
+											<Property0 Name="Name" Cookie="346" />
+										</Properties>
+										<Children>
+											<Child0 Name="btnDelete" Key="{2E0D738D-AF6B-4B84-B7AA-BD93C22FEB96}" ParallelWalk="True">
+												<Properties>
+													<Property0 Name="Name" Cookie="347" />
+												</Properties>
+												<Children />
+											</Child0>
+											<Child1 Name="btnJump" Key="{848D1B1C-1BB8-4D62-983F-1DEA00946D2B}" ParallelWalk="True">
+												<Properties>
+													<Property0 Name="Name" Cookie="348" />
+												</Properties>
+												<Children />
+											</Child1>
+										</Children>
+									</Child1>
+								</Children>
+							</Child12>
+							<Child13 Name="frmFindAndReplace" Key="{9354EAC4-3B67-49E0-A812-7F8923DD4C17}" ParallelWalk="True">
+								<Properties>
+									<Property0 Name="Name" Cookie="351" />
+								</Properties>
+								<Children>
+									<Child0 Name="PageTabs" Key="{10DE474E-E2AD-4C2A-8231-AC76BAC7DAAB}" ParallelWalk="True">
+										<Properties>
+											<Property0 Name="Name" Cookie="352" />
+										</Properties>
+										<Children>
+											<Child0 Name="ReplaceTab" Key="{226CB12B-31B0-420D-8AF1-3C55C6016240}" ParallelWalk="True">
+												<Properties>
+													<Property0 Name="Name" Cookie="356" />
+												</Properties>
+												<Children>
+													<Child0 Name="cmbFindReplaceText" Key="{EE058787-0F3C-4E63-B1A0-4B3AE50759BF}" ParallelWalk="True">
+														<Properties>
+															<Property0 Name="Name" Cookie="361" />
+														</Properties>
+														<Children />
+													</Child0>
+													<Child1 Name="cmbReplaceText" Key="{6086FCA9-DE64-4129-A879-BDB0A3298CDA}" ParallelWalk="True">
+														<Properties>
+															<Property0 Name="Name" Cookie="362" />
+														</Properties>
+														<Children />
+													</Child1>
+													<Child2 Name="btnFind" Key="{FEC7F147-FCB7-4691-8301-5E7529E05DAE}" ParallelWalk="True">
+														<Properties>
+															<Property0 Name="Name" Cookie="363" />
+														</Properties>
+														<Children />
+													</Child2>
+													<Child3 Name="btnReplace" Key="{DA9ADE27-D679-4DCA-ABE6-E96F77BA52F3}" ParallelWalk="True">
+														<Properties>
+															<Property0 Name="Name" Cookie="364" />
+														</Properties>
+														<Children />
+													</Child3>
+												</Children>
+											</Child0>
+											<Child1 Name="FindTab" Key="{B83804C0-68F4-4AF4-9557-3BC2C0E8E6CE}" ParallelWalk="True">
+												<Properties>
+													<Property0 Name="Name" Cookie="358" />
+												</Properties>
+												<Children>
+													<Child0 Name="cmbFindText" Key="{7C1B701D-8F0C-44BE-A2BE-B7AC3DD0DF2F}" ParallelWalk="True">
+														<Properties>
+															<Property0 Name="Name" Cookie="359" />
+														</Properties>
+														<Children />
+													</Child0>
+													<Child1 Name="btnFind" Key="{C28BC685-E5FB-4BA3-98D8-E206222EC7EA}" ParallelWalk="True">
+														<Properties>
+															<Property0 Name="Name" Cookie="360" />
+														</Properties>
+														<Children />
+													</Child1>
+												</Children>
+											</Child1>
+										</Children>
+									</Child0>
+								</Children>
+							</Child13>
+							<Child14 Name="dlgConfirmOkB" Key="{9E52E47A-9280-4C1F-BB40-F8A2496D2CA9}" ParallelWalk="True">
+								<Properties>
+									<Property0 Name="Name" Cookie="365" />
+								</Properties>
+								<Children />
+							</Child14>
+							<Child15 Name="frmNewRole" Key="{297A58CA-ABD1-4A77-AF59-70B37C896D7C}" ParallelWalk="True">
+								<Properties>
+									<Property0 Name="Name" Cookie="412" />
+								</Properties>
+								<Children />
+							</Child15>
+							<Child16 Name="frmViewDifference" Key="{744C406E-FEC6-4058-A241-3CAD73BCD263}" ParallelWalk="True">
+								<Properties>
+									<Property0 Name="Name" Cookie="491" />
+								</Properties>
+								<Children />
+							</Child16>
+							<Child17 Name="frmPreferences" Key="{A5F46C36-F34B-4548-816B-8EF9CC7A4398}" ParallelWalk="True">
+								<Properties>
+									<Property0 Name="Name" Cookie="492" />
+								</Properties>
+								<Children />
+							</Child17>
+							<Child18 Name="frmNewTable" Key="{AE90B376-4406-46C5-944F-002280342FAF}" ParallelWalk="True">
+								<Properties>
+									<Property0 Name="Name" Cookie="493" />
+								</Properties>
+								<Children />
+							</Child18>
+							<Child19 Name="dlgRenameObj" Key="{29944066-82B7-423B-A5AE-C93D4130CD59}" ParallelWalk="True">
+								<Properties>
+									<Property0 Name="Name" Cookie="494" />
+								</Properties>
+								<Children />
+							</Child19>
+							<Child20 Name="dlgConfirm" Key="{7D5133F5-58BD-493E-B1AB-CDDCCA56E9FC}" ParallelWalk="True">
+								<Properties>
+									<Property0 Name="WndClass" Cookie="497" />
+									<Property1 Name="WndCaption" Cookie="498" />
+								</Properties>
+								<Children>
+									<Child0 Name="DirectUIHWND" Key="{3F570809-6582-4887-AB99-B421E3621D90}" ParallelWalk="True">
+										<Properties>
+											<Property0 Name="WndClass" Cookie="499" />
+										</Properties>
+										<Children>
+											<Child0 Name="CtrlNotifySink" Key="{D89813B5-B6FD-4674-8518-E68113DA3190}" ParallelWalk="True">
+												<Properties>
+													<Property0 Name="WndClass" Cookie="500" />
+												</Properties>
+												<Children>
+													<Child0 Name="btnNo" Key="{D9D20C08-8E9B-4D7D-8DC8-8EC8369D52AC}" ParallelWalk="True">
+														<Properties>
+															<Property0 Name="WndClass" Cookie="501" />
+															<Property1 Name="WndCaption" Cookie="502" />
+														</Properties>
+														<Children />
+													</Child0>
+													<Child1 Name="btnYes" Key="{F97B8096-E48F-495B-9995-B259D1717E03}" ParallelWalk="True">
+														<Properties>
+															<Property0 Name="WndClass" Cookie="503" />
+															<Property1 Name="WndCaption" Cookie="504" />
+														</Properties>
+														<Children />
+													</Child1>
+												</Children>
+											</Child0>
+										</Children>
+									</Child0>
+								</Children>
+							</Child20>
+							<Child21 Name="dlgERDiagram" Key="{8CED560D-0708-47C8-9949-E4F7A911E806}" ParallelWalk="True">
+								<Properties>
+									<Property0 Name="Name" Cookie="506" />
+								</Properties>
+								<Children />
+							</Child21>
+						</Children>
+					</Child1>
+				</Children>
+			</Child0>
+		</Children>
+	</Nodes>
+	<LogicalNodes Name="Aliases" Owner="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}">
+		<Child0 Name="MSIprocess" Owner="{4F8D9FDF-15D6-4AC1-8104-3A7AAD0490BC}">
+			<Child0 Name="wnMSIDialog" Owner="{11487D0D-C53E-4B8A-A7D9-CAE8CE89C26E}">
+				<Child0 Name="labWelcome" Owner="{B57203A4-21D5-484F-B605-C4DBCA707CBC}" />
+				<Child1 Name="btnNext" Owner="{EBB14681-EB99-4D7D-B7F5-4B5BB0665B01}" />
+				<Child2 Name="chkAccept" Owner="{0A7B8B76-EDE1-473D-B893-D6FE159E53C9}" />
+				<Child3 Name="btnBrowse" Owner="{15E01AE7-475B-427F-BA52-4EE6DD247AAF}" />
+				<Child4 Name="btnInstall" Owner="{A33E5BA1-90D4-4D6B-8141-A7DF175C8420}" />
+				<Child5 Name="progressBar" Owner="{D952BC29-FF16-49F4-B695-D11B2E31C132}" />
+				<Child6 Name="btnFinish" Owner="{4AC7A7A0-E2CC-4348-B944-22F510EB2652}" />
+			</Child0>
+		</Child0>
+		<Child1 Name="Sqlnavigator" Owner="{670BEEEC-7022-421D-84BF-9BABD5BED74C}">
+			<Child0 Name="frmMain" Owner="{B9635DCF-44B0-4EA2-A2DC-A6B56917A37F}">
+				<Child0 Name="HeadZone" Owner="{92CBA6C1-0D43-43B3-B216-E8CD9F766B24}">
+					<Child0 Name="MainMenuBar" Owner="{BB681AAC-36D3-4819-877E-93F6F0040C30}" />
+					<Child1 Name="EditToolbar" Owner="{EBA1F5B9-348F-4991-B62D-DA9308EC439B}" />
+					<Child2 Name="SessionToolbar" Owner="{408926CD-7E3D-45FC-8E91-E94D075F7498}" />
+					<Child3 Name="ObjectToolbar" Owner="{40810BF5-363A-4BBD-A184-62018EE0AC80}" />
+					<Child4 Name="TeamCodingToolbar" Owner="{08F524D9-38D2-40D3-9E97-F8A82E52EFE2}" />
+					<Child5 Name="FunctionToolbar" Owner="{4443AFEB-E384-47BB-9BC3-EA6E7D9C4383}" />
+				</Child0>
+				<Child1 Name="MiddleZone" Owner="{FBE27E23-D8DF-4FD3-847E-CCEFB0CD5802}">
+					<Child0 Name="frmUnifiedEditor" Owner="{3895A02D-E58A-4E7F-AAE2-6472D404E41A}">
+						<Child0 Name="pnlTabBar" Owner="{FD85500C-7447-4113-9646-EB68AEFED564}">
+							<Child0 Name="TabScripts" Owner="{9FBBD395-4F7E-4640-9A28-5E9DD4B233E4}" />
+						</Child0>
+						<Child1 Name="pnlEditor" Owner="{A59D3415-7690-4069-AF30-5A6D70C037F6}">
+							<Child0 Name="frmBrowseData" Owner="{CA27EC69-6A00-48C0-88CD-DDB388772497}">
+								<Child0 Name="DataGrid" Owner="{C3B1E651-E84E-4B53-8E76-3F66830034D1}" />
+							</Child0>
+							<Child1 Name="TAdvPane" Owner="{FFAB44B8-0F36-4474-89AC-8F156658C087}">
+								<Child0 Name="SqlEditor" Owner="{034A3672-3B52-47EA-80E0-38D47FA04C1F}" />
+							</Child1>
+						</Child1>
+					</Child0>
+					<Child1 Name="frmHtmlEditor" Owner="{10623CFD-7E65-4C27-8F40-ED0BBFCD83C7}">
+						<Child0 Name="PageTab" Owner="{124EE44F-C80C-481A-A2C0-5CA3A25AFE48}">
+							<Child0 Name="tsSource" Owner="{D39B545C-F82F-4033-AB45-AF098AE5D7DA}">
+								<Child0 Name="editHtmlSource" Owner="{E6B34310-CB34-4639-8615-EAC1FB58B298}" />
+							</Child0>
+							<Child1 Name="tsPreview" Owner="{F058D430-BB25-4B22-B612-DCDB099A8895}">
+								<Child0 Name="IEServer" Owner="{F7AF5968-ED54-4192-9A12-E01F02C46E18}" />
+							</Child1>
+						</Child0>
+					</Child1>
+					<Child2 Name="frmTableEditor" Owner="{E1BAFE0E-1FD8-4E4C-BF28-8ADB2AB46163}" />
+					<Child3 Name="frmDescribe" Owner="{5988113B-0148-401E-9ABF-3827A26289A1}" />
+					<Child4 Name="frmCodeSearch" Owner="{6FEA1044-1BF8-496A-A9E1-99D89007B896}">
+						<Child0 Name="PageTabs" Owner="{3C08CFEE-00F7-4045-95E1-E8DD4C5536F4}">
+							<Child0 Name="tabWhat" Owner="{9A22F997-6940-46D9-96BB-46DAEDBA609B}">
+								<Child0 Name="cmbFindText" Owner="{EA89F0C1-F865-469D-BF41-5348BDF04416}" />
+							</Child0>
+							<Child1 Name="tabWhere" Owner="{5C7F0A00-B856-400B-8ADD-A0425578C7D5}">
+								<Child0 Name="edtSchema" Owner="{68C7C90F-30CC-4DF1-B164-D6E01297D1DC}" />
+								<Child1 Name="edtObjectName" Owner="{B08858AB-D53C-4E09-A05E-542340678D01}" />
+							</Child1>
+						</Child0>
+						<Child1 Name="btnSearch" Owner="{8F1C115B-06DE-46AA-9846-5B3AD01E5C30}" />
+						<Child2 Name="listResults" Owner="{567D06DE-1C8D-4005-8DA5-405B022D4C8A}" />
+					</Child4>
+					<Child5 Name="frmFindObject" Owner="{95DED43E-1151-49B2-939E-9351B0E7B87B}">
+						<Child0 Name="cmbObjectName" Owner="{24FE5B5B-B4C8-43EE-A7CE-77EE1E4901EA}" />
+						<Child1 Name="btnSearch" Owner="{400F05EE-591D-4D5F-AAE6-C249339B5CD2}" />
+						<Child2 Name="vstResults" Owner="{34BAD0EA-CA9D-422A-90F5-C8C94E839043}" />
+					</Child5>
+					<Child6 Name="frmFindRecycleBinObj" Owner="{DB4D552A-F5AC-4E14-B2E7-03CCF1A72716}">
+						<Child0 Name="cmbName" Owner="{8A2EBDE0-63E7-47A5-800A-17DC555B360E}" />
+						<Child1 Name="btnSearch" Owner="{E2008C7B-02FB-40A0-920D-193939D20489}" />
+						<Child2 Name="vstResults" Owner="{7D0F943C-A528-474B-BFE9-B536A39902EC}" />
+					</Child6>
+					<Child7 Name="frmDBNavigator" Owner="{A16FA24E-9BDD-46F1-8A21-B874DDCFDDC8}">
+						<Child0 Name="pnlLeft" Owner="{C3F03C18-572A-4582-8358-EA6F38A7F1F3}">
+							<Child0 Name="DBTree" Owner="{343F28D8-64C7-4802-8507-D52068E8D8FA}" />
+						</Child0>
+						<Child1 Name="pnlDetail" Owner="{C31119A9-2CF0-42B2-A261-6F461921ED07}" />
+					</Child7>
+					<Child8 Name="frmCodeRoadMap" Owner="{F6A9A2B5-BF5E-4DB9-AAE4-B9159CC9B2B9}" />
+					<Child9 Name="frmERDiagram" Owner="{A942D3A7-C1B6-40ED-B7E9-5D4D61C1A823}" />
+					<Child10 Name="frmRoleEditor" Owner="{643A84C4-D6E5-4D5C-B358-F1E35F153EDC}" />
+					<Child11 Name="frmExportData" Owner="{1C423356-77F7-4AA4-BC34-6D4757A54110}" />
+					<Child12 Name="frmSqlModeler" Owner="{0C8D0057-7786-4764-8AF9-B42F238C4938}" />
+					<Child13 Name="frmAnalyze" Owner="{28B48A54-87FE-4845-8A99-CA603CE77B44}" />
+				</Child1>
+				<Child2 Name="BottomZone" Owner="{A1EC0A1B-4283-49CF-A8B0-D328C4A4B224}">
+					<Child0 Name="pnlOutput" Owner="{58D280BF-1F5E-45A7-A698-615040001048}">
+						<Child0 Name="pcOutput" Owner="{73C56B0D-06B6-45B7-B0AA-1B8216A9793D}">
+							<Child0 Name="tabGeneral" Owner="{085160CA-15AE-43E4-863E-1DAACEE61AF9}">
+								<Child0 Name="t_Output" Owner="{3284FCE0-CDD4-4D42-9D65-61A7F61EC584}" />
+							</Child0>
+						</Child0>
+					</Child0>
+				</Child2>
+				<Child3 Name="RightZone" Owner="{12202923-7091-4BFC-922D-A2AE8E10905B}">
+					<Child0 Name="RightTabContainer" Owner="{A855DFC3-5536-4BB5-890F-0A662A1C21DB}">
+						<Child0 Name="frmWorkspace" Owner="{1673C8BD-3C86-49AD-B129-21E1E3C362A7}">
+							<Child0 Name="ToolBtnViewTree" Owner="{13783957-C69F-4F20-9993-0C274112B003}" />
+							<Child1 Name="treePM" Owner="{B66A87C6-99B9-4E2F-9F55-B39B5ABF1A81}" />
+						</Child0>
+					</Child0>
+				</Child3>
+				<Child4 Name="TaskBarZone" Owner="{61DF2143-D588-467C-9B5C-F299FE66176B}">
+					<Child0 Name="TaskBar" Owner="{C765011E-805F-426F-AD15-9E13F2FE31BC}" />
+				</Child4>
+			</Child0>
+			<Child1 Name="wnAuthorizeForm" Owner="{484D6067-9F20-41E9-8562-5868F3814D0B}">
+				<Child0 Name="btnOK" Owner="{9BA3D121-E5CE-4D65-8C36-259D11E38C9D}" />
+				<Child1 Name="edtKey" Owner="{01A87992-5946-4C9A-96EE-4BE67C356BBE}" />
+				<Child2 Name="edtMesage" Owner="{294075F1-F808-480C-B85F-FA16E91467A0}" />
+			</Child1>
+			<Child2 Name="wnAuthorizeConfirm" Owner="{A38C64EC-91DC-472C-AE19-682EE42D5905}">
+				<Child0 Name="btnOK" Owner="{27EB13D5-8E52-46C7-9CAA-D0E93103E7A0}" />
+			</Child2>
+			<Child3 Name="frmLogon" Owner="{E67EE6F8-65D8-469A-8905-BEC79196D302}">
+				<Child0 Name="grpConnection" Owner="{DED5CFEB-100B-47A7-AA3E-6D9D12378458}">
+					<Child0 Name="pgTypes" Owner="{56E6D46E-940B-421C-8490-2E56AA8218E9}">
+						<Child0 Name="tabsTNS" Owner="{34A1DD54-984D-43C5-A6AE-120CE248573B}">
+							<Child0 Name="cmbTNSList" Owner="{C3E0F165-9098-4835-A867-BCF2B843309D}" />
+						</Child0>
+						<Child1 Name="tabsDirect" Owner="{FC212358-6241-435F-8EDD-9E03FB45B093}">
+							<Child0 Name="edtHost" Owner="{D5896F53-59F1-49D6-83DA-40CC1F09D834}" />
+							<Child1 Name="edtPort" Owner="{4D2ACA81-394D-46F5-9C91-2AA080D6AC2D}" />
+							<Child2 Name="edtServiceName" Owner="{CD75ACFA-FC4B-491F-9BFC-B86F7174BE9E}" />
+						</Child1>
+						<Child2 Name="tabsLDAP" Owner="{61090905-0CEF-47BD-B94B-08D382E6E30A}">
+							<Child0 Name="cmbServer" Owner="{64261416-7DD7-459A-8055-C24DB4F1452D}" />
+							<Child1 Name="cmbDescriptor" Owner="{160910A5-86D9-443F-B351-FCB74B20CCF9}" />
+						</Child2>
+					</Child0>
+					<Child1 Name="edtUserName" Owner="{B2BC38CA-FA62-479A-827F-B50080951913}" />
+					<Child2 Name="edtPassword" Owner="{532D5B16-7599-4494-BC94-AD30B3A92EA5}" />
+				</Child0>
+				<Child1 Name="btnOK" Owner="{DBA01DCF-8834-4B43-B1AF-F3FF1D88FACD}" />
+			</Child3>
+			<Child4 Name="dlgOpenFile" Owner="{2D3D665F-68B2-4D4A-8A5A-975BC047083F}" />
+			<Child5 Name="dlgErrorOccurred" Owner="{80B702C6-2603-4D49-B5E8-51E0A8EFA8A7}">
+				<Child0 Name="btnOK" Owner="{02063D74-F067-4100-B7B1-F718D814F08B}" />
+			</Child5>
+			<Child6 Name="dlgError" Owner="{FAD89C61-5BEA-423F-9EF3-21030EB9466F}">
+				<Child0 Name="btnOK" Owner="{D52F74DF-80F0-474D-8183-AB35BF6D756E}" />
+			</Child6>
+			<Child7 Name="dlgConfirmation" Owner="{99CF0082-4AAF-4966-9C73-F74AD0E02BD3}">
+				<Child0 Name="btnYes" Owner="{28F8124C-0BA8-4D78-AB61-BF2044FF334F}" />
+				<Child1 Name="btnNo" Owner="{9D555930-081A-4737-8632-0D2FD582EBF8}" />
+			</Child7>
+			<Child8 Name="frmSaveCloseConfirm" Owner="{CEE89924-C5A3-4182-AB40-EAAC8E3D3D81}">
+				<Child0 Name="btnOK" Owner="{23E74A65-ADFC-4379-AE98-4B6CDF228931}" />
+				<Child1 Name="btnClearAll" Owner="{E8465F6B-1C94-4DB5-B139-BCFDF8F66650}" />
+			</Child8>
+			<Child9 Name="dlgToolBarCustomize" Owner="{2732BC1E-8FE9-4FC1-9AB8-14F206E2A43D}">
+				<Child0 Name="PageControl" Owner="{F903C26D-3E50-45DC-BC83-13CFF4FFEA46}">
+					<Child0 Name="ToolBarList" Owner="{99E7F05B-BF55-4F9F-A71A-6D8AFCAC2868}" />
+				</Child0>
+			</Child9>
+			<Child10 Name="wnPrintPreview" Owner="{9B65FC30-852C-4AEC-A188-FDB8527A70CD}" />
+			<Child11 Name="frmGotoLine" Owner="{8C5B9E64-883D-4706-A835-717441C25C40}">
+				<Child0 Name="btnGo" Owner="{EF2F0F76-D16E-44ED-93E0-D3F08DA963B2}" />
+			</Child11>
+			<Child12 Name="frmBookmarkList" Owner="{FD1226D2-D9F9-4EAB-97E8-ED3F44B249E6}">
+				<Child0 Name="TreeList" Owner="{10EC915C-0798-42B8-95CE-1F16C067868C}" />
+				<Child1 Name="btnDelete" Owner="{2E0D738D-AF6B-4B84-B7AA-BD93C22FEB96}" />
+				<Child2 Name="btnJump" Owner="{848D1B1C-1BB8-4D62-983F-1DEA00946D2B}" />
+			</Child12>
+			<Child13 Name="frmFindAndReplace" Owner="{9354EAC4-3B67-49E0-A812-7F8923DD4C17}">
+				<Child0 Name="PageTabs" Owner="{10DE474E-E2AD-4C2A-8231-AC76BAC7DAAB}">
+					<Child0 Name="ReplaceTab" Owner="{226CB12B-31B0-420D-8AF1-3C55C6016240}">
+						<Child0 Name="cmbFindReplaceText" Owner="{EE058787-0F3C-4E63-B1A0-4B3AE50759BF}" />
+						<Child1 Name="cmbReplaceText" Owner="{6086FCA9-DE64-4129-A879-BDB0A3298CDA}" />
+						<Child2 Name="btnFind" Owner="{FEC7F147-FCB7-4691-8301-5E7529E05DAE}" />
+						<Child3 Name="btnReplace" Owner="{DA9ADE27-D679-4DCA-ABE6-E96F77BA52F3}" />
+					</Child0>
+					<Child1 Name="FindTab" Owner="{B83804C0-68F4-4AF4-9557-3BC2C0E8E6CE}">
+						<Child0 Name="cmbFindText" Owner="{7C1B701D-8F0C-44BE-A2BE-B7AC3DD0DF2F}" />
+						<Child1 Name="btnFind" Owner="{C28BC685-E5FB-4BA3-98D8-E206222EC7EA}" />
+					</Child1>
+				</Child0>
+			</Child13>
+			<Child14 Name="dlgConfirmOkB" Owner="{9E52E47A-9280-4C1F-BB40-F8A2496D2CA9}" />
+			<Child15 Name="frmNewRole" Owner="{297A58CA-ABD1-4A77-AF59-70B37C896D7C}" />
+			<Child16 Name="frmViewDifference" Owner="{744C406E-FEC6-4058-A241-3CAD73BCD263}" />
+			<Child17 Name="frmPreferences" Owner="{A5F46C36-F34B-4548-816B-8EF9CC7A4398}" />
+			<Child18 Name="frmNewTable" Owner="{AE90B376-4406-46C5-944F-002280342FAF}" />
+			<Child19 Name="dlgRenameObj" Owner="{29944066-82B7-423B-A5AE-C93D4130CD59}" />
+			<Child20 Name="dlgConfirm" Owner="{7D5133F5-58BD-493E-B1AB-CDDCCA56E9FC}">
+				<Child0 Name="btnNo" Owner="{D9D20C08-8E9B-4D7D-8DC8-8EC8369D52AC}" />
+				<Child1 Name="btnYes" Owner="{F97B8096-E48F-495B-9995-B259D1717E03}" />
+			</Child20>
+			<Child21 Name="dlgERDiagram" Owner="{8CED560D-0708-47C8-9949-E4F7A911E806}" />
+		</Child1>
+	</LogicalNodes>
+	<Storages Current="0">
+		<Child0 Name="Version_Win7">
+			<Property0 Cookie="0" PropertyType="0" Value="Sys" Type="5" />
+			<Property1 Cookie="1" PropertyType="0" Value="-1" Type="0" />
+			<Property2 Cookie="6" PropertyType="0" Value="msiexec" Type="5" />
+			<Property3 Cookie="7" PropertyType="0" Value="1" Type="0" />
+			<Property4 Cookie="8" PropertyType="0" Value="MsiDialogCloseClass" Type="5" />
+			<Property5 Cookie="9" PropertyType="0" Value="SQL Navigator* Setup" Type="5" />
+			<Property6 Cookie="10" PropertyType="0" Value="Static" Type="5" />
+			<Property7 Cookie="11" PropertyType="0" Value="Welcome to the SQL Navigator*Setup Wizard" Type="5" />
+			<Property8 Cookie="12" PropertyType="0" Value="Button" Type="5" />
+			<Property9 Cookie="13" PropertyType="0" Value="&amp;Next" Type="5" />
+			<Property10 Cookie="14" PropertyType="0" Value="Button" Type="5" />
+			<Property11 Cookie="15" PropertyType="0" Value="I &amp;accept the terms in the License Agreement" Type="5" />
+			<Property12 Cookie="16" PropertyType="0" Value="Button" Type="5" />
+			<Property13 Cookie="17" PropertyType="0" Value="B&amp;rowse..." Type="5" />
+			<Property14 Cookie="18" PropertyType="0" Value="Button" Type="5" />
+			<Property15 Cookie="19" PropertyType="0" Value="&amp;Install" Type="5" />
+			<Property16 Cookie="20" PropertyType="0" Value="msctls_progress32" Type="5" />
+			<Property17 Cookie="21" PropertyType="0" Value="Button" Type="5" />
+			<Property18 Cookie="22" PropertyType="0" Value="&amp;Finish" Type="5" />
+			<Property19 Cookie="23" PropertyType="0" Value="sqlnavigator" Type="5" />
+			<Property20 Cookie="24" PropertyType="0" Value="TfrmMain" Type="5" />
+			<Property21 Cookie="25" PropertyType="0" Value="SQL Navigator*" Type="5" />
+			<Property22 Cookie="29" PropertyType="0" Value="TEdit" Type="5" />
+			<Property23 Cookie="30" PropertyType="0" Value="2" Type="0" />
+			<Property24 Cookie="31" PropertyType="0" Value="TButton" Type="5" />
+			<Property25 Cookie="32" PropertyType="0" Value="OK" Type="5" />
+			<Property26 Cookie="33" PropertyType="0" Value="TEdit" Type="5" />
+			<Property27 Cookie="34" PropertyType="0" Value="2" Type="0" />
+			<Property28 Cookie="35" PropertyType="0" Value="TEdit" Type="5" />
+			<Property29 Cookie="36" PropertyType="0" Value="1" Type="0" />
+			<Property30 Cookie="37" PropertyType="0" Value="#32770" Type="5" />
+			<Property31 Cookie="38" PropertyType="0" Value="SQL Navigator" Type="5" />
+			<Property32 Cookie="39" PropertyType="0" Value="DirectUIHWND" Type="5" />
+			<Property33 Cookie="40" PropertyType="0" Value="CtrlNotifySink" Type="5" />
+			<Property34 Cookie="41" PropertyType="0" Value="7" Type="0" />
+			<Property35 Cookie="42" PropertyType="0" Value="Button" Type="5" />
+			<Property36 Cookie="43" PropertyType="0" Value="OK" Type="5" />
+			<Property37 Cookie="49" PropertyType="0" Value="1" Type="0" />
+			<Property38 Cookie="50" PropertyType="0" Value="TdxDockControl" Type="5" />
+			<Property39 Cookie="84" PropertyType="0" Value="TdxBarControl" Type="5" />
+			<Property40 Cookie="87" PropertyType="0" Value="TdxBarControl" Type="5" />
+			<Property41 Cookie="88" PropertyType="0" Value="Main Menu" Type="5" />
+			<Property42 Cookie="89" PropertyType="0" Value="MDIClient" Type="5" />
+			<Property43 Cookie="92" PropertyType="0" Value="TPanel" Type="5" />
+			<Property44 Cookie="93" PropertyType="0" Value="pnlTop" Type="5" />
+			<Property45 Cookie="106" PropertyType="0" Value="Shell DocObject View" Type="5" />
+			<Property46 Cookie="107" PropertyType="0" Value="Internet Explorer_Server" Type="5" />
+			<Property47 Cookie="108" PropertyType="0" Value="Shell DocObject View" Type="5" />
+			<Property48 Cookie="109" PropertyType="0" Value="Internet Explorer_Server" Type="5" />
+			<Property49 Cookie="112" PropertyType="0" Value="Link" Type="5" />
+			<Property50 Cookie="113" PropertyType="0" Value="0" Type="0" />
+			<Property51 Cookie="114" PropertyType="0" Value="#32770" Type="5" />
+			<Property52 Cookie="115" PropertyType="0" Value="Open*" Type="5" />
+			<Property53 Cookie="116" PropertyType="0" Value="Link" Type="5" />
+			<Property54 Cookie="124" PropertyType="0" Value="TdxDockPanel" Type="5" />
+			<Property55 Cookie="125" PropertyType="0" Value="dpOutput" Type="5" />
+			<Property56 Cookie="126" PropertyType="0" Value="TframOutput" Type="5" />
+			<Property57 Cookie="127" PropertyType="0" Value="framOutput1" Type="5" />
+			<Property58 Cookie="128" PropertyType="0" Value="TframOutput" Type="5" />
+			<Property59 Cookie="129" PropertyType="0" Value="framOutput1" Type="5" />
+			<Property60 Cookie="130" PropertyType="0" Value="TPageControl" Type="5" />
+			<Property61 Cookie="131" PropertyType="0" Value="pcOutput" Type="5" />
+			<Property62 Cookie="132" PropertyType="0" Value="TTabSheet" Type="5" />
+			<Property63 Cookie="133" PropertyType="0" Value="tabGeneral" Type="5" />
+			<Property64 Cookie="134" PropertyType="0" Value="TVirtualStringTree" Type="5" />
+			<Property65 Cookie="135" PropertyType="0" Value="vstOutput" Type="5" />
+			<Property66 Cookie="138" PropertyType="0" Value="TframOutput" Type="5" />
+			<Property67 Cookie="139" PropertyType="0" Value="framOutput1" Type="5" />
+			<Property68 Cookie="148" PropertyType="0" Value="#32770" Type="5" />
+			<Property69 Cookie="149" PropertyType="0" Value="Error occurred" Type="5" />
+			<Property70 Cookie="150" PropertyType="0" Value="Button" Type="5" />
+			<Property71 Cookie="151" PropertyType="0" Value="&amp;OK" Type="5" />
+			<Property72 Cookie="156" PropertyType="0" Value="TfrmError" Type="5" />
+			<Property73 Cookie="157" PropertyType="0" Value="frmError" Type="5" />
+			<Property74 Cookie="158" PropertyType="0" Value="TButton" Type="5" />
+			<Property75 Cookie="159" PropertyType="0" Value="btnOK" Type="5" />
+			<Property76 Cookie="162" PropertyType="0" Value="TcxTabControl" Type="5" />
+			<Property77 Cookie="163" PropertyType="0" Value="tcTabSet" Type="5" />
+			<Property78 Cookie="166" PropertyType="0" Value="TAdvSplitter" Type="5" />
+			<Property79 Cookie="167" PropertyType="0" Value="splDataGrid" Type="5" />
+			<Property80 Cookie="168" PropertyType="0" Value="TAdvPane" Type="5" />
+			<Property81 Cookie="169" PropertyType="0" Value="TAdvSplitter" Type="5" />
+			<Property82 Cookie="170" PropertyType="0" Value="splCompare" Type="5" />
+			<Property83 Cookie="171" PropertyType="0" Value="TAdvPane" Type="5" />
+			<Property84 Cookie="172" PropertyType="0" Value="TSyntaxMemo" Type="5" />
+			<Property85 Cookie="173" PropertyType="0" Value="1" Type="0" />
+			<Property86 Cookie="174" PropertyType="0" Value="TAdvSplitter" Type="5" />
+			<Property87 Cookie="175" PropertyType="0" Value="splDataGrid" Type="5" />
+			<Property88 Cookie="176" PropertyType="0" Value="TAdvPane" Type="5" />
+			<Property89 Cookie="177" PropertyType="0" Value="TAdvSplitter" Type="5" />
+			<Property90 Cookie="178" PropertyType="0" Value="splCompare" Type="5" />
+			<Property91 Cookie="179" PropertyType="0" Value="TAdvPane" Type="5" />
+			<Property92 Cookie="180" PropertyType="0" Value="TSyntaxMemo" Type="5" />
+			<Property93 Cookie="184" PropertyType="0" Value="TdxBarControl" Type="5" />
+			<Property94 Cookie="185" PropertyType="0" Value="Main Menu" Type="5" />
+			<Property95 Cookie="196" PropertyType="0" Value="TframWorkspace" Type="5" />
+			<Property96 Cookie="197" PropertyType="0" Value="framWorkspace1" Type="5" />
+			<Property97 Cookie="198" PropertyType="0" Value="TToolButton" Type="5" />
+			<Property98 Cookie="199" PropertyType="0" Value="ToolButton8" Type="5" />
+			<Property99 Cookie="200" PropertyType="0" Value="TTreeView" Type="5" />
+			<Property100 Cookie="201" PropertyType="0" Value="tvPM" Type="5" />
+			<Property101 Cookie="208" PropertyType="0" Value="#32770" Type="5" />
+			<Property102 Cookie="209" PropertyType="0" Value="Confirmation" Type="5" />
+			<Property103 Cookie="210" PropertyType="0" Value="Button" Type="5" />
+			<Property104 Cookie="211" PropertyType="0" Value="&amp;Yes" Type="5" />
+			<Property105 Cookie="220" PropertyType="0" Value="TAdvSplitter" Type="5" />
+			<Property106 Cookie="221" PropertyType="0" Value="splDataGrid" Type="5" />
+			<Property107 Cookie="224" PropertyType="0" Value="TAdvSplitter" Type="5" />
+			<Property108 Cookie="225" PropertyType="0" Value="splCompare" Type="5" />
+			<Property109 Cookie="226" PropertyType="0" Value="TAdvPane" Type="5" />
+			<Property110 Cookie="227" PropertyType="0" Value="4" Type="0" />
+			<Property111 Cookie="228" PropertyType="0" Value="TSyntaxMemo" Type="5" />
+			<Property112 Cookie="229" PropertyType="0" Value="TAdvPane" Type="5" />
+			<Property113 Cookie="230" PropertyType="0" Value="1" Type="0" />
+			<Property114 Cookie="231" PropertyType="0" Value="1" Type="0" />
+			<Property115 Cookie="238" PropertyType="0" Value="TAdvPane" Type="5" />
+			<Property116 Cookie="239" PropertyType="0" Value="TSyntaxMemo" Type="5" />
+			<Property117 Cookie="240" PropertyType="0" Value="TAdvPane" Type="5" />
+			<Property118 Cookie="241" PropertyType="0" Value="2" Type="0" />
+			<Property119 Cookie="242" PropertyType="0" Value="1" Type="0" />
+			<Property120 Cookie="248" PropertyType="0" Value="TdxBarControl" Type="5" />
+			<Property121 Cookie="249" PropertyType="0" Value="Task Bar (List of Windows)" Type="5" />
+			<Property122 Cookie="250" PropertyType="0" Value="TdxBarControl" Type="5" />
+			<Property123 Cookie="251" PropertyType="0" Value="Task Bar (List of Windows)" Type="5" />
+			<Property124 Cookie="252" PropertyType="0" Value="TdxDockControl" Type="5" />
+			<Property125 Cookie="253" PropertyType="0" Value="1" Type="0" />
+			<Property126 Cookie="258" PropertyType="0" Value="TTabSheet" Type="5" />
+			<Property127 Cookie="259" PropertyType="0" Value="tsToolbars" Type="5" />
+			<Property128 Cookie="266" PropertyType="0" Value="TdxDockControl" Type="5" />
+			<Property129 Cookie="267" PropertyType="0" Value="6" Type="0" />
+			<Property130 Cookie="270" PropertyType="0" Value="TdxBarControl" Type="5" />
+			<Property131 Cookie="271" PropertyType="0" Value="Edit Toolbar" Type="5" />
+			<Property132 Cookie="272" PropertyType="0" Value="TdxBarControl" Type="5" />
+			<Property133 Cookie="273" PropertyType="0" Value="Session Toolbar" Type="5" />
+			<Property134 Cookie="274" PropertyType="0" Value="TdxBarControl" Type="5" />
+			<Property135 Cookie="275" PropertyType="0" Value="Object Toolbar" Type="5" />
+			<Property136 Cookie="276" PropertyType="0" Value="TdxBarControl" Type="5" />
+			<Property137 Cookie="277" PropertyType="0" Value="Team Coding" Type="5" />
+			<Property138 Cookie="278" PropertyType="0" Value="TdxBarControl" Type="5" />
+			<Property139 Cookie="279" PropertyType="0" Value="Functions Toolbar" Type="5" />
+			<Property140 Cookie="280" PropertyType="0" Value="VCLObject(&quot;frmUnifiedEditor&quot;)" Type="5" />
+			<Property141 Cookie="281" PropertyType="0" Value="VCLObject(&quot;pnlEditor&quot;)" Type="5" />
+			<Property142 Cookie="282" PropertyType="0" Value="VCLObject(&quot;splDataGrid&quot;)" Type="5" />
+			<Property143 Cookie="283" PropertyType="0" Value="VCLObject(&quot;splCompare&quot;)" Type="5" />
+			<Property144 Cookie="284" PropertyType="0" Value="VCLObject(&quot;frmHTMLedit&quot;)" Type="5" />
+			<Property145 Cookie="285" PropertyType="0" Value="VCLObject(&quot;pc&quot;)" Type="5" />
+			<Property146 Cookie="286" PropertyType="0" Value="VCLObject(&quot;tsSource&quot;)" Type="5" />
+			<Property147 Cookie="287" PropertyType="0" Value="VCLObject(&quot;qsm&quot;)" Type="5" />
+			<Property148 Cookie="288" PropertyType="0" Value="VCLObject(&quot;tsPreview&quot;)" Type="5" />
+			<Property149 Cookie="289" PropertyType="0" Value="VCLObject(&quot;fv&quot;)" Type="5" />
+			<Property150 Cookie="290" PropertyType="0" Value="VCLObject(&quot;dosRight&quot;)" Type="5" />
+			<Property151 Cookie="291" PropertyType="0" Value="VCLObject(&quot;dxTabContainerDockSite1&quot;)" Type="5" />
+			<Property152 Cookie="292" PropertyType="0" Value="VCLObject(&quot;dpWorkspace&quot;)" Type="5" />
+			<Property153 Cookie="293" PropertyType="0" Value="VCLObject(&quot;framWorkspace1&quot;)" Type="5" />
+			<Property154 Cookie="294" PropertyType="0" Value="VCLObject(&quot;ToolButton8&quot;)" Type="5" />
+			<Property155 Cookie="295" PropertyType="0" Value="VCLObject(&quot;tvPM&quot;)" Type="5" />
+			<Property156 Cookie="296" PropertyType="0" Value="VCLObject(&quot;frmSaveOnExitConf&quot;)" Type="5" />
+			<Property157 Cookie="297" PropertyType="0" Value="VCLObject(&quot;Panel1&quot;)" Type="5" />
+			<Property158 Cookie="298" PropertyType="0" Value="VCLObject(&quot;btnUnselectAll&quot;)" Type="5" />
+			<Property159 Cookie="299" PropertyType="0" Value="VCLObject(&quot;btnOKCodeEditor&quot;)" Type="5" />
+			<Property160 Cookie="301" PropertyType="0" Value="VCLObject(&quot;SyntPreviewForm&quot;)" Type="5" />
+			<Property161 Cookie="302" PropertyType="0" Value="VCLObject(&quot;dosBottom&quot;)" Type="5" />
+			<Property162 Cookie="303" PropertyType="0" Value="VCLObject(&quot;dpOutput&quot;)" Type="5" />
+			<Property163 Cookie="304" PropertyType="0" Value="VCLObject(&quot;framOutput1&quot;)" Type="5" />
+			<Property164 Cookie="305" PropertyType="0" Value="VCLObject(&quot;pcOutput&quot;)" Type="5" />
+			<Property165 Cookie="306" PropertyType="0" Value="VCLObject(&quot;tabGeneral&quot;)" Type="5" />
+			<Property166 Cookie="307" PropertyType="0" Value="VCLObject(&quot;vstOutput&quot;)" Type="5" />
+			<Property167 Cookie="308" PropertyType="0" Value="VCLObject(&quot;frmLogOn&quot;)" Type="5" />
+			<Property168 Cookie="309" PropertyType="0" Value="VCLObject(&quot;btnOK&quot;)" Type="5" />
+			<Property169 Cookie="310" PropertyType="0" Value="VCLObject(&quot;grpConnection&quot;)" Type="5" />
+			<Property170 Cookie="311" PropertyType="0" Value="VCLObject(&quot;pnlPages&quot;)" Type="5" />
+			<Property171 Cookie="312" PropertyType="0" Value="VCLObject(&quot;pgTypes&quot;)" Type="5" />
+			<Property172 Cookie="313" PropertyType="0" Value="VCLObject(&quot;tabsDirect&quot;)" Type="5" />
+			<Property173 Cookie="314" PropertyType="0" Value="VCLObject(&quot;edtHost&quot;)" Type="5" />
+			<Property174 Cookie="315" PropertyType="0" Value="VCLObject(&quot;edtPort&quot;)" Type="5" />
+			<Property175 Cookie="316" PropertyType="0" Value="VCLObject(&quot;edtServiceName&quot;)" Type="5" />
+			<Property176 Cookie="317" PropertyType="0" Value="VCLObject(&quot;tabsLDAP&quot;)" Type="5" />
+			<Property177 Cookie="318" PropertyType="0" Value="VCLObject(&quot;cmbLDAPAlias&quot;)" Type="5" />
+			<Property178 Cookie="319" PropertyType="0" Value="VCLObject(&quot;cmbLDAPServer&quot;)" Type="5" />
+			<Property179 Cookie="320" PropertyType="0" Value="VCLObject(&quot;tabsTNS&quot;)" Type="5" />
+			<Property180 Cookie="321" PropertyType="0" Value="VCLObject(&quot;cmbAliasList&quot;)" Type="5" />
+			<Property181 Cookie="322" PropertyType="0" Value="VCLObject(&quot;pnlUser&quot;)" Type="5" />
+			<Property182 Cookie="323" PropertyType="0" Value="VCLObject(&quot;edtPassword&quot;)" Type="5" />
+			<Property183 Cookie="324" PropertyType="0" Value="VCLObject(&quot;edtUserName&quot;)" Type="5" />
+			<Property184 Cookie="325" PropertyType="0" Value="VCLObject(&quot;dxBarCustomizationForm&quot;)" Type="5" />
+			<Property185 Cookie="326" PropertyType="0" Value="VCLObject(&quot;PageControl&quot;)" Type="5" />
+			<Property186 Cookie="327" PropertyType="0" Value="VCLObject(&quot;tsToolbars&quot;)" Type="5" />
+			<Property187 Cookie="328" PropertyType="0" Value="VCLObject(&quot;lbBarsList&quot;)" Type="5" />
+			<Property188 Cookie="329" PropertyType="0" Value="Page" Type="5" />
+			<Property189 Cookie="330" PropertyType="0" Value="*/AutoFiles/HtmlFile/a.htm" Type="5" />
+			<Property190 Cookie="331" PropertyType="0" Value="Link" Type="5" />
+			<Property191 Cookie="332" PropertyType="0" Value="go to b" Type="5" />
+			<Property192 Cookie="333" PropertyType="0" Value="TAdvPane" Type="5" />
+			<Property193 Cookie="334" PropertyType="0" Value="VCLObject(&quot;frmBrowseDataVT&quot;)" Type="5" />
+			<Property194 Cookie="335" PropertyType="0" Value="TVirtualStringTree" Type="5" />
+			<Property195 Cookie="336" PropertyType="0" Value="vstDataGrid" Type="5" />
+			<Property196 Cookie="337" PropertyType="0" Value="TAdvPane" Type="5" />
+			<Property197 Cookie="341" PropertyType="0" Value="TSyntaxMemo" Type="5" />
+			<Property198 Cookie="342" PropertyType="0" Value="VCLObject(&quot;frmGoToLine&quot;)" Type="5" />
+			<Property199 Cookie="343" PropertyType="0" Value="VCLObject(&quot;btnGo&quot;)" Type="5" />
+			<Property200 Cookie="344" PropertyType="0" Value="VCLObject(&quot;frmBookmarkList&quot;)" Type="5" />
+			<Property201 Cookie="345" PropertyType="0" Value="VCLObject(&quot;TreeList&quot;)" Type="5" />
+			<Property202 Cookie="346" PropertyType="0" Value="VCLObject(&quot;Panel1&quot;)" Type="5" />
+			<Property203 Cookie="347" PropertyType="0" Value="VCLObject(&quot;Button4&quot;)" Type="5" />
+			<Property204 Cookie="348" PropertyType="0" Value="VCLObject(&quot;Button1&quot;)" Type="5" />
+			<Property205 Cookie="350" PropertyType="0" Value="VCLObject(&quot;frmDescribe&quot;)" Type="5" />
+			<Property206 Cookie="351" PropertyType="0" Value="VCLObject(&quot;frmQSFindAndReplaceDlg&quot;)" Type="5" />
+			<Property207 Cookie="352" PropertyType="0" Value="VCLObject(&quot;PageControl&quot;)" Type="5" />
+			<Property208 Cookie="353" PropertyType="0" Value="VCLObject(&quot;FindTabSheet&quot;)" Type="5" />
+			<Property209 Cookie="354" PropertyType="0" Value="VCLObject(&quot;FindNextButton&quot;)" Type="5" />
+			<Property210 Cookie="355" PropertyType="0" Value="VCLObject(&quot;FindTextComboBox&quot;)" Type="5" />
+			<Property211 Cookie="356" PropertyType="0" Value="VCLObject(&quot;ReplaceTabSheet&quot;)" Type="5" />
+			<Property212 Cookie="358" PropertyType="0" Value="VCLObject(&quot;FindTabSheet&quot;)" Type="5" />
+			<Property213 Cookie="359" PropertyType="0" Value="VCLObject(&quot;FindTextComboBox&quot;)" Type="5" />
+			<Property214 Cookie="360" PropertyType="0" Value="VCLObject(&quot;FindNextButton&quot;)" Type="5" />
+			<Property215 Cookie="361" PropertyType="0" Value="VCLObject(&quot;FindReplaceTextComboBox&quot;)" Type="5" />
+			<Property216 Cookie="362" PropertyType="0" Value="VCLObject(&quot;ReplaceTextComboBox&quot;)" Type="5" />
+			<Property217 Cookie="363" PropertyType="0" Value="VCLObject(&quot;FindNextButton&quot;)" Type="5" />
+			<Property218 Cookie="364" PropertyType="0" Value="VCLObject(&quot;ReplaceButton&quot;)" Type="5" />
+			<Property219 Cookie="365" PropertyType="0" Value="VCLObject(&quot;frmDialogOkB&quot;)" Type="5" />
+			<Property220 Cookie="366" PropertyType="0" Value="VCLObject(&quot;pnlActions&quot;)" Type="5" />
+			<Property221 Cookie="367" PropertyType="0" Value="VCLObject(&quot;btnOK&quot;)" Type="5" />
+			<Property222 Cookie="369" PropertyType="0" Value="VCLObject(&quot;Panel1&quot;)" Type="5" />
+			<Property223 Cookie="370" PropertyType="0" Value="VCLObject(&quot;pgSearch&quot;)" Type="5" />
+			<Property224 Cookie="371" PropertyType="0" Value="VCLObject(&quot;tsSearch&quot;)" Type="5" />
+			<Property225 Cookie="374" PropertyType="0" Value="VCLObject(&quot;tsSearch&quot;)" Type="5" />
+			<Property226 Cookie="375" PropertyType="0" Value="VCLObject(&quot;cmbSearchStr&quot;)" Type="5" />
+			<Property227 Cookie="376" PropertyType="0" Value="VCLObject(&quot;tsAdvanced&quot;)" Type="5" />
+			<Property228 Cookie="377" PropertyType="0" Value="VCLObject(&quot;grpScope&quot;)" Type="5" />
+			<Property229 Cookie="378" PropertyType="0" Value="VCLObject(&quot;edtSchemaName&quot;)" Type="5" />
+			<Property230 Cookie="379" PropertyType="0" Value="VCLObject(&quot;frmCodeSearch&quot;)" Type="5" />
+			<Property231 Cookie="380" PropertyType="0" Value="VCLObject(&quot;edtProgramName&quot;)" Type="5" />
+			<Property232 Cookie="381" PropertyType="0" Value="VCLObject(&quot;Panel2&quot;)" Type="5" />
+			<Property233 Cookie="382" PropertyType="0" Value="VCLObject(&quot;btnSearch&quot;)" Type="5" />
+			<Property234 Cookie="383" PropertyType="0" Value="VCLObject(&quot;lstResults&quot;)" Type="5" />
+			<Property235 Cookie="384" PropertyType="0" Value="VCLObject(&quot;frmFindObj&quot;)" Type="5" />
+			<Property236 Cookie="385" PropertyType="0" Value="VCLObject(&quot;pnlTop&quot;)" Type="5" />
+			<Property237 Cookie="386" PropertyType="0" Value="VCLObject(&quot;cmbName&quot;)" Type="5" />
+			<Property238 Cookie="387" PropertyType="0" Value="VCLObject(&quot;btnSearch&quot;)" Type="5" />
+			<Property239 Cookie="388" PropertyType="0" Value="VCLObject(&quot;vstResults&quot;)" Type="5" />
+			<Property240 Cookie="389" PropertyType="0" Value="VCLObject(&quot;frmFindRecycleBinObj&quot;)" Type="5" />
+			<Property241 Cookie="390" PropertyType="0" Value="VCLObject(&quot;Panel1&quot;)" Type="5" />
+			<Property242 Cookie="391" PropertyType="0" Value="VCLObject(&quot;cmbName&quot;)" Type="5" />
+			<Property243 Cookie="392" PropertyType="0" Value="VCLObject(&quot;btnSearch&quot;)" Type="5" />
+			<Property244 Cookie="393" PropertyType="0" Value="VCLObject(&quot;vstResults&quot;)" Type="5" />
+			<Property245 Cookie="394" PropertyType="0" Value="TQSAuthorizeForm" Type="5" />
+			<Property246 Cookie="395" PropertyType="0" Value="SQL Navigator Authorization" Type="5" />
+			<Property247 Cookie="396" PropertyType="0" Value="VCLObject(&quot;frmTbleEditor&quot;)" Type="5" />
+			<Property248 Cookie="397" PropertyType="0" Value="VCLObject(&quot;frmDbNav&quot;)" Type="5" />
+			<Property249 Cookie="398" PropertyType="0" Value="VCLObject(&quot;pnlLeft&quot;)" Type="5" />
+			<Property250 Cookie="399" PropertyType="0" Value="VCLObject(&quot;vstTree&quot;)" Type="5" />
+			<Property251 Cookie="400" PropertyType="0" Value="VCLObject(&quot;Notebook1&quot;)" Type="5" />
+			<Property252 Cookie="401" PropertyType="0" Value="TPage" Type="5" />
+			<Property253 Cookie="402" PropertyType="0" Value="Default" Type="5" />
+			<Property254 Cookie="403" PropertyType="0" Value="VCLObject(&quot;memText&quot;)" Type="5" />
+			<Property255 Cookie="404" PropertyType="0" Value="VCLObject(&quot;FormCRM&quot;)" Type="5" />
+			<Property256 Cookie="405" PropertyType="0" Value="VCLObject(&quot;FormERD&quot;)" Type="5" />
+			<Property257 Cookie="407" PropertyType="0" Value="TdxBarControl" Type="5" />
+			<Property258 Cookie="408" PropertyType="0" Value="Navigator Toolbar" Type="5" />
+			<Property259 Cookie="409" PropertyType="0" Value="VCLObject(&quot;Notebook1&quot;)" Type="5" />
+			<Property260 Cookie="410" PropertyType="0" Value="TdxDockControl" Type="5" />
+			<Property261 Cookie="411" PropertyType="0" Value="3" Type="0" />
+			<Property262 Cookie="412" PropertyType="0" Value="VCLObject(&quot;frmNewVOE&quot;)" Type="5" />
+			<Property263 Cookie="413" PropertyType="0" Value="VCLObject(&quot;frmRoleEditor&quot;)" Type="5" />
+			<Property264 Cookie="414" PropertyType="0" Value="0" Type="0" />
+			<Property265 Cookie="415" PropertyType="0" Value="False" Type="6" />
+			<Property266 Cookie="416" PropertyType="0" Value="False" Type="6" />
+			<Property267 Cookie="417" PropertyType="0" Value="255" Type="0" />
+			<Property268 Cookie="418" PropertyType="0" Value="3" Type="0" />
+			<Property269 Cookie="419" PropertyType="0" Value="False" Type="6" />
+			<Property270 Cookie="420" PropertyType="0" Value="False" Type="6" />
+			<Property271 Cookie="421" PropertyType="0" Value="0" Type="0" />
+			<Property272 Cookie="422" PropertyType="0" Value="1" Type="0" />
+			<Property273 Cookie="423" PropertyType="0" Value="2" Type="0" />
+			<Property274 Cookie="424" PropertyType="0" Value="0" Type="0" />
+			<Property275 Cookie="425" PropertyType="0" Value="Preferences" Type="5" />
+			<Property276 Cookie="426" PropertyType="0" Value="352" Type="0" />
+			<Property277 Cookie="427" PropertyType="0" Value="TfrmPrefs" Type="5" />
+			<Property278 Cookie="428" PropertyType="0" Value="568" Type="0" />
+			<Property279 Cookie="429" PropertyType="0" Value="782" Type="0" />
+			<Property280 Cookie="430" PropertyType="0" Value="-16777201" Type="0" />
+			<Property281 Cookie="431" PropertyType="0" Value="0" Type="0" />
+			<Property282 Cookie="432" PropertyType="0" Value="True" Type="6" />
+			<Property283 Cookie="433" PropertyType="0" Value="0" Type="0" />
+			<Property284 Cookie="434" PropertyType="0" Value="3" Type="0" />
+			<Property285 Cookie="435" PropertyType="0" Value="False" Type="6" />
+			<Property286 Cookie="436" PropertyType="0" Value="False" Type="6" />
+			<Property287 Cookie="437" PropertyType="0" Value="0" Type="0" />
+			<Property288 Cookie="438" PropertyType="0" Value="0" Type="0" />
+			<Property289 Cookie="439" PropertyType="0" Value="True" Type="6" />
+			<Property290 Cookie="440" PropertyType="0" Value="True" Type="6" />
+			<Property291 Cookie="441" PropertyType="0" Value="False" Type="6" />
+			<Property292 Cookie="442" PropertyType="0" Value="0" Type="0" />
+			<Property293 Cookie="443" PropertyType="0" Value="Sys.Process(&quot;sqlnavigator&quot;).VCLObject(&quot;frmPrefs&quot;)" Type="5" />
+			<Property294 Cookie="444" PropertyType="0" Value="2098592" Type="0" />
+			<Property295 Cookie="445" PropertyType="0" Value="606" Type="0" />
+			<Property296 Cookie="446" PropertyType="0" Value="5000" Type="0" />
+			<Property297 Cookie="447" PropertyType="0" Value="" Type="5" />
+			<Property298 Cookie="448" PropertyType="0" Value="" Type="5" />
+			<Property299 Cookie="449" PropertyType="0" Value="1" Type="0" />
+			<Property300 Cookie="450" PropertyType="0" Value="" Type="5" />
+			<Property301 Cookie="451" PropertyType="0" Value="445072832" Type="0" />
+			<Property302 Cookie="452" PropertyType="0" Value="1" Type="0" />
+			<Property303 Cookie="453" PropertyType="0" Value="445072832" Type="0" />
+			<Property304 Cookie="454" PropertyType="0" Value="True" Type="6" />
+			<Property305 Cookie="455" PropertyType="0" Value="441" Type="0" />
+			<Property306 Cookie="456" PropertyType="0" Value="VCLObject(&quot;frmPrefs&quot;)" Type="5" />
+			<Property307 Cookie="457" PropertyType="0" Value="frmPrefs" Type="5" />
+			<Property308 Cookie="458" PropertyType="0" Value="VCLObject" Type="5" />
+			<Property309 Cookie="459" PropertyType="0" Value="False" Type="6" />
+			<Property310 Cookie="460" PropertyType="0" Value="True" Type="6" />
+			<Property311 Cookie="461" PropertyType="0" Value="True" Type="6" />
+			<Property312 Cookie="462" PropertyType="0" Value="False" Type="6" />
+			<Property313 Cookie="463" PropertyType="0" Value="96" Type="0" />
+			<Property314 Cookie="464" PropertyType="0" Value="0" Type="0" />
+			<Property315 Cookie="465" PropertyType="0" Value="1" Type="0" />
+			<Property316 Cookie="466" PropertyType="0" Value="Preferences" Type="5" />
+			<Property317 Cookie="467" PropertyType="0" Value="TfrmPrefs" Type="5" />
+			<Property318 Cookie="468" PropertyType="0" Value="True" Type="6" />
+			<Property319 Cookie="469" PropertyType="0" Value="441" Type="0" />
+			<Property320 Cookie="470" PropertyType="0" Value="False" Type="6" />
+			<Property321 Cookie="471" PropertyType="0" Value="202" Type="0" />
+			<Property322 Cookie="472" PropertyType="0" Value="True" Type="6" />
+			<Property323 Cookie="473" PropertyType="0" Value="10" Type="0" />
+			<Property324 Cookie="474" PropertyType="0" Value="0" Type="2" />
+			<Property325 Cookie="475" PropertyType="0" Value="202" Type="0" />
+			<Property326 Cookie="476" PropertyType="0" Value="False" Type="6" />
+			<Property327 Cookie="477" PropertyType="0" Value="0" Type="0" />
+			<Property328 Cookie="478" PropertyType="0" Value="True" Type="6" />
+			<Property329 Cookie="479" PropertyType="0" Value="False" Type="6" />
+			<Property330 Cookie="480" PropertyType="0" Value="TfrmPrefs" Type="5" />
+			<Property331 Cookie="481" PropertyType="0" Value="True" Type="6" />
+			<Property332 Cookie="482" PropertyType="0" Value="True" Type="6" />
+			<Property333 Cookie="483" PropertyType="0" Value="798" Type="0" />
+			<Property334 Cookie="484" PropertyType="0" Value="0" Type="0" />
+			<Property335 Cookie="485" PropertyType="0" Value="Preferences" Type="5" />
+			<Property336 Cookie="486" PropertyType="0" Value="TfrmPrefs" Type="5" />
+			<Property337 Cookie="487" PropertyType="0" Value="382468096" Type="0" />
+			<Property338 Cookie="488" PropertyType="0" Value="65792" Type="0" />
+			<Property339 Cookie="489" PropertyType="0" Value="Button" Type="5" />
+			<Property340 Cookie="490" PropertyType="0" Value="&amp;No" Type="5" />
+			<Property341 Cookie="491" PropertyType="0" Value="VCLObject(&quot;frmViewDifference&quot;)" Type="5" />
+			<Property342 Cookie="492" PropertyType="0" Value="VCLObject(&quot;frmPrefs&quot;)" Type="5" />
+			<Property343 Cookie="493" PropertyType="0" Value="VCLObject(&quot;frmNewTable&quot;)" Type="5" />
+			<Property344 Cookie="494" PropertyType="0" Value="VCLObject(&quot;frmRenameDbObj&quot;)" Type="5" />
+			<Property345 Cookie="495" PropertyType="0" Value="VCLObject(&quot;frmExportData&quot;)" Type="5" />
+			<Property346 Cookie="496" PropertyType="0" Value="VCLObject(&quot;FDataModeler&quot;)" Type="5" />
+			<Property347 Cookie="497" PropertyType="0" Value="#32770" Type="5" />
+			<Property348 Cookie="498" PropertyType="0" Value="Confirm" Type="5" />
+			<Property349 Cookie="499" PropertyType="0" Value="DirectUIHWND" Type="5" />
+			<Property350 Cookie="500" PropertyType="0" Value="CtrlNotifySink" Type="5" />
+			<Property351 Cookie="501" PropertyType="0" Value="Button" Type="5" />
+			<Property352 Cookie="502" PropertyType="0" Value="&amp;No" Type="5" />
+			<Property353 Cookie="503" PropertyType="0" Value="Button" Type="5" />
+			<Property354 Cookie="504" PropertyType="0" Value="&amp;Yes" Type="5" />
+			<Property355 Cookie="505" PropertyType="0" Value="VCLObject(&quot;frmAnalyze&quot;)" Type="5" />
+			<Property356 Cookie="506" PropertyType="0" Value="VCLObject(&quot;FormERDParams&quot;)" Type="5" />
+		</Child0>
+		<Child1 Name="Version_Win8">
+			<Property0 Cookie="0" PropertyType="0" Value="Sys" Type="5" />
+			<Property1 Cookie="1" PropertyType="0" Value="-1" Type="0" />
+			<Property2 Cookie="6" PropertyType="0" Value="msiexec" Type="5" />
+			<Property3 Cookie="7" PropertyType="0" Value="1" Type="0" />
+			<Property4 Cookie="8" PropertyType="0" Value="MsiDialogCloseClass" Type="5" />
+			<Property5 Cookie="9" PropertyType="0" Value="SQL Navigator* Setup" Type="5" />
+			<Property6 Cookie="10" PropertyType="0" Value="Static" Type="5" />
+			<Property7 Cookie="11" PropertyType="0" Value="Welcome to the SQL Navigator*Setup Wizard" Type="5" />
+			<Property8 Cookie="12" PropertyType="0" Value="Button" Type="5" />
+			<Property9 Cookie="13" PropertyType="0" Value="&amp;Next" Type="5" />
+			<Property10 Cookie="14" PropertyType="0" Value="Button" Type="5" />
+			<Property11 Cookie="15" PropertyType="0" Value="I &amp;accept the terms in the License Agreement" Type="5" />
+			<Property12 Cookie="16" PropertyType="0" Value="Button" Type="5" />
+			<Property13 Cookie="17" PropertyType="0" Value="B&amp;rowse..." Type="5" />
+			<Property14 Cookie="18" PropertyType="0" Value="Button" Type="5" />
+			<Property15 Cookie="19" PropertyType="0" Value="&amp;Install" Type="5" />
+			<Property16 Cookie="20" PropertyType="0" Value="msctls_progress32" Type="5" />
+			<Property17 Cookie="21" PropertyType="0" Value="Button" Type="5" />
+			<Property18 Cookie="22" PropertyType="0" Value="&amp;Finish" Type="5" />
+			<Property19 Cookie="23" PropertyType="0" Value="sqlnavigator" Type="5" />
+			<Property20 Cookie="24" PropertyType="0" Value="TfrmMain" Type="5" />
+			<Property21 Cookie="25" PropertyType="0" Value="SQL Navigator*" Type="5" />
+			<Property22 Cookie="29" PropertyType="0" Value="TEdit" Type="5" />
+			<Property23 Cookie="30" PropertyType="0" Value="2" Type="0" />
+			<Property24 Cookie="31" PropertyType="0" Value="TButton" Type="5" />
+			<Property25 Cookie="32" PropertyType="0" Value="OK" Type="5" />
+			<Property26 Cookie="33" PropertyType="0" Value="TEdit" Type="5" />
+			<Property27 Cookie="34" PropertyType="0" Value="2" Type="0" />
+			<Property28 Cookie="35" PropertyType="0" Value="TEdit" Type="5" />
+			<Property29 Cookie="36" PropertyType="0" Value="1" Type="0" />
+			<Property30 Cookie="37" PropertyType="0" Value="#32770" Type="5" />
+			<Property31 Cookie="38" PropertyType="0" Value="SQL Navigator" Type="5" />
+			<Property32 Cookie="39" PropertyType="0" Value="DirectUIHWND" Type="5" />
+			<Property33 Cookie="40" PropertyType="0" Value="CtrlNotifySink" Type="5" />
+			<Property34 Cookie="41" PropertyType="0" Value="7" Type="0" />
+			<Property35 Cookie="42" PropertyType="0" Value="Button" Type="5" />
+			<Property36 Cookie="43" PropertyType="0" Value="OK" Type="5" />
+			<Property37 Cookie="49" PropertyType="0" Value="1" Type="0" />
+			<Property38 Cookie="50" PropertyType="0" Value="TdxDockControl" Type="5" />
+			<Property39 Cookie="84" PropertyType="0" Value="TdxBarControl" Type="5" />
+			<Property40 Cookie="87" PropertyType="0" Value="TdxBarControl" Type="5" />
+			<Property41 Cookie="88" PropertyType="0" Value="Main Menu" Type="5" />
+			<Property42 Cookie="89" PropertyType="0" Value="MDIClient" Type="5" />
+			<Property43 Cookie="92" PropertyType="0" Value="TPanel" Type="5" />
+			<Property44 Cookie="93" PropertyType="0" Value="pnlTop" Type="5" />
+			<Property45 Cookie="106" PropertyType="0" Value="Shell DocObject View" Type="5" />
+			<Property46 Cookie="107" PropertyType="0" Value="Internet Explorer_Server" Type="5" />
+			<Property47 Cookie="108" PropertyType="0" Value="Shell DocObject View" Type="5" />
+			<Property48 Cookie="109" PropertyType="0" Value="Internet Explorer_Server" Type="5" />
+			<Property49 Cookie="112" PropertyType="0" Value="Link" Type="5" />
+			<Property50 Cookie="113" PropertyType="0" Value="0" Type="0" />
+			<Property51 Cookie="114" PropertyType="0" Value="#32770" Type="5" />
+			<Property52 Cookie="115" PropertyType="0" Value="Open HTML File" Type="5" />
+			<Property53 Cookie="116" PropertyType="0" Value="Link" Type="5" />
+			<Property54 Cookie="124" PropertyType="0" Value="TdxDockPanel" Type="5" />
+			<Property55 Cookie="125" PropertyType="0" Value="dpOutput" Type="5" />
+			<Property56 Cookie="126" PropertyType="0" Value="TframOutput" Type="5" />
+			<Property57 Cookie="127" PropertyType="0" Value="framOutput1" Type="5" />
+			<Property58 Cookie="128" PropertyType="0" Value="TframOutput" Type="5" />
+			<Property59 Cookie="129" PropertyType="0" Value="framOutput1" Type="5" />
+			<Property60 Cookie="130" PropertyType="0" Value="TPageControl" Type="5" />
+			<Property61 Cookie="131" PropertyType="0" Value="pcOutput" Type="5" />
+			<Property62 Cookie="132" PropertyType="0" Value="TTabSheet" Type="5" />
+			<Property63 Cookie="133" PropertyType="0" Value="tabGeneral" Type="5" />
+			<Property64 Cookie="134" PropertyType="0" Value="TVirtualStringTree" Type="5" />
+			<Property65 Cookie="135" PropertyType="0" Value="vstOutput" Type="5" />
+			<Property66 Cookie="138" PropertyType="0" Value="TframOutput" Type="5" />
+			<Property67 Cookie="139" PropertyType="0" Value="framOutput1" Type="5" />
+			<Property68 Cookie="148" PropertyType="0" Value="#32770" Type="5" />
+			<Property69 Cookie="149" PropertyType="0" Value="Error occurred" Type="5" />
+			<Property70 Cookie="150" PropertyType="0" Value="Button" Type="5" />
+			<Property71 Cookie="151" PropertyType="0" Value="&amp;OK" Type="5" />
+			<Property72 Cookie="156" PropertyType="0" Value="TfrmError" Type="5" />
+			<Property73 Cookie="157" PropertyType="0" Value="frmError" Type="5" />
+			<Property74 Cookie="158" PropertyType="0" Value="TButton" Type="5" />
+			<Property75 Cookie="159" PropertyType="0" Value="btnOK" Type="5" />
+			<Property76 Cookie="162" PropertyType="0" Value="TcxTabControl" Type="5" />
+			<Property77 Cookie="163" PropertyType="0" Value="tcTabSet" Type="5" />
+			<Property78 Cookie="166" PropertyType="0" Value="TAdvSplitter" Type="5" />
+			<Property79 Cookie="167" PropertyType="0" Value="splDataGrid" Type="5" />
+			<Property80 Cookie="168" PropertyType="0" Value="TAdvPane" Type="5" />
+			<Property81 Cookie="169" PropertyType="0" Value="TAdvSplitter" Type="5" />
+			<Property82 Cookie="170" PropertyType="0" Value="splCompare" Type="5" />
+			<Property83 Cookie="171" PropertyType="0" Value="TAdvPane" Type="5" />
+			<Property84 Cookie="172" PropertyType="0" Value="TSyntaxMemo" Type="5" />
+			<Property85 Cookie="173" PropertyType="0" Value="1" Type="0" />
+			<Property86 Cookie="174" PropertyType="0" Value="TAdvSplitter" Type="5" />
+			<Property87 Cookie="175" PropertyType="0" Value="splDataGrid" Type="5" />
+			<Property88 Cookie="176" PropertyType="0" Value="TAdvPane" Type="5" />
+			<Property89 Cookie="177" PropertyType="0" Value="TAdvSplitter" Type="5" />
+			<Property90 Cookie="178" PropertyType="0" Value="splCompare" Type="5" />
+			<Property91 Cookie="179" PropertyType="0" Value="TAdvPane" Type="5" />
+			<Property92 Cookie="180" PropertyType="0" Value="TSyntaxMemo" Type="5" />
+			<Property93 Cookie="184" PropertyType="0" Value="TdxBarControl" Type="5" />
+			<Property94 Cookie="185" PropertyType="0" Value="Main Menu" Type="5" />
+			<Property95 Cookie="196" PropertyType="0" Value="TframWorkspace" Type="5" />
+			<Property96 Cookie="197" PropertyType="0" Value="framWorkspace1" Type="5" />
+			<Property97 Cookie="198" PropertyType="0" Value="TToolButton" Type="5" />
+			<Property98 Cookie="199" PropertyType="0" Value="ToolButton8" Type="5" />
+			<Property99 Cookie="200" PropertyType="0" Value="TTreeView" Type="5" />
+			<Property100 Cookie="201" PropertyType="0" Value="tvPM" Type="5" />
+			<Property101 Cookie="208" PropertyType="0" Value="#32770" Type="5" />
+			<Property102 Cookie="209" PropertyType="0" Value="Confirmation" Type="5" />
+			<Property103 Cookie="210" PropertyType="0" Value="Button" Type="5" />
+			<Property104 Cookie="211" PropertyType="0" Value="&amp;Yes" Type="5" />
+			<Property105 Cookie="220" PropertyType="0" Value="TAdvSplitter" Type="5" />
+			<Property106 Cookie="221" PropertyType="0" Value="splDataGrid" Type="5" />
+			<Property107 Cookie="224" PropertyType="0" Value="TAdvSplitter" Type="5" />
+			<Property108 Cookie="225" PropertyType="0" Value="splCompare" Type="5" />
+			<Property109 Cookie="226" PropertyType="0" Value="TAdvPane" Type="5" />
+			<Property110 Cookie="227" PropertyType="0" Value="4" Type="0" />
+			<Property111 Cookie="228" PropertyType="0" Value="TSyntaxMemo" Type="5" />
+			<Property112 Cookie="229" PropertyType="0" Value="TAdvPane" Type="5" />
+			<Property113 Cookie="230" PropertyType="0" Value="1" Type="0" />
+			<Property114 Cookie="231" PropertyType="0" Value="1" Type="0" />
+			<Property115 Cookie="238" PropertyType="0" Value="TAdvPane" Type="5" />
+			<Property116 Cookie="239" PropertyType="0" Value="TSyntaxMemo" Type="5" />
+			<Property117 Cookie="240" PropertyType="0" Value="TAdvPane" Type="5" />
+			<Property118 Cookie="241" PropertyType="0" Value="2" Type="0" />
+			<Property119 Cookie="242" PropertyType="0" Value="1" Type="0" />
+			<Property120 Cookie="248" PropertyType="0" Value="TdxBarControl" Type="5" />
+			<Property121 Cookie="249" PropertyType="0" Value="Task Bar (List of Windows)" Type="5" />
+			<Property122 Cookie="250" PropertyType="0" Value="TdxBarControl" Type="5" />
+			<Property123 Cookie="251" PropertyType="0" Value="Task Bar (List of Windows)" Type="5" />
+			<Property124 Cookie="252" PropertyType="0" Value="TdxDockControl" Type="5" />
+			<Property125 Cookie="253" PropertyType="0" Value="1" Type="0" />
+			<Property126 Cookie="258" PropertyType="0" Value="TTabSheet" Type="5" />
+			<Property127 Cookie="259" PropertyType="0" Value="tsToolbars" Type="5" />
+			<Property128 Cookie="266" PropertyType="0" Value="TdxDockControl" Type="5" />
+			<Property129 Cookie="267" PropertyType="0" Value="6" Type="0" />
+			<Property130 Cookie="270" PropertyType="0" Value="TdxBarControl" Type="5" />
+			<Property131 Cookie="271" PropertyType="0" Value="Edit Toolbar" Type="5" />
+			<Property132 Cookie="272" PropertyType="0" Value="TdxBarControl" Type="5" />
+			<Property133 Cookie="273" PropertyType="0" Value="Session Toolbar" Type="5" />
+			<Property134 Cookie="274" PropertyType="0" Value="TdxBarControl" Type="5" />
+			<Property135 Cookie="275" PropertyType="0" Value="Object Toolbar" Type="5" />
+			<Property136 Cookie="276" PropertyType="0" Value="TdxBarControl" Type="5" />
+			<Property137 Cookie="277" PropertyType="0" Value="Team Coding" Type="5" />
+			<Property138 Cookie="278" PropertyType="0" Value="TdxBarControl" Type="5" />
+			<Property139 Cookie="279" PropertyType="0" Value="Functions Toolbar" Type="5" />
+			<Property140 Cookie="280" PropertyType="0" Value="VCLObject(&quot;frmUnifiedEditor&quot;)" Type="5" />
+			<Property141 Cookie="281" PropertyType="0" Value="VCLObject(&quot;pnlEditor&quot;)" Type="5" />
+			<Property142 Cookie="282" PropertyType="0" Value="VCLObject(&quot;splDataGrid&quot;)" Type="5" />
+			<Property143 Cookie="283" PropertyType="0" Value="VCLObject(&quot;splCompare&quot;)" Type="5" />
+			<Property144 Cookie="284" PropertyType="0" Value="VCLObject(&quot;frmHTMLedit&quot;)" Type="5" />
+			<Property145 Cookie="285" PropertyType="0" Value="VCLObject(&quot;pc&quot;)" Type="5" />
+			<Property146 Cookie="286" PropertyType="0" Value="VCLObject(&quot;tsSource&quot;)" Type="5" />
+			<Property147 Cookie="287" PropertyType="0" Value="VCLObject(&quot;qsm&quot;)" Type="5" />
+			<Property148 Cookie="288" PropertyType="0" Value="VCLObject(&quot;tsPreview&quot;)" Type="5" />
+			<Property149 Cookie="289" PropertyType="0" Value="VCLObject(&quot;fv&quot;)" Type="5" />
+			<Property150 Cookie="290" PropertyType="0" Value="VCLObject(&quot;dosRight&quot;)" Type="5" />
+			<Property151 Cookie="291" PropertyType="0" Value="VCLObject(&quot;dxTabContainerDockSite1&quot;)" Type="5" />
+			<Property152 Cookie="292" PropertyType="0" Value="VCLObject(&quot;dpWorkspace&quot;)" Type="5" />
+			<Property153 Cookie="293" PropertyType="0" Value="VCLObject(&quot;framWorkspace1&quot;)" Type="5" />
+			<Property154 Cookie="294" PropertyType="0" Value="VCLObject(&quot;ToolButton8&quot;)" Type="5" />
+			<Property155 Cookie="295" PropertyType="0" Value="VCLObject(&quot;tvPM&quot;)" Type="5" />
+			<Property156 Cookie="296" PropertyType="0" Value="VCLObject(&quot;frmSaveOnExitConf&quot;)" Type="5" />
+			<Property157 Cookie="297" PropertyType="0" Value="VCLObject(&quot;Panel1&quot;)" Type="5" />
+			<Property158 Cookie="298" PropertyType="0" Value="VCLObject(&quot;btnUnselectAll&quot;)" Type="5" />
+			<Property159 Cookie="299" PropertyType="0" Value="VCLObject(&quot;btnOKCodeEditor&quot;)" Type="5" />
+			<Property160 Cookie="301" PropertyType="0" Value="VCLObject(&quot;SyntPreviewForm&quot;)" Type="5" />
+			<Property161 Cookie="302" PropertyType="0" Value="VCLObject(&quot;dosBottom&quot;)" Type="5" />
+			<Property162 Cookie="303" PropertyType="0" Value="VCLObject(&quot;dpOutput&quot;)" Type="5" />
+			<Property163 Cookie="304" PropertyType="0" Value="VCLObject(&quot;framOutput1&quot;)" Type="5" />
+			<Property164 Cookie="305" PropertyType="0" Value="VCLObject(&quot;pcOutput&quot;)" Type="5" />
+			<Property165 Cookie="306" PropertyType="0" Value="VCLObject(&quot;tabGeneral&quot;)" Type="5" />
+			<Property166 Cookie="307" PropertyType="0" Value="VCLObject(&quot;vstOutput&quot;)" Type="5" />
+			<Property167 Cookie="308" PropertyType="0" Value="VCLObject(&quot;frmLogOn&quot;)" Type="5" />
+			<Property168 Cookie="309" PropertyType="0" Value="VCLObject(&quot;btnOK&quot;)" Type="5" />
+			<Property169 Cookie="310" PropertyType="0" Value="VCLObject(&quot;grpConnection&quot;)" Type="5" />
+			<Property170 Cookie="311" PropertyType="0" Value="VCLObject(&quot;pnlPages&quot;)" Type="5" />
+			<Property171 Cookie="312" PropertyType="0" Value="VCLObject(&quot;pgTypes&quot;)" Type="5" />
+			<Property172 Cookie="313" PropertyType="0" Value="VCLObject(&quot;tabsDirect&quot;)" Type="5" />
+			<Property173 Cookie="314" PropertyType="0" Value="VCLObject(&quot;edtHost&quot;)" Type="5" />
+			<Property174 Cookie="315" PropertyType="0" Value="VCLObject(&quot;edtPort&quot;)" Type="5" />
+			<Property175 Cookie="316" PropertyType="0" Value="VCLObject(&quot;edtServiceName&quot;)" Type="5" />
+			<Property176 Cookie="317" PropertyType="0" Value="VCLObject(&quot;tabsLDAP&quot;)" Type="5" />
+			<Property177 Cookie="318" PropertyType="0" Value="VCLObject(&quot;cmbLDAPAlias&quot;)" Type="5" />
+			<Property178 Cookie="319" PropertyType="0" Value="VCLObject(&quot;cmbLDAPServer&quot;)" Type="5" />
+			<Property179 Cookie="320" PropertyType="0" Value="VCLObject(&quot;tabsTNS&quot;)" Type="5" />
+			<Property180 Cookie="321" PropertyType="0" Value="VCLObject(&quot;cmbAliasList&quot;)" Type="5" />
+			<Property181 Cookie="322" PropertyType="0" Value="VCLObject(&quot;pnlUser&quot;)" Type="5" />
+			<Property182 Cookie="323" PropertyType="0" Value="VCLObject(&quot;edtPassword&quot;)" Type="5" />
+			<Property183 Cookie="324" PropertyType="0" Value="VCLObject(&quot;edtUserName&quot;)" Type="5" />
+			<Property184 Cookie="325" PropertyType="0" Value="VCLObject(&quot;dxBarCustomizationForm&quot;)" Type="5" />
+			<Property185 Cookie="326" PropertyType="0" Value="VCLObject(&quot;PageControl&quot;)" Type="5" />
+			<Property186 Cookie="327" PropertyType="0" Value="VCLObject(&quot;tsToolbars&quot;)" Type="5" />
+			<Property187 Cookie="328" PropertyType="0" Value="VCLObject(&quot;lbBarsList&quot;)" Type="5" />
+			<Property188 Cookie="329" PropertyType="0" Value="Page" Type="5" />
+			<Property189 Cookie="330" PropertyType="0" Value="*/AutoFiles/HtmlFile/a.htm" Type="5" />
+			<Property190 Cookie="331" PropertyType="0" Value="Link" Type="5" />
+			<Property191 Cookie="332" PropertyType="0" Value="go to b" Type="5" />
+			<Property192 Cookie="333" PropertyType="0" Value="TAdvPane" Type="5" />
+			<Property193 Cookie="334" PropertyType="0" Value="VCLObject(&quot;frmBrowseDataVT&quot;)" Type="5" />
+			<Property194 Cookie="335" PropertyType="0" Value="TVirtualStringTree" Type="5" />
+			<Property195 Cookie="336" PropertyType="0" Value="vstDataGrid" Type="5" />
+			<Property196 Cookie="337" PropertyType="0" Value="TAdvPane" Type="5" />
+			<Property197 Cookie="341" PropertyType="0" Value="TSyntaxMemo" Type="5" />
+			<Property198 Cookie="342" PropertyType="0" Value="VCLObject(&quot;frmGoToLine&quot;)" Type="5" />
+			<Property199 Cookie="343" PropertyType="0" Value="VCLObject(&quot;btnGo&quot;)" Type="5" />
+			<Property200 Cookie="344" PropertyType="0" Value="VCLObject(&quot;frmBookmarkList&quot;)" Type="5" />
+			<Property201 Cookie="345" PropertyType="0" Value="VCLObject(&quot;TreeList&quot;)" Type="5" />
+			<Property202 Cookie="346" PropertyType="0" Value="VCLObject(&quot;Panel1&quot;)" Type="5" />
+			<Property203 Cookie="347" PropertyType="0" Value="VCLObject(&quot;Button4&quot;)" Type="5" />
+			<Property204 Cookie="348" PropertyType="0" Value="VCLObject(&quot;Button1&quot;)" Type="5" />
+			<Property205 Cookie="350" PropertyType="0" Value="VCLObject(&quot;frmDescribe&quot;)" Type="5" />
+			<Property206 Cookie="351" PropertyType="0" Value="VCLObject(&quot;frmQSFindAndReplaceDlg&quot;)" Type="5" />
+			<Property207 Cookie="352" PropertyType="0" Value="VCLObject(&quot;PageControl&quot;)" Type="5" />
+			<Property208 Cookie="353" PropertyType="0" Value="VCLObject(&quot;FindTabSheet&quot;)" Type="5" />
+			<Property209 Cookie="354" PropertyType="0" Value="VCLObject(&quot;FindNextButton&quot;)" Type="5" />
+			<Property210 Cookie="355" PropertyType="0" Value="VCLObject(&quot;FindTextComboBox&quot;)" Type="5" />
+			<Property211 Cookie="356" PropertyType="0" Value="VCLObject(&quot;ReplaceTabSheet&quot;)" Type="5" />
+			<Property212 Cookie="358" PropertyType="0" Value="VCLObject(&quot;FindTabSheet&quot;)" Type="5" />
+			<Property213 Cookie="359" PropertyType="0" Value="VCLObject(&quot;FindTextComboBox&quot;)" Type="5" />
+			<Property214 Cookie="360" PropertyType="0" Value="VCLObject(&quot;FindNextButton&quot;)" Type="5" />
+			<Property215 Cookie="361" PropertyType="0" Value="VCLObject(&quot;FindReplaceTextComboBox&quot;)" Type="5" />
+			<Property216 Cookie="362" PropertyType="0" Value="VCLObject(&quot;ReplaceTextComboBox&quot;)" Type="5" />
+			<Property217 Cookie="363" PropertyType="0" Value="VCLObject(&quot;FindNextButton&quot;)" Type="5" />
+			<Property218 Cookie="364" PropertyType="0" Value="VCLObject(&quot;ReplaceButton&quot;)" Type="5" />
+			<Property219 Cookie="365" PropertyType="0" Value="VCLObject(&quot;frmDialogOkB&quot;)" Type="5" />
+			<Property220 Cookie="366" PropertyType="0" Value="VCLObject(&quot;pnlActions&quot;)" Type="5" />
+			<Property221 Cookie="367" PropertyType="0" Value="VCLObject(&quot;btnOK&quot;)" Type="5" />
+			<Property222 Cookie="369" PropertyType="0" Value="VCLObject(&quot;Panel1&quot;)" Type="5" />
+			<Property223 Cookie="370" PropertyType="0" Value="VCLObject(&quot;pgSearch&quot;)" Type="5" />
+			<Property224 Cookie="371" PropertyType="0" Value="VCLObject(&quot;tsSearch&quot;)" Type="5" />
+			<Property225 Cookie="374" PropertyType="0" Value="VCLObject(&quot;tsSearch&quot;)" Type="5" />
+			<Property226 Cookie="375" PropertyType="0" Value="VCLObject(&quot;cmbSearchStr&quot;)" Type="5" />
+			<Property227 Cookie="376" PropertyType="0" Value="VCLObject(&quot;tsAdvanced&quot;)" Type="5" />
+			<Property228 Cookie="377" PropertyType="0" Value="VCLObject(&quot;grpScope&quot;)" Type="5" />
+			<Property229 Cookie="378" PropertyType="0" Value="VCLObject(&quot;edtSchemaName&quot;)" Type="5" />
+			<Property230 Cookie="379" PropertyType="0" Value="VCLObject(&quot;frmCodeSearch&quot;)" Type="5" />
+			<Property231 Cookie="380" PropertyType="0" Value="VCLObject(&quot;edtProgramName&quot;)" Type="5" />
+			<Property232 Cookie="381" PropertyType="0" Value="VCLObject(&quot;Panel2&quot;)" Type="5" />
+			<Property233 Cookie="382" PropertyType="0" Value="VCLObject(&quot;btnSearch&quot;)" Type="5" />
+			<Property234 Cookie="383" PropertyType="0" Value="VCLObject(&quot;lstResults&quot;)" Type="5" />
+			<Property235 Cookie="384" PropertyType="0" Value="VCLObject(&quot;frmFindObj&quot;)" Type="5" />
+			<Property236 Cookie="385" PropertyType="0" Value="VCLObject(&quot;pnlTop&quot;)" Type="5" />
+			<Property237 Cookie="386" PropertyType="0" Value="VCLObject(&quot;cmbName&quot;)" Type="5" />
+			<Property238 Cookie="387" PropertyType="0" Value="VCLObject(&quot;btnSearch&quot;)" Type="5" />
+			<Property239 Cookie="388" PropertyType="0" Value="VCLObject(&quot;vstResults&quot;)" Type="5" />
+			<Property240 Cookie="389" PropertyType="0" Value="VCLObject(&quot;frmFindRecycleBinObj&quot;)" Type="5" />
+			<Property241 Cookie="390" PropertyType="0" Value="VCLObject(&quot;Panel1&quot;)" Type="5" />
+			<Property242 Cookie="391" PropertyType="0" Value="VCLObject(&quot;cmbName&quot;)" Type="5" />
+			<Property243 Cookie="392" PropertyType="0" Value="VCLObject(&quot;btnSearch&quot;)" Type="5" />
+			<Property244 Cookie="393" PropertyType="0" Value="VCLObject(&quot;vstResults&quot;)" Type="5" />
+			<Property245 Cookie="394" PropertyType="0" Value="TQSAuthorizeForm" Type="5" />
+			<Property246 Cookie="395" PropertyType="0" Value="SQL Navigator Authorization" Type="5" />
+			<Property247 Cookie="396" PropertyType="0" Value="VCLObject(&quot;frmTbleEditor&quot;)" Type="5" />
+			<Property248 Cookie="397" PropertyType="0" Value="VCLObject(&quot;frmDbNav&quot;)" Type="5" />
+			<Property249 Cookie="398" PropertyType="0" Value="VCLObject(&quot;pnlLeft&quot;)" Type="5" />
+			<Property250 Cookie="399" PropertyType="0" Value="VCLObject(&quot;vstTree&quot;)" Type="5" />
+			<Property251 Cookie="400" PropertyType="0" Value="VCLObject(&quot;Notebook1&quot;)" Type="5" />
+			<Property252 Cookie="401" PropertyType="0" Value="TPage" Type="5" />
+			<Property253 Cookie="402" PropertyType="0" Value="Default" Type="5" />
+			<Property254 Cookie="403" PropertyType="0" Value="VCLObject(&quot;memText&quot;)" Type="5" />
+			<Property255 Cookie="404" PropertyType="0" Value="VCLObject(&quot;FormCRM&quot;)" Type="5" />
+			<Property256 Cookie="405" PropertyType="0" Value="VCLObject(&quot;FormERD&quot;)" Type="5" />
+			<Property257 Cookie="407" PropertyType="0" Value="TdxBarControl" Type="5" />
+			<Property258 Cookie="408" PropertyType="0" Value="Navigator Toolbar" Type="5" />
+			<Property259 Cookie="409" PropertyType="0" Value="VCLObject(&quot;Notebook1&quot;)" Type="5" />
+			<Property260 Cookie="410" PropertyType="0" Value="TdxDockControl" Type="5" />
+			<Property261 Cookie="411" PropertyType="0" Value="3" Type="0" />
+			<Property262 Cookie="412" PropertyType="0" Value="VCLObject(&quot;frmNewVOE&quot;)" Type="5" />
+			<Property263 Cookie="413" PropertyType="0" Value="VCLObject(&quot;frmRoleEditor&quot;)" Type="5" />
+			<Property264 Cookie="414" PropertyType="0" Value="0" Type="0" />
+			<Property265 Cookie="415" PropertyType="0" Value="False" Type="6" />
+			<Property266 Cookie="416" PropertyType="0" Value="False" Type="6" />
+			<Property267 Cookie="417" PropertyType="0" Value="255" Type="0" />
+			<Property268 Cookie="418" PropertyType="0" Value="3" Type="0" />
+			<Property269 Cookie="419" PropertyType="0" Value="False" Type="6" />
+			<Property270 Cookie="420" PropertyType="0" Value="False" Type="6" />
+			<Property271 Cookie="421" PropertyType="0" Value="0" Type="0" />
+			<Property272 Cookie="422" PropertyType="0" Value="1" Type="0" />
+			<Property273 Cookie="423" PropertyType="0" Value="2" Type="0" />
+			<Property274 Cookie="424" PropertyType="0" Value="0" Type="0" />
+			<Property275 Cookie="425" PropertyType="0" Value="Preferences" Type="5" />
+			<Property276 Cookie="426" PropertyType="0" Value="352" Type="0" />
+			<Property277 Cookie="427" PropertyType="0" Value="TfrmPrefs" Type="5" />
+			<Property278 Cookie="428" PropertyType="0" Value="568" Type="0" />
+			<Property279 Cookie="429" PropertyType="0" Value="782" Type="0" />
+			<Property280 Cookie="430" PropertyType="0" Value="-16777201" Type="0" />
+			<Property281 Cookie="431" PropertyType="0" Value="0" Type="0" />
+			<Property282 Cookie="432" PropertyType="0" Value="True" Type="6" />
+			<Property283 Cookie="433" PropertyType="0" Value="0" Type="0" />
+			<Property284 Cookie="434" PropertyType="0" Value="3" Type="0" />
+			<Property285 Cookie="435" PropertyType="0" Value="False" Type="6" />
+			<Property286 Cookie="436" PropertyType="0" Value="False" Type="6" />
+			<Property287 Cookie="437" PropertyType="0" Value="0" Type="0" />
+			<Property288 Cookie="438" PropertyType="0" Value="0" Type="0" />
+			<Property289 Cookie="439" PropertyType="0" Value="True" Type="6" />
+			<Property290 Cookie="440" PropertyType="0" Value="True" Type="6" />
+			<Property291 Cookie="441" PropertyType="0" Value="False" Type="6" />
+			<Property292 Cookie="442" PropertyType="0" Value="0" Type="0" />
+			<Property293 Cookie="443" PropertyType="0" Value="Sys.Process(&quot;sqlnavigator&quot;).VCLObject(&quot;frmPrefs&quot;)" Type="5" />
+			<Property294 Cookie="444" PropertyType="0" Value="2098592" Type="0" />
+			<Property295 Cookie="445" PropertyType="0" Value="606" Type="0" />
+			<Property296 Cookie="446" PropertyType="0" Value="5000" Type="0" />
+			<Property297 Cookie="447" PropertyType="0" Value="" Type="5" />
+			<Property298 Cookie="448" PropertyType="0" Value="" Type="5" />
+			<Property299 Cookie="449" PropertyType="0" Value="1" Type="0" />
+			<Property300 Cookie="450" PropertyType="0" Value="" Type="5" />
+			<Property301 Cookie="451" PropertyType="0" Value="445072832" Type="0" />
+			<Property302 Cookie="452" PropertyType="0" Value="1" Type="0" />
+			<Property303 Cookie="453" PropertyType="0" Value="445072832" Type="0" />
+			<Property304 Cookie="454" PropertyType="0" Value="True" Type="6" />
+			<Property305 Cookie="455" PropertyType="0" Value="441" Type="0" />
+			<Property306 Cookie="456" PropertyType="0" Value="VCLObject(&quot;frmPrefs&quot;)" Type="5" />
+			<Property307 Cookie="457" PropertyType="0" Value="frmPrefs" Type="5" />
+			<Property308 Cookie="458" PropertyType="0" Value="VCLObject" Type="5" />
+			<Property309 Cookie="459" PropertyType="0" Value="False" Type="6" />
+			<Property310 Cookie="460" PropertyType="0" Value="True" Type="6" />
+			<Property311 Cookie="461" PropertyType="0" Value="True" Type="6" />
+			<Property312 Cookie="462" PropertyType="0" Value="False" Type="6" />
+			<Property313 Cookie="463" PropertyType="0" Value="96" Type="0" />
+			<Property314 Cookie="464" PropertyType="0" Value="0" Type="0" />
+			<Property315 Cookie="465" PropertyType="0" Value="1" Type="0" />
+			<Property316 Cookie="466" PropertyType="0" Value="Preferences" Type="5" />
+			<Property317 Cookie="467" PropertyType="0" Value="TfrmPrefs" Type="5" />
+			<Property318 Cookie="468" PropertyType="0" Value="True" Type="6" />
+			<Property319 Cookie="469" PropertyType="0" Value="441" Type="0" />
+			<Property320 Cookie="470" PropertyType="0" Value="False" Type="6" />
+			<Property321 Cookie="471" PropertyType="0" Value="202" Type="0" />
+			<Property322 Cookie="472" PropertyType="0" Value="True" Type="6" />
+			<Property323 Cookie="473" PropertyType="0" Value="10" Type="0" />
+			<Property324 Cookie="474" PropertyType="0" Value="0" Type="2" />
+			<Property325 Cookie="475" PropertyType="0" Value="202" Type="0" />
+			<Property326 Cookie="476" PropertyType="0" Value="False" Type="6" />
+			<Property327 Cookie="477" PropertyType="0" Value="0" Type="0" />
+			<Property328 Cookie="478" PropertyType="0" Value="True" Type="6" />
+			<Property329 Cookie="479" PropertyType="0" Value="False" Type="6" />
+			<Property330 Cookie="480" PropertyType="0" Value="TfrmPrefs" Type="5" />
+			<Property331 Cookie="481" PropertyType="0" Value="True" Type="6" />
+			<Property332 Cookie="482" PropertyType="0" Value="True" Type="6" />
+			<Property333 Cookie="483" PropertyType="0" Value="798" Type="0" />
+			<Property334 Cookie="484" PropertyType="0" Value="0" Type="0" />
+			<Property335 Cookie="485" PropertyType="0" Value="Preferences" Type="5" />
+			<Property336 Cookie="486" PropertyType="0" Value="TfrmPrefs" Type="5" />
+			<Property337 Cookie="487" PropertyType="0" Value="382468096" Type="0" />
+			<Property338 Cookie="488" PropertyType="0" Value="65792" Type="0" />
+			<Property339 Cookie="489" PropertyType="0" Value="Button" Type="5" />
+			<Property340 Cookie="490" PropertyType="0" Value="&amp;No" Type="5" />
+			<Property341 Cookie="491" PropertyType="0" Value="VCLObject(&quot;frmViewDifference&quot;)" Type="5" />
+			<Property342 Cookie="492" PropertyType="0" Value="VCLObject(&quot;frmPrefs&quot;)" Type="5" />
+			<Property343 Cookie="493" PropertyType="0" Value="VCLObject(&quot;frmNewTable&quot;)" Type="5" />
+			<Property344 Cookie="494" PropertyType="0" Value="VCLObject(&quot;frmRenameDbObj&quot;)" Type="5" />
+			<Property345 Cookie="495" PropertyType="0" Value="VCLObject(&quot;frmExportData&quot;)" Type="5" />
+			<Property346 Cookie="496" PropertyType="0" Value="VCLObject(&quot;FDataModeler&quot;)" Type="5" />
+			<Property347 Cookie="497" PropertyType="0" Value="#32770" Type="5" />
+			<Property348 Cookie="498" PropertyType="0" Value="Confirm" Type="5" />
+			<Property349 Cookie="499" PropertyType="0" Value="DirectUIHWND" Type="5" />
+			<Property350 Cookie="500" PropertyType="0" Value="CtrlNotifySink" Type="5" />
+			<Property351 Cookie="501" PropertyType="0" Value="Button" Type="5" />
+			<Property352 Cookie="502" PropertyType="0" Value="&amp;No" Type="5" />
+			<Property353 Cookie="503" PropertyType="0" Value="Button" Type="5" />
+			<Property354 Cookie="504" PropertyType="0" Value="&amp;Yes" Type="5" />
+			<Property355 Cookie="505" PropertyType="0" Value="VCLObject(&quot;frmAnalyze&quot;)" Type="5" />
+			<Property356 Cookie="506" PropertyType="0" Value="VCLObject(&quot;FormERDParams&quot;)" Type="5" />
+		</Child1>
+	</Storages>
+	<TypeInfo StoreCodeCompletion="0">
+		<UserDefinedTypes />
+	</TypeInfo>
+</Root>

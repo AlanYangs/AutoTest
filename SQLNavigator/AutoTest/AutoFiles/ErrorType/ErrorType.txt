@@ -1,0 +1,13 @@
+Internal error occurred;
+Selected text must start;
+IAMSQLNAVIGATI;
+IAMTOAD;
+ORA-06550;
+PL/SQL: SQL Statement ignored;
+Pending and direct clearance are mutual exclusiv!;
+Internal error occurred;
+see file ERROR.LOG for details;
+ORA-12638;
+Credential retrieval failed;
+List index out of bounds;
+OCI_INVALID_HANDLE

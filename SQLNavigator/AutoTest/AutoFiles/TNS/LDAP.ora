@@ -1,0 +1,5 @@
+# content for ldap.ora
+
+DIRECTORY_SERVERS = (10.30.149.190:389:636)
+DEFAULT_ADMIN_CONTEXT = "dc=prod,dc=quest,dc=corp"
+DIRECTORY_SERVER_TYPE = OID
