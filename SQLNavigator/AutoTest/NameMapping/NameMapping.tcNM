@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<Root Signature="{5DCBAC3B-D39C-497C-9BE8-744CBADD37AA}" NameMappingVersion="4" Cookie="507">
+<Root Signature="{5DCBAC3B-D39C-497C-9BE8-744CBADD37AA}" NameMappingVersion="4" Cookie="541">
 	<Nodes Name="NameMapping" Key="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}" ParallelWalk="True">
 		<Properties />
 		<Children>
@@ -221,6 +221,40 @@
 																	</Child1>
 																</Children>
 															</Child0>
+															<Child1 Name="TPanel" Key="{97035C7C-B7F0-4349-B493-993CDCBC7694}" ParallelWalk="True">
+																<Properties>
+																	<Property0 Name="WndClass" Cookie="532" />
+																</Properties>
+																<Children>
+																	<Child0 Name="frmRun" Key="{DB575E9E-CD22-4186-89DE-17A36EED6D7A}" ParallelWalk="True">
+																		<Properties>
+																			<Property0 Name="Name" Cookie="533" />
+																		</Properties>
+																		<Children>
+																			<Child0 Name="TntPanel2" Key="{49AC132F-1FDA-49AD-ACA5-E72D6BD2207F}" ParallelWalk="True">
+																				<Properties>
+																					<Property0 Name="Name" Cookie="534" />
+																				</Properties>
+																				<Children>
+																					<Child0 Name="gbxRunOptions" Key="{704A3A3D-F499-4D94-8422-4C59089B80E6}" ParallelWalk="True">
+																						<Properties>
+																							<Property0 Name="Name" Cookie="535" />
+																						</Properties>
+																						<Children>
+																							<Child0 Name="btnRun" Key="{0C71A398-4601-40AD-A0C7-D2CF114B6D44}" ParallelWalk="True">
+																								<Properties>
+																									<Property0 Name="Name" Cookie="536" />
+																								</Properties>
+																								<Children />
+																							</Child0>
+																						</Children>
+																					</Child0>
+																				</Children>
+																			</Child0>
+																		</Children>
+																	</Child0>
+																</Children>
+															</Child1>
 														</Children>
 													</Child1>
 												</Children>
@@ -496,6 +530,42 @@
 												</Properties>
 												<Children />
 											</Child13>
+											<Child14 Name="frmConstraintEditor" Key="{0626AE00-5004-4A53-BD14-75C15723542E}" ParallelWalk="True">
+												<Properties>
+													<Property0 Name="Name" Cookie="522" />
+												</Properties>
+												<Children />
+											</Child14>
+											<Child15 Name="frmViewEditor" Key="{2E4729BC-F47A-48B2-BF3C-99E627A381B6}" ParallelWalk="True">
+												<Properties>
+													<Property0 Name="Name" Cookie="527" />
+												</Properties>
+												<Children />
+											</Child15>
+											<Child16 Name="frmCodeAnalysis" Key="{F65B5DEC-B06C-47C1-80D4-C69B17260FD6}" ParallelWalk="True">
+												<Properties>
+													<Property0 Name="Name" Cookie="528" />
+												</Properties>
+												<Children />
+											</Child16>
+											<Child17 Name="frmIndexEditor" Key="{8BE8E5E5-26E6-4A3A-AB32-F92ED2087A6D}" ParallelWalk="True">
+												<Properties>
+													<Property0 Name="Name" Cookie="530" />
+												</Properties>
+												<Children />
+											</Child17>
+											<Child18 Name="frmClusterEditor" Key="{F29A527D-D840-41C6-A86E-E82121090B69}" ParallelWalk="True">
+												<Properties>
+													<Property0 Name="Name" Cookie="538" />
+												</Properties>
+												<Children />
+											</Child18>
+											<Child19 Name="frmMaterialViewsEditor" Key="{8C8929EA-421A-40D9-84D9-EA0FAD7DC9BA}" ParallelWalk="True">
+												<Properties>
+													<Property0 Name="Name" Cookie="539" />
+												</Properties>
+												<Children />
+											</Child19>
 										</Children>
 									</Child1>
 									<Child2 Name="BottomZone" Key="{A1EC0A1B-4283-49CF-A8B0-D328C4A4B224}" ParallelWalk="True">
@@ -1039,27 +1109,20 @@
 											<Property0 Name="WndClass" Cookie="499" />
 										</Properties>
 										<Children>
-											<Child0 Name="CtrlNotifySink" Key="{D89813B5-B6FD-4674-8518-E68113DA3190}" ParallelWalk="True">
+											<Child0 Name="btnYes" Key="{F97B8096-E48F-495B-9995-B259D1717E03}" ExtendedFind="True" ParallelWalk="True">
 												<Properties>
-													<Property0 Name="WndClass" Cookie="500" />
+													<Property0 Name="WndClass" Cookie="517" />
+													<Property1 Name="WndCaption" Cookie="518" />
 												</Properties>
-												<Children>
-													<Child0 Name="btnNo" Key="{D9D20C08-8E9B-4D7D-8DC8-8EC8369D52AC}" ParallelWalk="True">
-														<Properties>
-															<Property0 Name="WndClass" Cookie="501" />
-															<Property1 Name="WndCaption" Cookie="502" />
-														</Properties>
-														<Children />
-													</Child0>
-													<Child1 Name="btnYes" Key="{F97B8096-E48F-495B-9995-B259D1717E03}" ParallelWalk="True">
-														<Properties>
-															<Property0 Name="WndClass" Cookie="503" />
-															<Property1 Name="WndCaption" Cookie="504" />
-														</Properties>
-														<Children />
-													</Child1>
-												</Children>
+												<Children />
 											</Child0>
+											<Child1 Name="btnNo" Key="{D9D20C08-8E9B-4D7D-8DC8-8EC8369D52AC}" ExtendedFind="True" ParallelWalk="True">
+												<Properties>
+													<Property0 Name="WndClass" Cookie="515" />
+													<Property1 Name="WndCaption" Cookie="516" />
+												</Properties>
+												<Children />
+											</Child1>
 										</Children>
 									</Child0>
 								</Children>
@@ -1070,6 +1133,78 @@
 								</Properties>
 								<Children />
 							</Child21>
+							<Child22 Name="frmTruncateTable" Key="{DD637A5D-0E02-498F-9AFF-B8680FA94676}" ParallelWalk="True">
+								<Properties>
+									<Property0 Name="Name" Cookie="507" />
+								</Properties>
+								<Children />
+							</Child22>
+							<Child23 Name="frmGrantObject" Key="{D39EFDAC-B8B8-44F9-BE0F-10CF14BB08C0}" ParallelWalk="True">
+								<Properties>
+									<Property0 Name="Name" Cookie="508" />
+								</Properties>
+								<Children />
+							</Child23>
+							<Child24 Name="frmGrantOrRevokeRole" Key="{B0DDFE90-1062-42F4-AAB6-6D4940E9DD33}" ParallelWalk="True">
+								<Properties>
+									<Property0 Name="Name" Cookie="509" />
+								</Properties>
+								<Children />
+							</Child24>
+							<Child25 Name="frmObjProperty" Key="{8D1CC080-E6BE-4972-A492-D5DCBE413F89}" ParallelWalk="True">
+								<Properties>
+									<Property0 Name="Name" Cookie="510" />
+								</Properties>
+								<Children />
+							</Child25>
+							<Child26 Name="frmRekey" Key="{DE853D68-C97E-4F01-A7C5-F80C56A132E7}" ParallelWalk="True">
+								<Properties>
+									<Property0 Name="Name" Cookie="513" />
+								</Properties>
+								<Children />
+							</Child26>
+							<Child27 Name="frmNewConstraint" Key="{CBD5E89E-5C2A-4F3E-BAD2-66B91601D3E2}" ParallelWalk="True">
+								<Properties>
+									<Property0 Name="Name" Cookie="521" />
+								</Properties>
+								<Children />
+							</Child27>
+							<Child28 Name="dlgConfirmDrop" Key="{20308ED9-3646-4BD6-AD62-ECAA76BFFBD8}" ParallelWalk="True">
+								<Properties>
+									<Property0 Name="Name" Cookie="523" />
+								</Properties>
+								<Children />
+							</Child28>
+							<Child29 Name="frmNewObject" Key="{FA507A35-5EBC-42A7-9A66-95B542696D10}" ParallelWalk="True">
+								<Properties>
+									<Property0 Name="Name" Cookie="524" />
+								</Properties>
+								<Children />
+							</Child29>
+							<Child30 Name="frmNewIndex" Key="{FE913B33-F175-4942-B5AD-8BEFC81E47AC}" ParallelWalk="True">
+								<Properties>
+									<Property0 Name="Name" Cookie="529" />
+								</Properties>
+								<Children />
+							</Child30>
+							<Child31 Name="frmNewTrigger" Key="{A62032CD-7D70-49CF-9EC3-328B1BCC2A9C}" ParallelWalk="True">
+								<Properties>
+									<Property0 Name="Name" Cookie="531" />
+								</Properties>
+								<Children />
+							</Child31>
+							<Child32 Name="frmCodeRoleGrant" Key="{774DDC3B-C920-4F98-BBBB-8DB45BAD058D}" ParallelWalk="True">
+								<Properties>
+									<Property0 Name="Name" Cookie="537" />
+								</Properties>
+								<Children />
+							</Child32>
+							<Child33 Name="frmRevokeObject" Key="{D4A10846-0FA8-41BE-A46A-606C9E674EDD}" ParallelWalk="True">
+								<Properties>
+									<Property0 Name="Name" Cookie="540" />
+								</Properties>
+								<Children />
+							</Child33>
 						</Children>
 					</Child1>
 				</Children>
@@ -1110,6 +1245,9 @@
 							<Child1 Name="TAdvPane" Owner="{FFAB44B8-0F36-4474-89AC-8F156658C087}">
 								<Child0 Name="SqlEditor" Owner="{034A3672-3B52-47EA-80E0-38D47FA04C1F}" />
 							</Child1>
+							<Child2 Name="frmRun" Owner="{DB575E9E-CD22-4186-89DE-17A36EED6D7A}">
+								<Child0 Name="btnRun" Owner="{0C71A398-4601-40AD-A0C7-D2CF114B6D44}" />
+							</Child2>
 						</Child1>
 					</Child0>
 					<Child1 Name="frmHtmlEditor" Owner="{10623CFD-7E65-4C27-8F40-ED0BBFCD83C7}">
@@ -1159,6 +1297,12 @@
 					<Child11 Name="frmExportData" Owner="{1C423356-77F7-4AA4-BC34-6D4757A54110}" />
 					<Child12 Name="frmSqlModeler" Owner="{0C8D0057-7786-4764-8AF9-B42F238C4938}" />
 					<Child13 Name="frmAnalyze" Owner="{28B48A54-87FE-4845-8A99-CA603CE77B44}" />
+					<Child14 Name="frmConstraintEditor" Owner="{0626AE00-5004-4A53-BD14-75C15723542E}" />
+					<Child15 Name="frmViewEditor" Owner="{2E4729BC-F47A-48B2-BF3C-99E627A381B6}" />
+					<Child16 Name="frmCodeAnalysis" Owner="{F65B5DEC-B06C-47C1-80D4-C69B17260FD6}" />
+					<Child17 Name="frmIndexEditor" Owner="{8BE8E5E5-26E6-4A3A-AB32-F92ED2087A6D}" />
+					<Child18 Name="frmClusterEditor" Owner="{F29A527D-D840-41C6-A86E-E82121090B69}" />
+					<Child19 Name="frmMaterialViewsEditor" Owner="{8C8929EA-421A-40D9-84D9-EA0FAD7DC9BA}" />
 				</Child1>
 				<Child2 Name="BottomZone" Owner="{A1EC0A1B-4283-49CF-A8B0-D328C4A4B224}">
 					<Child0 Name="pnlOutput" Owner="{58D280BF-1F5E-45A7-A698-615040001048}">
@@ -1264,6 +1408,18 @@
 				<Child1 Name="btnYes" Owner="{F97B8096-E48F-495B-9995-B259D1717E03}" />
 			</Child20>
 			<Child21 Name="dlgERDiagram" Owner="{8CED560D-0708-47C8-9949-E4F7A911E806}" />
+			<Child22 Name="frmTruncateTable" Owner="{DD637A5D-0E02-498F-9AFF-B8680FA94676}" />
+			<Child23 Name="frmGrantObject" Owner="{D39EFDAC-B8B8-44F9-BE0F-10CF14BB08C0}" />
+			<Child24 Name="frmGrantOrRevokeRole" Owner="{B0DDFE90-1062-42F4-AAB6-6D4940E9DD33}" />
+			<Child25 Name="frmObjProperty" Owner="{8D1CC080-E6BE-4972-A492-D5DCBE413F89}" />
+			<Child26 Name="frmRekey" Owner="{DE853D68-C97E-4F01-A7C5-F80C56A132E7}" />
+			<Child27 Name="frmNewConstraint" Owner="{CBD5E89E-5C2A-4F3E-BAD2-66B91601D3E2}" />
+			<Child28 Name="dlgConfirmDrop" Owner="{20308ED9-3646-4BD6-AD62-ECAA76BFFBD8}" />
+			<Child29 Name="frmNewObject" Owner="{FA507A35-5EBC-42A7-9A66-95B542696D10}" />
+			<Child30 Name="frmNewIndex" Owner="{FE913B33-F175-4942-B5AD-8BEFC81E47AC}" />
+			<Child31 Name="frmNewTrigger" Owner="{A62032CD-7D70-49CF-9EC3-328B1BCC2A9C}" />
+			<Child32 Name="frmCodeRoleGrant" Owner="{774DDC3B-C920-4F98-BBBB-8DB45BAD058D}" />
+			<Child33 Name="frmRevokeObject" Owner="{D4A10846-0FA8-41BE-A46A-606C9E674EDD}" />
 		</Child1>
 	</LogicalNodes>
 	<Storages Current="0">
@@ -1618,13 +1774,38 @@
 			<Property347 Cookie="497" PropertyType="0" Value="#32770" Type="5" />
 			<Property348 Cookie="498" PropertyType="0" Value="Confirm" Type="5" />
 			<Property349 Cookie="499" PropertyType="0" Value="DirectUIHWND" Type="5" />
-			<Property350 Cookie="500" PropertyType="0" Value="CtrlNotifySink" Type="5" />
-			<Property351 Cookie="501" PropertyType="0" Value="Button" Type="5" />
-			<Property352 Cookie="502" PropertyType="0" Value="&amp;No" Type="5" />
-			<Property353 Cookie="503" PropertyType="0" Value="Button" Type="5" />
-			<Property354 Cookie="504" PropertyType="0" Value="&amp;Yes" Type="5" />
-			<Property355 Cookie="505" PropertyType="0" Value="VCLObject(&quot;frmAnalyze&quot;)" Type="5" />
-			<Property356 Cookie="506" PropertyType="0" Value="VCLObject(&quot;FormERDParams&quot;)" Type="5" />
+			<Property350 Cookie="505" PropertyType="0" Value="VCLObject(&quot;frmAnalyze&quot;)" Type="5" />
+			<Property351 Cookie="506" PropertyType="0" Value="VCLObject(&quot;FormERDParams&quot;)" Type="5" />
+			<Property352 Cookie="507" PropertyType="0" Value="VCLObject(&quot;frmTruncateTable&quot;)" Type="5" />
+			<Property353 Cookie="508" PropertyType="0" Value="VCLObject(&quot;frmGrant&quot;)" Type="5" />
+			<Property354 Cookie="509" PropertyType="0" Value="VCLObject(&quot;frmRevokeRole&quot;)" Type="5" />
+			<Property355 Cookie="510" PropertyType="0" Value="VCLObject(&quot;frmObjProp&quot;)" Type="5" />
+			<Property356 Cookie="511" PropertyType="0" Value="TfrmRekey" Type="5" />
+			<Property357 Cookie="512" PropertyType="0" Value="frmRekey" Type="5" />
+			<Property358 Cookie="513" PropertyType="0" Value="VCLObject(&quot;frmRekey&quot;)" Type="5" />
+			<Property359 Cookie="514" PropertyType="0" Value="CtrlNotifySink" Type="5" />
+			<Property360 Cookie="515" PropertyType="0" Value="Button" Type="5" />
+			<Property361 Cookie="516" PropertyType="0" Value="&amp;No" Type="5" />
+			<Property362 Cookie="517" PropertyType="0" Value="Button" Type="5" />
+			<Property363 Cookie="518" PropertyType="0" Value="&amp;Yes" Type="5" />
+			<Property364 Cookie="521" PropertyType="0" Value="VCLObject(&quot;frmNewConstraint&quot;)" Type="5" />
+			<Property365 Cookie="522" PropertyType="0" Value="VCLObject(&quot;frmConstraintEditor&quot;)" Type="5" />
+			<Property366 Cookie="523" PropertyType="0" Value="VCLObject(&quot;frmConfirm&quot;)" Type="5" />
+			<Property367 Cookie="524" PropertyType="0" Value="VCLObject(&quot;frmNewSchemaVOE&quot;)" Type="5" />
+			<Property368 Cookie="527" PropertyType="0" Value="VCLObject(&quot;frmViewEditor&quot;)" Type="5" />
+			<Property369 Cookie="528" PropertyType="0" Value="VCLObject(&quot;CXMainForm&quot;)" Type="5" />
+			<Property370 Cookie="529" PropertyType="0" Value="VCLObject(&quot;frmNewIndex&quot;)" Type="5" />
+			<Property371 Cookie="530" PropertyType="0" Value="VCLObject(&quot;frmIndexEditor&quot;)" Type="5" />
+			<Property372 Cookie="531" PropertyType="0" Value="VCLObject(&quot;frmNewSchemaOwnerVOE&quot;)" Type="5" />
+			<Property373 Cookie="532" PropertyType="0" Value="TPanel" Type="5" />
+			<Property374 Cookie="533" PropertyType="0" Value="VCLObject(&quot;frmRun&quot;)" Type="5" />
+			<Property375 Cookie="534" PropertyType="0" Value="VCLObject(&quot;TntPanel2&quot;)" Type="5" />
+			<Property376 Cookie="535" PropertyType="0" Value="VCLObject(&quot;gbxRunOptions&quot;)" Type="5" />
+			<Property377 Cookie="536" PropertyType="0" Value="VCLObject(&quot;btnRun&quot;)" Type="5" />
+			<Property378 Cookie="537" PropertyType="0" Value="VCLObject(&quot;frmCodeRoleGrant&quot;)" Type="5" />
+			<Property379 Cookie="538" PropertyType="0" Value="VCLObject(&quot;frmClusterEditor&quot;)" Type="5" />
+			<Property380 Cookie="539" PropertyType="0" Value="VCLObject(&quot;frmSnapshotEditor&quot;)" Type="5" />
+			<Property381 Cookie="540" PropertyType="0" Value="VCLObject(&quot;frmRevoke&quot;)" Type="5" />
 		</Child0>
 		<Child1 Name="Version_Win8">
 			<Property0 Cookie="0" PropertyType="0" Value="Sys" Type="5" />
@@ -1977,13 +2158,38 @@
 			<Property347 Cookie="497" PropertyType="0" Value="#32770" Type="5" />
 			<Property348 Cookie="498" PropertyType="0" Value="Confirm" Type="5" />
 			<Property349 Cookie="499" PropertyType="0" Value="DirectUIHWND" Type="5" />
-			<Property350 Cookie="500" PropertyType="0" Value="CtrlNotifySink" Type="5" />
-			<Property351 Cookie="501" PropertyType="0" Value="Button" Type="5" />
-			<Property352 Cookie="502" PropertyType="0" Value="&amp;No" Type="5" />
-			<Property353 Cookie="503" PropertyType="0" Value="Button" Type="5" />
-			<Property354 Cookie="504" PropertyType="0" Value="&amp;Yes" Type="5" />
-			<Property355 Cookie="505" PropertyType="0" Value="VCLObject(&quot;frmAnalyze&quot;)" Type="5" />
-			<Property356 Cookie="506" PropertyType="0" Value="VCLObject(&quot;FormERDParams&quot;)" Type="5" />
+			<Property350 Cookie="505" PropertyType="0" Value="VCLObject(&quot;frmAnalyze&quot;)" Type="5" />
+			<Property351 Cookie="506" PropertyType="0" Value="VCLObject(&quot;FormERDParams&quot;)" Type="5" />
+			<Property352 Cookie="507" PropertyType="0" Value="VCLObject(&quot;frmTruncateTable&quot;)" Type="5" />
+			<Property353 Cookie="508" PropertyType="0" Value="VCLObject(&quot;frmGrant&quot;)" Type="5" />
+			<Property354 Cookie="509" PropertyType="0" Value="VCLObject(&quot;frmRevokeRole&quot;)" Type="5" />
+			<Property355 Cookie="510" PropertyType="0" Value="VCLObject(&quot;frmObjProp&quot;)" Type="5" />
+			<Property356 Cookie="511" PropertyType="0" Value="TfrmRekey" Type="5" />
+			<Property357 Cookie="512" PropertyType="0" Value="frmRekey" Type="5" />
+			<Property358 Cookie="513" PropertyType="0" Value="VCLObject(&quot;frmRekey&quot;)" Type="5" />
+			<Property359 Cookie="514" PropertyType="0" Value="CtrlNotifySink" Type="5" />
+			<Property360 Cookie="515" PropertyType="0" Value="Button" Type="5" />
+			<Property361 Cookie="516" PropertyType="0" Value="&amp;No" Type="5" />
+			<Property362 Cookie="517" PropertyType="0" Value="Button" Type="5" />
+			<Property363 Cookie="518" PropertyType="0" Value="&amp;Yes" Type="5" />
+			<Property364 Cookie="521" PropertyType="0" Value="VCLObject(&quot;frmNewConstraint&quot;)" Type="5" />
+			<Property365 Cookie="522" PropertyType="0" Value="VCLObject(&quot;frmConstraintEditor&quot;)" Type="5" />
+			<Property366 Cookie="523" PropertyType="0" Value="VCLObject(&quot;frmConfirm&quot;)" Type="5" />
+			<Property367 Cookie="524" PropertyType="0" Value="VCLObject(&quot;frmNewSchemaVOE&quot;)" Type="5" />
+			<Property368 Cookie="527" PropertyType="0" Value="VCLObject(&quot;frmViewEditor&quot;)" Type="5" />
+			<Property369 Cookie="528" PropertyType="0" Value="VCLObject(&quot;CXMainForm&quot;)" Type="5" />
+			<Property370 Cookie="529" PropertyType="0" Value="VCLObject(&quot;frmNewIndex&quot;)" Type="5" />
+			<Property371 Cookie="530" PropertyType="0" Value="VCLObject(&quot;frmIndexEditor&quot;)" Type="5" />
+			<Property372 Cookie="531" PropertyType="0" Value="VCLObject(&quot;frmNewSchemaOwnerVOE&quot;)" Type="5" />
+			<Property373 Cookie="532" PropertyType="0" Value="TPanel" Type="5" />
+			<Property374 Cookie="533" PropertyType="0" Value="VCLObject(&quot;frmRun&quot;)" Type="5" />
+			<Property375 Cookie="534" PropertyType="0" Value="VCLObject(&quot;TntPanel2&quot;)" Type="5" />
+			<Property376 Cookie="535" PropertyType="0" Value="VCLObject(&quot;gbxRunOptions&quot;)" Type="5" />
+			<Property377 Cookie="536" PropertyType="0" Value="VCLObject(&quot;btnRun&quot;)" Type="5" />
+			<Property378 Cookie="537" PropertyType="0" Value="VCLObject(&quot;frmCodeRoleGrant&quot;)" Type="5" />
+			<Property379 Cookie="538" PropertyType="0" Value="VCLObject(&quot;frmClusterEditor&quot;)" Type="5" />
+			<Property380 Cookie="539" PropertyType="0" Value="VCLObject(&quot;frmSnapshotEditor&quot;)" Type="5" />
+			<Property381 Cookie="540" PropertyType="0" Value="VCLObject(&quot;frmRevoke&quot;)" Type="5" />
 		</Child1>
 	</Storages>
 	<TypeInfo StoreCodeCompletion="0">
