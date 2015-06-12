@@ -22,48 +22,7 @@
 		<Node name="folders">
 			<Node name="folders"/>
 		</Node>
-		<Node name="logs">
-			<Node name="log0">
-				<Prp name="caption" type="S" value=""/>
-				<Prp name="datetime" type="D" value="42167.6460297338"/>
-				<Prp name="description" type="S" value="Script Test Log [Menu_View\checkNodePopupMenu]"/>
-				<Prp name="index" type="I" value="0"/>
-				<Prp name="key" type="S" value="{1D99BBAA-F17D-4B50-8CBA-72B20EA9C1FE}"/>
-				<Prp name="nameofroot" type="S" value="Script Test Log [Menu_View\checkNodePopupMenu]"/>
-				<Prp name="relpath" type="S" value="6_12_2015_3_30 PM_16_969\Description.tcLog"/>
-				<Prp name="status" type="I" value="2"/>
-			</Node>
-			<Node name="log1">
-				<Prp name="caption" type="S" value=""/>
-				<Prp name="datetime" type="D" value="42167.6470547222"/>
-				<Prp name="description" type="S" value=""/>
-				<Prp name="index" type="I" value="1"/>
-				<Prp name="key" type="S" value="{457241D5-3451-46F5-A7AF-2C51D02226B2}"/>
-				<Prp name="nameofroot" type="S" value="Script Test Log [Menu_View\checkNodePopupMenu]"/>
-				<Prp name="relpath" type="S" value="6_12_2015_3_31 PM_45_528\Description.tcLog"/>
-				<Prp name="status" type="I" value="2"/>
-			</Node>
-			<Node name="log2">
-				<Prp name="caption" type="S" value=""/>
-				<Prp name="datetime" type="D" value="42167.648254838"/>
-				<Prp name="description" type="S" value=""/>
-				<Prp name="index" type="I" value="2"/>
-				<Prp name="key" type="S" value="{73AE8D70-77AE-4022-BC3A-E94DB514F958}"/>
-				<Prp name="nameofroot" type="S" value="Script Test Log [Menu_View\checkNodePopupMenu]"/>
-				<Prp name="relpath" type="S" value="6_12_2015_3_33 PM_29_218\Description.tcLog"/>
-				<Prp name="status" type="I" value="2"/>
-			</Node>
-			<Node name="log3">
-				<Prp name="caption" type="S" value=""/>
-				<Prp name="datetime" type="D" value="42167.6490311111"/>
-				<Prp name="description" type="S" value=""/>
-				<Prp name="index" type="I" value="3"/>
-				<Prp name="key" type="S" value="{6E23E911-A087-4795-894E-295111DEA2CF}"/>
-				<Prp name="nameofroot" type="S" value="Script Test Log [Menu_View\checkNodePopupMenu]"/>
-				<Prp name="relpath" type="S" value="6_12_2015_3_34 PM_36_288\Description.tcLog"/>
-				<Prp name="status" type="I" value="2"/>
-			</Node>
-		</Node>
+		<Node name="logs"/>
 		<Prp name="signature" type="S" value="{681DCC69-A39F-4C4D-8E7D-B2D9362FAF4F}"/>
 		<Prp name="version" type="S" value="7.0"/>
 	</Node>
