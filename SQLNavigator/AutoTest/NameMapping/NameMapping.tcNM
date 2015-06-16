@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<Root Signature="{5DCBAC3B-D39C-497C-9BE8-744CBADD37AA}" NameMappingVersion="4" Cookie="541">
+<Root Signature="{5DCBAC3B-D39C-497C-9BE8-744CBADD37AA}" NameMappingVersion="4" Cookie="562">
 	<Nodes Name="NameMapping" Key="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}" ParallelWalk="True">
 		<Properties />
 		<Children>
@@ -566,6 +566,72 @@
 												</Properties>
 												<Children />
 											</Child19>
+											<Child20 Name="frmSynonymEditor" Key="{97F20379-9AE8-473D-BB04-DE26F48ACE27}" ParallelWalk="True">
+												<Properties>
+													<Property0 Name="Name" Cookie="541" />
+												</Properties>
+												<Children />
+											</Child20>
+											<Child21 Name="frmDBLinkEditor" Key="{2DCEE5A6-8E0B-44D5-BE85-B0A3DFA48519}" ParallelWalk="True">
+												<Properties>
+													<Property0 Name="Name" Cookie="542" />
+												</Properties>
+												<Children />
+											</Child21>
+											<Child22 Name="frmUserEditor" Key="{A9EE43DC-948C-42FD-B4F2-4CA5BB780045}" ParallelWalk="True">
+												<Properties>
+													<Property0 Name="Name" Cookie="543" />
+												</Properties>
+												<Children />
+											</Child22>
+											<Child23 Name="frmProfileEditor" Key="{7995A3E9-DFC0-437D-9815-149E01FBF9A6}" ParallelWalk="True">
+												<Properties>
+													<Property0 Name="Name" Cookie="544" />
+												</Properties>
+												<Children />
+											</Child23>
+											<Child24 Name="frmTablespaceEditor" Key="{375E7DA6-4AB3-4B5E-872D-3C8D8BFFFE4A}" ParallelWalk="True">
+												<Properties>
+													<Property0 Name="Name" Cookie="545" />
+												</Properties>
+												<Children />
+											</Child24>
+											<Child25 Name="frmRedoLogEditor" Key="{BDB806F3-42FE-49DD-8E12-34BCFD29D73A}" ParallelWalk="True">
+												<Properties>
+													<Property0 Name="Name" Cookie="546" />
+												</Properties>
+												<Children />
+											</Child25>
+											<Child26 Name="frmInstance" Key="{7FA52508-63BA-4F9C-90F7-EA97CAC65778}" ParallelWalk="True">
+												<Properties>
+													<Property0 Name="Name" Cookie="547" />
+												</Properties>
+												<Children />
+											</Child26>
+											<Child27 Name="frmNestedTableEditor" Key="{4B49D792-834D-41D7-85A0-7F4315275528}" ParallelWalk="True">
+												<Properties>
+													<Property0 Name="Name" Cookie="549" />
+												</Properties>
+												<Children />
+											</Child27>
+											<Child28 Name="frmSequenceEditor" Key="{AC4018E8-C997-4548-A0E2-3D6ADFDED369}" ParallelWalk="True">
+												<Properties>
+													<Property0 Name="Name" Cookie="550" />
+												</Properties>
+												<Children />
+											</Child28>
+											<Child29 Name="frmVarrayEditor" Key="{BFFD882C-642E-4C00-89EA-6F59F55A6E95}" ParallelWalk="True">
+												<Properties>
+													<Property0 Name="Name" Cookie="551" />
+												</Properties>
+												<Children />
+											</Child29>
+											<Child30 Name="frmJavaEditor" Key="{E62FFB1D-5A55-44F7-907D-F1C933313E05}" ParallelWalk="True">
+												<Properties>
+													<Property0 Name="Name" Cookie="552" />
+												</Properties>
+												<Children />
+											</Child30>
 										</Children>
 									</Child1>
 									<Child2 Name="BottomZone" Key="{A1EC0A1B-4283-49CF-A8B0-D328C4A4B224}" ParallelWalk="True">
@@ -645,6 +711,12 @@
 															</Child0>
 														</Children>
 													</Child0>
+													<Child1 Name="dpCodeTemplates" Key="{4AE00A01-6BD6-4EB3-94A7-B28CF8D654E7}" ParallelWalk="True">
+														<Properties>
+															<Property0 Name="Name" Cookie="553" />
+														</Properties>
+														<Children />
+													</Child1>
 												</Children>
 											</Child0>
 										</Children>
@@ -1205,6 +1277,40 @@
 								</Properties>
 								<Children />
 							</Child33>
+							<Child34 Name="frmFlashBackRename" Key="{CCD63BAA-2423-4D90-91B9-30AE5FDB7B4B}" ParallelWalk="True">
+								<Properties>
+									<Property0 Name="Name" Cookie="548" />
+								</Properties>
+								<Children />
+							</Child34>
+							<Child35 Name="frmTaskManager" Key="{B6F8852C-2DEA-470E-AA8C-394C35A47D2D}" ParallelWalk="True">
+								<Properties>
+									<Property0 Name="WndClass" Cookie="554" />
+									<Property1 Name="WndCaption" Cookie="555" />
+								</Properties>
+								<Children />
+							</Child35>
+							<Child36 Name="frmCodeAssistant" Key="{90D50EA9-8B5E-4504-B81B-06C8C36B42D3}" ParallelWalk="True">
+								<Properties>
+									<Property0 Name="WndClass" Cookie="556" />
+									<Property1 Name="WndCaption" Cookie="557" />
+								</Properties>
+								<Children />
+							</Child36>
+							<Child37 Name="frmDescribe" Key="{EC66FFAC-0993-462E-8D0C-26637D415023}" ParallelWalk="True">
+								<Properties>
+									<Property0 Name="WndClass" Cookie="558" />
+									<Property1 Name="WndCaption" Cookie="559" />
+								</Properties>
+								<Children />
+							</Child37>
+							<Child38 Name="frmSourcePreview" Key="{E53332FB-FB3A-4050-AA9E-B2E63B98F800}" ParallelWalk="True">
+								<Properties>
+									<Property0 Name="WndClass" Cookie="560" />
+									<Property1 Name="WndCaption" Cookie="561" />
+								</Properties>
+								<Children />
+							</Child38>
 						</Children>
 					</Child1>
 				</Children>
@@ -1303,6 +1409,17 @@
 					<Child17 Name="frmIndexEditor" Owner="{8BE8E5E5-26E6-4A3A-AB32-F92ED2087A6D}" />
 					<Child18 Name="frmClusterEditor" Owner="{F29A527D-D840-41C6-A86E-E82121090B69}" />
 					<Child19 Name="frmMaterialViewsEditor" Owner="{8C8929EA-421A-40D9-84D9-EA0FAD7DC9BA}" />
+					<Child20 Name="frmSynonymEditor" Owner="{97F20379-9AE8-473D-BB04-DE26F48ACE27}" />
+					<Child21 Name="frmDBLinkEditor" Owner="{2DCEE5A6-8E0B-44D5-BE85-B0A3DFA48519}" />
+					<Child22 Name="frmUserEditor" Owner="{A9EE43DC-948C-42FD-B4F2-4CA5BB780045}" />
+					<Child23 Name="frmProfileEditor" Owner="{7995A3E9-DFC0-437D-9815-149E01FBF9A6}" />
+					<Child24 Name="frmTablespaceEditor" Owner="{375E7DA6-4AB3-4B5E-872D-3C8D8BFFFE4A}" />
+					<Child25 Name="frmRedoLogEditor" Owner="{BDB806F3-42FE-49DD-8E12-34BCFD29D73A}" />
+					<Child26 Name="frmInstance" Owner="{7FA52508-63BA-4F9C-90F7-EA97CAC65778}" />
+					<Child27 Name="frmNestedTableEditor" Owner="{4B49D792-834D-41D7-85A0-7F4315275528}" />
+					<Child28 Name="frmSequenceEditor" Owner="{AC4018E8-C997-4548-A0E2-3D6ADFDED369}" />
+					<Child29 Name="frmVarrayEditor" Owner="{BFFD882C-642E-4C00-89EA-6F59F55A6E95}" />
+					<Child30 Name="frmJavaEditor" Owner="{E62FFB1D-5A55-44F7-907D-F1C933313E05}" />
 				</Child1>
 				<Child2 Name="BottomZone" Owner="{A1EC0A1B-4283-49CF-A8B0-D328C4A4B224}">
 					<Child0 Name="pnlOutput" Owner="{58D280BF-1F5E-45A7-A698-615040001048}">
@@ -1319,6 +1436,7 @@
 							<Child0 Name="ToolBtnViewTree" Owner="{13783957-C69F-4F20-9993-0C274112B003}" />
 							<Child1 Name="treePM" Owner="{B66A87C6-99B9-4E2F-9F55-B39B5ABF1A81}" />
 						</Child0>
+						<Child1 Name="dpCodeTemplates" Owner="{4AE00A01-6BD6-4EB3-94A7-B28CF8D654E7}" />
 					</Child0>
 				</Child3>
 				<Child4 Name="TaskBarZone" Owner="{61DF2143-D588-467C-9B5C-F299FE66176B}">
@@ -1420,6 +1538,11 @@
 			<Child31 Name="frmNewTrigger" Owner="{A62032CD-7D70-49CF-9EC3-328B1BCC2A9C}" />
 			<Child32 Name="frmCodeRoleGrant" Owner="{774DDC3B-C920-4F98-BBBB-8DB45BAD058D}" />
 			<Child33 Name="frmRevokeObject" Owner="{D4A10846-0FA8-41BE-A46A-606C9E674EDD}" />
+			<Child34 Name="frmFlashBackRename" Owner="{CCD63BAA-2423-4D90-91B9-30AE5FDB7B4B}" />
+			<Child35 Name="frmTaskManager" Owner="{B6F8852C-2DEA-470E-AA8C-394C35A47D2D}" />
+			<Child36 Name="frmCodeAssistant" Owner="{90D50EA9-8B5E-4504-B81B-06C8C36B42D3}" />
+			<Child37 Name="frmDescribe" Owner="{EC66FFAC-0993-462E-8D0C-26637D415023}" />
+			<Child38 Name="frmSourcePreview" Owner="{E53332FB-FB3A-4050-AA9E-B2E63B98F800}" />
 		</Child1>
 	</LogicalNodes>
 	<Storages Current="0">
@@ -1806,6 +1929,27 @@
 			<Property379 Cookie="538" PropertyType="0" Value="VCLObject(&quot;frmClusterEditor&quot;)" Type="5" />
 			<Property380 Cookie="539" PropertyType="0" Value="VCLObject(&quot;frmSnapshotEditor&quot;)" Type="5" />
 			<Property381 Cookie="540" PropertyType="0" Value="VCLObject(&quot;frmRevoke&quot;)" Type="5" />
+			<Property382 Cookie="541" PropertyType="0" Value="VCLObject(&quot;frmSynonymEditor&quot;)" Type="5" />
+			<Property383 Cookie="542" PropertyType="0" Value="VCLObject(&quot;frmDBLinkEditor&quot;)" Type="5" />
+			<Property384 Cookie="543" PropertyType="0" Value="VCLObject(&quot;frmUserEditor&quot;)" Type="5" />
+			<Property385 Cookie="544" PropertyType="0" Value="VCLObject(&quot;frmProfileEditor&quot;)" Type="5" />
+			<Property386 Cookie="545" PropertyType="0" Value="VCLObject(&quot;frmTablespace&quot;)" Type="5" />
+			<Property387 Cookie="546" PropertyType="0" Value="VCLObject(&quot;frmRedoLog&quot;)" Type="5" />
+			<Property388 Cookie="547" PropertyType="0" Value="VCLObject(&quot;frmConfigParameter&quot;)" Type="5" />
+			<Property389 Cookie="548" PropertyType="0" Value="VCLObject(&quot;frmFlashBackRename&quot;)" Type="5" />
+			<Property390 Cookie="549" PropertyType="0" Value="VCLObject(&quot;frmNestedTable&quot;)" Type="5" />
+			<Property391 Cookie="550" PropertyType="0" Value="VCLObject(&quot;frmSequenceEditor&quot;)" Type="5" />
+			<Property392 Cookie="551" PropertyType="0" Value="VCLObject(&quot;frmVarray&quot;)" Type="5" />
+			<Property393 Cookie="552" PropertyType="0" Value="VCLObject(&quot;frmJavaEditor&quot;)" Type="5" />
+			<Property394 Cookie="553" PropertyType="0" Value="VCLObject(&quot;dpCodeTemplates&quot;)" Type="5" />
+			<Property395 Cookie="554" PropertyType="0" Value="TdxFloatForm" Type="5" />
+			<Property396 Cookie="555" PropertyType="0" Value="Task Manager" Type="5" />
+			<Property397 Cookie="556" PropertyType="0" Value="TdxFloatForm" Type="5" />
+			<Property398 Cookie="557" PropertyType="0" Value="Code Assistant" Type="5" />
+			<Property399 Cookie="558" PropertyType="0" Value="TdxFloatForm" Type="5" />
+			<Property400 Cookie="559" PropertyType="0" Value="Describe" Type="5" />
+			<Property401 Cookie="560" PropertyType="0" Value="TdxFloatForm" Type="5" />
+			<Property402 Cookie="561" PropertyType="0" Value="Source Preview" Type="5" />
 		</Child0>
 		<Child1 Name="Version_Win8">
 			<Property0 Cookie="0" PropertyType="0" Value="Sys" Type="5" />
@@ -2190,6 +2334,27 @@
 			<Property379 Cookie="538" PropertyType="0" Value="VCLObject(&quot;frmClusterEditor&quot;)" Type="5" />
 			<Property380 Cookie="539" PropertyType="0" Value="VCLObject(&quot;frmSnapshotEditor&quot;)" Type="5" />
 			<Property381 Cookie="540" PropertyType="0" Value="VCLObject(&quot;frmRevoke&quot;)" Type="5" />
+			<Property382 Cookie="541" PropertyType="0" Value="VCLObject(&quot;frmSynonymEditor&quot;)" Type="5" />
+			<Property383 Cookie="542" PropertyType="0" Value="VCLObject(&quot;frmDBLinkEditor&quot;)" Type="5" />
+			<Property384 Cookie="543" PropertyType="0" Value="VCLObject(&quot;frmUserEditor&quot;)" Type="5" />
+			<Property385 Cookie="544" PropertyType="0" Value="VCLObject(&quot;frmProfileEditor&quot;)" Type="5" />
+			<Property386 Cookie="545" PropertyType="0" Value="VCLObject(&quot;frmTablespace&quot;)" Type="5" />
+			<Property387 Cookie="546" PropertyType="0" Value="VCLObject(&quot;frmRedoLog&quot;)" Type="5" />
+			<Property388 Cookie="547" PropertyType="0" Value="VCLObject(&quot;frmConfigParameter&quot;)" Type="5" />
+			<Property389 Cookie="548" PropertyType="0" Value="VCLObject(&quot;frmFlashBackRename&quot;)" Type="5" />
+			<Property390 Cookie="549" PropertyType="0" Value="VCLObject(&quot;frmNestedTable&quot;)" Type="5" />
+			<Property391 Cookie="550" PropertyType="0" Value="VCLObject(&quot;frmSequenceEditor&quot;)" Type="5" />
+			<Property392 Cookie="551" PropertyType="0" Value="VCLObject(&quot;frmVarray&quot;)" Type="5" />
+			<Property393 Cookie="552" PropertyType="0" Value="VCLObject(&quot;frmJavaEditor&quot;)" Type="5" />
+			<Property394 Cookie="553" PropertyType="0" Value="VCLObject(&quot;dpCodeTemplates&quot;)" Type="5" />
+			<Property395 Cookie="554" PropertyType="0" Value="TdxFloatForm" Type="5" />
+			<Property396 Cookie="555" PropertyType="0" Value="Task Manager" Type="5" />
+			<Property397 Cookie="556" PropertyType="0" Value="TdxFloatForm" Type="5" />
+			<Property398 Cookie="557" PropertyType="0" Value="Code Assistant" Type="5" />
+			<Property399 Cookie="558" PropertyType="0" Value="TdxFloatForm" Type="5" />
+			<Property400 Cookie="559" PropertyType="0" Value="Describe" Type="5" />
+			<Property401 Cookie="560" PropertyType="0" Value="TdxFloatForm" Type="5" />
+			<Property402 Cookie="561" PropertyType="0" Value="Source Preview" Type="5" />
 		</Child1>
 	</Storages>
 	<TypeInfo StoreCodeCompletion="0">
