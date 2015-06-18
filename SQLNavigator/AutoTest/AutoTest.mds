@@ -103,8 +103,14 @@
 			<Node name="script\menu_file.sj">
 				<Prp name="relpath" type="S" value="Script\Menu_File.sj"/>
 			</Node>
+			<Node name="script\menu_object.sj">
+				<Prp name="relpath" type="S" value="Script\Menu_Object.sj"/>
+			</Node>
 			<Node name="script\menu_search.sj">
 				<Prp name="relpath" type="S" value="Script\Menu_Search.sj"/>
+			</Node>
+			<Node name="script\menu_session.sj">
+				<Prp name="relpath" type="S" value="Script\Menu_Session.sj"/>
 			</Node>
 			<Node name="script\menu_view.sj">
 				<Prp name="relpath" type="S" value="Script\Menu_View.sj"/>

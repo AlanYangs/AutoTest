@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<Root Signature="{5DCBAC3B-D39C-497C-9BE8-744CBADD37AA}" NameMappingVersion="4" Cookie="562">
+<Root Signature="{5DCBAC3B-D39C-497C-9BE8-744CBADD37AA}" NameMappingVersion="4" Cookie="582">
 	<Nodes Name="NameMapping" Key="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}" ParallelWalk="True">
 		<Properties />
 		<Children>
@@ -632,6 +632,12 @@
 												</Properties>
 												<Children />
 											</Child30>
+											<Child31 Name="frmWebOptions" Key="{689DEAC2-AF6C-4B66-9880-510B3D0917C8}" ParallelWalk="True">
+												<Properties>
+													<Property0 Name="Name" Cookie="566" />
+												</Properties>
+												<Children />
+											</Child31>
 										</Children>
 									</Child1>
 									<Child2 Name="BottomZone" Key="{A1EC0A1B-4283-49CF-A8B0-D328C4A4B224}" ParallelWalk="True">
@@ -667,6 +673,19 @@
 																			</Child0>
 																		</Children>
 																	</Child0>
+																	<Child1 Name="tabCurrent" Key="{4E6598D5-8678-4549-8076-6155871F04FA}" ParallelWalk="True">
+																		<Properties>
+																			<Property0 Name="Name" Cookie="564" />
+																		</Properties>
+																		<Children>
+																			<Child0 Name="t_currentOutput" Key="{20C002C4-8939-4F31-BAE9-0B74ACBEB292}" ParallelWalk="True">
+																				<Properties>
+																					<Property0 Name="Name" Cookie="565" />
+																				</Properties>
+																				<Children />
+																			</Child0>
+																		</Children>
+																	</Child1>
 																</Children>
 															</Child0>
 														</Children>
@@ -978,7 +997,7 @@
 										<Children>
 											<Child0 Name="btnOK" Key="{23E74A65-ADFC-4379-AE98-4B6CDF228931}" ParallelWalk="True">
 												<Properties>
-													<Property0 Name="Name" Cookie="299" />
+													<Property0 Name="Name" Cookie="562" />
 												</Properties>
 												<Children />
 											</Child0>
@@ -1311,6 +1330,97 @@
 								</Properties>
 								<Children />
 							</Child38>
+							<Child39 Name="frmChangePwd" Key="{24A5E297-AA50-41D8-A715-DDD3694297B7}" ParallelWalk="True">
+								<Properties>
+									<Property0 Name="Name" Cookie="567" />
+								</Properties>
+								<Children />
+							</Child39>
+							<Child40 Name="frmNewDBObject" Key="{CF53276C-59B4-471A-AB0E-5FB3B0D83CB7}" ParallelWalk="True">
+								<Properties>
+									<Property0 Name="Name" Cookie="568" />
+								</Properties>
+								<Children>
+									<Child0 Name="PageControl" Key="{438F1C39-913C-438A-B97E-B03D27B156F9}" ParallelWalk="True">
+										<Properties>
+											<Property0 Name="Name" Cookie="569" />
+										</Properties>
+										<Children>
+											<Child0 Name="tsSchemaObjects" Key="{11B75D86-6E15-44BD-9A64-55E7ADA4E3F7}" ParallelWalk="True">
+												<Properties>
+													<Property0 Name="Name" Cookie="570" />
+												</Properties>
+												<Children>
+													<Child0 Name="listObjects" Key="{22F5CAF1-3D76-46B7-A6B5-0A7D5EAA4B48}" ParallelWalk="True">
+														<Properties>
+															<Property0 Name="Name" Cookie="571" />
+														</Properties>
+														<Children />
+													</Child0>
+												</Children>
+											</Child0>
+										</Children>
+									</Child0>
+									<Child1 Name="Panel1" Key="{17EB8C1C-F13B-427F-9D2F-51A0FF9BA11B}" ParallelWalk="True">
+										<Properties>
+											<Property0 Name="Name" Cookie="572" />
+										</Properties>
+										<Children>
+											<Child0 Name="btnOK" Key="{91F0681D-97B2-4DF6-99A9-6EBBC2B851A0}" ParallelWalk="True">
+												<Properties>
+													<Property0 Name="Name" Cookie="573" />
+												</Properties>
+												<Children />
+											</Child0>
+										</Children>
+									</Child1>
+								</Children>
+							</Child40>
+							<Child41 Name="frmOpenDBObject" Key="{1B5791BA-1EA0-4215-B381-CD97A766CCCC}" ParallelWalk="True">
+								<Properties>
+									<Property0 Name="Name" Cookie="574" />
+								</Properties>
+								<Children>
+									<Child0 Name="pnlTop" Key="{189115FC-7D03-4C1B-B14D-F1D72C3B65D8}" ParallelWalk="True">
+										<Properties>
+											<Property0 Name="Name" Cookie="575" />
+										</Properties>
+										<Children>
+											<Child0 Name="cmbSchema" Key="{0F763839-2CB1-411B-8930-5BDDE213FB01}" ParallelWalk="True">
+												<Properties>
+													<Property0 Name="Name" Cookie="576" />
+												</Properties>
+												<Children />
+											</Child0>
+										</Children>
+									</Child0>
+									<Child1 Name="pnlBottom" Key="{DC5A4959-86F3-456F-B469-B7CCF650062B}" ParallelWalk="True">
+										<Properties>
+											<Property0 Name="Name" Cookie="577" />
+										</Properties>
+										<Children>
+											<Child0 Name="cmbObjectType" Key="{0AFCFB71-F339-42C5-BE1C-EF6211C83CEC}" ParallelWalk="True">
+												<Properties>
+													<Property0 Name="Name" Cookie="578" />
+												</Properties>
+												<Children />
+											</Child0>
+											<Child1 Name="btnOpen" Key="{722274E0-9EC5-458E-BFD4-53E2EC30B77F}" ParallelWalk="True">
+												<Properties>
+													<Property0 Name="Name" Cookie="579" />
+												</Properties>
+												<Children />
+											</Child1>
+										</Children>
+									</Child1>
+									<Child2 Name="lvObjects" Key="{5DF909E1-5332-4FCE-956B-0A0CA3692B93}" ParallelWalk="True">
+										<Properties>
+											<Property0 Name="Name" Cookie="580" />
+										</Properties>
+										<Children />
+									</Child2>
+								</Children>
+							</Child41>
 						</Children>
 					</Child1>
 				</Children>
@@ -1420,6 +1530,7 @@
 					<Child28 Name="frmSequenceEditor" Owner="{AC4018E8-C997-4548-A0E2-3D6ADFDED369}" />
 					<Child29 Name="frmVarrayEditor" Owner="{BFFD882C-642E-4C00-89EA-6F59F55A6E95}" />
 					<Child30 Name="frmJavaEditor" Owner="{E62FFB1D-5A55-44F7-907D-F1C933313E05}" />
+					<Child31 Name="frmWebOptions" Owner="{689DEAC2-AF6C-4B66-9880-510B3D0917C8}" />
 				</Child1>
 				<Child2 Name="BottomZone" Owner="{A1EC0A1B-4283-49CF-A8B0-D328C4A4B224}">
 					<Child0 Name="pnlOutput" Owner="{58D280BF-1F5E-45A7-A698-615040001048}">
@@ -1427,6 +1538,9 @@
 							<Child0 Name="tabGeneral" Owner="{085160CA-15AE-43E4-863E-1DAACEE61AF9}">
 								<Child0 Name="t_Output" Owner="{3284FCE0-CDD4-4D42-9D65-61A7F61EC584}" />
 							</Child0>
+							<Child1 Name="tabCurrent" Owner="{4E6598D5-8678-4549-8076-6155871F04FA}">
+								<Child0 Name="t_currentOutput" Owner="{20C002C4-8939-4F31-BAE9-0B74ACBEB292}" />
+							</Child1>
 						</Child0>
 					</Child0>
 				</Child2>
@@ -1543,6 +1657,21 @@
 			<Child36 Name="frmCodeAssistant" Owner="{90D50EA9-8B5E-4504-B81B-06C8C36B42D3}" />
 			<Child37 Name="frmDescribe" Owner="{EC66FFAC-0993-462E-8D0C-26637D415023}" />
 			<Child38 Name="frmSourcePreview" Owner="{E53332FB-FB3A-4050-AA9E-B2E63B98F800}" />
+			<Child39 Name="frmChangePwd" Owner="{24A5E297-AA50-41D8-A715-DDD3694297B7}" />
+			<Child40 Name="frmNewDBObject" Owner="{CF53276C-59B4-471A-AB0E-5FB3B0D83CB7}">
+				<Child0 Name="PageControl" Owner="{438F1C39-913C-438A-B97E-B03D27B156F9}">
+					<Child0 Name="tsSchemaObjects" Owner="{11B75D86-6E15-44BD-9A64-55E7ADA4E3F7}">
+						<Child0 Name="listObjects" Owner="{22F5CAF1-3D76-46B7-A6B5-0A7D5EAA4B48}" />
+					</Child0>
+				</Child0>
+				<Child1 Name="btnOK" Owner="{91F0681D-97B2-4DF6-99A9-6EBBC2B851A0}" />
+			</Child40>
+			<Child41 Name="frmOpenDBObject" Owner="{1B5791BA-1EA0-4215-B381-CD97A766CCCC}">
+				<Child0 Name="cmbSchema" Owner="{0F763839-2CB1-411B-8930-5BDDE213FB01}" />
+				<Child1 Name="cmbObjectType" Owner="{0AFCFB71-F339-42C5-BE1C-EF6211C83CEC}" />
+				<Child2 Name="btnOpen" Owner="{722274E0-9EC5-458E-BFD4-53E2EC30B77F}" />
+				<Child3 Name="lvObjects" Owner="{5DF909E1-5332-4FCE-956B-0A0CA3692B93}" />
+			</Child41>
 		</Child1>
 	</LogicalNodes>
 	<Storages Current="0">
@@ -1706,250 +1835,269 @@
 			<Property156 Cookie="296" PropertyType="0" Value="VCLObject(&quot;frmSaveOnExitConf&quot;)" Type="5" />
 			<Property157 Cookie="297" PropertyType="0" Value="VCLObject(&quot;Panel1&quot;)" Type="5" />
 			<Property158 Cookie="298" PropertyType="0" Value="VCLObject(&quot;btnUnselectAll&quot;)" Type="5" />
-			<Property159 Cookie="299" PropertyType="0" Value="VCLObject(&quot;btnOKCodeEditor&quot;)" Type="5" />
-			<Property160 Cookie="301" PropertyType="0" Value="VCLObject(&quot;SyntPreviewForm&quot;)" Type="5" />
-			<Property161 Cookie="302" PropertyType="0" Value="VCLObject(&quot;dosBottom&quot;)" Type="5" />
-			<Property162 Cookie="303" PropertyType="0" Value="VCLObject(&quot;dpOutput&quot;)" Type="5" />
-			<Property163 Cookie="304" PropertyType="0" Value="VCLObject(&quot;framOutput1&quot;)" Type="5" />
-			<Property164 Cookie="305" PropertyType="0" Value="VCLObject(&quot;pcOutput&quot;)" Type="5" />
-			<Property165 Cookie="306" PropertyType="0" Value="VCLObject(&quot;tabGeneral&quot;)" Type="5" />
-			<Property166 Cookie="307" PropertyType="0" Value="VCLObject(&quot;vstOutput&quot;)" Type="5" />
-			<Property167 Cookie="308" PropertyType="0" Value="VCLObject(&quot;frmLogOn&quot;)" Type="5" />
-			<Property168 Cookie="309" PropertyType="0" Value="VCLObject(&quot;btnOK&quot;)" Type="5" />
-			<Property169 Cookie="310" PropertyType="0" Value="VCLObject(&quot;grpConnection&quot;)" Type="5" />
-			<Property170 Cookie="311" PropertyType="0" Value="VCLObject(&quot;pnlPages&quot;)" Type="5" />
-			<Property171 Cookie="312" PropertyType="0" Value="VCLObject(&quot;pgTypes&quot;)" Type="5" />
-			<Property172 Cookie="313" PropertyType="0" Value="VCLObject(&quot;tabsDirect&quot;)" Type="5" />
-			<Property173 Cookie="314" PropertyType="0" Value="VCLObject(&quot;edtHost&quot;)" Type="5" />
-			<Property174 Cookie="315" PropertyType="0" Value="VCLObject(&quot;edtPort&quot;)" Type="5" />
-			<Property175 Cookie="316" PropertyType="0" Value="VCLObject(&quot;edtServiceName&quot;)" Type="5" />
-			<Property176 Cookie="317" PropertyType="0" Value="VCLObject(&quot;tabsLDAP&quot;)" Type="5" />
-			<Property177 Cookie="318" PropertyType="0" Value="VCLObject(&quot;cmbLDAPAlias&quot;)" Type="5" />
-			<Property178 Cookie="319" PropertyType="0" Value="VCLObject(&quot;cmbLDAPServer&quot;)" Type="5" />
-			<Property179 Cookie="320" PropertyType="0" Value="VCLObject(&quot;tabsTNS&quot;)" Type="5" />
-			<Property180 Cookie="321" PropertyType="0" Value="VCLObject(&quot;cmbAliasList&quot;)" Type="5" />
-			<Property181 Cookie="322" PropertyType="0" Value="VCLObject(&quot;pnlUser&quot;)" Type="5" />
-			<Property182 Cookie="323" PropertyType="0" Value="VCLObject(&quot;edtPassword&quot;)" Type="5" />
-			<Property183 Cookie="324" PropertyType="0" Value="VCLObject(&quot;edtUserName&quot;)" Type="5" />
-			<Property184 Cookie="325" PropertyType="0" Value="VCLObject(&quot;dxBarCustomizationForm&quot;)" Type="5" />
-			<Property185 Cookie="326" PropertyType="0" Value="VCLObject(&quot;PageControl&quot;)" Type="5" />
-			<Property186 Cookie="327" PropertyType="0" Value="VCLObject(&quot;tsToolbars&quot;)" Type="5" />
-			<Property187 Cookie="328" PropertyType="0" Value="VCLObject(&quot;lbBarsList&quot;)" Type="5" />
-			<Property188 Cookie="329" PropertyType="0" Value="Page" Type="5" />
-			<Property189 Cookie="330" PropertyType="0" Value="*/AutoFiles/HtmlFile/a.htm" Type="5" />
-			<Property190 Cookie="331" PropertyType="0" Value="Link" Type="5" />
-			<Property191 Cookie="332" PropertyType="0" Value="go to b" Type="5" />
-			<Property192 Cookie="333" PropertyType="0" Value="TAdvPane" Type="5" />
-			<Property193 Cookie="334" PropertyType="0" Value="VCLObject(&quot;frmBrowseDataVT&quot;)" Type="5" />
-			<Property194 Cookie="335" PropertyType="0" Value="TVirtualStringTree" Type="5" />
-			<Property195 Cookie="336" PropertyType="0" Value="vstDataGrid" Type="5" />
-			<Property196 Cookie="337" PropertyType="0" Value="TAdvPane" Type="5" />
-			<Property197 Cookie="341" PropertyType="0" Value="TSyntaxMemo" Type="5" />
-			<Property198 Cookie="342" PropertyType="0" Value="VCLObject(&quot;frmGoToLine&quot;)" Type="5" />
-			<Property199 Cookie="343" PropertyType="0" Value="VCLObject(&quot;btnGo&quot;)" Type="5" />
-			<Property200 Cookie="344" PropertyType="0" Value="VCLObject(&quot;frmBookmarkList&quot;)" Type="5" />
-			<Property201 Cookie="345" PropertyType="0" Value="VCLObject(&quot;TreeList&quot;)" Type="5" />
-			<Property202 Cookie="346" PropertyType="0" Value="VCLObject(&quot;Panel1&quot;)" Type="5" />
-			<Property203 Cookie="347" PropertyType="0" Value="VCLObject(&quot;Button4&quot;)" Type="5" />
-			<Property204 Cookie="348" PropertyType="0" Value="VCLObject(&quot;Button1&quot;)" Type="5" />
-			<Property205 Cookie="350" PropertyType="0" Value="VCLObject(&quot;frmDescribe&quot;)" Type="5" />
-			<Property206 Cookie="351" PropertyType="0" Value="VCLObject(&quot;frmQSFindAndReplaceDlg&quot;)" Type="5" />
-			<Property207 Cookie="352" PropertyType="0" Value="VCLObject(&quot;PageControl&quot;)" Type="5" />
-			<Property208 Cookie="353" PropertyType="0" Value="VCLObject(&quot;FindTabSheet&quot;)" Type="5" />
-			<Property209 Cookie="354" PropertyType="0" Value="VCLObject(&quot;FindNextButton&quot;)" Type="5" />
-			<Property210 Cookie="355" PropertyType="0" Value="VCLObject(&quot;FindTextComboBox&quot;)" Type="5" />
-			<Property211 Cookie="356" PropertyType="0" Value="VCLObject(&quot;ReplaceTabSheet&quot;)" Type="5" />
-			<Property212 Cookie="358" PropertyType="0" Value="VCLObject(&quot;FindTabSheet&quot;)" Type="5" />
-			<Property213 Cookie="359" PropertyType="0" Value="VCLObject(&quot;FindTextComboBox&quot;)" Type="5" />
-			<Property214 Cookie="360" PropertyType="0" Value="VCLObject(&quot;FindNextButton&quot;)" Type="5" />
-			<Property215 Cookie="361" PropertyType="0" Value="VCLObject(&quot;FindReplaceTextComboBox&quot;)" Type="5" />
-			<Property216 Cookie="362" PropertyType="0" Value="VCLObject(&quot;ReplaceTextComboBox&quot;)" Type="5" />
-			<Property217 Cookie="363" PropertyType="0" Value="VCLObject(&quot;FindNextButton&quot;)" Type="5" />
-			<Property218 Cookie="364" PropertyType="0" Value="VCLObject(&quot;ReplaceButton&quot;)" Type="5" />
-			<Property219 Cookie="365" PropertyType="0" Value="VCLObject(&quot;frmDialogOkB&quot;)" Type="5" />
-			<Property220 Cookie="366" PropertyType="0" Value="VCLObject(&quot;pnlActions&quot;)" Type="5" />
-			<Property221 Cookie="367" PropertyType="0" Value="VCLObject(&quot;btnOK&quot;)" Type="5" />
-			<Property222 Cookie="369" PropertyType="0" Value="VCLObject(&quot;Panel1&quot;)" Type="5" />
-			<Property223 Cookie="370" PropertyType="0" Value="VCLObject(&quot;pgSearch&quot;)" Type="5" />
-			<Property224 Cookie="371" PropertyType="0" Value="VCLObject(&quot;tsSearch&quot;)" Type="5" />
-			<Property225 Cookie="374" PropertyType="0" Value="VCLObject(&quot;tsSearch&quot;)" Type="5" />
-			<Property226 Cookie="375" PropertyType="0" Value="VCLObject(&quot;cmbSearchStr&quot;)" Type="5" />
-			<Property227 Cookie="376" PropertyType="0" Value="VCLObject(&quot;tsAdvanced&quot;)" Type="5" />
-			<Property228 Cookie="377" PropertyType="0" Value="VCLObject(&quot;grpScope&quot;)" Type="5" />
-			<Property229 Cookie="378" PropertyType="0" Value="VCLObject(&quot;edtSchemaName&quot;)" Type="5" />
-			<Property230 Cookie="379" PropertyType="0" Value="VCLObject(&quot;frmCodeSearch&quot;)" Type="5" />
-			<Property231 Cookie="380" PropertyType="0" Value="VCLObject(&quot;edtProgramName&quot;)" Type="5" />
-			<Property232 Cookie="381" PropertyType="0" Value="VCLObject(&quot;Panel2&quot;)" Type="5" />
-			<Property233 Cookie="382" PropertyType="0" Value="VCLObject(&quot;btnSearch&quot;)" Type="5" />
-			<Property234 Cookie="383" PropertyType="0" Value="VCLObject(&quot;lstResults&quot;)" Type="5" />
-			<Property235 Cookie="384" PropertyType="0" Value="VCLObject(&quot;frmFindObj&quot;)" Type="5" />
-			<Property236 Cookie="385" PropertyType="0" Value="VCLObject(&quot;pnlTop&quot;)" Type="5" />
-			<Property237 Cookie="386" PropertyType="0" Value="VCLObject(&quot;cmbName&quot;)" Type="5" />
-			<Property238 Cookie="387" PropertyType="0" Value="VCLObject(&quot;btnSearch&quot;)" Type="5" />
-			<Property239 Cookie="388" PropertyType="0" Value="VCLObject(&quot;vstResults&quot;)" Type="5" />
-			<Property240 Cookie="389" PropertyType="0" Value="VCLObject(&quot;frmFindRecycleBinObj&quot;)" Type="5" />
-			<Property241 Cookie="390" PropertyType="0" Value="VCLObject(&quot;Panel1&quot;)" Type="5" />
-			<Property242 Cookie="391" PropertyType="0" Value="VCLObject(&quot;cmbName&quot;)" Type="5" />
-			<Property243 Cookie="392" PropertyType="0" Value="VCLObject(&quot;btnSearch&quot;)" Type="5" />
-			<Property244 Cookie="393" PropertyType="0" Value="VCLObject(&quot;vstResults&quot;)" Type="5" />
-			<Property245 Cookie="394" PropertyType="0" Value="TQSAuthorizeForm" Type="5" />
-			<Property246 Cookie="395" PropertyType="0" Value="SQL Navigator Authorization" Type="5" />
-			<Property247 Cookie="396" PropertyType="0" Value="VCLObject(&quot;frmTbleEditor&quot;)" Type="5" />
-			<Property248 Cookie="397" PropertyType="0" Value="VCLObject(&quot;frmDbNav&quot;)" Type="5" />
-			<Property249 Cookie="398" PropertyType="0" Value="VCLObject(&quot;pnlLeft&quot;)" Type="5" />
-			<Property250 Cookie="399" PropertyType="0" Value="VCLObject(&quot;vstTree&quot;)" Type="5" />
-			<Property251 Cookie="400" PropertyType="0" Value="VCLObject(&quot;Notebook1&quot;)" Type="5" />
-			<Property252 Cookie="401" PropertyType="0" Value="TPage" Type="5" />
-			<Property253 Cookie="402" PropertyType="0" Value="Default" Type="5" />
-			<Property254 Cookie="403" PropertyType="0" Value="VCLObject(&quot;memText&quot;)" Type="5" />
-			<Property255 Cookie="404" PropertyType="0" Value="VCLObject(&quot;FormCRM&quot;)" Type="5" />
-			<Property256 Cookie="405" PropertyType="0" Value="VCLObject(&quot;FormERD&quot;)" Type="5" />
-			<Property257 Cookie="407" PropertyType="0" Value="TdxBarControl" Type="5" />
-			<Property258 Cookie="408" PropertyType="0" Value="Navigator Toolbar" Type="5" />
-			<Property259 Cookie="409" PropertyType="0" Value="VCLObject(&quot;Notebook1&quot;)" Type="5" />
-			<Property260 Cookie="410" PropertyType="0" Value="TdxDockControl" Type="5" />
-			<Property261 Cookie="411" PropertyType="0" Value="3" Type="0" />
-			<Property262 Cookie="412" PropertyType="0" Value="VCLObject(&quot;frmNewVOE&quot;)" Type="5" />
-			<Property263 Cookie="413" PropertyType="0" Value="VCLObject(&quot;frmRoleEditor&quot;)" Type="5" />
-			<Property264 Cookie="414" PropertyType="0" Value="0" Type="0" />
-			<Property265 Cookie="415" PropertyType="0" Value="False" Type="6" />
-			<Property266 Cookie="416" PropertyType="0" Value="False" Type="6" />
-			<Property267 Cookie="417" PropertyType="0" Value="255" Type="0" />
-			<Property268 Cookie="418" PropertyType="0" Value="3" Type="0" />
-			<Property269 Cookie="419" PropertyType="0" Value="False" Type="6" />
-			<Property270 Cookie="420" PropertyType="0" Value="False" Type="6" />
-			<Property271 Cookie="421" PropertyType="0" Value="0" Type="0" />
-			<Property272 Cookie="422" PropertyType="0" Value="1" Type="0" />
-			<Property273 Cookie="423" PropertyType="0" Value="2" Type="0" />
-			<Property274 Cookie="424" PropertyType="0" Value="0" Type="0" />
-			<Property275 Cookie="425" PropertyType="0" Value="Preferences" Type="5" />
-			<Property276 Cookie="426" PropertyType="0" Value="352" Type="0" />
-			<Property277 Cookie="427" PropertyType="0" Value="TfrmPrefs" Type="5" />
-			<Property278 Cookie="428" PropertyType="0" Value="568" Type="0" />
-			<Property279 Cookie="429" PropertyType="0" Value="782" Type="0" />
-			<Property280 Cookie="430" PropertyType="0" Value="-16777201" Type="0" />
-			<Property281 Cookie="431" PropertyType="0" Value="0" Type="0" />
-			<Property282 Cookie="432" PropertyType="0" Value="True" Type="6" />
-			<Property283 Cookie="433" PropertyType="0" Value="0" Type="0" />
-			<Property284 Cookie="434" PropertyType="0" Value="3" Type="0" />
-			<Property285 Cookie="435" PropertyType="0" Value="False" Type="6" />
-			<Property286 Cookie="436" PropertyType="0" Value="False" Type="6" />
-			<Property287 Cookie="437" PropertyType="0" Value="0" Type="0" />
-			<Property288 Cookie="438" PropertyType="0" Value="0" Type="0" />
-			<Property289 Cookie="439" PropertyType="0" Value="True" Type="6" />
-			<Property290 Cookie="440" PropertyType="0" Value="True" Type="6" />
-			<Property291 Cookie="441" PropertyType="0" Value="False" Type="6" />
-			<Property292 Cookie="442" PropertyType="0" Value="0" Type="0" />
-			<Property293 Cookie="443" PropertyType="0" Value="Sys.Process(&quot;sqlnavigator&quot;).VCLObject(&quot;frmPrefs&quot;)" Type="5" />
-			<Property294 Cookie="444" PropertyType="0" Value="2098592" Type="0" />
-			<Property295 Cookie="445" PropertyType="0" Value="606" Type="0" />
-			<Property296 Cookie="446" PropertyType="0" Value="5000" Type="0" />
-			<Property297 Cookie="447" PropertyType="0" Value="" Type="5" />
-			<Property298 Cookie="448" PropertyType="0" Value="" Type="5" />
-			<Property299 Cookie="449" PropertyType="0" Value="1" Type="0" />
-			<Property300 Cookie="450" PropertyType="0" Value="" Type="5" />
-			<Property301 Cookie="451" PropertyType="0" Value="445072832" Type="0" />
-			<Property302 Cookie="452" PropertyType="0" Value="1" Type="0" />
-			<Property303 Cookie="453" PropertyType="0" Value="445072832" Type="0" />
-			<Property304 Cookie="454" PropertyType="0" Value="True" Type="6" />
-			<Property305 Cookie="455" PropertyType="0" Value="441" Type="0" />
-			<Property306 Cookie="456" PropertyType="0" Value="VCLObject(&quot;frmPrefs&quot;)" Type="5" />
-			<Property307 Cookie="457" PropertyType="0" Value="frmPrefs" Type="5" />
-			<Property308 Cookie="458" PropertyType="0" Value="VCLObject" Type="5" />
-			<Property309 Cookie="459" PropertyType="0" Value="False" Type="6" />
-			<Property310 Cookie="460" PropertyType="0" Value="True" Type="6" />
-			<Property311 Cookie="461" PropertyType="0" Value="True" Type="6" />
-			<Property312 Cookie="462" PropertyType="0" Value="False" Type="6" />
-			<Property313 Cookie="463" PropertyType="0" Value="96" Type="0" />
-			<Property314 Cookie="464" PropertyType="0" Value="0" Type="0" />
-			<Property315 Cookie="465" PropertyType="0" Value="1" Type="0" />
-			<Property316 Cookie="466" PropertyType="0" Value="Preferences" Type="5" />
-			<Property317 Cookie="467" PropertyType="0" Value="TfrmPrefs" Type="5" />
-			<Property318 Cookie="468" PropertyType="0" Value="True" Type="6" />
-			<Property319 Cookie="469" PropertyType="0" Value="441" Type="0" />
-			<Property320 Cookie="470" PropertyType="0" Value="False" Type="6" />
-			<Property321 Cookie="471" PropertyType="0" Value="202" Type="0" />
-			<Property322 Cookie="472" PropertyType="0" Value="True" Type="6" />
-			<Property323 Cookie="473" PropertyType="0" Value="10" Type="0" />
-			<Property324 Cookie="474" PropertyType="0" Value="0" Type="2" />
-			<Property325 Cookie="475" PropertyType="0" Value="202" Type="0" />
-			<Property326 Cookie="476" PropertyType="0" Value="False" Type="6" />
-			<Property327 Cookie="477" PropertyType="0" Value="0" Type="0" />
-			<Property328 Cookie="478" PropertyType="0" Value="True" Type="6" />
-			<Property329 Cookie="479" PropertyType="0" Value="False" Type="6" />
-			<Property330 Cookie="480" PropertyType="0" Value="TfrmPrefs" Type="5" />
-			<Property331 Cookie="481" PropertyType="0" Value="True" Type="6" />
-			<Property332 Cookie="482" PropertyType="0" Value="True" Type="6" />
-			<Property333 Cookie="483" PropertyType="0" Value="798" Type="0" />
-			<Property334 Cookie="484" PropertyType="0" Value="0" Type="0" />
-			<Property335 Cookie="485" PropertyType="0" Value="Preferences" Type="5" />
-			<Property336 Cookie="486" PropertyType="0" Value="TfrmPrefs" Type="5" />
-			<Property337 Cookie="487" PropertyType="0" Value="382468096" Type="0" />
-			<Property338 Cookie="488" PropertyType="0" Value="65792" Type="0" />
-			<Property339 Cookie="489" PropertyType="0" Value="Button" Type="5" />
-			<Property340 Cookie="490" PropertyType="0" Value="&amp;No" Type="5" />
-			<Property341 Cookie="491" PropertyType="0" Value="VCLObject(&quot;frmViewDifference&quot;)" Type="5" />
-			<Property342 Cookie="492" PropertyType="0" Value="VCLObject(&quot;frmPrefs&quot;)" Type="5" />
-			<Property343 Cookie="493" PropertyType="0" Value="VCLObject(&quot;frmNewTable&quot;)" Type="5" />
-			<Property344 Cookie="494" PropertyType="0" Value="VCLObject(&quot;frmRenameDbObj&quot;)" Type="5" />
-			<Property345 Cookie="495" PropertyType="0" Value="VCLObject(&quot;frmExportData&quot;)" Type="5" />
-			<Property346 Cookie="496" PropertyType="0" Value="VCLObject(&quot;FDataModeler&quot;)" Type="5" />
-			<Property347 Cookie="497" PropertyType="0" Value="#32770" Type="5" />
-			<Property348 Cookie="498" PropertyType="0" Value="Confirm" Type="5" />
-			<Property349 Cookie="499" PropertyType="0" Value="DirectUIHWND" Type="5" />
-			<Property350 Cookie="505" PropertyType="0" Value="VCLObject(&quot;frmAnalyze&quot;)" Type="5" />
-			<Property351 Cookie="506" PropertyType="0" Value="VCLObject(&quot;FormERDParams&quot;)" Type="5" />
-			<Property352 Cookie="507" PropertyType="0" Value="VCLObject(&quot;frmTruncateTable&quot;)" Type="5" />
-			<Property353 Cookie="508" PropertyType="0" Value="VCLObject(&quot;frmGrant&quot;)" Type="5" />
-			<Property354 Cookie="509" PropertyType="0" Value="VCLObject(&quot;frmRevokeRole&quot;)" Type="5" />
-			<Property355 Cookie="510" PropertyType="0" Value="VCLObject(&quot;frmObjProp&quot;)" Type="5" />
-			<Property356 Cookie="511" PropertyType="0" Value="TfrmRekey" Type="5" />
-			<Property357 Cookie="512" PropertyType="0" Value="frmRekey" Type="5" />
-			<Property358 Cookie="513" PropertyType="0" Value="VCLObject(&quot;frmRekey&quot;)" Type="5" />
-			<Property359 Cookie="514" PropertyType="0" Value="CtrlNotifySink" Type="5" />
-			<Property360 Cookie="515" PropertyType="0" Value="Button" Type="5" />
-			<Property361 Cookie="516" PropertyType="0" Value="&amp;No" Type="5" />
-			<Property362 Cookie="517" PropertyType="0" Value="Button" Type="5" />
-			<Property363 Cookie="518" PropertyType="0" Value="&amp;Yes" Type="5" />
-			<Property364 Cookie="521" PropertyType="0" Value="VCLObject(&quot;frmNewConstraint&quot;)" Type="5" />
-			<Property365 Cookie="522" PropertyType="0" Value="VCLObject(&quot;frmConstraintEditor&quot;)" Type="5" />
-			<Property366 Cookie="523" PropertyType="0" Value="VCLObject(&quot;frmConfirm&quot;)" Type="5" />
-			<Property367 Cookie="524" PropertyType="0" Value="VCLObject(&quot;frmNewSchemaVOE&quot;)" Type="5" />
-			<Property368 Cookie="527" PropertyType="0" Value="VCLObject(&quot;frmViewEditor&quot;)" Type="5" />
-			<Property369 Cookie="528" PropertyType="0" Value="VCLObject(&quot;CXMainForm&quot;)" Type="5" />
-			<Property370 Cookie="529" PropertyType="0" Value="VCLObject(&quot;frmNewIndex&quot;)" Type="5" />
-			<Property371 Cookie="530" PropertyType="0" Value="VCLObject(&quot;frmIndexEditor&quot;)" Type="5" />
-			<Property372 Cookie="531" PropertyType="0" Value="VCLObject(&quot;frmNewSchemaOwnerVOE&quot;)" Type="5" />
-			<Property373 Cookie="532" PropertyType="0" Value="TPanel" Type="5" />
-			<Property374 Cookie="533" PropertyType="0" Value="VCLObject(&quot;frmRun&quot;)" Type="5" />
-			<Property375 Cookie="534" PropertyType="0" Value="VCLObject(&quot;TntPanel2&quot;)" Type="5" />
-			<Property376 Cookie="535" PropertyType="0" Value="VCLObject(&quot;gbxRunOptions&quot;)" Type="5" />
-			<Property377 Cookie="536" PropertyType="0" Value="VCLObject(&quot;btnRun&quot;)" Type="5" />
-			<Property378 Cookie="537" PropertyType="0" Value="VCLObject(&quot;frmCodeRoleGrant&quot;)" Type="5" />
-			<Property379 Cookie="538" PropertyType="0" Value="VCLObject(&quot;frmClusterEditor&quot;)" Type="5" />
-			<Property380 Cookie="539" PropertyType="0" Value="VCLObject(&quot;frmSnapshotEditor&quot;)" Type="5" />
-			<Property381 Cookie="540" PropertyType="0" Value="VCLObject(&quot;frmRevoke&quot;)" Type="5" />
-			<Property382 Cookie="541" PropertyType="0" Value="VCLObject(&quot;frmSynonymEditor&quot;)" Type="5" />
-			<Property383 Cookie="542" PropertyType="0" Value="VCLObject(&quot;frmDBLinkEditor&quot;)" Type="5" />
-			<Property384 Cookie="543" PropertyType="0" Value="VCLObject(&quot;frmUserEditor&quot;)" Type="5" />
-			<Property385 Cookie="544" PropertyType="0" Value="VCLObject(&quot;frmProfileEditor&quot;)" Type="5" />
-			<Property386 Cookie="545" PropertyType="0" Value="VCLObject(&quot;frmTablespace&quot;)" Type="5" />
-			<Property387 Cookie="546" PropertyType="0" Value="VCLObject(&quot;frmRedoLog&quot;)" Type="5" />
-			<Property388 Cookie="547" PropertyType="0" Value="VCLObject(&quot;frmConfigParameter&quot;)" Type="5" />
-			<Property389 Cookie="548" PropertyType="0" Value="VCLObject(&quot;frmFlashBackRename&quot;)" Type="5" />
-			<Property390 Cookie="549" PropertyType="0" Value="VCLObject(&quot;frmNestedTable&quot;)" Type="5" />
-			<Property391 Cookie="550" PropertyType="0" Value="VCLObject(&quot;frmSequenceEditor&quot;)" Type="5" />
-			<Property392 Cookie="551" PropertyType="0" Value="VCLObject(&quot;frmVarray&quot;)" Type="5" />
-			<Property393 Cookie="552" PropertyType="0" Value="VCLObject(&quot;frmJavaEditor&quot;)" Type="5" />
-			<Property394 Cookie="553" PropertyType="0" Value="VCLObject(&quot;dpCodeTemplates&quot;)" Type="5" />
-			<Property395 Cookie="554" PropertyType="0" Value="TdxFloatForm" Type="5" />
-			<Property396 Cookie="555" PropertyType="0" Value="Task Manager" Type="5" />
-			<Property397 Cookie="556" PropertyType="0" Value="TdxFloatForm" Type="5" />
-			<Property398 Cookie="557" PropertyType="0" Value="Code Assistant" Type="5" />
-			<Property399 Cookie="558" PropertyType="0" Value="TdxFloatForm" Type="5" />
-			<Property400 Cookie="559" PropertyType="0" Value="Describe" Type="5" />
-			<Property401 Cookie="560" PropertyType="0" Value="TdxFloatForm" Type="5" />
-			<Property402 Cookie="561" PropertyType="0" Value="Source Preview" Type="5" />
+			<Property159 Cookie="301" PropertyType="0" Value="VCLObject(&quot;SyntPreviewForm&quot;)" Type="5" />
+			<Property160 Cookie="302" PropertyType="0" Value="VCLObject(&quot;dosBottom&quot;)" Type="5" />
+			<Property161 Cookie="303" PropertyType="0" Value="VCLObject(&quot;dpOutput&quot;)" Type="5" />
+			<Property162 Cookie="304" PropertyType="0" Value="VCLObject(&quot;framOutput1&quot;)" Type="5" />
+			<Property163 Cookie="305" PropertyType="0" Value="VCLObject(&quot;pcOutput&quot;)" Type="5" />
+			<Property164 Cookie="306" PropertyType="0" Value="VCLObject(&quot;tabGeneral&quot;)" Type="5" />
+			<Property165 Cookie="307" PropertyType="0" Value="VCLObject(&quot;vstOutput&quot;)" Type="5" />
+			<Property166 Cookie="308" PropertyType="0" Value="VCLObject(&quot;frmLogOn&quot;)" Type="5" />
+			<Property167 Cookie="309" PropertyType="0" Value="VCLObject(&quot;btnOK&quot;)" Type="5" />
+			<Property168 Cookie="310" PropertyType="0" Value="VCLObject(&quot;grpConnection&quot;)" Type="5" />
+			<Property169 Cookie="311" PropertyType="0" Value="VCLObject(&quot;pnlPages&quot;)" Type="5" />
+			<Property170 Cookie="312" PropertyType="0" Value="VCLObject(&quot;pgTypes&quot;)" Type="5" />
+			<Property171 Cookie="313" PropertyType="0" Value="VCLObject(&quot;tabsDirect&quot;)" Type="5" />
+			<Property172 Cookie="314" PropertyType="0" Value="VCLObject(&quot;edtHost&quot;)" Type="5" />
+			<Property173 Cookie="315" PropertyType="0" Value="VCLObject(&quot;edtPort&quot;)" Type="5" />
+			<Property174 Cookie="316" PropertyType="0" Value="VCLObject(&quot;edtServiceName&quot;)" Type="5" />
+			<Property175 Cookie="317" PropertyType="0" Value="VCLObject(&quot;tabsLDAP&quot;)" Type="5" />
+			<Property176 Cookie="318" PropertyType="0" Value="VCLObject(&quot;cmbLDAPAlias&quot;)" Type="5" />
+			<Property177 Cookie="319" PropertyType="0" Value="VCLObject(&quot;cmbLDAPServer&quot;)" Type="5" />
+			<Property178 Cookie="320" PropertyType="0" Value="VCLObject(&quot;tabsTNS&quot;)" Type="5" />
+			<Property179 Cookie="321" PropertyType="0" Value="VCLObject(&quot;cmbAliasList&quot;)" Type="5" />
+			<Property180 Cookie="322" PropertyType="0" Value="VCLObject(&quot;pnlUser&quot;)" Type="5" />
+			<Property181 Cookie="323" PropertyType="0" Value="VCLObject(&quot;edtPassword&quot;)" Type="5" />
+			<Property182 Cookie="324" PropertyType="0" Value="VCLObject(&quot;edtUserName&quot;)" Type="5" />
+			<Property183 Cookie="325" PropertyType="0" Value="VCLObject(&quot;dxBarCustomizationForm&quot;)" Type="5" />
+			<Property184 Cookie="326" PropertyType="0" Value="VCLObject(&quot;PageControl&quot;)" Type="5" />
+			<Property185 Cookie="327" PropertyType="0" Value="VCLObject(&quot;tsToolbars&quot;)" Type="5" />
+			<Property186 Cookie="328" PropertyType="0" Value="VCLObject(&quot;lbBarsList&quot;)" Type="5" />
+			<Property187 Cookie="329" PropertyType="0" Value="Page" Type="5" />
+			<Property188 Cookie="330" PropertyType="0" Value="*/AutoFiles/HtmlFile/a.htm" Type="5" />
+			<Property189 Cookie="331" PropertyType="0" Value="Link" Type="5" />
+			<Property190 Cookie="332" PropertyType="0" Value="go to b" Type="5" />
+			<Property191 Cookie="333" PropertyType="0" Value="TAdvPane" Type="5" />
+			<Property192 Cookie="334" PropertyType="0" Value="VCLObject(&quot;frmBrowseDataVT&quot;)" Type="5" />
+			<Property193 Cookie="335" PropertyType="0" Value="TVirtualStringTree" Type="5" />
+			<Property194 Cookie="336" PropertyType="0" Value="vstDataGrid" Type="5" />
+			<Property195 Cookie="337" PropertyType="0" Value="TAdvPane" Type="5" />
+			<Property196 Cookie="341" PropertyType="0" Value="TSyntaxMemo" Type="5" />
+			<Property197 Cookie="342" PropertyType="0" Value="VCLObject(&quot;frmGoToLine&quot;)" Type="5" />
+			<Property198 Cookie="343" PropertyType="0" Value="VCLObject(&quot;btnGo&quot;)" Type="5" />
+			<Property199 Cookie="344" PropertyType="0" Value="VCLObject(&quot;frmBookmarkList&quot;)" Type="5" />
+			<Property200 Cookie="345" PropertyType="0" Value="VCLObject(&quot;TreeList&quot;)" Type="5" />
+			<Property201 Cookie="346" PropertyType="0" Value="VCLObject(&quot;Panel1&quot;)" Type="5" />
+			<Property202 Cookie="347" PropertyType="0" Value="VCLObject(&quot;Button4&quot;)" Type="5" />
+			<Property203 Cookie="348" PropertyType="0" Value="VCLObject(&quot;Button1&quot;)" Type="5" />
+			<Property204 Cookie="350" PropertyType="0" Value="VCLObject(&quot;frmDescribe&quot;)" Type="5" />
+			<Property205 Cookie="351" PropertyType="0" Value="VCLObject(&quot;frmQSFindAndReplaceDlg&quot;)" Type="5" />
+			<Property206 Cookie="352" PropertyType="0" Value="VCLObject(&quot;PageControl&quot;)" Type="5" />
+			<Property207 Cookie="353" PropertyType="0" Value="VCLObject(&quot;FindTabSheet&quot;)" Type="5" />
+			<Property208 Cookie="354" PropertyType="0" Value="VCLObject(&quot;FindNextButton&quot;)" Type="5" />
+			<Property209 Cookie="355" PropertyType="0" Value="VCLObject(&quot;FindTextComboBox&quot;)" Type="5" />
+			<Property210 Cookie="356" PropertyType="0" Value="VCLObject(&quot;ReplaceTabSheet&quot;)" Type="5" />
+			<Property211 Cookie="358" PropertyType="0" Value="VCLObject(&quot;FindTabSheet&quot;)" Type="5" />
+			<Property212 Cookie="359" PropertyType="0" Value="VCLObject(&quot;FindTextComboBox&quot;)" Type="5" />
+			<Property213 Cookie="360" PropertyType="0" Value="VCLObject(&quot;FindNextButton&quot;)" Type="5" />
+			<Property214 Cookie="361" PropertyType="0" Value="VCLObject(&quot;FindReplaceTextComboBox&quot;)" Type="5" />
+			<Property215 Cookie="362" PropertyType="0" Value="VCLObject(&quot;ReplaceTextComboBox&quot;)" Type="5" />
+			<Property216 Cookie="363" PropertyType="0" Value="VCLObject(&quot;FindNextButton&quot;)" Type="5" />
+			<Property217 Cookie="364" PropertyType="0" Value="VCLObject(&quot;ReplaceButton&quot;)" Type="5" />
+			<Property218 Cookie="365" PropertyType="0" Value="VCLObject(&quot;frmDialogOkB&quot;)" Type="5" />
+			<Property219 Cookie="366" PropertyType="0" Value="VCLObject(&quot;pnlActions&quot;)" Type="5" />
+			<Property220 Cookie="367" PropertyType="0" Value="VCLObject(&quot;btnOK&quot;)" Type="5" />
+			<Property221 Cookie="369" PropertyType="0" Value="VCLObject(&quot;Panel1&quot;)" Type="5" />
+			<Property222 Cookie="370" PropertyType="0" Value="VCLObject(&quot;pgSearch&quot;)" Type="5" />
+			<Property223 Cookie="371" PropertyType="0" Value="VCLObject(&quot;tsSearch&quot;)" Type="5" />
+			<Property224 Cookie="374" PropertyType="0" Value="VCLObject(&quot;tsSearch&quot;)" Type="5" />
+			<Property225 Cookie="375" PropertyType="0" Value="VCLObject(&quot;cmbSearchStr&quot;)" Type="5" />
+			<Property226 Cookie="376" PropertyType="0" Value="VCLObject(&quot;tsAdvanced&quot;)" Type="5" />
+			<Property227 Cookie="377" PropertyType="0" Value="VCLObject(&quot;grpScope&quot;)" Type="5" />
+			<Property228 Cookie="378" PropertyType="0" Value="VCLObject(&quot;edtSchemaName&quot;)" Type="5" />
+			<Property229 Cookie="379" PropertyType="0" Value="VCLObject(&quot;frmCodeSearch&quot;)" Type="5" />
+			<Property230 Cookie="380" PropertyType="0" Value="VCLObject(&quot;edtProgramName&quot;)" Type="5" />
+			<Property231 Cookie="381" PropertyType="0" Value="VCLObject(&quot;Panel2&quot;)" Type="5" />
+			<Property232 Cookie="382" PropertyType="0" Value="VCLObject(&quot;btnSearch&quot;)" Type="5" />
+			<Property233 Cookie="383" PropertyType="0" Value="VCLObject(&quot;lstResults&quot;)" Type="5" />
+			<Property234 Cookie="384" PropertyType="0" Value="VCLObject(&quot;frmFindObj&quot;)" Type="5" />
+			<Property235 Cookie="385" PropertyType="0" Value="VCLObject(&quot;pnlTop&quot;)" Type="5" />
+			<Property236 Cookie="386" PropertyType="0" Value="VCLObject(&quot;cmbName&quot;)" Type="5" />
+			<Property237 Cookie="387" PropertyType="0" Value="VCLObject(&quot;btnSearch&quot;)" Type="5" />
+			<Property238 Cookie="388" PropertyType="0" Value="VCLObject(&quot;vstResults&quot;)" Type="5" />
+			<Property239 Cookie="389" PropertyType="0" Value="VCLObject(&quot;frmFindRecycleBinObj&quot;)" Type="5" />
+			<Property240 Cookie="390" PropertyType="0" Value="VCLObject(&quot;Panel1&quot;)" Type="5" />
+			<Property241 Cookie="391" PropertyType="0" Value="VCLObject(&quot;cmbName&quot;)" Type="5" />
+			<Property242 Cookie="392" PropertyType="0" Value="VCLObject(&quot;btnSearch&quot;)" Type="5" />
+			<Property243 Cookie="393" PropertyType="0" Value="VCLObject(&quot;vstResults&quot;)" Type="5" />
+			<Property244 Cookie="394" PropertyType="0" Value="TQSAuthorizeForm" Type="5" />
+			<Property245 Cookie="395" PropertyType="0" Value="SQL Navigator Authorization" Type="5" />
+			<Property246 Cookie="396" PropertyType="0" Value="VCLObject(&quot;frmTbleEditor&quot;)" Type="5" />
+			<Property247 Cookie="397" PropertyType="0" Value="VCLObject(&quot;frmDbNav&quot;)" Type="5" />
+			<Property248 Cookie="398" PropertyType="0" Value="VCLObject(&quot;pnlLeft&quot;)" Type="5" />
+			<Property249 Cookie="399" PropertyType="0" Value="VCLObject(&quot;vstTree&quot;)" Type="5" />
+			<Property250 Cookie="400" PropertyType="0" Value="VCLObject(&quot;Notebook1&quot;)" Type="5" />
+			<Property251 Cookie="401" PropertyType="0" Value="TPage" Type="5" />
+			<Property252 Cookie="402" PropertyType="0" Value="Default" Type="5" />
+			<Property253 Cookie="403" PropertyType="0" Value="VCLObject(&quot;memText&quot;)" Type="5" />
+			<Property254 Cookie="404" PropertyType="0" Value="VCLObject(&quot;FormCRM&quot;)" Type="5" />
+			<Property255 Cookie="405" PropertyType="0" Value="VCLObject(&quot;FormERD&quot;)" Type="5" />
+			<Property256 Cookie="407" PropertyType="0" Value="TdxBarControl" Type="5" />
+			<Property257 Cookie="408" PropertyType="0" Value="Navigator Toolbar" Type="5" />
+			<Property258 Cookie="409" PropertyType="0" Value="VCLObject(&quot;Notebook1&quot;)" Type="5" />
+			<Property259 Cookie="410" PropertyType="0" Value="TdxDockControl" Type="5" />
+			<Property260 Cookie="411" PropertyType="0" Value="3" Type="0" />
+			<Property261 Cookie="412" PropertyType="0" Value="VCLObject(&quot;frmNewVOE&quot;)" Type="5" />
+			<Property262 Cookie="413" PropertyType="0" Value="VCLObject(&quot;frmRoleEditor&quot;)" Type="5" />
+			<Property263 Cookie="414" PropertyType="0" Value="0" Type="0" />
+			<Property264 Cookie="415" PropertyType="0" Value="False" Type="6" />
+			<Property265 Cookie="416" PropertyType="0" Value="False" Type="6" />
+			<Property266 Cookie="417" PropertyType="0" Value="255" Type="0" />
+			<Property267 Cookie="418" PropertyType="0" Value="3" Type="0" />
+			<Property268 Cookie="419" PropertyType="0" Value="False" Type="6" />
+			<Property269 Cookie="420" PropertyType="0" Value="False" Type="6" />
+			<Property270 Cookie="421" PropertyType="0" Value="0" Type="0" />
+			<Property271 Cookie="422" PropertyType="0" Value="1" Type="0" />
+			<Property272 Cookie="423" PropertyType="0" Value="2" Type="0" />
+			<Property273 Cookie="424" PropertyType="0" Value="0" Type="0" />
+			<Property274 Cookie="425" PropertyType="0" Value="Preferences" Type="5" />
+			<Property275 Cookie="426" PropertyType="0" Value="352" Type="0" />
+			<Property276 Cookie="427" PropertyType="0" Value="TfrmPrefs" Type="5" />
+			<Property277 Cookie="428" PropertyType="0" Value="568" Type="0" />
+			<Property278 Cookie="429" PropertyType="0" Value="782" Type="0" />
+			<Property279 Cookie="430" PropertyType="0" Value="-16777201" Type="0" />
+			<Property280 Cookie="431" PropertyType="0" Value="0" Type="0" />
+			<Property281 Cookie="432" PropertyType="0" Value="True" Type="6" />
+			<Property282 Cookie="433" PropertyType="0" Value="0" Type="0" />
+			<Property283 Cookie="434" PropertyType="0" Value="3" Type="0" />
+			<Property284 Cookie="435" PropertyType="0" Value="False" Type="6" />
+			<Property285 Cookie="436" PropertyType="0" Value="False" Type="6" />
+			<Property286 Cookie="437" PropertyType="0" Value="0" Type="0" />
+			<Property287 Cookie="438" PropertyType="0" Value="0" Type="0" />
+			<Property288 Cookie="439" PropertyType="0" Value="True" Type="6" />
+			<Property289 Cookie="440" PropertyType="0" Value="True" Type="6" />
+			<Property290 Cookie="441" PropertyType="0" Value="False" Type="6" />
+			<Property291 Cookie="442" PropertyType="0" Value="0" Type="0" />
+			<Property292 Cookie="443" PropertyType="0" Value="Sys.Process(&quot;sqlnavigator&quot;).VCLObject(&quot;frmPrefs&quot;)" Type="5" />
+			<Property293 Cookie="444" PropertyType="0" Value="2098592" Type="0" />
+			<Property294 Cookie="445" PropertyType="0" Value="606" Type="0" />
+			<Property295 Cookie="446" PropertyType="0" Value="5000" Type="0" />
+			<Property296 Cookie="447" PropertyType="0" Value="" Type="5" />
+			<Property297 Cookie="448" PropertyType="0" Value="" Type="5" />
+			<Property298 Cookie="449" PropertyType="0" Value="1" Type="0" />
+			<Property299 Cookie="450" PropertyType="0" Value="" Type="5" />
+			<Property300 Cookie="451" PropertyType="0" Value="445072832" Type="0" />
+			<Property301 Cookie="452" PropertyType="0" Value="1" Type="0" />
+			<Property302 Cookie="453" PropertyType="0" Value="445072832" Type="0" />
+			<Property303 Cookie="454" PropertyType="0" Value="True" Type="6" />
+			<Property304 Cookie="455" PropertyType="0" Value="441" Type="0" />
+			<Property305 Cookie="456" PropertyType="0" Value="VCLObject(&quot;frmPrefs&quot;)" Type="5" />
+			<Property306 Cookie="457" PropertyType="0" Value="frmPrefs" Type="5" />
+			<Property307 Cookie="458" PropertyType="0" Value="VCLObject" Type="5" />
+			<Property308 Cookie="459" PropertyType="0" Value="False" Type="6" />
+			<Property309 Cookie="460" PropertyType="0" Value="True" Type="6" />
+			<Property310 Cookie="461" PropertyType="0" Value="True" Type="6" />
+			<Property311 Cookie="462" PropertyType="0" Value="False" Type="6" />
+			<Property312 Cookie="463" PropertyType="0" Value="96" Type="0" />
+			<Property313 Cookie="464" PropertyType="0" Value="0" Type="0" />
+			<Property314 Cookie="465" PropertyType="0" Value="1" Type="0" />
+			<Property315 Cookie="466" PropertyType="0" Value="Preferences" Type="5" />
+			<Property316 Cookie="467" PropertyType="0" Value="TfrmPrefs" Type="5" />
+			<Property317 Cookie="468" PropertyType="0" Value="True" Type="6" />
+			<Property318 Cookie="469" PropertyType="0" Value="441" Type="0" />
+			<Property319 Cookie="470" PropertyType="0" Value="False" Type="6" />
+			<Property320 Cookie="471" PropertyType="0" Value="202" Type="0" />
+			<Property321 Cookie="472" PropertyType="0" Value="True" Type="6" />
+			<Property322 Cookie="473" PropertyType="0" Value="10" Type="0" />
+			<Property323 Cookie="474" PropertyType="0" Value="0" Type="2" />
+			<Property324 Cookie="475" PropertyType="0" Value="202" Type="0" />
+			<Property325 Cookie="476" PropertyType="0" Value="False" Type="6" />
+			<Property326 Cookie="477" PropertyType="0" Value="0" Type="0" />
+			<Property327 Cookie="478" PropertyType="0" Value="True" Type="6" />
+			<Property328 Cookie="479" PropertyType="0" Value="False" Type="6" />
+			<Property329 Cookie="480" PropertyType="0" Value="TfrmPrefs" Type="5" />
+			<Property330 Cookie="481" PropertyType="0" Value="True" Type="6" />
+			<Property331 Cookie="482" PropertyType="0" Value="True" Type="6" />
+			<Property332 Cookie="483" PropertyType="0" Value="798" Type="0" />
+			<Property333 Cookie="484" PropertyType="0" Value="0" Type="0" />
+			<Property334 Cookie="485" PropertyType="0" Value="Preferences" Type="5" />
+			<Property335 Cookie="486" PropertyType="0" Value="TfrmPrefs" Type="5" />
+			<Property336 Cookie="487" PropertyType="0" Value="382468096" Type="0" />
+			<Property337 Cookie="488" PropertyType="0" Value="65792" Type="0" />
+			<Property338 Cookie="489" PropertyType="0" Value="Button" Type="5" />
+			<Property339 Cookie="490" PropertyType="0" Value="&amp;No" Type="5" />
+			<Property340 Cookie="491" PropertyType="0" Value="VCLObject(&quot;frmViewDifference&quot;)" Type="5" />
+			<Property341 Cookie="492" PropertyType="0" Value="VCLObject(&quot;frmPrefs&quot;)" Type="5" />
+			<Property342 Cookie="493" PropertyType="0" Value="VCLObject(&quot;frmNewTable&quot;)" Type="5" />
+			<Property343 Cookie="494" PropertyType="0" Value="VCLObject(&quot;frmRenameDbObj&quot;)" Type="5" />
+			<Property344 Cookie="495" PropertyType="0" Value="VCLObject(&quot;frmExportData&quot;)" Type="5" />
+			<Property345 Cookie="496" PropertyType="0" Value="VCLObject(&quot;FDataModeler&quot;)" Type="5" />
+			<Property346 Cookie="497" PropertyType="0" Value="#32770" Type="5" />
+			<Property347 Cookie="498" PropertyType="0" Value="Confirm" Type="5" />
+			<Property348 Cookie="499" PropertyType="0" Value="DirectUIHWND" Type="5" />
+			<Property349 Cookie="505" PropertyType="0" Value="VCLObject(&quot;frmAnalyze&quot;)" Type="5" />
+			<Property350 Cookie="506" PropertyType="0" Value="VCLObject(&quot;FormERDParams&quot;)" Type="5" />
+			<Property351 Cookie="507" PropertyType="0" Value="VCLObject(&quot;frmTruncateTable&quot;)" Type="5" />
+			<Property352 Cookie="508" PropertyType="0" Value="VCLObject(&quot;frmGrant&quot;)" Type="5" />
+			<Property353 Cookie="509" PropertyType="0" Value="VCLObject(&quot;frmRevokeRole&quot;)" Type="5" />
+			<Property354 Cookie="510" PropertyType="0" Value="VCLObject(&quot;frmObjProp&quot;)" Type="5" />
+			<Property355 Cookie="511" PropertyType="0" Value="TfrmRekey" Type="5" />
+			<Property356 Cookie="512" PropertyType="0" Value="frmRekey" Type="5" />
+			<Property357 Cookie="513" PropertyType="0" Value="VCLObject(&quot;frmRekey&quot;)" Type="5" />
+			<Property358 Cookie="514" PropertyType="0" Value="CtrlNotifySink" Type="5" />
+			<Property359 Cookie="515" PropertyType="0" Value="Button" Type="5" />
+			<Property360 Cookie="516" PropertyType="0" Value="&amp;No" Type="5" />
+			<Property361 Cookie="517" PropertyType="0" Value="Button" Type="5" />
+			<Property362 Cookie="518" PropertyType="0" Value="&amp;Yes" Type="5" />
+			<Property363 Cookie="521" PropertyType="0" Value="VCLObject(&quot;frmNewConstraint&quot;)" Type="5" />
+			<Property364 Cookie="522" PropertyType="0" Value="VCLObject(&quot;frmConstraintEditor&quot;)" Type="5" />
+			<Property365 Cookie="523" PropertyType="0" Value="VCLObject(&quot;frmConfirm&quot;)" Type="5" />
+			<Property366 Cookie="524" PropertyType="0" Value="VCLObject(&quot;frmNewSchemaVOE&quot;)" Type="5" />
+			<Property367 Cookie="527" PropertyType="0" Value="VCLObject(&quot;frmViewEditor&quot;)" Type="5" />
+			<Property368 Cookie="528" PropertyType="0" Value="VCLObject(&quot;CXMainForm&quot;)" Type="5" />
+			<Property369 Cookie="529" PropertyType="0" Value="VCLObject(&quot;frmNewIndex&quot;)" Type="5" />
+			<Property370 Cookie="530" PropertyType="0" Value="VCLObject(&quot;frmIndexEditor&quot;)" Type="5" />
+			<Property371 Cookie="531" PropertyType="0" Value="VCLObject(&quot;frmNewSchemaOwnerVOE&quot;)" Type="5" />
+			<Property372 Cookie="532" PropertyType="0" Value="TPanel" Type="5" />
+			<Property373 Cookie="533" PropertyType="0" Value="VCLObject(&quot;frmRun&quot;)" Type="5" />
+			<Property374 Cookie="534" PropertyType="0" Value="VCLObject(&quot;TntPanel2&quot;)" Type="5" />
+			<Property375 Cookie="535" PropertyType="0" Value="VCLObject(&quot;gbxRunOptions&quot;)" Type="5" />
+			<Property376 Cookie="536" PropertyType="0" Value="VCLObject(&quot;btnRun&quot;)" Type="5" />
+			<Property377 Cookie="537" PropertyType="0" Value="VCLObject(&quot;frmCodeRoleGrant&quot;)" Type="5" />
+			<Property378 Cookie="538" PropertyType="0" Value="VCLObject(&quot;frmClusterEditor&quot;)" Type="5" />
+			<Property379 Cookie="539" PropertyType="0" Value="VCLObject(&quot;frmSnapshotEditor&quot;)" Type="5" />
+			<Property380 Cookie="540" PropertyType="0" Value="VCLObject(&quot;frmRevoke&quot;)" Type="5" />
+			<Property381 Cookie="541" PropertyType="0" Value="VCLObject(&quot;frmSynonymEditor&quot;)" Type="5" />
+			<Property382 Cookie="542" PropertyType="0" Value="VCLObject(&quot;frmDBLinkEditor&quot;)" Type="5" />
+			<Property383 Cookie="543" PropertyType="0" Value="VCLObject(&quot;frmUserEditor&quot;)" Type="5" />
+			<Property384 Cookie="544" PropertyType="0" Value="VCLObject(&quot;frmProfileEditor&quot;)" Type="5" />
+			<Property385 Cookie="545" PropertyType="0" Value="VCLObject(&quot;frmTablespace&quot;)" Type="5" />
+			<Property386 Cookie="546" PropertyType="0" Value="VCLObject(&quot;frmRedoLog&quot;)" Type="5" />
+			<Property387 Cookie="547" PropertyType="0" Value="VCLObject(&quot;frmConfigParameter&quot;)" Type="5" />
+			<Property388 Cookie="548" PropertyType="0" Value="VCLObject(&quot;frmFlashBackRename&quot;)" Type="5" />
+			<Property389 Cookie="549" PropertyType="0" Value="VCLObject(&quot;frmNestedTable&quot;)" Type="5" />
+			<Property390 Cookie="550" PropertyType="0" Value="VCLObject(&quot;frmSequenceEditor&quot;)" Type="5" />
+			<Property391 Cookie="551" PropertyType="0" Value="VCLObject(&quot;frmVarray&quot;)" Type="5" />
+			<Property392 Cookie="552" PropertyType="0" Value="VCLObject(&quot;frmJavaEditor&quot;)" Type="5" />
+			<Property393 Cookie="553" PropertyType="0" Value="VCLObject(&quot;dpCodeTemplates&quot;)" Type="5" />
+			<Property394 Cookie="554" PropertyType="0" Value="TdxFloatForm" Type="5" />
+			<Property395 Cookie="555" PropertyType="0" Value="Task Manager" Type="5" />
+			<Property396 Cookie="556" PropertyType="0" Value="TdxFloatForm" Type="5" />
+			<Property397 Cookie="557" PropertyType="0" Value="Code Assistant" Type="5" />
+			<Property398 Cookie="558" PropertyType="0" Value="TdxFloatForm" Type="5" />
+			<Property399 Cookie="559" PropertyType="0" Value="Describe" Type="5" />
+			<Property400 Cookie="560" PropertyType="0" Value="TdxFloatForm" Type="5" />
+			<Property401 Cookie="561" PropertyType="0" Value="Source Preview" Type="5" />
+			<Property402 Cookie="562" PropertyType="0" Value="VCLObject(&quot;btnOK*&quot;)" Type="5" />
+			<Property403 Cookie="563" PropertyType="0" Value="VCLObject(&quot;ts*&quot;)" Type="5" />
+			<Property404 Cookie="564" PropertyType="0" Value="VCLObject(&quot;ts*&quot;)" Type="5" />
+			<Property405 Cookie="565" PropertyType="0" Value="VCLObject(&quot;vstOutput*&quot;)" Type="5" />
+			<Property406 Cookie="566" PropertyType="0" Value="VCLObject(&quot;frmWebOptions&quot;)" Type="5" />
+			<Property407 Cookie="567" PropertyType="0" Value="VCLObject(&quot;frmChangePwd&quot;)" Type="5" />
+			<Property408 Cookie="568" PropertyType="0" Value="VCLObject(&quot;frmNewObject&quot;)" Type="5" />
+			<Property409 Cookie="569" PropertyType="0" Value="VCLObject(&quot;PageControl1&quot;)" Type="5" />
+			<Property410 Cookie="570" PropertyType="0" Value="VCLObject(&quot;tsDbObjects&quot;)" Type="5" />
+			<Property411 Cookie="571" PropertyType="0" Value="VCLObject(&quot;lvDbObjects&quot;)" Type="5" />
+			<Property412 Cookie="572" PropertyType="0" Value="VCLObject(&quot;Panel1&quot;)" Type="5" />
+			<Property413 Cookie="573" PropertyType="0" Value="VCLObject(&quot;btnOK&quot;)" Type="5" />
+			<Property414 Cookie="574" PropertyType="0" Value="VCLObject(&quot;frmOpenDBObject&quot;)" Type="5" />
+			<Property415 Cookie="575" PropertyType="0" Value="VCLObject(&quot;pnlTop&quot;)" Type="5" />
+			<Property416 Cookie="576" PropertyType="0" Value="VCLObject(&quot;cmbSchema&quot;)" Type="5" />
+			<Property417 Cookie="577" PropertyType="0" Value="VCLObject(&quot;pnlBottom&quot;)" Type="5" />
+			<Property418 Cookie="578" PropertyType="0" Value="VCLObject(&quot;cmbType&quot;)" Type="5" />
+			<Property419 Cookie="579" PropertyType="0" Value="VCLObject(&quot;btnOpen&quot;)" Type="5" />
+			<Property420 Cookie="580" PropertyType="0" Value="VCLObject(&quot;lvObjects&quot;)" Type="5" />
+			<Property421 Cookie="581" PropertyType="0" Value="VCLObject(&quot;ProgressBar&quot;)" Type="5" />
 		</Child0>
 		<Child1 Name="Version_Win8">
 			<Property0 Cookie="0" PropertyType="0" Value="Sys" Type="5" />
@@ -2111,250 +2259,269 @@
 			<Property156 Cookie="296" PropertyType="0" Value="VCLObject(&quot;frmSaveOnExitConf&quot;)" Type="5" />
 			<Property157 Cookie="297" PropertyType="0" Value="VCLObject(&quot;Panel1&quot;)" Type="5" />
 			<Property158 Cookie="298" PropertyType="0" Value="VCLObject(&quot;btnUnselectAll&quot;)" Type="5" />
-			<Property159 Cookie="299" PropertyType="0" Value="VCLObject(&quot;btnOKCodeEditor&quot;)" Type="5" />
-			<Property160 Cookie="301" PropertyType="0" Value="VCLObject(&quot;SyntPreviewForm&quot;)" Type="5" />
-			<Property161 Cookie="302" PropertyType="0" Value="VCLObject(&quot;dosBottom&quot;)" Type="5" />
-			<Property162 Cookie="303" PropertyType="0" Value="VCLObject(&quot;dpOutput&quot;)" Type="5" />
-			<Property163 Cookie="304" PropertyType="0" Value="VCLObject(&quot;framOutput1&quot;)" Type="5" />
-			<Property164 Cookie="305" PropertyType="0" Value="VCLObject(&quot;pcOutput&quot;)" Type="5" />
-			<Property165 Cookie="306" PropertyType="0" Value="VCLObject(&quot;tabGeneral&quot;)" Type="5" />
-			<Property166 Cookie="307" PropertyType="0" Value="VCLObject(&quot;vstOutput&quot;)" Type="5" />
-			<Property167 Cookie="308" PropertyType="0" Value="VCLObject(&quot;frmLogOn&quot;)" Type="5" />
-			<Property168 Cookie="309" PropertyType="0" Value="VCLObject(&quot;btnOK&quot;)" Type="5" />
-			<Property169 Cookie="310" PropertyType="0" Value="VCLObject(&quot;grpConnection&quot;)" Type="5" />
-			<Property170 Cookie="311" PropertyType="0" Value="VCLObject(&quot;pnlPages&quot;)" Type="5" />
-			<Property171 Cookie="312" PropertyType="0" Value="VCLObject(&quot;pgTypes&quot;)" Type="5" />
-			<Property172 Cookie="313" PropertyType="0" Value="VCLObject(&quot;tabsDirect&quot;)" Type="5" />
-			<Property173 Cookie="314" PropertyType="0" Value="VCLObject(&quot;edtHost&quot;)" Type="5" />
-			<Property174 Cookie="315" PropertyType="0" Value="VCLObject(&quot;edtPort&quot;)" Type="5" />
-			<Property175 Cookie="316" PropertyType="0" Value="VCLObject(&quot;edtServiceName&quot;)" Type="5" />
-			<Property176 Cookie="317" PropertyType="0" Value="VCLObject(&quot;tabsLDAP&quot;)" Type="5" />
-			<Property177 Cookie="318" PropertyType="0" Value="VCLObject(&quot;cmbLDAPAlias&quot;)" Type="5" />
-			<Property178 Cookie="319" PropertyType="0" Value="VCLObject(&quot;cmbLDAPServer&quot;)" Type="5" />
-			<Property179 Cookie="320" PropertyType="0" Value="VCLObject(&quot;tabsTNS&quot;)" Type="5" />
-			<Property180 Cookie="321" PropertyType="0" Value="VCLObject(&quot;cmbAliasList&quot;)" Type="5" />
-			<Property181 Cookie="322" PropertyType="0" Value="VCLObject(&quot;pnlUser&quot;)" Type="5" />
-			<Property182 Cookie="323" PropertyType="0" Value="VCLObject(&quot;edtPassword&quot;)" Type="5" />
-			<Property183 Cookie="324" PropertyType="0" Value="VCLObject(&quot;edtUserName&quot;)" Type="5" />
-			<Property184 Cookie="325" PropertyType="0" Value="VCLObject(&quot;dxBarCustomizationForm&quot;)" Type="5" />
-			<Property185 Cookie="326" PropertyType="0" Value="VCLObject(&quot;PageControl&quot;)" Type="5" />
-			<Property186 Cookie="327" PropertyType="0" Value="VCLObject(&quot;tsToolbars&quot;)" Type="5" />
-			<Property187 Cookie="328" PropertyType="0" Value="VCLObject(&quot;lbBarsList&quot;)" Type="5" />
-			<Property188 Cookie="329" PropertyType="0" Value="Page" Type="5" />
-			<Property189 Cookie="330" PropertyType="0" Value="*/AutoFiles/HtmlFile/a.htm" Type="5" />
-			<Property190 Cookie="331" PropertyType="0" Value="Link" Type="5" />
-			<Property191 Cookie="332" PropertyType="0" Value="go to b" Type="5" />
-			<Property192 Cookie="333" PropertyType="0" Value="TAdvPane" Type="5" />
-			<Property193 Cookie="334" PropertyType="0" Value="VCLObject(&quot;frmBrowseDataVT&quot;)" Type="5" />
-			<Property194 Cookie="335" PropertyType="0" Value="TVirtualStringTree" Type="5" />
-			<Property195 Cookie="336" PropertyType="0" Value="vstDataGrid" Type="5" />
-			<Property196 Cookie="337" PropertyType="0" Value="TAdvPane" Type="5" />
-			<Property197 Cookie="341" PropertyType="0" Value="TSyntaxMemo" Type="5" />
-			<Property198 Cookie="342" PropertyType="0" Value="VCLObject(&quot;frmGoToLine&quot;)" Type="5" />
-			<Property199 Cookie="343" PropertyType="0" Value="VCLObject(&quot;btnGo&quot;)" Type="5" />
-			<Property200 Cookie="344" PropertyType="0" Value="VCLObject(&quot;frmBookmarkList&quot;)" Type="5" />
-			<Property201 Cookie="345" PropertyType="0" Value="VCLObject(&quot;TreeList&quot;)" Type="5" />
-			<Property202 Cookie="346" PropertyType="0" Value="VCLObject(&quot;Panel1&quot;)" Type="5" />
-			<Property203 Cookie="347" PropertyType="0" Value="VCLObject(&quot;Button4&quot;)" Type="5" />
-			<Property204 Cookie="348" PropertyType="0" Value="VCLObject(&quot;Button1&quot;)" Type="5" />
-			<Property205 Cookie="350" PropertyType="0" Value="VCLObject(&quot;frmDescribe&quot;)" Type="5" />
-			<Property206 Cookie="351" PropertyType="0" Value="VCLObject(&quot;frmQSFindAndReplaceDlg&quot;)" Type="5" />
-			<Property207 Cookie="352" PropertyType="0" Value="VCLObject(&quot;PageControl&quot;)" Type="5" />
-			<Property208 Cookie="353" PropertyType="0" Value="VCLObject(&quot;FindTabSheet&quot;)" Type="5" />
-			<Property209 Cookie="354" PropertyType="0" Value="VCLObject(&quot;FindNextButton&quot;)" Type="5" />
-			<Property210 Cookie="355" PropertyType="0" Value="VCLObject(&quot;FindTextComboBox&quot;)" Type="5" />
-			<Property211 Cookie="356" PropertyType="0" Value="VCLObject(&quot;ReplaceTabSheet&quot;)" Type="5" />
-			<Property212 Cookie="358" PropertyType="0" Value="VCLObject(&quot;FindTabSheet&quot;)" Type="5" />
-			<Property213 Cookie="359" PropertyType="0" Value="VCLObject(&quot;FindTextComboBox&quot;)" Type="5" />
-			<Property214 Cookie="360" PropertyType="0" Value="VCLObject(&quot;FindNextButton&quot;)" Type="5" />
-			<Property215 Cookie="361" PropertyType="0" Value="VCLObject(&quot;FindReplaceTextComboBox&quot;)" Type="5" />
-			<Property216 Cookie="362" PropertyType="0" Value="VCLObject(&quot;ReplaceTextComboBox&quot;)" Type="5" />
-			<Property217 Cookie="363" PropertyType="0" Value="VCLObject(&quot;FindNextButton&quot;)" Type="5" />
-			<Property218 Cookie="364" PropertyType="0" Value="VCLObject(&quot;ReplaceButton&quot;)" Type="5" />
-			<Property219 Cookie="365" PropertyType="0" Value="VCLObject(&quot;frmDialogOkB&quot;)" Type="5" />
-			<Property220 Cookie="366" PropertyType="0" Value="VCLObject(&quot;pnlActions&quot;)" Type="5" />
-			<Property221 Cookie="367" PropertyType="0" Value="VCLObject(&quot;btnOK&quot;)" Type="5" />
-			<Property222 Cookie="369" PropertyType="0" Value="VCLObject(&quot;Panel1&quot;)" Type="5" />
-			<Property223 Cookie="370" PropertyType="0" Value="VCLObject(&quot;pgSearch&quot;)" Type="5" />
-			<Property224 Cookie="371" PropertyType="0" Value="VCLObject(&quot;tsSearch&quot;)" Type="5" />
-			<Property225 Cookie="374" PropertyType="0" Value="VCLObject(&quot;tsSearch&quot;)" Type="5" />
-			<Property226 Cookie="375" PropertyType="0" Value="VCLObject(&quot;cmbSearchStr&quot;)" Type="5" />
-			<Property227 Cookie="376" PropertyType="0" Value="VCLObject(&quot;tsAdvanced&quot;)" Type="5" />
-			<Property228 Cookie="377" PropertyType="0" Value="VCLObject(&quot;grpScope&quot;)" Type="5" />
-			<Property229 Cookie="378" PropertyType="0" Value="VCLObject(&quot;edtSchemaName&quot;)" Type="5" />
-			<Property230 Cookie="379" PropertyType="0" Value="VCLObject(&quot;frmCodeSearch&quot;)" Type="5" />
-			<Property231 Cookie="380" PropertyType="0" Value="VCLObject(&quot;edtProgramName&quot;)" Type="5" />
-			<Property232 Cookie="381" PropertyType="0" Value="VCLObject(&quot;Panel2&quot;)" Type="5" />
-			<Property233 Cookie="382" PropertyType="0" Value="VCLObject(&quot;btnSearch&quot;)" Type="5" />
-			<Property234 Cookie="383" PropertyType="0" Value="VCLObject(&quot;lstResults&quot;)" Type="5" />
-			<Property235 Cookie="384" PropertyType="0" Value="VCLObject(&quot;frmFindObj&quot;)" Type="5" />
-			<Property236 Cookie="385" PropertyType="0" Value="VCLObject(&quot;pnlTop&quot;)" Type="5" />
-			<Property237 Cookie="386" PropertyType="0" Value="VCLObject(&quot;cmbName&quot;)" Type="5" />
-			<Property238 Cookie="387" PropertyType="0" Value="VCLObject(&quot;btnSearch&quot;)" Type="5" />
-			<Property239 Cookie="388" PropertyType="0" Value="VCLObject(&quot;vstResults&quot;)" Type="5" />
-			<Property240 Cookie="389" PropertyType="0" Value="VCLObject(&quot;frmFindRecycleBinObj&quot;)" Type="5" />
-			<Property241 Cookie="390" PropertyType="0" Value="VCLObject(&quot;Panel1&quot;)" Type="5" />
-			<Property242 Cookie="391" PropertyType="0" Value="VCLObject(&quot;cmbName&quot;)" Type="5" />
-			<Property243 Cookie="392" PropertyType="0" Value="VCLObject(&quot;btnSearch&quot;)" Type="5" />
-			<Property244 Cookie="393" PropertyType="0" Value="VCLObject(&quot;vstResults&quot;)" Type="5" />
-			<Property245 Cookie="394" PropertyType="0" Value="TQSAuthorizeForm" Type="5" />
-			<Property246 Cookie="395" PropertyType="0" Value="SQL Navigator Authorization" Type="5" />
-			<Property247 Cookie="396" PropertyType="0" Value="VCLObject(&quot;frmTbleEditor&quot;)" Type="5" />
-			<Property248 Cookie="397" PropertyType="0" Value="VCLObject(&quot;frmDbNav&quot;)" Type="5" />
-			<Property249 Cookie="398" PropertyType="0" Value="VCLObject(&quot;pnlLeft&quot;)" Type="5" />
-			<Property250 Cookie="399" PropertyType="0" Value="VCLObject(&quot;vstTree&quot;)" Type="5" />
-			<Property251 Cookie="400" PropertyType="0" Value="VCLObject(&quot;Notebook1&quot;)" Type="5" />
-			<Property252 Cookie="401" PropertyType="0" Value="TPage" Type="5" />
-			<Property253 Cookie="402" PropertyType="0" Value="Default" Type="5" />
-			<Property254 Cookie="403" PropertyType="0" Value="VCLObject(&quot;memText&quot;)" Type="5" />
-			<Property255 Cookie="404" PropertyType="0" Value="VCLObject(&quot;FormCRM&quot;)" Type="5" />
-			<Property256 Cookie="405" PropertyType="0" Value="VCLObject(&quot;FormERD&quot;)" Type="5" />
-			<Property257 Cookie="407" PropertyType="0" Value="TdxBarControl" Type="5" />
-			<Property258 Cookie="408" PropertyType="0" Value="Navigator Toolbar" Type="5" />
-			<Property259 Cookie="409" PropertyType="0" Value="VCLObject(&quot;Notebook1&quot;)" Type="5" />
-			<Property260 Cookie="410" PropertyType="0" Value="TdxDockControl" Type="5" />
-			<Property261 Cookie="411" PropertyType="0" Value="3" Type="0" />
-			<Property262 Cookie="412" PropertyType="0" Value="VCLObject(&quot;frmNewVOE&quot;)" Type="5" />
-			<Property263 Cookie="413" PropertyType="0" Value="VCLObject(&quot;frmRoleEditor&quot;)" Type="5" />
-			<Property264 Cookie="414" PropertyType="0" Value="0" Type="0" />
-			<Property265 Cookie="415" PropertyType="0" Value="False" Type="6" />
-			<Property266 Cookie="416" PropertyType="0" Value="False" Type="6" />
-			<Property267 Cookie="417" PropertyType="0" Value="255" Type="0" />
-			<Property268 Cookie="418" PropertyType="0" Value="3" Type="0" />
-			<Property269 Cookie="419" PropertyType="0" Value="False" Type="6" />
-			<Property270 Cookie="420" PropertyType="0" Value="False" Type="6" />
-			<Property271 Cookie="421" PropertyType="0" Value="0" Type="0" />
-			<Property272 Cookie="422" PropertyType="0" Value="1" Type="0" />
-			<Property273 Cookie="423" PropertyType="0" Value="2" Type="0" />
-			<Property274 Cookie="424" PropertyType="0" Value="0" Type="0" />
-			<Property275 Cookie="425" PropertyType="0" Value="Preferences" Type="5" />
-			<Property276 Cookie="426" PropertyType="0" Value="352" Type="0" />
-			<Property277 Cookie="427" PropertyType="0" Value="TfrmPrefs" Type="5" />
-			<Property278 Cookie="428" PropertyType="0" Value="568" Type="0" />
-			<Property279 Cookie="429" PropertyType="0" Value="782" Type="0" />
-			<Property280 Cookie="430" PropertyType="0" Value="-16777201" Type="0" />
-			<Property281 Cookie="431" PropertyType="0" Value="0" Type="0" />
-			<Property282 Cookie="432" PropertyType="0" Value="True" Type="6" />
-			<Property283 Cookie="433" PropertyType="0" Value="0" Type="0" />
-			<Property284 Cookie="434" PropertyType="0" Value="3" Type="0" />
-			<Property285 Cookie="435" PropertyType="0" Value="False" Type="6" />
-			<Property286 Cookie="436" PropertyType="0" Value="False" Type="6" />
-			<Property287 Cookie="437" PropertyType="0" Value="0" Type="0" />
-			<Property288 Cookie="438" PropertyType="0" Value="0" Type="0" />
-			<Property289 Cookie="439" PropertyType="0" Value="True" Type="6" />
-			<Property290 Cookie="440" PropertyType="0" Value="True" Type="6" />
-			<Property291 Cookie="441" PropertyType="0" Value="False" Type="6" />
-			<Property292 Cookie="442" PropertyType="0" Value="0" Type="0" />
-			<Property293 Cookie="443" PropertyType="0" Value="Sys.Process(&quot;sqlnavigator&quot;).VCLObject(&quot;frmPrefs&quot;)" Type="5" />
-			<Property294 Cookie="444" PropertyType="0" Value="2098592" Type="0" />
-			<Property295 Cookie="445" PropertyType="0" Value="606" Type="0" />
-			<Property296 Cookie="446" PropertyType="0" Value="5000" Type="0" />
-			<Property297 Cookie="447" PropertyType="0" Value="" Type="5" />
-			<Property298 Cookie="448" PropertyType="0" Value="" Type="5" />
-			<Property299 Cookie="449" PropertyType="0" Value="1" Type="0" />
-			<Property300 Cookie="450" PropertyType="0" Value="" Type="5" />
-			<Property301 Cookie="451" PropertyType="0" Value="445072832" Type="0" />
-			<Property302 Cookie="452" PropertyType="0" Value="1" Type="0" />
-			<Property303 Cookie="453" PropertyType="0" Value="445072832" Type="0" />
-			<Property304 Cookie="454" PropertyType="0" Value="True" Type="6" />
-			<Property305 Cookie="455" PropertyType="0" Value="441" Type="0" />
-			<Property306 Cookie="456" PropertyType="0" Value="VCLObject(&quot;frmPrefs&quot;)" Type="5" />
-			<Property307 Cookie="457" PropertyType="0" Value="frmPrefs" Type="5" />
-			<Property308 Cookie="458" PropertyType="0" Value="VCLObject" Type="5" />
-			<Property309 Cookie="459" PropertyType="0" Value="False" Type="6" />
-			<Property310 Cookie="460" PropertyType="0" Value="True" Type="6" />
-			<Property311 Cookie="461" PropertyType="0" Value="True" Type="6" />
-			<Property312 Cookie="462" PropertyType="0" Value="False" Type="6" />
-			<Property313 Cookie="463" PropertyType="0" Value="96" Type="0" />
-			<Property314 Cookie="464" PropertyType="0" Value="0" Type="0" />
-			<Property315 Cookie="465" PropertyType="0" Value="1" Type="0" />
-			<Property316 Cookie="466" PropertyType="0" Value="Preferences" Type="5" />
-			<Property317 Cookie="467" PropertyType="0" Value="TfrmPrefs" Type="5" />
-			<Property318 Cookie="468" PropertyType="0" Value="True" Type="6" />
-			<Property319 Cookie="469" PropertyType="0" Value="441" Type="0" />
-			<Property320 Cookie="470" PropertyType="0" Value="False" Type="6" />
-			<Property321 Cookie="471" PropertyType="0" Value="202" Type="0" />
-			<Property322 Cookie="472" PropertyType="0" Value="True" Type="6" />
-			<Property323 Cookie="473" PropertyType="0" Value="10" Type="0" />
-			<Property324 Cookie="474" PropertyType="0" Value="0" Type="2" />
-			<Property325 Cookie="475" PropertyType="0" Value="202" Type="0" />
-			<Property326 Cookie="476" PropertyType="0" Value="False" Type="6" />
-			<Property327 Cookie="477" PropertyType="0" Value="0" Type="0" />
-			<Property328 Cookie="478" PropertyType="0" Value="True" Type="6" />
-			<Property329 Cookie="479" PropertyType="0" Value="False" Type="6" />
-			<Property330 Cookie="480" PropertyType="0" Value="TfrmPrefs" Type="5" />
-			<Property331 Cookie="481" PropertyType="0" Value="True" Type="6" />
-			<Property332 Cookie="482" PropertyType="0" Value="True" Type="6" />
-			<Property333 Cookie="483" PropertyType="0" Value="798" Type="0" />
-			<Property334 Cookie="484" PropertyType="0" Value="0" Type="0" />
-			<Property335 Cookie="485" PropertyType="0" Value="Preferences" Type="5" />
-			<Property336 Cookie="486" PropertyType="0" Value="TfrmPrefs" Type="5" />
-			<Property337 Cookie="487" PropertyType="0" Value="382468096" Type="0" />
-			<Property338 Cookie="488" PropertyType="0" Value="65792" Type="0" />
-			<Property339 Cookie="489" PropertyType="0" Value="Button" Type="5" />
-			<Property340 Cookie="490" PropertyType="0" Value="&amp;No" Type="5" />
-			<Property341 Cookie="491" PropertyType="0" Value="VCLObject(&quot;frmViewDifference&quot;)" Type="5" />
-			<Property342 Cookie="492" PropertyType="0" Value="VCLObject(&quot;frmPrefs&quot;)" Type="5" />
-			<Property343 Cookie="493" PropertyType="0" Value="VCLObject(&quot;frmNewTable&quot;)" Type="5" />
-			<Property344 Cookie="494" PropertyType="0" Value="VCLObject(&quot;frmRenameDbObj&quot;)" Type="5" />
-			<Property345 Cookie="495" PropertyType="0" Value="VCLObject(&quot;frmExportData&quot;)" Type="5" />
-			<Property346 Cookie="496" PropertyType="0" Value="VCLObject(&quot;FDataModeler&quot;)" Type="5" />
-			<Property347 Cookie="497" PropertyType="0" Value="#32770" Type="5" />
-			<Property348 Cookie="498" PropertyType="0" Value="Confirm" Type="5" />
-			<Property349 Cookie="499" PropertyType="0" Value="DirectUIHWND" Type="5" />
-			<Property350 Cookie="505" PropertyType="0" Value="VCLObject(&quot;frmAnalyze&quot;)" Type="5" />
-			<Property351 Cookie="506" PropertyType="0" Value="VCLObject(&quot;FormERDParams&quot;)" Type="5" />
-			<Property352 Cookie="507" PropertyType="0" Value="VCLObject(&quot;frmTruncateTable&quot;)" Type="5" />
-			<Property353 Cookie="508" PropertyType="0" Value="VCLObject(&quot;frmGrant&quot;)" Type="5" />
-			<Property354 Cookie="509" PropertyType="0" Value="VCLObject(&quot;frmRevokeRole&quot;)" Type="5" />
-			<Property355 Cookie="510" PropertyType="0" Value="VCLObject(&quot;frmObjProp&quot;)" Type="5" />
-			<Property356 Cookie="511" PropertyType="0" Value="TfrmRekey" Type="5" />
-			<Property357 Cookie="512" PropertyType="0" Value="frmRekey" Type="5" />
-			<Property358 Cookie="513" PropertyType="0" Value="VCLObject(&quot;frmRekey&quot;)" Type="5" />
-			<Property359 Cookie="514" PropertyType="0" Value="CtrlNotifySink" Type="5" />
-			<Property360 Cookie="515" PropertyType="0" Value="Button" Type="5" />
-			<Property361 Cookie="516" PropertyType="0" Value="&amp;No" Type="5" />
-			<Property362 Cookie="517" PropertyType="0" Value="Button" Type="5" />
-			<Property363 Cookie="518" PropertyType="0" Value="&amp;Yes" Type="5" />
-			<Property364 Cookie="521" PropertyType="0" Value="VCLObject(&quot;frmNewConstraint&quot;)" Type="5" />
-			<Property365 Cookie="522" PropertyType="0" Value="VCLObject(&quot;frmConstraintEditor&quot;)" Type="5" />
-			<Property366 Cookie="523" PropertyType="0" Value="VCLObject(&quot;frmConfirm&quot;)" Type="5" />
-			<Property367 Cookie="524" PropertyType="0" Value="VCLObject(&quot;frmNewSchemaVOE&quot;)" Type="5" />
-			<Property368 Cookie="527" PropertyType="0" Value="VCLObject(&quot;frmViewEditor&quot;)" Type="5" />
-			<Property369 Cookie="528" PropertyType="0" Value="VCLObject(&quot;CXMainForm&quot;)" Type="5" />
-			<Property370 Cookie="529" PropertyType="0" Value="VCLObject(&quot;frmNewIndex&quot;)" Type="5" />
-			<Property371 Cookie="530" PropertyType="0" Value="VCLObject(&quot;frmIndexEditor&quot;)" Type="5" />
-			<Property372 Cookie="531" PropertyType="0" Value="VCLObject(&quot;frmNewSchemaOwnerVOE&quot;)" Type="5" />
-			<Property373 Cookie="532" PropertyType="0" Value="TPanel" Type="5" />
-			<Property374 Cookie="533" PropertyType="0" Value="VCLObject(&quot;frmRun&quot;)" Type="5" />
-			<Property375 Cookie="534" PropertyType="0" Value="VCLObject(&quot;TntPanel2&quot;)" Type="5" />
-			<Property376 Cookie="535" PropertyType="0" Value="VCLObject(&quot;gbxRunOptions&quot;)" Type="5" />
-			<Property377 Cookie="536" PropertyType="0" Value="VCLObject(&quot;btnRun&quot;)" Type="5" />
-			<Property378 Cookie="537" PropertyType="0" Value="VCLObject(&quot;frmCodeRoleGrant&quot;)" Type="5" />
-			<Property379 Cookie="538" PropertyType="0" Value="VCLObject(&quot;frmClusterEditor&quot;)" Type="5" />
-			<Property380 Cookie="539" PropertyType="0" Value="VCLObject(&quot;frmSnapshotEditor&quot;)" Type="5" />
-			<Property381 Cookie="540" PropertyType="0" Value="VCLObject(&quot;frmRevoke&quot;)" Type="5" />
-			<Property382 Cookie="541" PropertyType="0" Value="VCLObject(&quot;frmSynonymEditor&quot;)" Type="5" />
-			<Property383 Cookie="542" PropertyType="0" Value="VCLObject(&quot;frmDBLinkEditor&quot;)" Type="5" />
-			<Property384 Cookie="543" PropertyType="0" Value="VCLObject(&quot;frmUserEditor&quot;)" Type="5" />
-			<Property385 Cookie="544" PropertyType="0" Value="VCLObject(&quot;frmProfileEditor&quot;)" Type="5" />
-			<Property386 Cookie="545" PropertyType="0" Value="VCLObject(&quot;frmTablespace&quot;)" Type="5" />
-			<Property387 Cookie="546" PropertyType="0" Value="VCLObject(&quot;frmRedoLog&quot;)" Type="5" />
-			<Property388 Cookie="547" PropertyType="0" Value="VCLObject(&quot;frmConfigParameter&quot;)" Type="5" />
-			<Property389 Cookie="548" PropertyType="0" Value="VCLObject(&quot;frmFlashBackRename&quot;)" Type="5" />
-			<Property390 Cookie="549" PropertyType="0" Value="VCLObject(&quot;frmNestedTable&quot;)" Type="5" />
-			<Property391 Cookie="550" PropertyType="0" Value="VCLObject(&quot;frmSequenceEditor&quot;)" Type="5" />
-			<Property392 Cookie="551" PropertyType="0" Value="VCLObject(&quot;frmVarray&quot;)" Type="5" />
-			<Property393 Cookie="552" PropertyType="0" Value="VCLObject(&quot;frmJavaEditor&quot;)" Type="5" />
-			<Property394 Cookie="553" PropertyType="0" Value="VCLObject(&quot;dpCodeTemplates&quot;)" Type="5" />
-			<Property395 Cookie="554" PropertyType="0" Value="TdxFloatForm" Type="5" />
-			<Property396 Cookie="555" PropertyType="0" Value="Task Manager" Type="5" />
-			<Property397 Cookie="556" PropertyType="0" Value="TdxFloatForm" Type="5" />
-			<Property398 Cookie="557" PropertyType="0" Value="Code Assistant" Type="5" />
-			<Property399 Cookie="558" PropertyType="0" Value="TdxFloatForm" Type="5" />
-			<Property400 Cookie="559" PropertyType="0" Value="Describe" Type="5" />
-			<Property401 Cookie="560" PropertyType="0" Value="TdxFloatForm" Type="5" />
-			<Property402 Cookie="561" PropertyType="0" Value="Source Preview" Type="5" />
+			<Property159 Cookie="301" PropertyType="0" Value="VCLObject(&quot;SyntPreviewForm&quot;)" Type="5" />
+			<Property160 Cookie="302" PropertyType="0" Value="VCLObject(&quot;dosBottom&quot;)" Type="5" />
+			<Property161 Cookie="303" PropertyType="0" Value="VCLObject(&quot;dpOutput&quot;)" Type="5" />
+			<Property162 Cookie="304" PropertyType="0" Value="VCLObject(&quot;framOutput1&quot;)" Type="5" />
+			<Property163 Cookie="305" PropertyType="0" Value="VCLObject(&quot;pcOutput&quot;)" Type="5" />
+			<Property164 Cookie="306" PropertyType="0" Value="VCLObject(&quot;tabGeneral&quot;)" Type="5" />
+			<Property165 Cookie="307" PropertyType="0" Value="VCLObject(&quot;vstOutput&quot;)" Type="5" />
+			<Property166 Cookie="308" PropertyType="0" Value="VCLObject(&quot;frmLogOn&quot;)" Type="5" />
+			<Property167 Cookie="309" PropertyType="0" Value="VCLObject(&quot;btnOK&quot;)" Type="5" />
+			<Property168 Cookie="310" PropertyType="0" Value="VCLObject(&quot;grpConnection&quot;)" Type="5" />
+			<Property169 Cookie="311" PropertyType="0" Value="VCLObject(&quot;pnlPages&quot;)" Type="5" />
+			<Property170 Cookie="312" PropertyType="0" Value="VCLObject(&quot;pgTypes&quot;)" Type="5" />
+			<Property171 Cookie="313" PropertyType="0" Value="VCLObject(&quot;tabsDirect&quot;)" Type="5" />
+			<Property172 Cookie="314" PropertyType="0" Value="VCLObject(&quot;edtHost&quot;)" Type="5" />
+			<Property173 Cookie="315" PropertyType="0" Value="VCLObject(&quot;edtPort&quot;)" Type="5" />
+			<Property174 Cookie="316" PropertyType="0" Value="VCLObject(&quot;edtServiceName&quot;)" Type="5" />
+			<Property175 Cookie="317" PropertyType="0" Value="VCLObject(&quot;tabsLDAP&quot;)" Type="5" />
+			<Property176 Cookie="318" PropertyType="0" Value="VCLObject(&quot;cmbLDAPAlias&quot;)" Type="5" />
+			<Property177 Cookie="319" PropertyType="0" Value="VCLObject(&quot;cmbLDAPServer&quot;)" Type="5" />
+			<Property178 Cookie="320" PropertyType="0" Value="VCLObject(&quot;tabsTNS&quot;)" Type="5" />
+			<Property179 Cookie="321" PropertyType="0" Value="VCLObject(&quot;cmbAliasList&quot;)" Type="5" />
+			<Property180 Cookie="322" PropertyType="0" Value="VCLObject(&quot;pnlUser&quot;)" Type="5" />
+			<Property181 Cookie="323" PropertyType="0" Value="VCLObject(&quot;edtPassword&quot;)" Type="5" />
+			<Property182 Cookie="324" PropertyType="0" Value="VCLObject(&quot;edtUserName&quot;)" Type="5" />
+			<Property183 Cookie="325" PropertyType="0" Value="VCLObject(&quot;dxBarCustomizationForm&quot;)" Type="5" />
+			<Property184 Cookie="326" PropertyType="0" Value="VCLObject(&quot;PageControl&quot;)" Type="5" />
+			<Property185 Cookie="327" PropertyType="0" Value="VCLObject(&quot;tsToolbars&quot;)" Type="5" />
+			<Property186 Cookie="328" PropertyType="0" Value="VCLObject(&quot;lbBarsList&quot;)" Type="5" />
+			<Property187 Cookie="329" PropertyType="0" Value="Page" Type="5" />
+			<Property188 Cookie="330" PropertyType="0" Value="*/AutoFiles/HtmlFile/a.htm" Type="5" />
+			<Property189 Cookie="331" PropertyType="0" Value="Link" Type="5" />
+			<Property190 Cookie="332" PropertyType="0" Value="go to b" Type="5" />
+			<Property191 Cookie="333" PropertyType="0" Value="TAdvPane" Type="5" />
+			<Property192 Cookie="334" PropertyType="0" Value="VCLObject(&quot;frmBrowseDataVT&quot;)" Type="5" />
+			<Property193 Cookie="335" PropertyType="0" Value="TVirtualStringTree" Type="5" />
+			<Property194 Cookie="336" PropertyType="0" Value="vstDataGrid" Type="5" />
+			<Property195 Cookie="337" PropertyType="0" Value="TAdvPane" Type="5" />
+			<Property196 Cookie="341" PropertyType="0" Value="TSyntaxMemo" Type="5" />
+			<Property197 Cookie="342" PropertyType="0" Value="VCLObject(&quot;frmGoToLine&quot;)" Type="5" />
+			<Property198 Cookie="343" PropertyType="0" Value="VCLObject(&quot;btnGo&quot;)" Type="5" />
+			<Property199 Cookie="344" PropertyType="0" Value="VCLObject(&quot;frmBookmarkList&quot;)" Type="5" />
+			<Property200 Cookie="345" PropertyType="0" Value="VCLObject(&quot;TreeList&quot;)" Type="5" />
+			<Property201 Cookie="346" PropertyType="0" Value="VCLObject(&quot;Panel1&quot;)" Type="5" />
+			<Property202 Cookie="347" PropertyType="0" Value="VCLObject(&quot;Button4&quot;)" Type="5" />
+			<Property203 Cookie="348" PropertyType="0" Value="VCLObject(&quot;Button1&quot;)" Type="5" />
+			<Property204 Cookie="350" PropertyType="0" Value="VCLObject(&quot;frmDescribe&quot;)" Type="5" />
+			<Property205 Cookie="351" PropertyType="0" Value="VCLObject(&quot;frmQSFindAndReplaceDlg&quot;)" Type="5" />
+			<Property206 Cookie="352" PropertyType="0" Value="VCLObject(&quot;PageControl&quot;)" Type="5" />
+			<Property207 Cookie="353" PropertyType="0" Value="VCLObject(&quot;FindTabSheet&quot;)" Type="5" />
+			<Property208 Cookie="354" PropertyType="0" Value="VCLObject(&quot;FindNextButton&quot;)" Type="5" />
+			<Property209 Cookie="355" PropertyType="0" Value="VCLObject(&quot;FindTextComboBox&quot;)" Type="5" />
+			<Property210 Cookie="356" PropertyType="0" Value="VCLObject(&quot;ReplaceTabSheet&quot;)" Type="5" />
+			<Property211 Cookie="358" PropertyType="0" Value="VCLObject(&quot;FindTabSheet&quot;)" Type="5" />
+			<Property212 Cookie="359" PropertyType="0" Value="VCLObject(&quot;FindTextComboBox&quot;)" Type="5" />
+			<Property213 Cookie="360" PropertyType="0" Value="VCLObject(&quot;FindNextButton&quot;)" Type="5" />
+			<Property214 Cookie="361" PropertyType="0" Value="VCLObject(&quot;FindReplaceTextComboBox&quot;)" Type="5" />
+			<Property215 Cookie="362" PropertyType="0" Value="VCLObject(&quot;ReplaceTextComboBox&quot;)" Type="5" />
+			<Property216 Cookie="363" PropertyType="0" Value="VCLObject(&quot;FindNextButton&quot;)" Type="5" />
+			<Property217 Cookie="364" PropertyType="0" Value="VCLObject(&quot;ReplaceButton&quot;)" Type="5" />
+			<Property218 Cookie="365" PropertyType="0" Value="VCLObject(&quot;frmDialogOkB&quot;)" Type="5" />
+			<Property219 Cookie="366" PropertyType="0" Value="VCLObject(&quot;pnlActions&quot;)" Type="5" />
+			<Property220 Cookie="367" PropertyType="0" Value="VCLObject(&quot;btnOK&quot;)" Type="5" />
+			<Property221 Cookie="369" PropertyType="0" Value="VCLObject(&quot;Panel1&quot;)" Type="5" />
+			<Property222 Cookie="370" PropertyType="0" Value="VCLObject(&quot;pgSearch&quot;)" Type="5" />
+			<Property223 Cookie="371" PropertyType="0" Value="VCLObject(&quot;tsSearch&quot;)" Type="5" />
+			<Property224 Cookie="374" PropertyType="0" Value="VCLObject(&quot;tsSearch&quot;)" Type="5" />
+			<Property225 Cookie="375" PropertyType="0" Value="VCLObject(&quot;cmbSearchStr&quot;)" Type="5" />
+			<Property226 Cookie="376" PropertyType="0" Value="VCLObject(&quot;tsAdvanced&quot;)" Type="5" />
+			<Property227 Cookie="377" PropertyType="0" Value="VCLObject(&quot;grpScope&quot;)" Type="5" />
+			<Property228 Cookie="378" PropertyType="0" Value="VCLObject(&quot;edtSchemaName&quot;)" Type="5" />
+			<Property229 Cookie="379" PropertyType="0" Value="VCLObject(&quot;frmCodeSearch&quot;)" Type="5" />
+			<Property230 Cookie="380" PropertyType="0" Value="VCLObject(&quot;edtProgramName&quot;)" Type="5" />
+			<Property231 Cookie="381" PropertyType="0" Value="VCLObject(&quot;Panel2&quot;)" Type="5" />
+			<Property232 Cookie="382" PropertyType="0" Value="VCLObject(&quot;btnSearch&quot;)" Type="5" />
+			<Property233 Cookie="383" PropertyType="0" Value="VCLObject(&quot;lstResults&quot;)" Type="5" />
+			<Property234 Cookie="384" PropertyType="0" Value="VCLObject(&quot;frmFindObj&quot;)" Type="5" />
+			<Property235 Cookie="385" PropertyType="0" Value="VCLObject(&quot;pnlTop&quot;)" Type="5" />
+			<Property236 Cookie="386" PropertyType="0" Value="VCLObject(&quot;cmbName&quot;)" Type="5" />
+			<Property237 Cookie="387" PropertyType="0" Value="VCLObject(&quot;btnSearch&quot;)" Type="5" />
+			<Property238 Cookie="388" PropertyType="0" Value="VCLObject(&quot;vstResults&quot;)" Type="5" />
+			<Property239 Cookie="389" PropertyType="0" Value="VCLObject(&quot;frmFindRecycleBinObj&quot;)" Type="5" />
+			<Property240 Cookie="390" PropertyType="0" Value="VCLObject(&quot;Panel1&quot;)" Type="5" />
+			<Property241 Cookie="391" PropertyType="0" Value="VCLObject(&quot;cmbName&quot;)" Type="5" />
+			<Property242 Cookie="392" PropertyType="0" Value="VCLObject(&quot;btnSearch&quot;)" Type="5" />
+			<Property243 Cookie="393" PropertyType="0" Value="VCLObject(&quot;vstResults&quot;)" Type="5" />
+			<Property244 Cookie="394" PropertyType="0" Value="TQSAuthorizeForm" Type="5" />
+			<Property245 Cookie="395" PropertyType="0" Value="SQL Navigator Authorization" Type="5" />
+			<Property246 Cookie="396" PropertyType="0" Value="VCLObject(&quot;frmTbleEditor&quot;)" Type="5" />
+			<Property247 Cookie="397" PropertyType="0" Value="VCLObject(&quot;frmDbNav&quot;)" Type="5" />
+			<Property248 Cookie="398" PropertyType="0" Value="VCLObject(&quot;pnlLeft&quot;)" Type="5" />
+			<Property249 Cookie="399" PropertyType="0" Value="VCLObject(&quot;vstTree&quot;)" Type="5" />
+			<Property250 Cookie="400" PropertyType="0" Value="VCLObject(&quot;Notebook1&quot;)" Type="5" />
+			<Property251 Cookie="401" PropertyType="0" Value="TPage" Type="5" />
+			<Property252 Cookie="402" PropertyType="0" Value="Default" Type="5" />
+			<Property253 Cookie="403" PropertyType="0" Value="VCLObject(&quot;memText&quot;)" Type="5" />
+			<Property254 Cookie="404" PropertyType="0" Value="VCLObject(&quot;FormCRM&quot;)" Type="5" />
+			<Property255 Cookie="405" PropertyType="0" Value="VCLObject(&quot;FormERD&quot;)" Type="5" />
+			<Property256 Cookie="407" PropertyType="0" Value="TdxBarControl" Type="5" />
+			<Property257 Cookie="408" PropertyType="0" Value="Navigator Toolbar" Type="5" />
+			<Property258 Cookie="409" PropertyType="0" Value="VCLObject(&quot;Notebook1&quot;)" Type="5" />
+			<Property259 Cookie="410" PropertyType="0" Value="TdxDockControl" Type="5" />
+			<Property260 Cookie="411" PropertyType="0" Value="3" Type="0" />
+			<Property261 Cookie="412" PropertyType="0" Value="VCLObject(&quot;frmNewVOE&quot;)" Type="5" />
+			<Property262 Cookie="413" PropertyType="0" Value="VCLObject(&quot;frmRoleEditor&quot;)" Type="5" />
+			<Property263 Cookie="414" PropertyType="0" Value="0" Type="0" />
+			<Property264 Cookie="415" PropertyType="0" Value="False" Type="6" />
+			<Property265 Cookie="416" PropertyType="0" Value="False" Type="6" />
+			<Property266 Cookie="417" PropertyType="0" Value="255" Type="0" />
+			<Property267 Cookie="418" PropertyType="0" Value="3" Type="0" />
+			<Property268 Cookie="419" PropertyType="0" Value="False" Type="6" />
+			<Property269 Cookie="420" PropertyType="0" Value="False" Type="6" />
+			<Property270 Cookie="421" PropertyType="0" Value="0" Type="0" />
+			<Property271 Cookie="422" PropertyType="0" Value="1" Type="0" />
+			<Property272 Cookie="423" PropertyType="0" Value="2" Type="0" />
+			<Property273 Cookie="424" PropertyType="0" Value="0" Type="0" />
+			<Property274 Cookie="425" PropertyType="0" Value="Preferences" Type="5" />
+			<Property275 Cookie="426" PropertyType="0" Value="352" Type="0" />
+			<Property276 Cookie="427" PropertyType="0" Value="TfrmPrefs" Type="5" />
+			<Property277 Cookie="428" PropertyType="0" Value="568" Type="0" />
+			<Property278 Cookie="429" PropertyType="0" Value="782" Type="0" />
+			<Property279 Cookie="430" PropertyType="0" Value="-16777201" Type="0" />
+			<Property280 Cookie="431" PropertyType="0" Value="0" Type="0" />
+			<Property281 Cookie="432" PropertyType="0" Value="True" Type="6" />
+			<Property282 Cookie="433" PropertyType="0" Value="0" Type="0" />
+			<Property283 Cookie="434" PropertyType="0" Value="3" Type="0" />
+			<Property284 Cookie="435" PropertyType="0" Value="False" Type="6" />
+			<Property285 Cookie="436" PropertyType="0" Value="False" Type="6" />
+			<Property286 Cookie="437" PropertyType="0" Value="0" Type="0" />
+			<Property287 Cookie="438" PropertyType="0" Value="0" Type="0" />
+			<Property288 Cookie="439" PropertyType="0" Value="True" Type="6" />
+			<Property289 Cookie="440" PropertyType="0" Value="True" Type="6" />
+			<Property290 Cookie="441" PropertyType="0" Value="False" Type="6" />
+			<Property291 Cookie="442" PropertyType="0" Value="0" Type="0" />
+			<Property292 Cookie="443" PropertyType="0" Value="Sys.Process(&quot;sqlnavigator&quot;).VCLObject(&quot;frmPrefs&quot;)" Type="5" />
+			<Property293 Cookie="444" PropertyType="0" Value="2098592" Type="0" />
+			<Property294 Cookie="445" PropertyType="0" Value="606" Type="0" />
+			<Property295 Cookie="446" PropertyType="0" Value="5000" Type="0" />
+			<Property296 Cookie="447" PropertyType="0" Value="" Type="5" />
+			<Property297 Cookie="448" PropertyType="0" Value="" Type="5" />
+			<Property298 Cookie="449" PropertyType="0" Value="1" Type="0" />
+			<Property299 Cookie="450" PropertyType="0" Value="" Type="5" />
+			<Property300 Cookie="451" PropertyType="0" Value="445072832" Type="0" />
+			<Property301 Cookie="452" PropertyType="0" Value="1" Type="0" />
+			<Property302 Cookie="453" PropertyType="0" Value="445072832" Type="0" />
+			<Property303 Cookie="454" PropertyType="0" Value="True" Type="6" />
+			<Property304 Cookie="455" PropertyType="0" Value="441" Type="0" />
+			<Property305 Cookie="456" PropertyType="0" Value="VCLObject(&quot;frmPrefs&quot;)" Type="5" />
+			<Property306 Cookie="457" PropertyType="0" Value="frmPrefs" Type="5" />
+			<Property307 Cookie="458" PropertyType="0" Value="VCLObject" Type="5" />
+			<Property308 Cookie="459" PropertyType="0" Value="False" Type="6" />
+			<Property309 Cookie="460" PropertyType="0" Value="True" Type="6" />
+			<Property310 Cookie="461" PropertyType="0" Value="True" Type="6" />
+			<Property311 Cookie="462" PropertyType="0" Value="False" Type="6" />
+			<Property312 Cookie="463" PropertyType="0" Value="96" Type="0" />
+			<Property313 Cookie="464" PropertyType="0" Value="0" Type="0" />
+			<Property314 Cookie="465" PropertyType="0" Value="1" Type="0" />
+			<Property315 Cookie="466" PropertyType="0" Value="Preferences" Type="5" />
+			<Property316 Cookie="467" PropertyType="0" Value="TfrmPrefs" Type="5" />
+			<Property317 Cookie="468" PropertyType="0" Value="True" Type="6" />
+			<Property318 Cookie="469" PropertyType="0" Value="441" Type="0" />
+			<Property319 Cookie="470" PropertyType="0" Value="False" Type="6" />
+			<Property320 Cookie="471" PropertyType="0" Value="202" Type="0" />
+			<Property321 Cookie="472" PropertyType="0" Value="True" Type="6" />
+			<Property322 Cookie="473" PropertyType="0" Value="10" Type="0" />
+			<Property323 Cookie="474" PropertyType="0" Value="0" Type="2" />
+			<Property324 Cookie="475" PropertyType="0" Value="202" Type="0" />
+			<Property325 Cookie="476" PropertyType="0" Value="False" Type="6" />
+			<Property326 Cookie="477" PropertyType="0" Value="0" Type="0" />
+			<Property327 Cookie="478" PropertyType="0" Value="True" Type="6" />
+			<Property328 Cookie="479" PropertyType="0" Value="False" Type="6" />
+			<Property329 Cookie="480" PropertyType="0" Value="TfrmPrefs" Type="5" />
+			<Property330 Cookie="481" PropertyType="0" Value="True" Type="6" />
+			<Property331 Cookie="482" PropertyType="0" Value="True" Type="6" />
+			<Property332 Cookie="483" PropertyType="0" Value="798" Type="0" />
+			<Property333 Cookie="484" PropertyType="0" Value="0" Type="0" />
+			<Property334 Cookie="485" PropertyType="0" Value="Preferences" Type="5" />
+			<Property335 Cookie="486" PropertyType="0" Value="TfrmPrefs" Type="5" />
+			<Property336 Cookie="487" PropertyType="0" Value="382468096" Type="0" />
+			<Property337 Cookie="488" PropertyType="0" Value="65792" Type="0" />
+			<Property338 Cookie="489" PropertyType="0" Value="Button" Type="5" />
+			<Property339 Cookie="490" PropertyType="0" Value="&amp;No" Type="5" />
+			<Property340 Cookie="491" PropertyType="0" Value="VCLObject(&quot;frmViewDifference&quot;)" Type="5" />
+			<Property341 Cookie="492" PropertyType="0" Value="VCLObject(&quot;frmPrefs&quot;)" Type="5" />
+			<Property342 Cookie="493" PropertyType="0" Value="VCLObject(&quot;frmNewTable&quot;)" Type="5" />
+			<Property343 Cookie="494" PropertyType="0" Value="VCLObject(&quot;frmRenameDbObj&quot;)" Type="5" />
+			<Property344 Cookie="495" PropertyType="0" Value="VCLObject(&quot;frmExportData&quot;)" Type="5" />
+			<Property345 Cookie="496" PropertyType="0" Value="VCLObject(&quot;FDataModeler&quot;)" Type="5" />
+			<Property346 Cookie="497" PropertyType="0" Value="#32770" Type="5" />
+			<Property347 Cookie="498" PropertyType="0" Value="Confirm" Type="5" />
+			<Property348 Cookie="499" PropertyType="0" Value="DirectUIHWND" Type="5" />
+			<Property349 Cookie="505" PropertyType="0" Value="VCLObject(&quot;frmAnalyze&quot;)" Type="5" />
+			<Property350 Cookie="506" PropertyType="0" Value="VCLObject(&quot;FormERDParams&quot;)" Type="5" />
+			<Property351 Cookie="507" PropertyType="0" Value="VCLObject(&quot;frmTruncateTable&quot;)" Type="5" />
+			<Property352 Cookie="508" PropertyType="0" Value="VCLObject(&quot;frmGrant&quot;)" Type="5" />
+			<Property353 Cookie="509" PropertyType="0" Value="VCLObject(&quot;frmRevokeRole&quot;)" Type="5" />
+			<Property354 Cookie="510" PropertyType="0" Value="VCLObject(&quot;frmObjProp&quot;)" Type="5" />
+			<Property355 Cookie="511" PropertyType="0" Value="TfrmRekey" Type="5" />
+			<Property356 Cookie="512" PropertyType="0" Value="frmRekey" Type="5" />
+			<Property357 Cookie="513" PropertyType="0" Value="VCLObject(&quot;frmRekey&quot;)" Type="5" />
+			<Property358 Cookie="514" PropertyType="0" Value="CtrlNotifySink" Type="5" />
+			<Property359 Cookie="515" PropertyType="0" Value="Button" Type="5" />
+			<Property360 Cookie="516" PropertyType="0" Value="&amp;No" Type="5" />
+			<Property361 Cookie="517" PropertyType="0" Value="Button" Type="5" />
+			<Property362 Cookie="518" PropertyType="0" Value="&amp;Yes" Type="5" />
+			<Property363 Cookie="521" PropertyType="0" Value="VCLObject(&quot;frmNewConstraint&quot;)" Type="5" />
+			<Property364 Cookie="522" PropertyType="0" Value="VCLObject(&quot;frmConstraintEditor&quot;)" Type="5" />
+			<Property365 Cookie="523" PropertyType="0" Value="VCLObject(&quot;frmConfirm&quot;)" Type="5" />
+			<Property366 Cookie="524" PropertyType="0" Value="VCLObject(&quot;frmNewSchemaVOE&quot;)" Type="5" />
+			<Property367 Cookie="527" PropertyType="0" Value="VCLObject(&quot;frmViewEditor&quot;)" Type="5" />
+			<Property368 Cookie="528" PropertyType="0" Value="VCLObject(&quot;CXMainForm&quot;)" Type="5" />
+			<Property369 Cookie="529" PropertyType="0" Value="VCLObject(&quot;frmNewIndex&quot;)" Type="5" />
+			<Property370 Cookie="530" PropertyType="0" Value="VCLObject(&quot;frmIndexEditor&quot;)" Type="5" />
+			<Property371 Cookie="531" PropertyType="0" Value="VCLObject(&quot;frmNewSchemaOwnerVOE&quot;)" Type="5" />
+			<Property372 Cookie="532" PropertyType="0" Value="TPanel" Type="5" />
+			<Property373 Cookie="533" PropertyType="0" Value="VCLObject(&quot;frmRun&quot;)" Type="5" />
+			<Property374 Cookie="534" PropertyType="0" Value="VCLObject(&quot;TntPanel2&quot;)" Type="5" />
+			<Property375 Cookie="535" PropertyType="0" Value="VCLObject(&quot;gbxRunOptions&quot;)" Type="5" />
+			<Property376 Cookie="536" PropertyType="0" Value="VCLObject(&quot;btnRun&quot;)" Type="5" />
+			<Property377 Cookie="537" PropertyType="0" Value="VCLObject(&quot;frmCodeRoleGrant&quot;)" Type="5" />
+			<Property378 Cookie="538" PropertyType="0" Value="VCLObject(&quot;frmClusterEditor&quot;)" Type="5" />
+			<Property379 Cookie="539" PropertyType="0" Value="VCLObject(&quot;frmSnapshotEditor&quot;)" Type="5" />
+			<Property380 Cookie="540" PropertyType="0" Value="VCLObject(&quot;frmRevoke&quot;)" Type="5" />
+			<Property381 Cookie="541" PropertyType="0" Value="VCLObject(&quot;frmSynonymEditor&quot;)" Type="5" />
+			<Property382 Cookie="542" PropertyType="0" Value="VCLObject(&quot;frmDBLinkEditor&quot;)" Type="5" />
+			<Property383 Cookie="543" PropertyType="0" Value="VCLObject(&quot;frmUserEditor&quot;)" Type="5" />
+			<Property384 Cookie="544" PropertyType="0" Value="VCLObject(&quot;frmProfileEditor&quot;)" Type="5" />
+			<Property385 Cookie="545" PropertyType="0" Value="VCLObject(&quot;frmTablespace&quot;)" Type="5" />
+			<Property386 Cookie="546" PropertyType="0" Value="VCLObject(&quot;frmRedoLog&quot;)" Type="5" />
+			<Property387 Cookie="547" PropertyType="0" Value="VCLObject(&quot;frmConfigParameter&quot;)" Type="5" />
+			<Property388 Cookie="548" PropertyType="0" Value="VCLObject(&quot;frmFlashBackRename&quot;)" Type="5" />
+			<Property389 Cookie="549" PropertyType="0" Value="VCLObject(&quot;frmNestedTable&quot;)" Type="5" />
+			<Property390 Cookie="550" PropertyType="0" Value="VCLObject(&quot;frmSequenceEditor&quot;)" Type="5" />
+			<Property391 Cookie="551" PropertyType="0" Value="VCLObject(&quot;frmVarray&quot;)" Type="5" />
+			<Property392 Cookie="552" PropertyType="0" Value="VCLObject(&quot;frmJavaEditor&quot;)" Type="5" />
+			<Property393 Cookie="553" PropertyType="0" Value="VCLObject(&quot;dpCodeTemplates&quot;)" Type="5" />
+			<Property394 Cookie="554" PropertyType="0" Value="TdxFloatForm" Type="5" />
+			<Property395 Cookie="555" PropertyType="0" Value="Task Manager" Type="5" />
+			<Property396 Cookie="556" PropertyType="0" Value="TdxFloatForm" Type="5" />
+			<Property397 Cookie="557" PropertyType="0" Value="Code Assistant" Type="5" />
+			<Property398 Cookie="558" PropertyType="0" Value="TdxFloatForm" Type="5" />
+			<Property399 Cookie="559" PropertyType="0" Value="Describe" Type="5" />
+			<Property400 Cookie="560" PropertyType="0" Value="TdxFloatForm" Type="5" />
+			<Property401 Cookie="561" PropertyType="0" Value="Source Preview" Type="5" />
+			<Property402 Cookie="562" PropertyType="0" Value="VCLObject(&quot;btnOK&quot;)" Type="5" />
+			<Property403 Cookie="563" PropertyType="0" Value="VCLObject(&quot;ts*&quot;)" Type="5" />
+			<Property404 Cookie="564" PropertyType="0" Value="VCLObject(&quot;ts*&quot;)" Type="5" />
+			<Property405 Cookie="565" PropertyType="0" Value="VCLObject(&quot;vstOutput*&quot;)" Type="5" />
+			<Property406 Cookie="566" PropertyType="0" Value="VCLObject(&quot;frmWebOptions&quot;)" Type="5" />
+			<Property407 Cookie="567" PropertyType="0" Value="VCLObject(&quot;frmChangePwd&quot;)" Type="5" />
+			<Property408 Cookie="568" PropertyType="0" Value="VCLObject(&quot;frmNewObject&quot;)" Type="5" />
+			<Property409 Cookie="569" PropertyType="0" Value="VCLObject(&quot;PageControl1&quot;)" Type="5" />
+			<Property410 Cookie="570" PropertyType="0" Value="VCLObject(&quot;tsDbObjects&quot;)" Type="5" />
+			<Property411 Cookie="571" PropertyType="0" Value="VCLObject(&quot;lvDbObjects&quot;)" Type="5" />
+			<Property412 Cookie="572" PropertyType="0" Value="VCLObject(&quot;Panel1&quot;)" Type="5" />
+			<Property413 Cookie="573" PropertyType="0" Value="VCLObject(&quot;btnOK&quot;)" Type="5" />
+			<Property414 Cookie="574" PropertyType="0" Value="VCLObject(&quot;frmOpenDBObject&quot;)" Type="5" />
+			<Property415 Cookie="575" PropertyType="0" Value="VCLObject(&quot;pnlTop&quot;)" Type="5" />
+			<Property416 Cookie="576" PropertyType="0" Value="VCLObject(&quot;cmbSchema&quot;)" Type="5" />
+			<Property417 Cookie="577" PropertyType="0" Value="VCLObject(&quot;pnlBottom&quot;)" Type="5" />
+			<Property418 Cookie="578" PropertyType="0" Value="VCLObject(&quot;cmbType&quot;)" Type="5" />
+			<Property419 Cookie="579" PropertyType="0" Value="VCLObject(&quot;btnOpen&quot;)" Type="5" />
+			<Property420 Cookie="580" PropertyType="0" Value="VCLObject(&quot;lvObjects&quot;)" Type="5" />
+			<Property421 Cookie="581" PropertyType="0" Value="VCLObject(&quot;ProgressBar&quot;)" Type="5" />
 		</Child1>
 	</Storages>
 	<TypeInfo StoreCodeCompletion="0">
