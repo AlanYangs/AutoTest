@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<Root Signature="{5DCBAC3B-D39C-497C-9BE8-744CBADD37AA}" NameMappingVersion="4" Cookie="582">
+<Root Signature="{5DCBAC3B-D39C-497C-9BE8-744CBADD37AA}" NameMappingVersion="4" Cookie="600">
 	<Nodes Name="NameMapping" Key="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}" ParallelWalk="True">
 		<Properties />
 		<Children>
@@ -638,6 +638,33 @@
 												</Properties>
 												<Children />
 											</Child31>
+											<Child32 Name="frmImportData" Key="{885B905D-0DC5-4A47-8C76-306C4F0244DB}" ParallelWalk="True">
+												<Properties>
+													<Property0 Name="Name" Cookie="582" />
+												</Properties>
+												<Children />
+											</Child32>
+											<Child33 Name="frmDifferenceViewer" Key="{649B4983-E5A4-42F2-902A-1B1C4EF44700}" ParallelWalk="True">
+												<Properties>
+													<Property0 Name="Name" Cookie="594" />
+												</Properties>
+												<Children>
+													<Child0 Name="StatusBar" Key="{F98CD945-486F-408C-9604-061D03176F6E}" ParallelWalk="True">
+														<Properties>
+															<Property0 Name="Name" Cookie="595" />
+														</Properties>
+														<Children>
+															<Child0 Name="pnlResult" Key="{45379D63-93B6-4000-91DF-8738BAB0F21B}" ParallelWalk="True">
+																<Properties>
+																	<Property0 Name="ClassName" Cookie="596" />
+																	<Property1 Name="NativeDelphiObject.Name" Cookie="597" />
+																</Properties>
+																<Children />
+															</Child0>
+														</Children>
+													</Child0>
+												</Children>
+											</Child33>
 										</Children>
 									</Child1>
 									<Child2 Name="BottomZone" Key="{A1EC0A1B-4283-49CF-A8B0-D328C4A4B224}" ParallelWalk="True">
@@ -1169,7 +1196,78 @@
 								<Properties>
 									<Property0 Name="Name" Cookie="491" />
 								</Properties>
-								<Children />
+								<Children>
+									<Child0 Name="gbSelected" Key="{5B826843-4C4B-48A5-A60B-F1C965EC8727}" ParallelWalk="True">
+										<Properties>
+											<Property0 Name="Name" Cookie="583" />
+										</Properties>
+										<Children>
+											<Child0 Name="edtScript" Key="{B8B0BB85-85F9-463A-82CF-0BCBC4673252}" ParallelWalk="True">
+												<Properties>
+													<Property0 Name="Name" Cookie="584" />
+												</Properties>
+												<Children />
+											</Child0>
+											<Child1 Name="gbTop" Key="{90342EBC-97A1-48E6-90B1-5DDC0AD9584E}" ParallelWalk="True">
+												<Properties>
+													<Property0 Name="Name" Cookie="587" />
+												</Properties>
+												<Children>
+													<Child0 Name="cmbObjType" Key="{60EEE05E-0D03-4C6B-B44B-035038AECAA4}" ParallelWalk="True">
+														<Properties>
+															<Property0 Name="Name" Cookie="588" />
+														</Properties>
+														<Children />
+													</Child0>
+													<Child1 Name="edtObjName" Key="{53AFCEC9-1D76-40DC-9FE2-CF0F1660E2A2}" ParallelWalk="True">
+														<Properties>
+															<Property0 Name="Name" Cookie="591" />
+														</Properties>
+														<Children />
+													</Child1>
+												</Children>
+											</Child1>
+										</Children>
+									</Child0>
+									<Child1 Name="gbCompared" Key="{0DB29E5C-4EE7-4F6D-8749-2D452BE0FFE7}" ParallelWalk="True">
+										<Properties>
+											<Property0 Name="Name" Cookie="585" />
+										</Properties>
+										<Children>
+											<Child0 Name="edtComparedScript" Key="{84E38222-BB41-4357-A365-A06861E8CAC2}" ParallelWalk="True">
+												<Properties>
+													<Property0 Name="Name" Cookie="586" />
+												</Properties>
+												<Children />
+											</Child0>
+											<Child1 Name="gbBottom" Key="{0D07CC49-09C1-4850-9EF1-DDA606D9B021}" ParallelWalk="True">
+												<Properties>
+													<Property0 Name="Name" Cookie="589" />
+												</Properties>
+												<Children>
+													<Child0 Name="cmbComparedObjType" Key="{E5E9F69D-544A-47AA-A3EA-EFBAC6B74E3F}" ParallelWalk="True">
+														<Properties>
+															<Property0 Name="Name" Cookie="590" />
+														</Properties>
+														<Children />
+													</Child0>
+													<Child1 Name="edtComparedObjName" Key="{772102E8-B676-489D-BEB7-66FBCED906A1}" ParallelWalk="True">
+														<Properties>
+															<Property0 Name="Name" Cookie="592" />
+														</Properties>
+														<Children />
+													</Child1>
+												</Children>
+											</Child1>
+										</Children>
+									</Child1>
+									<Child2 Name="btnOK" Key="{FDD7A19D-9400-4ECA-8FF7-7A698926B44F}" ParallelWalk="True">
+										<Properties>
+											<Property0 Name="Name" Cookie="593" />
+										</Properties>
+										<Children />
+									</Child2>
+								</Children>
 							</Child16>
 							<Child17 Name="frmPreferences" Key="{A5F46C36-F34B-4548-816B-8EF9CC7A4398}" ParallelWalk="True">
 								<Properties>
@@ -1421,6 +1519,13 @@
 									</Child2>
 								</Children>
 							</Child41>
+							<Child42 Name="dlgInformation" Key="{7DAD9BB2-F658-4CFD-8EC6-F9CBBE1CFF76}" ParallelWalk="True">
+								<Properties>
+									<Property0 Name="WndClass" Cookie="598" />
+									<Property1 Name="WndCaption" Cookie="599" />
+								</Properties>
+								<Children />
+							</Child42>
 						</Children>
 					</Child1>
 				</Children>
@@ -1531,6 +1636,10 @@
 					<Child29 Name="frmVarrayEditor" Owner="{BFFD882C-642E-4C00-89EA-6F59F55A6E95}" />
 					<Child30 Name="frmJavaEditor" Owner="{E62FFB1D-5A55-44F7-907D-F1C933313E05}" />
 					<Child31 Name="frmWebOptions" Owner="{689DEAC2-AF6C-4B66-9880-510B3D0917C8}" />
+					<Child32 Name="frmImportData" Owner="{885B905D-0DC5-4A47-8C76-306C4F0244DB}" />
+					<Child33 Name="frmDifferenceViewer" Owner="{649B4983-E5A4-42F2-902A-1B1C4EF44700}">
+						<Child0 Name="pnlResult" Owner="{45379D63-93B6-4000-91DF-8738BAB0F21B}" />
+					</Child33>
 				</Child1>
 				<Child2 Name="BottomZone" Owner="{A1EC0A1B-4283-49CF-A8B0-D328C4A4B224}">
 					<Child0 Name="pnlOutput" Owner="{58D280BF-1F5E-45A7-A698-615040001048}">
@@ -1631,7 +1740,15 @@
 			</Child13>
 			<Child14 Name="dlgConfirmOkB" Owner="{9E52E47A-9280-4C1F-BB40-F8A2496D2CA9}" />
 			<Child15 Name="frmNewRole" Owner="{297A58CA-ABD1-4A77-AF59-70B37C896D7C}" />
-			<Child16 Name="frmViewDifference" Owner="{744C406E-FEC6-4058-A241-3CAD73BCD263}" />
+			<Child16 Name="frmViewDifference" Owner="{744C406E-FEC6-4058-A241-3CAD73BCD263}">
+				<Child0 Name="edtScript" Owner="{B8B0BB85-85F9-463A-82CF-0BCBC4673252}" />
+				<Child1 Name="edtComparedScript" Owner="{84E38222-BB41-4357-A365-A06861E8CAC2}" />
+				<Child2 Name="cmbObjType" Owner="{60EEE05E-0D03-4C6B-B44B-035038AECAA4}" />
+				<Child3 Name="cmbComparedObjType" Owner="{E5E9F69D-544A-47AA-A3EA-EFBAC6B74E3F}" />
+				<Child4 Name="edtObjName" Owner="{53AFCEC9-1D76-40DC-9FE2-CF0F1660E2A2}" />
+				<Child5 Name="edtComparedObjName" Owner="{772102E8-B676-489D-BEB7-66FBCED906A1}" />
+				<Child6 Name="btnOK" Owner="{FDD7A19D-9400-4ECA-8FF7-7A698926B44F}" />
+			</Child16>
 			<Child17 Name="frmPreferences" Owner="{A5F46C36-F34B-4548-816B-8EF9CC7A4398}" />
 			<Child18 Name="frmNewTable" Owner="{AE90B376-4406-46C5-944F-002280342FAF}" />
 			<Child19 Name="dlgRenameObj" Owner="{29944066-82B7-423B-A5AE-C93D4130CD59}" />
@@ -1672,6 +1789,7 @@
 				<Child2 Name="btnOpen" Owner="{722274E0-9EC5-458E-BFD4-53E2EC30B77F}" />
 				<Child3 Name="lvObjects" Owner="{5DF909E1-5332-4FCE-956B-0A0CA3692B93}" />
 			</Child41>
+			<Child42 Name="dlgInformation" Owner="{7DAD9BB2-F658-4CFD-8EC6-F9CBBE1CFF76}" />
 		</Child1>
 	</LogicalNodes>
 	<Storages Current="0">
@@ -2098,6 +2216,24 @@
 			<Property419 Cookie="579" PropertyType="0" Value="VCLObject(&quot;btnOpen&quot;)" Type="5" />
 			<Property420 Cookie="580" PropertyType="0" Value="VCLObject(&quot;lvObjects&quot;)" Type="5" />
 			<Property421 Cookie="581" PropertyType="0" Value="VCLObject(&quot;ProgressBar&quot;)" Type="5" />
+			<Property422 Cookie="582" PropertyType="0" Value="VCLObject(&quot;frmImportData&quot;)" Type="5" />
+			<Property423 Cookie="583" PropertyType="0" Value="VCLObject(&quot;gbSelected&quot;)" Type="5" />
+			<Property424 Cookie="584" PropertyType="0" Value="VCLObject(&quot;edTopScript&quot;)" Type="5" />
+			<Property425 Cookie="585" PropertyType="0" Value="VCLObject(&quot;gbCompared&quot;)" Type="5" />
+			<Property426 Cookie="586" PropertyType="0" Value="VCLObject(&quot;edBottomScript&quot;)" Type="5" />
+			<Property427 Cookie="587" PropertyType="0" Value="VCLObject(&quot;gbTop&quot;)" Type="5" />
+			<Property428 Cookie="588" PropertyType="0" Value="VCLObject(&quot;cbTopObjectType&quot;)" Type="5" />
+			<Property429 Cookie="589" PropertyType="0" Value="VCLObject(&quot;gbBottom&quot;)" Type="5" />
+			<Property430 Cookie="590" PropertyType="0" Value="VCLObject(&quot;cbBottomObjectType&quot;)" Type="5" />
+			<Property431 Cookie="591" PropertyType="0" Value="VCLObject(&quot;edTopObjectName&quot;)" Type="5" />
+			<Property432 Cookie="592" PropertyType="0" Value="VCLObject(&quot;edBottomObjectName&quot;)" Type="5" />
+			<Property433 Cookie="593" PropertyType="0" Value="VCLObject(&quot;btnOK&quot;)" Type="5" />
+			<Property434 Cookie="594" PropertyType="0" Value="VCLObject(&quot;ViewerForm&quot;)" Type="5" />
+			<Property435 Cookie="595" PropertyType="0" Value="VCLObject(&quot;StatusBar&quot;)" Type="5" />
+			<Property436 Cookie="596" PropertyType="0" Value="TPanel" Type="5" />
+			<Property437 Cookie="597" PropertyType="0" Value="Summary" Type="5" />
+			<Property438 Cookie="598" PropertyType="0" Value="#32770" Type="5" />
+			<Property439 Cookie="599" PropertyType="0" Value="Information" Type="5" />
 		</Child0>
 		<Child1 Name="Version_Win8">
 			<Property0 Cookie="0" PropertyType="0" Value="Sys" Type="5" />
@@ -2522,6 +2658,24 @@
 			<Property419 Cookie="579" PropertyType="0" Value="VCLObject(&quot;btnOpen&quot;)" Type="5" />
 			<Property420 Cookie="580" PropertyType="0" Value="VCLObject(&quot;lvObjects&quot;)" Type="5" />
 			<Property421 Cookie="581" PropertyType="0" Value="VCLObject(&quot;ProgressBar&quot;)" Type="5" />
+			<Property422 Cookie="582" PropertyType="0" Value="VCLObject(&quot;frmImportData&quot;)" Type="5" />
+			<Property423 Cookie="583" PropertyType="0" Value="VCLObject(&quot;gbSelected&quot;)" Type="5" />
+			<Property424 Cookie="584" PropertyType="0" Value="VCLObject(&quot;edTopScript&quot;)" Type="5" />
+			<Property425 Cookie="585" PropertyType="0" Value="VCLObject(&quot;gbCompared&quot;)" Type="5" />
+			<Property426 Cookie="586" PropertyType="0" Value="VCLObject(&quot;edBottomScript&quot;)" Type="5" />
+			<Property427 Cookie="587" PropertyType="0" Value="VCLObject(&quot;gbTop&quot;)" Type="5" />
+			<Property428 Cookie="588" PropertyType="0" Value="VCLObject(&quot;cbTopObjectType&quot;)" Type="5" />
+			<Property429 Cookie="589" PropertyType="0" Value="VCLObject(&quot;gbBottom&quot;)" Type="5" />
+			<Property430 Cookie="590" PropertyType="0" Value="VCLObject(&quot;cbBottomObjectType&quot;)" Type="5" />
+			<Property431 Cookie="591" PropertyType="0" Value="VCLObject(&quot;edTopObjectName&quot;)" Type="5" />
+			<Property432 Cookie="592" PropertyType="0" Value="VCLObject(&quot;edBottomObjectName&quot;)" Type="5" />
+			<Property433 Cookie="593" PropertyType="0" Value="VCLObject(&quot;btnOK&quot;)" Type="5" />
+			<Property434 Cookie="594" PropertyType="0" Value="VCLObject(&quot;ViewerForm&quot;)" Type="5" />
+			<Property435 Cookie="595" PropertyType="0" Value="VCLObject(&quot;StatusBar&quot;)" Type="5" />
+			<Property436 Cookie="596" PropertyType="0" Value="TPanel" Type="5" />
+			<Property437 Cookie="597" PropertyType="0" Value="Summary" Type="5" />
+			<Property438 Cookie="598" PropertyType="0" Value="#32770" Type="5" />
+			<Property439 Cookie="599" PropertyType="0" Value="Information" Type="5" />
 		</Child1>
 	</Storages>
 	<TypeInfo StoreCodeCompletion="0">

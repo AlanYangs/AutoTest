@@ -112,6 +112,9 @@
 			<Node name="script\menu_session.sj">
 				<Prp name="relpath" type="S" value="Script\Menu_Session.sj"/>
 			</Node>
+			<Node name="script\menu_tools.sj">
+				<Prp name="relpath" type="S" value="Script\Menu_Tools.sj"/>
+			</Node>
 			<Node name="script\menu_view.sj">
 				<Prp name="relpath" type="S" value="Script\Menu_View.sj"/>
 			</Node>
