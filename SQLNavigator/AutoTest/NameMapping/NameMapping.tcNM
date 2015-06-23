@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<Root Signature="{5DCBAC3B-D39C-497C-9BE8-744CBADD37AA}" NameMappingVersion="4" Cookie="600">
+<Root Signature="{5DCBAC3B-D39C-497C-9BE8-744CBADD37AA}" NameMappingVersion="4" Cookie="620">
 	<Nodes Name="NameMapping" Key="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}" ParallelWalk="True">
 		<Properties />
 		<Children>
@@ -665,6 +665,74 @@
 													</Child0>
 												</Children>
 											</Child33>
+											<Child34 Name="frmWrapCode" Key="{E0CF382A-F88F-4B26-ADD9-58CEB164F354}" ParallelWalk="True">
+												<Properties>
+													<Property0 Name="Name" Cookie="603" />
+												</Properties>
+												<Children>
+													<Child0 Name="pnlTop" Key="{07A91AAD-6C6D-42CE-8973-7C330CA0511B}" ParallelWalk="True">
+														<Properties>
+															<Property0 Name="Name" Cookie="604" />
+														</Properties>
+														<Children>
+															<Child0 Name="edtInputFile" Key="{7AAA561A-B922-4832-B3AC-D7FB29C7765B}" ParallelWalk="True">
+																<Properties>
+																	<Property0 Name="Name" Cookie="605" />
+																</Properties>
+																<Children />
+															</Child0>
+															<Child1 Name="btnWrapCode" Key="{8D7429FC-E64C-4BC6-BF5F-DCD3A3075ABA}" ParallelWalk="True">
+																<Properties>
+																	<Property0 Name="Name" Cookie="606" />
+																</Properties>
+																<Children />
+															</Child1>
+															<Child2 Name="btnFileSelect" Key="{0C779A29-48FA-43D0-B284-3E240CE9FA8E}" ParallelWalk="True">
+																<Properties>
+																	<Property0 Name="Name" Cookie="607" />
+																</Properties>
+																<Children />
+															</Child2>
+														</Children>
+													</Child0>
+												</Children>
+											</Child34>
+											<Child35 Name="frmSessionBrowser" Key="{9C42F124-24F8-4CC1-A36C-CC076166D95C}" ParallelWalk="True">
+												<Properties>
+													<Property0 Name="Name" Cookie="608" />
+												</Properties>
+												<Children />
+											</Child35>
+											<Child36 Name="frmExplainPlan" Key="{CB88038A-09EA-4053-B3CE-B8B4B7B1D097}" ParallelWalk="True">
+												<Properties>
+													<Property0 Name="Name" Cookie="612" />
+												</Properties>
+												<Children />
+											</Child36>
+											<Child37 Name="frmSqlTuning" Key="{74F67197-7BE5-496F-837C-E55627ADDB02}" ParallelWalk="True">
+												<Properties>
+													<Property0 Name="Name" Cookie="616" />
+												</Properties>
+												<Children />
+											</Child37>
+											<Child38 Name="frmProfiler" Key="{95B25E7F-6FD1-4089-8251-1379A7344FF0}" ParallelWalk="True">
+												<Properties>
+													<Property0 Name="Name" Cookie="617" />
+												</Properties>
+												<Children />
+											</Child38>
+											<Child39 Name="frmJobScheduler" Key="{72004526-D470-4A7A-98EA-012F7152787E}" ParallelWalk="True">
+												<Properties>
+													<Property0 Name="Name" Cookie="618" />
+												</Properties>
+												<Children />
+											</Child39>
+											<Child40 Name="frmJavaManager" Key="{AB3390CA-72FC-4DFE-9E2E-BE5D376C5A5D}" ParallelWalk="True">
+												<Properties>
+													<Property0 Name="Name" Cookie="619" />
+												</Properties>
+												<Children />
+											</Child40>
 										</Children>
 									</Child1>
 									<Child2 Name="BottomZone" Key="{A1EC0A1B-4283-49CF-A8B0-D328C4A4B224}" ParallelWalk="True">
@@ -1526,8 +1594,53 @@
 								</Properties>
 								<Children />
 							</Child42>
+							<Child43 Name="frmProfileCode" Key="{F7992EC8-BEF9-4216-BCC7-194825ABF7CE}" ParallelWalk="True">
+								<Properties>
+									<Property0 Name="Name" Cookie="600" />
+								</Properties>
+								<Children />
+							</Child43>
+							<Child44 Name="frmMultiFileFormat" Key="{0055F5A4-77B7-414F-B8AD-3ABAF7C3875F}" ParallelWalk="True">
+								<Properties>
+									<Property0 Name="Name" Cookie="601" />
+								</Properties>
+								<Children />
+							</Child44>
+							<Child45 Name="frmFmtOptions" Key="{C15D7FE3-914C-4D2A-9888-7A9AA71353B3}" ParallelWalk="True">
+								<Properties>
+									<Property0 Name="Name" Cookie="602" />
+								</Properties>
+								<Children />
+							</Child45>
 						</Children>
 					</Child1>
+					<Child2 Name="KnowledgeXpert" Key="{A123EF24-1271-43B0-82A2-E6FC3148114E}" ParallelWalk="True">
+						<Properties>
+							<Property0 Name="ProcessName" Cookie="609" />
+						</Properties>
+						<Children>
+							<Child0 Name="wndHome" Key="{89606F3B-855F-40ED-8838-154B328C7334}" ParallelWalk="True">
+								<Properties>
+									<Property0 Name="WndClass" Cookie="610" />
+									<Property1 Name="WndCaption" Cookie="611" />
+								</Properties>
+								<Children />
+							</Child0>
+						</Children>
+					</Child2>
+					<Child3 Name="SqlOptimizer" Key="{480ACD98-E6E6-43D4-97A8-E3CA007BEA70}" ParallelWalk="True">
+						<Properties>
+							<Property0 Name="ProcessName" Cookie="613" />
+						</Properties>
+						<Children>
+							<Child0 Name="frmSqlOptimizer" Key="{8BB6164F-BDF1-4F6B-9161-341916DA7B54}" ParallelWalk="True">
+								<Properties>
+									<Property0 Name="NativeClrObject.Name" Cookie="615" />
+								</Properties>
+								<Children />
+							</Child0>
+						</Children>
+					</Child3>
 				</Children>
 			</Child0>
 		</Children>
@@ -1640,6 +1753,17 @@
 					<Child33 Name="frmDifferenceViewer" Owner="{649B4983-E5A4-42F2-902A-1B1C4EF44700}">
 						<Child0 Name="pnlResult" Owner="{45379D63-93B6-4000-91DF-8738BAB0F21B}" />
 					</Child33>
+					<Child34 Name="frmWrapCode" Owner="{E0CF382A-F88F-4B26-ADD9-58CEB164F354}">
+						<Child0 Name="edtInputFile" Owner="{7AAA561A-B922-4832-B3AC-D7FB29C7765B}" />
+						<Child1 Name="btnWrapCode" Owner="{8D7429FC-E64C-4BC6-BF5F-DCD3A3075ABA}" />
+						<Child2 Name="btnFileSelect" Owner="{0C779A29-48FA-43D0-B284-3E240CE9FA8E}" />
+					</Child34>
+					<Child35 Name="frmSessionBrowser" Owner="{9C42F124-24F8-4CC1-A36C-CC076166D95C}" />
+					<Child36 Name="frmExplainPlan" Owner="{CB88038A-09EA-4053-B3CE-B8B4B7B1D097}" />
+					<Child37 Name="frmSqlTuning" Owner="{74F67197-7BE5-496F-837C-E55627ADDB02}" />
+					<Child38 Name="frmProfiler" Owner="{95B25E7F-6FD1-4089-8251-1379A7344FF0}" />
+					<Child39 Name="frmJobScheduler" Owner="{72004526-D470-4A7A-98EA-012F7152787E}" />
+					<Child40 Name="frmJavaManager" Owner="{AB3390CA-72FC-4DFE-9E2E-BE5D376C5A5D}" />
 				</Child1>
 				<Child2 Name="BottomZone" Owner="{A1EC0A1B-4283-49CF-A8B0-D328C4A4B224}">
 					<Child0 Name="pnlOutput" Owner="{58D280BF-1F5E-45A7-A698-615040001048}">
@@ -1790,7 +1914,16 @@
 				<Child3 Name="lvObjects" Owner="{5DF909E1-5332-4FCE-956B-0A0CA3692B93}" />
 			</Child41>
 			<Child42 Name="dlgInformation" Owner="{7DAD9BB2-F658-4CFD-8EC6-F9CBBE1CFF76}" />
+			<Child43 Name="frmProfileCode" Owner="{F7992EC8-BEF9-4216-BCC7-194825ABF7CE}" />
+			<Child44 Name="frmMultiFileFormat" Owner="{0055F5A4-77B7-414F-B8AD-3ABAF7C3875F}" />
+			<Child45 Name="frmFmtOptions" Owner="{C15D7FE3-914C-4D2A-9888-7A9AA71353B3}" />
 		</Child1>
+		<Child2 Name="KnowledgeXpert" Owner="{A123EF24-1271-43B0-82A2-E6FC3148114E}">
+			<Child0 Name="wndHome" Owner="{89606F3B-855F-40ED-8838-154B328C7334}" />
+		</Child2>
+		<Child3 Name="SqlOptimizer" Owner="{480ACD98-E6E6-43D4-97A8-E3CA007BEA70}">
+			<Child0 Name="frmSqlOptimizer" Owner="{8BB6164F-BDF1-4F6B-9161-341916DA7B54}" />
+		</Child3>
 	</LogicalNodes>
 	<Storages Current="0">
 		<Child0 Name="Version_Win7">
@@ -2234,6 +2367,25 @@
 			<Property437 Cookie="597" PropertyType="0" Value="Summary" Type="5" />
 			<Property438 Cookie="598" PropertyType="0" Value="#32770" Type="5" />
 			<Property439 Cookie="599" PropertyType="0" Value="Information" Type="5" />
+			<Property440 Cookie="600" PropertyType="0" Value="VCLObject(&quot;frmProfileCodeOutput&quot;)" Type="5" />
+			<Property441 Cookie="601" PropertyType="0" Value="VCLObject(&quot;frmMulti&quot;)" Type="5" />
+			<Property442 Cookie="602" PropertyType="0" Value="VCLObject(&quot;frmFmtOptions&quot;)" Type="5" />
+			<Property443 Cookie="603" PropertyType="0" Value="VCLObject(&quot;FormWrap&quot;)" Type="5" />
+			<Property444 Cookie="604" PropertyType="0" Value="VCLObject(&quot;Panel1&quot;)" Type="5" />
+			<Property445 Cookie="605" PropertyType="0" Value="VCLObject(&quot;edInputFile&quot;)" Type="5" />
+			<Property446 Cookie="606" PropertyType="0" Value="VCLObject(&quot;btnWrapCode&quot;)" Type="5" />
+			<Property447 Cookie="607" PropertyType="0" Value="VCLObject(&quot;btnFileSelect&quot;)" Type="5" />
+			<Property448 Cookie="608" PropertyType="0" Value="VCLObject(&quot;frmSessionBrowser&quot;)" Type="5" />
+			<Property449 Cookie="609" PropertyType="0" Value="KXpert" Type="5" />
+			<Property450 Cookie="610" PropertyType="0" Value="Afx:400000:b*" Type="5" />
+			<Property451 Cookie="611" PropertyType="0" Value="*" Type="5" />
+			<Property452 Cookie="612" PropertyType="0" Value="VCLObject(&quot;frmExplainPlan&quot;)" Type="5" />
+			<Property453 Cookie="613" PropertyType="0" Value="*SQL Optimizer*" Type="5" />
+			<Property454 Cookie="615" PropertyType="0" Value="frmMain" Type="5" />
+			<Property455 Cookie="616" PropertyType="0" Value="VCLObject(&quot;frmChildHolder&quot;)" Type="5" />
+			<Property456 Cookie="617" PropertyType="0" Value="VCLObject(&quot;frmProf&quot;)" Type="5" />
+			<Property457 Cookie="618" PropertyType="0" Value="VCLObject(&quot;frmJobScheduler&quot;)" Type="5" />
+			<Property458 Cookie="619" PropertyType="0" Value="VCLObject(&quot;frmJavaManager&quot;)" Type="5" />
 		</Child0>
 		<Child1 Name="Version_Win8">
 			<Property0 Cookie="0" PropertyType="0" Value="Sys" Type="5" />
@@ -2676,6 +2828,25 @@
 			<Property437 Cookie="597" PropertyType="0" Value="Summary" Type="5" />
 			<Property438 Cookie="598" PropertyType="0" Value="#32770" Type="5" />
 			<Property439 Cookie="599" PropertyType="0" Value="Information" Type="5" />
+			<Property440 Cookie="600" PropertyType="0" Value="VCLObject(&quot;frmProfileCodeOutput&quot;)" Type="5" />
+			<Property441 Cookie="601" PropertyType="0" Value="VCLObject(&quot;frmMulti&quot;)" Type="5" />
+			<Property442 Cookie="602" PropertyType="0" Value="VCLObject(&quot;frmFmtOptions&quot;)" Type="5" />
+			<Property443 Cookie="603" PropertyType="0" Value="VCLObject(&quot;FormWrap&quot;)" Type="5" />
+			<Property444 Cookie="604" PropertyType="0" Value="VCLObject(&quot;Panel1&quot;)" Type="5" />
+			<Property445 Cookie="605" PropertyType="0" Value="VCLObject(&quot;edInputFile&quot;)" Type="5" />
+			<Property446 Cookie="606" PropertyType="0" Value="VCLObject(&quot;btnWrapCode&quot;)" Type="5" />
+			<Property447 Cookie="607" PropertyType="0" Value="VCLObject(&quot;btnFileSelect&quot;)" Type="5" />
+			<Property448 Cookie="608" PropertyType="0" Value="VCLObject(&quot;frmSessionBrowser&quot;)" Type="5" />
+			<Property449 Cookie="609" PropertyType="0" Value="KXpert" Type="5" />
+			<Property450 Cookie="610" PropertyType="0" Value="Afx:400000:b*" Type="5" />
+			<Property451 Cookie="611" PropertyType="0" Value="*" Type="5" />
+			<Property452 Cookie="612" PropertyType="0" Value="VCLObject(&quot;frmExplainPlan&quot;)" Type="5" />
+			<Property453 Cookie="613" PropertyType="0" Value="*SQL Optimizer*" Type="5" />
+			<Property454 Cookie="615" PropertyType="0" Value="frmMain" Type="5" />
+			<Property455 Cookie="616" PropertyType="0" Value="VCLObject(&quot;frmChildHolder&quot;)" Type="5" />
+			<Property456 Cookie="617" PropertyType="0" Value="VCLObject(&quot;frmProf&quot;)" Type="5" />
+			<Property457 Cookie="618" PropertyType="0" Value="VCLObject(&quot;frmJobScheduler&quot;)" Type="5" />
+			<Property458 Cookie="619" PropertyType="0" Value="VCLObject(&quot;frmJavaManager&quot;)" Type="5" />
 		</Child1>
 	</Storages>
 	<TypeInfo StoreCodeCompletion="0">
