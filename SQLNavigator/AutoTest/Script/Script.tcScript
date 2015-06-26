@@ -210,6 +210,36 @@
 				<Prp name="type" type="S" value="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}"/>
 				<Prp name="typename" type="S" value="Script Unit"/>
 			</Node>
+			<Node name="item0000000019">
+				<Node name="item data">
+					<Prp name="relpath" type="S" value="Menu_Help.sj"/>
+				</Node>
+				<Prp name="index" type="I" value="19"/>
+				<Prp name="key" type="S" value="{74A74C4F-DC6E-4AB5-82CF-8201CF422B63}"/>
+				<Prp name="pluginname" type="S" value="Script"/>
+				<Prp name="type" type="S" value="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}"/>
+				<Prp name="typename" type="S" value="Script Unit"/>
+			</Node>
+			<Node name="item0000000020">
+				<Node name="item data">
+					<Prp name="relpath" type="S" value="CodeEditor_Syntax.sj"/>
+				</Node>
+				<Prp name="index" type="I" value="20"/>
+				<Prp name="key" type="S" value="{15298733-B2BF-4E3F-A689-AF29468A3121}"/>
+				<Prp name="pluginname" type="S" value="Script"/>
+				<Prp name="type" type="S" value="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}"/>
+				<Prp name="typename" type="S" value="Script Unit"/>
+			</Node>
+			<Node name="item0000000021">
+				<Node name="item data">
+					<Prp name="relpath" type="S" value="CodeEditor_DBExplorer.sj"/>
+				</Node>
+				<Prp name="index" type="I" value="21"/>
+				<Prp name="key" type="S" value="{671F1A30-62E1-4CAA-870A-089DE4BDC535}"/>
+				<Prp name="pluginname" type="S" value="Script"/>
+				<Prp name="type" type="S" value="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}"/>
+				<Prp name="typename" type="S" value="Script Unit"/>
+			</Node>
 		</Node>
 		<Node name="folders">
 			<Node name="folders">
@@ -250,7 +280,7 @@
 							<Prp name="key" type="S" value="{8FF7367B-3D11-4681-8B49-DEF463ED3468}"/>
 						</Node>
 					</Node>
-					<Prp name="caption" type="S" value="Installer"/>
+					<Prp name="caption" type="S" value="1_Installer"/>
 					<Prp name="description" type="S" value="A logical folder that is used to organize project items and elements."/>
 					<Prp name="index" type="I" value="1"/>
 					<Prp name="moniker" type="S" value=""/>
@@ -286,8 +316,12 @@
 							<Prp name="index" type="I" value="6"/>
 							<Prp name="key" type="S" value="{1E06F6BF-3EC5-4AC5-94F2-B51DEA54A108}"/>
 						</Node>
+						<Node name="ref0000000007">
+							<Prp name="index" type="I" value="7"/>
+							<Prp name="key" type="S" value="{74A74C4F-DC6E-4AB5-82CF-8201CF422B63}"/>
+						</Node>
 					</Node>
-					<Prp name="caption" type="S" value="MainMenu"/>
+					<Prp name="caption" type="S" value="2_MainMenu"/>
 					<Prp name="description" type="S" value="A logical folder that is used to organize project items and elements."/>
 					<Prp name="index" type="I" value="2"/>
 					<Prp name="moniker" type="S" value=""/>
@@ -315,6 +349,23 @@
 					<Prp name="caption" type="S" value="PublicFuction"/>
 					<Prp name="description" type="S" value="A logical folder that is used to organize project items and elements."/>
 					<Prp name="index" type="I" value="3"/>
+					<Prp name="moniker" type="S" value=""/>
+				</Node>
+				<Node name="folder0000000004">
+					<Node name="folders"/>
+					<Node name="references">
+						<Node name="ref0000000000">
+							<Prp name="index" type="I" value="0"/>
+							<Prp name="key" type="S" value="{15298733-B2BF-4E3F-A689-AF29468A3121}"/>
+						</Node>
+						<Node name="ref0000000001">
+							<Prp name="index" type="I" value="1"/>
+							<Prp name="key" type="S" value="{671F1A30-62E1-4CAA-870A-089DE4BDC535}"/>
+						</Node>
+					</Node>
+					<Prp name="caption" type="S" value="3_CodeEditor"/>
+					<Prp name="description" type="S" value="A logical folder that is used to organize project items and elements."/>
+					<Prp name="index" type="I" value="4"/>
 					<Prp name="moniker" type="S" value=""/>
 				</Node>
 			</Node>

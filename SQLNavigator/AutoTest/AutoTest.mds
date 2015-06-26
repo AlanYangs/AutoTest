@@ -67,6 +67,12 @@
 			<Node name="namemapping\namemapping.tcnm">
 				<Prp name="relpath" type="S" value="NameMapping\NameMapping.tcNM"/>
 			</Node>
+			<Node name="script\codeeditor_dbexplorer.sj">
+				<Prp name="relpath" type="S" value="Script\CodeEditor_DBExplorer.sj"/>
+			</Node>
+			<Node name="script\codeeditor_syntax.sj">
+				<Prp name="relpath" type="S" value="Script\CodeEditor_Syntax.sj"/>
+			</Node>
 			<Node name="script\fcheckerrors.sj">
 				<Prp name="relpath" type="S" value="Script\fCheckErrors.sj"/>
 			</Node>
@@ -102,6 +108,9 @@
 			</Node>
 			<Node name="script\menu_file.sj">
 				<Prp name="relpath" type="S" value="Script\Menu_File.sj"/>
+			</Node>
+			<Node name="script\menu_help.sj">
+				<Prp name="relpath" type="S" value="Script\Menu_Help.sj"/>
 			</Node>
 			<Node name="script\menu_object.sj">
 				<Prp name="relpath" type="S" value="Script\Menu_Object.sj"/>
