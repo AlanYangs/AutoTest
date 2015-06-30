@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<Root Signature="{5DCBAC3B-D39C-497C-9BE8-744CBADD37AA}" NameMappingVersion="4" Cookie="677">
+<Root Signature="{5DCBAC3B-D39C-497C-9BE8-744CBADD37AA}" NameMappingVersion="4" Cookie="687">
 	<Nodes Name="NameMapping" Key="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}" ParallelWalk="True">
 		<Properties />
 		<Children>
@@ -157,6 +157,19 @@
 																</Properties>
 																<Children />
 															</Child0>
+															<Child1 Name="pnlTabSet" Key="{D0935173-4357-463A-8EE0-849150C8645A}" ParallelWalk="True">
+																<Properties>
+																	<Property0 Name="Name" Cookie="684" />
+																</Properties>
+																<Children>
+																	<Child0 Name="btnCloseTab" Key="{9E0A671E-0E8D-46EC-B474-876D52B12923}" ParallelWalk="True">
+																		<Properties>
+																			<Property0 Name="Name" Cookie="685" />
+																		</Properties>
+																		<Children />
+																	</Child0>
+																</Children>
+															</Child1>
 														</Children>
 													</Child0>
 													<Child1 Name="pnlEditor" Key="{A59D3415-7690-4069-AF30-5A6D70C037F6}" ParallelWalk="True">
@@ -299,6 +312,26 @@
 																					</Child0>
 																				</Children>
 																			</Child0>
+																			<Child1 Name="DescribeControl" Key="{4CC01F7F-5C85-4928-98C3-BA5BCEF30535}" ParallelWalk="True">
+																				<Properties>
+																					<Property0 Name="Name" Cookie="677" />
+																				</Properties>
+																				<Children>
+																					<Child0 Name="Panel3" Key="{C251809C-CAAB-41C3-A695-955D1DE459F3}" ParallelWalk="True">
+																						<Properties>
+																							<Property0 Name="Name" Cookie="678" />
+																						</Properties>
+																						<Children>
+																							<Child0 Name="vstDetails" Key="{4C47A10D-8268-4878-9BFB-79AA689F7ACC}" ParallelWalk="True">
+																								<Properties>
+																									<Property0 Name="Name" Cookie="679" />
+																								</Properties>
+																								<Children />
+																							</Child0>
+																						</Children>
+																					</Child0>
+																				</Children>
+																			</Child1>
 																		</Children>
 																	</Child0>
 																</Children>
@@ -1755,6 +1788,26 @@
 									</Child0>
 								</Children>
 							</Child50>
+							<Child51 Name="wndCopyData" Key="{10AB6FDA-0266-45E7-9B10-455D43490277}" ParallelWalk="True">
+								<Properties>
+									<Property0 Name="WndClass" Cookie="680" />
+									<Property1 Name="WndCaption" Cookie="681" />
+								</Properties>
+								<Children />
+							</Child51>
+							<Child52 Name="wndNewSynonym" Key="{43827D48-AA94-4BC6-BA49-9224F4E19B10}" ParallelWalk="True">
+								<Properties>
+									<Property0 Name="WndClass" Cookie="682" />
+									<Property1 Name="WndCaption" Cookie="683" />
+								</Properties>
+								<Children />
+							</Child52>
+							<Child53 Name="frmModelCode" Key="{8AE9C93A-AB4C-4E09-9AF2-2D91CED06B9F}" ParallelWalk="True">
+								<Properties>
+									<Property0 Name="Name" Cookie="686" />
+								</Properties>
+								<Children />
+							</Child53>
 						</Children>
 					</Child1>
 					<Child2 Name="KnowledgeXpert" Key="{A123EF24-1271-43B0-82A2-E6FC3148114E}" ParallelWalk="True">
@@ -1993,6 +2046,7 @@
 					<Child0 Name="frmUnifiedEditor" Owner="{3895A02D-E58A-4E7F-AAE2-6472D404E41A}">
 						<Child0 Name="pnlTabBar" Owner="{FD85500C-7447-4113-9646-EB68AEFED564}">
 							<Child0 Name="TabScripts" Owner="{9FBBD395-4F7E-4640-9A28-5E9DD4B233E4}" />
+							<Child1 Name="btnCloseTab" Owner="{9E0A671E-0E8D-46EC-B474-876D52B12923}" />
 						</Child0>
 						<Child1 Name="pnlEditor" Owner="{A59D3415-7690-4069-AF30-5A6D70C037F6}">
 							<Child0 Name="frmBrowseData" Owner="{CA27EC69-6A00-48C0-88CD-DDB388772497}">
@@ -2010,6 +2064,9 @@
 								<Child0 Name="frmDbExplorer" Owner="{6CF05095-C5F1-48E4-B543-FEB35B6A9894}">
 									<Child0 Name="vstDbNavigator" Owner="{AFA8380F-1B78-42EF-8898-8F8648E0B42E}" />
 								</Child0>
+								<Child1 Name="DescribeControl" Owner="{4CC01F7F-5C85-4928-98C3-BA5BCEF30535}">
+									<Child0 Name="vstDetails" Owner="{4C47A10D-8268-4878-9BFB-79AA689F7ACC}" />
+								</Child1>
 							</Child0>
 						</Child2>
 					</Child0>
@@ -2257,6 +2314,9 @@
 			<Child50 Name="frmLicUpgrade" Owner="{A5B4C5E3-E175-45BF-87AB-7E70024DE13B}">
 				<Child0 Name="btnClose" Owner="{75069987-6985-423E-833E-11F25575DF9F}" />
 			</Child50>
+			<Child51 Name="wndCopyData" Owner="{10AB6FDA-0266-45E7-9B10-455D43490277}" />
+			<Child52 Name="wndNewSynonym" Owner="{43827D48-AA94-4BC6-BA49-9224F4E19B10}" />
+			<Child53 Name="frmModelCode" Owner="{8AE9C93A-AB4C-4E09-9AF2-2D91CED06B9F}" />
 		</Child1>
 		<Child2 Name="KnowledgeXpert" Owner="{A123EF24-1271-43B0-82A2-E6FC3148114E}">
 			<Child0 Name="wndHome" Owner="{89606F3B-855F-40ED-8838-154B328C7334}" />
@@ -2804,6 +2864,16 @@
 			<Property512 Cookie="674" PropertyType="0" Value="VCLObject(&quot;frmDbExplorer&quot;)" Type="5" />
 			<Property513 Cookie="675" PropertyType="0" Value="VCLObject(&quot;Panel1&quot;)" Type="5" />
 			<Property514 Cookie="676" PropertyType="0" Value="VCLObject(&quot;vstDbNavigator&quot;)" Type="5" />
+			<Property515 Cookie="677" PropertyType="0" Value="VCLObject(&quot;bgDescribeControl&quot;)" Type="5" />
+			<Property516 Cookie="678" PropertyType="0" Value="VCLObject(&quot;Panel3&quot;)" Type="5" />
+			<Property517 Cookie="679" PropertyType="0" Value="VCLObject(&quot;vstDetails&quot;)" Type="5" />
+			<Property518 Cookie="680" PropertyType="0" Value="TForm" Type="5" />
+			<Property519 Cookie="681" PropertyType="0" Value="Copy table/view data" Type="5" />
+			<Property520 Cookie="682" PropertyType="0" Value="TForm" Type="5" />
+			<Property521 Cookie="683" PropertyType="0" Value="Creating synonym" Type="5" />
+			<Property522 Cookie="684" PropertyType="0" Value="VCLObject(&quot;pnlTabSet&quot;)" Type="5" />
+			<Property523 Cookie="685" PropertyType="0" Value="VCLObject(&quot;btnClose&quot;)" Type="5" />
+			<Property524 Cookie="686" PropertyType="0" Value="VCLObject(&quot;FormCRMParams&quot;)" Type="5" />
 		</Child0>
 		<Child1 Name="Version_Win8">
 			<Property0 Cookie="0" PropertyType="0" Value="Sys" Type="5" />
@@ -3321,6 +3391,16 @@
 			<Property512 Cookie="674" PropertyType="0" Value="VCLObject(&quot;frmDbExplorer&quot;)" Type="5" />
 			<Property513 Cookie="675" PropertyType="0" Value="VCLObject(&quot;Panel1&quot;)" Type="5" />
 			<Property514 Cookie="676" PropertyType="0" Value="VCLObject(&quot;vstDbNavigator&quot;)" Type="5" />
+			<Property515 Cookie="677" PropertyType="0" Value="VCLObject(&quot;bgDescribeControl&quot;)" Type="5" />
+			<Property516 Cookie="678" PropertyType="0" Value="VCLObject(&quot;Panel3&quot;)" Type="5" />
+			<Property517 Cookie="679" PropertyType="0" Value="VCLObject(&quot;vstDetails&quot;)" Type="5" />
+			<Property518 Cookie="680" PropertyType="0" Value="TForm" Type="5" />
+			<Property519 Cookie="681" PropertyType="0" Value="Copy table/view data" Type="5" />
+			<Property520 Cookie="682" PropertyType="0" Value="TForm" Type="5" />
+			<Property521 Cookie="683" PropertyType="0" Value="Creating synonym" Type="5" />
+			<Property522 Cookie="684" PropertyType="0" Value="VCLObject(&quot;pnlTabSet&quot;)" Type="5" />
+			<Property523 Cookie="685" PropertyType="0" Value="VCLObject(&quot;btnClose&quot;)" Type="5" />
+			<Property524 Cookie="686" PropertyType="0" Value="VCLObject(&quot;FormCRMParams&quot;)" Type="5" />
 		</Child1>
 	</Storages>
 	<TypeInfo StoreCodeCompletion="0">
