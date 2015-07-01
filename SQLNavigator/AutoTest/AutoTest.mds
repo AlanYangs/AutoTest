@@ -70,6 +70,9 @@
 			<Node name="script\codeeditor_dbexplorer.sj">
 				<Prp name="relpath" type="S" value="Script\CodeEditor_DBExplorer.sj"/>
 			</Node>
+			<Node name="script\codeeditor_history.sj">
+				<Prp name="relpath" type="S" value="Script\CodeEditor_History.sj"/>
+			</Node>
 			<Node name="script\codeeditor_syntax.sj">
 				<Prp name="relpath" type="S" value="Script\CodeEditor_Syntax.sj"/>
 			</Node>
