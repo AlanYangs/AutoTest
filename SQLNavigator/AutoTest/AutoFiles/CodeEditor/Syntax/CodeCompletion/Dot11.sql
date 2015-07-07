@@ -1,0 +1,1 @@
+select e from auto_tab_emp e;

@@ -232,7 +232,7 @@
 			</Node>
 			<Node name="item0000000021">
 				<Node name="item data">
-					<Prp name="relpath" type="S" value="CodeEditor_DBExplorer.sj"/>
+					<Prp name="relpath" type="S" value="Toolbox_DBExplorer.sj"/>
 				</Node>
 				<Prp name="index" type="I" value="21"/>
 				<Prp name="key" type="S" value="{671F1A30-62E1-4CAA-870A-089DE4BDC535}"/>
@@ -242,7 +242,7 @@
 			</Node>
 			<Node name="item0000000022">
 				<Node name="item data">
-					<Prp name="relpath" type="S" value="CodeEditor_History.sj"/>
+					<Prp name="relpath" type="S" value="Toolbox_History.sj"/>
 				</Node>
 				<Prp name="index" type="I" value="22"/>
 				<Prp name="key" type="S" value="{D05D3894-C479-46C5-9CF4-2DD4193EEC26}"/>

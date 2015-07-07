@@ -1,0 +1,1 @@
+delete from auto_tab_emp w where w

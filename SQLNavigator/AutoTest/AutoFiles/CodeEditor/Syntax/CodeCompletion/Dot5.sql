@@ -1,0 +1,1 @@
+select * from auto_tab_emp e1, auto_tab_emp_log e2 where e1

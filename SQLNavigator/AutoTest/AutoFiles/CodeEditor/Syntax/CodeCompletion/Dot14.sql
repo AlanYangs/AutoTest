@@ -1,0 +1,1 @@
+select * from navdev.auto_tab_emp, navdev

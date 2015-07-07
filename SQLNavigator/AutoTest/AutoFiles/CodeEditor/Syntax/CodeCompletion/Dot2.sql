@@ -1,0 +1,1 @@
+select * from table(auto_pkg_codeCompletion.function_name

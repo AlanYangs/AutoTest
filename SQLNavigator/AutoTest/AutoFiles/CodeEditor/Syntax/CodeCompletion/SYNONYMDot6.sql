@@ -1,0 +1,1 @@
+select * from testsyn1 z where z

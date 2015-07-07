@@ -1,0 +1,1 @@
+select * from auto_tab_emp order by auto_tab_emp

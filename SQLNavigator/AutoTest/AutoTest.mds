@@ -67,12 +67,6 @@
 			<Node name="namemapping\namemapping.tcnm">
 				<Prp name="relpath" type="S" value="NameMapping\NameMapping.tcNM"/>
 			</Node>
-			<Node name="script\codeeditor_dbexplorer.sj">
-				<Prp name="relpath" type="S" value="Script\CodeEditor_DBExplorer.sj"/>
-			</Node>
-			<Node name="script\codeeditor_history.sj">
-				<Prp name="relpath" type="S" value="Script\CodeEditor_History.sj"/>
-			</Node>
 			<Node name="script\codeeditor_syntax.sj">
 				<Prp name="relpath" type="S" value="Script\CodeEditor_Syntax.sj"/>
 			</Node>
@@ -135,6 +129,12 @@
 			</Node>
 			<Node name="script\test.sj">
 				<Prp name="relpath" type="S" value="Script\test.sj"/>
+			</Node>
+			<Node name="script\toolbox_dbexplorer.sj">
+				<Prp name="relpath" type="S" value="Script\Toolbox_DBExplorer.sj"/>
+			</Node>
+			<Node name="script\toolbox_history.sj">
+				<Prp name="relpath" type="S" value="Script\Toolbox_History.sj"/>
 			</Node>
 			<Node name="script\vglobalvariables.sj">
 				<Prp name="relpath" type="S" value="Script\vGlobalVariables.sj"/>

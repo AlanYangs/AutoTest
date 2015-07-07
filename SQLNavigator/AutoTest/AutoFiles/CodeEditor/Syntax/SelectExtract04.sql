@@ -1,0 +1,1 @@
+select hiredate,extract(day from hiredate) from emp;

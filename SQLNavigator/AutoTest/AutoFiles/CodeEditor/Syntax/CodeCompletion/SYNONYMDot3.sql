@@ -1,0 +1,1 @@
+select * from emp_syn2 w where w
