@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<Root Signature="{5DCBAC3B-D39C-497C-9BE8-744CBADD37AA}" NameMappingVersion="4" Cookie="711">
+<Root Signature="{5DCBAC3B-D39C-497C-9BE8-744CBADD37AA}" NameMappingVersion="4" Cookie="718">
 	<Nodes Name="NameMapping" Key="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}" ParallelWalk="True">
 		<Properties />
 		<Children>
@@ -1529,7 +1529,34 @@
 								<Properties>
 									<Property0 Name="Name" Cookie="492" />
 								</Properties>
-								<Children />
+								<Children>
+									<Child0 Name="pnlMain" Key="{3D28983B-6364-4E8B-B4C8-8EA2D09C127D}" ParallelWalk="True">
+										<Properties>
+											<Property0 Name="Name" Cookie="714" />
+										</Properties>
+										<Children>
+											<Child0 Name="pnlButtons" Key="{B404E754-EE13-4301-A9A7-DFEB9A2F3102}" ParallelWalk="True">
+												<Properties>
+													<Property0 Name="Name" Cookie="715" />
+												</Properties>
+												<Children>
+													<Child0 Name="btnReset" Key="{309BC083-1048-4267-815E-59C5C06519CC}" ParallelWalk="True">
+														<Properties>
+															<Property0 Name="Name" Cookie="716" />
+														</Properties>
+														<Children />
+													</Child0>
+													<Child1 Name="btnOK" Key="{46DA7E33-2CF8-414C-9C2C-FAB1592B53CE}" ParallelWalk="True">
+														<Properties>
+															<Property0 Name="Name" Cookie="717" />
+														</Properties>
+														<Children />
+													</Child1>
+												</Children>
+											</Child0>
+										</Children>
+									</Child0>
+								</Children>
 							</Child17>
 							<Child18 Name="frmNewTable" Key="{AE90B376-4406-46C5-944F-002280342FAF}" ParallelWalk="True">
 								<Properties>
@@ -2381,7 +2408,12 @@
 				<Child5 Name="edtComparedObjName" Owner="{772102E8-B676-489D-BEB7-66FBCED906A1}" />
 				<Child6 Name="btnOK" Owner="{FDD7A19D-9400-4ECA-8FF7-7A698926B44F}" />
 			</Child16>
-			<Child17 Name="frmPreferences" Owner="{A5F46C36-F34B-4548-816B-8EF9CC7A4398}" />
+			<Child17 Name="frmPreferences" Owner="{A5F46C36-F34B-4548-816B-8EF9CC7A4398}">
+				<Child0 Name="pnlButtons" Owner="{B404E754-EE13-4301-A9A7-DFEB9A2F3102}">
+					<Child0 Name="btnReset" Owner="{309BC083-1048-4267-815E-59C5C06519CC}" />
+					<Child1 Name="btnOK" Owner="{46DA7E33-2CF8-414C-9C2C-FAB1592B53CE}" />
+				</Child0>
+			</Child17>
 			<Child18 Name="frmNewTable" Owner="{AE90B376-4406-46C5-944F-002280342FAF}" />
 			<Child19 Name="dlgRenameObj" Owner="{29944066-82B7-423B-A5AE-C93D4130CD59}" />
 			<Child20 Name="dlgConfirm" Owner="{7D5133F5-58BD-493E-B1AB-CDDCCA56E9FC}">
@@ -3014,6 +3046,13 @@
 			<Property540 Cookie="705" PropertyType="0" Value="VCLObject(&quot;vstErrors&quot;)" Type="5" />
 			<Property541 Cookie="709" PropertyType="0" Value="1" Type="0" />
 			<Property542 Cookie="710" PropertyType="0" Value="Window(&quot;TPanel&quot;, &quot;&quot;, 1)" Type="5" />
+			<Property543 Cookie="711" PropertyType="0" Value="TPanel" Type="5" />
+			<Property544 Cookie="712" PropertyType="0" Value="pnlMain" Type="5" />
+			<Property545 Cookie="713" PropertyType="0" Value="VCLObject(&quot;pnlMain&quot;)" Type="5" />
+			<Property546 Cookie="714" PropertyType="0" Value="VCLObject(&quot;pnlMain&quot;)" Type="5" />
+			<Property547 Cookie="715" PropertyType="0" Value="VCLObject(&quot;pnlButtons&quot;)" Type="5" />
+			<Property548 Cookie="716" PropertyType="0" Value="VCLObject(&quot;btnReset&quot;)" Type="5" />
+			<Property549 Cookie="717" PropertyType="0" Value="VCLObject(&quot;btnOK&quot;)" Type="5" />
 		</Child0>
 		<Child1 Name="Version_Win8">
 			<Property0 Cookie="0" PropertyType="0" Value="Sys" Type="5" />
@@ -3559,6 +3598,13 @@
 			<Property540 Cookie="705" PropertyType="0" Value="VCLObject(&quot;vstErrors&quot;)" Type="5" />
 			<Property541 Cookie="709" PropertyType="0" Value="1" Type="0" />
 			<Property542 Cookie="710" PropertyType="0" Value="Window(&quot;TPanel&quot;, &quot;&quot;, 1)" Type="5" />
+			<Property543 Cookie="711" PropertyType="0" Value="TPanel" Type="5" />
+			<Property544 Cookie="712" PropertyType="0" Value="pnlMain" Type="5" />
+			<Property545 Cookie="713" PropertyType="0" Value="VCLObject(&quot;pnlMain&quot;)" Type="5" />
+			<Property546 Cookie="714" PropertyType="0" Value="VCLObject(&quot;pnlMain&quot;)" Type="5" />
+			<Property547 Cookie="715" PropertyType="0" Value="VCLObject(&quot;pnlButtons&quot;)" Type="5" />
+			<Property548 Cookie="716" PropertyType="0" Value="VCLObject(&quot;btnReset&quot;)" Type="5" />
+			<Property549 Cookie="717" PropertyType="0" Value="VCLObject(&quot;btnOK&quot;)" Type="5" />
 		</Child1>
 	</Storages>
 	<TypeInfo StoreCodeCompletion="0">

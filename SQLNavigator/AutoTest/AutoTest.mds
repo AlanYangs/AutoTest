@@ -53,6 +53,16 @@
 				<Prp name="type" type="S" value="{5DCBAC3B-D39C-497C-9BE8-744CBADD37AA}"/>
 				<Prp name="typename" type="S" value="Name Mapping"/>
 			</Node>
+			<Node name="item0000000003">
+				<Node name="item data">
+					<Prp name="relpath" type="S" value="Stores\Stores.tcStores"/>
+				</Node>
+				<Prp name="index" type="I" value="3"/>
+				<Prp name="key" type="S" value="{67383652-AA89-4F35-B768-78C5F96CED56}"/>
+				<Prp name="pluginname" type="S" value="Stores"/>
+				<Prp name="type" type="S" value="{5238AF17-5FE2-48FF-8BCC-9803A975A4F4}"/>
+				<Prp name="typename" type="S" value="Stores"/>
+			</Node>
 		</Node>
 		<Node name="config">
 			<Prp name="language" type="S" value="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}"/>
@@ -141,6 +151,240 @@
 			</Node>
 			<Node name="script\visualizer\test_sj\test.sj.tcvis">
 				<Prp name="relpath" type="S" value="Script\Visualizer\test_sj\test.sj.tcVis"/>
+			</Node>
+			<Node name="stores\regions.tcregions">
+				<Prp name="relpath" type="S" value="Stores\Regions.tcRegions"/>
+			</Node>
+			<Node name="stores\regions\codeeditorsgeneralts.bmp">
+				<Prp name="relpath" type="S" value="Stores\Regions\CodeEditorsGeneralTS.bmp"/>
+			</Node>
+			<Node name="stores\regions\codeeditorsgeneralts7.bmp">
+				<Prp name="relpath" type="S" value="Stores\Regions\CodeEditorsGeneralTS7.bmp"/>
+			</Node>
+			<Node name="stores\regions\codeeditorssqlts.bmp">
+				<Prp name="relpath" type="S" value="Stores\Regions\CodeEditorsSQLTS.bmp"/>
+			</Node>
+			<Node name="stores\regions\codeeditorssqlts7.bmp">
+				<Prp name="relpath" type="S" value="Stores\Regions\CodeEditorsSQLTS7.bmp"/>
+			</Node>
+			<Node name="stores\regions\comments.bmp">
+				<Prp name="relpath" type="S" value="Stores\Regions\Comments.bmp"/>
+			</Node>
+			<Node name="stores\regions\comments7.bmp">
+				<Prp name="relpath" type="S" value="Stores\Regions\Comments7.bmp"/>
+			</Node>
+			<Node name="stores\regions\commsql.bmp">
+				<Prp name="relpath" type="S" value="Stores\Regions\CommSql.bmp"/>
+			</Node>
+			<Node name="stores\regions\commsql7.bmp">
+				<Prp name="relpath" type="S" value="Stores\Regions\CommSql7.bmp"/>
+			</Node>
+			<Node name="stores\regions\diffviewerprefsts.bmp">
+				<Prp name="relpath" type="S" value="Stores\Regions\DiffViewerPrefsTS.bmp"/>
+			</Node>
+			<Node name="stores\regions\diffviewerrulests.bmp">
+				<Prp name="relpath" type="S" value="Stores\Regions\DiffViewerRulesTS.bmp"/>
+			</Node>
+			<Node name="stores\regions\extractddlcontraintsts.bmp">
+				<Prp name="relpath" type="S" value="Stores\Regions\ExtractDDLContraintsTS.bmp"/>
+			</Node>
+			<Node name="stores\regions\extractddlcontraintsts7.bmp">
+				<Prp name="relpath" type="S" value="Stores\Regions\ExtractDDLContraintsTS7.bmp"/>
+			</Node>
+			<Node name="stores\regions\extractddlgeneralts.bmp">
+				<Prp name="relpath" type="S" value="Stores\Regions\ExtractDDLGeneralTS.bmp"/>
+			</Node>
+			<Node name="stores\regions\extractddlgeneralts7.bmp">
+				<Prp name="relpath" type="S" value="Stores\Regions\ExtractDDLGeneralTS7.bmp"/>
+			</Node>
+			<Node name="stores\regions\extractddlsnapshotsts.bmp">
+				<Prp name="relpath" type="S" value="Stores\Regions\ExtractDDLSnapshotsTS.bmp"/>
+			</Node>
+			<Node name="stores\regions\extractddlsnapshotsts7.bmp">
+				<Prp name="relpath" type="S" value="Stores\Regions\ExtractDDLSnapshotsTS7.bmp"/>
+			</Node>
+			<Node name="stores\regions\extractddltableviewts.bmp">
+				<Prp name="relpath" type="S" value="Stores\Regions\ExtractDDLTableViewTS.bmp"/>
+			</Node>
+			<Node name="stores\regions\extractddltableviewts7.bmp">
+				<Prp name="relpath" type="S" value="Stores\Regions\ExtractDDLTableViewTS7.bmp"/>
+			</Node>
+			<Node name="stores\regions\extractddlusersts.bmp">
+				<Prp name="relpath" type="S" value="Stores\Regions\ExtractDDLUsersTS.bmp"/>
+			</Node>
+			<Node name="stores\regions\extractddlusersts7.bmp">
+				<Prp name="relpath" type="S" value="Stores\Regions\ExtractDDLUsersTS7.bmp"/>
+			</Node>
+			<Node name="stores\regions\functions_keywords_with_dba_1.bmp">
+				<Prp name="relpath" type="S" value="Stores\Regions\Functions_keywords_with_DBA_1.bmp"/>
+			</Node>
+			<Node name="stores\regions\functions_keywords_with_dba_17.bmp">
+				<Prp name="relpath" type="S" value="Stores\Regions\Functions_keywords_with_DBA_17.bmp"/>
+			</Node>
+			<Node name="stores\regions\functions_keywords_with_dba_2.bmp">
+				<Prp name="relpath" type="S" value="Stores\Regions\Functions_keywords_with_DBA_2.bmp"/>
+			</Node>
+			<Node name="stores\regions\functions_keywords_with_dba_27.bmp">
+				<Prp name="relpath" type="S" value="Stores\Regions\Functions_keywords_with_DBA_27.bmp"/>
+			</Node>
+			<Node name="stores\regions\functions_keywords_with_dba_3.bmp">
+				<Prp name="relpath" type="S" value="Stores\Regions\Functions_keywords_with_DBA_3.bmp"/>
+			</Node>
+			<Node name="stores\regions\functions_keywords_with_dba_37.bmp">
+				<Prp name="relpath" type="S" value="Stores\Regions\Functions_keywords_with_DBA_37.bmp"/>
+			</Node>
+			<Node name="stores\regions\gencodeassistantts.bmp">
+				<Prp name="relpath" type="S" value="Stores\Regions\GenCodeAssistantTS.bmp"/>
+			</Node>
+			<Node name="stores\regions\gencodeassistantts7.bmp">
+				<Prp name="relpath" type="S" value="Stores\Regions\GenCodeAssistantTS7.bmp"/>
+			</Node>
+			<Node name="stores\regions\gendefaulttablests.bmp">
+				<Prp name="relpath" type="S" value="Stores\Regions\GenDefaultTablesTS.bmp"/>
+			</Node>
+			<Node name="stores\regions\gendefaulttablests7.bmp">
+				<Prp name="relpath" type="S" value="Stores\Regions\GenDefaultTablesTS7.bmp"/>
+			</Node>
+			<Node name="stores\regions\gendroptruncatets.bmp">
+				<Prp name="relpath" type="S" value="Stores\Regions\GenDropTruncateTS.bmp"/>
+			</Node>
+			<Node name="stores\regions\gendroptruncatets7.bmp">
+				<Prp name="relpath" type="S" value="Stores\Regions\GenDropTruncateTS7.bmp"/>
+			</Node>
+			<Node name="stores\regions\genexplainplants.bmp">
+				<Prp name="relpath" type="S" value="Stores\Regions\GenExplainPlanTS.bmp"/>
+			</Node>
+			<Node name="stores\regions\genexplainplants7.bmp">
+				<Prp name="relpath" type="S" value="Stores\Regions\GenExplainPlanTS7.bmp"/>
+			</Node>
+			<Node name="stores\regions\genobjecteditorsts.bmp">
+				<Prp name="relpath" type="S" value="Stores\Regions\GenObjectEditorsTS.bmp"/>
+			</Node>
+			<Node name="stores\regions\genobjecteditorsts7.bmp">
+				<Prp name="relpath" type="S" value="Stores\Regions\GenObjectEditorsTS7.bmp"/>
+			</Node>
+			<Node name="stores\regions\genprintingts.bmp">
+				<Prp name="relpath" type="S" value="Stores\Regions\GenPrintingTS.bmp"/>
+			</Node>
+			<Node name="stores\regions\genprintingts7.bmp">
+				<Prp name="relpath" type="S" value="Stores\Regions\GenPrintingTS7.bmp"/>
+			</Node>
+			<Node name="stores\regions\gensessionts.bmp">
+				<Prp name="relpath" type="S" value="Stores\Regions\GenSessionTS.bmp"/>
+			</Node>
+			<Node name="stores\regions\gensessionts7.bmp">
+				<Prp name="relpath" type="S" value="Stores\Regions\GenSessionTS7.bmp"/>
+			</Node>
+			<Node name="stores\regions\gentaskbarts.bmp">
+				<Prp name="relpath" type="S" value="Stores\Regions\GenTaskBarTS.bmp"/>
+			</Node>
+			<Node name="stores\regions\gentaskbarts7.bmp">
+				<Prp name="relpath" type="S" value="Stores\Regions\GenTaskBarTS7.bmp"/>
+			</Node>
+			<Node name="stores\regions\genuserinterfacets.bmp">
+				<Prp name="relpath" type="S" value="Stores\Regions\GenUserInterfaceTS.bmp"/>
+			</Node>
+			<Node name="stores\regions\genuserinterfacets7.bmp">
+				<Prp name="relpath" type="S" value="Stores\Regions\GenUserInterfaceTS7.bmp"/>
+			</Node>
+			<Node name="stores\regions\lobviewerts.bmp">
+				<Prp name="relpath" type="S" value="Stores\Regions\LOBViewerTS.bmp"/>
+			</Node>
+			<Node name="stores\regions\lobviewerts7.bmp">
+				<Prp name="relpath" type="S" value="Stores\Regions\LOBViewerTS7.bmp"/>
+			</Node>
+			<Node name="stores\regions\numbers.bmp">
+				<Prp name="relpath" type="S" value="Stores\Regions\Numbers.bmp"/>
+			</Node>
+			<Node name="stores\regions\numbers7.bmp">
+				<Prp name="relpath" type="S" value="Stores\Regions\Numbers7.bmp"/>
+			</Node>
+			<Node name="stores\regions\plsql_datatypes.bmp">
+				<Prp name="relpath" type="S" value="Stores\Regions\PLSQL_datatypes.bmp"/>
+			</Node>
+			<Node name="stores\regions\plsql_datatypes7.bmp">
+				<Prp name="relpath" type="S" value="Stores\Regions\PLSQL_datatypes7.bmp"/>
+			</Node>
+			<Node name="stores\regions\plsql_reswords_1.bmp">
+				<Prp name="relpath" type="S" value="Stores\Regions\PLSQL_reswords_1.bmp"/>
+			</Node>
+			<Node name="stores\regions\plsql_reswords_17.bmp">
+				<Prp name="relpath" type="S" value="Stores\Regions\PLSQL_reswords_17.bmp"/>
+			</Node>
+			<Node name="stores\regions\plsql_reswords_2.bmp">
+				<Prp name="relpath" type="S" value="Stores\Regions\PLSQL_reswords_2.bmp"/>
+			</Node>
+			<Node name="stores\regions\plsql_reswords_27.bmp">
+				<Prp name="relpath" type="S" value="Stores\Regions\PLSQL_reswords_27.bmp"/>
+			</Node>
+			<Node name="stores\regions\plsql_reswords_3.bmp">
+				<Prp name="relpath" type="S" value="Stores\Regions\PLSQL_reswords_3.bmp"/>
+			</Node>
+			<Node name="stores\regions\plsql_reswords_37.bmp">
+				<Prp name="relpath" type="S" value="Stores\Regions\PLSQL_reswords_37.bmp"/>
+			</Node>
+			<Node name="stores\regions\plsql_reswords_4.bmp">
+				<Prp name="relpath" type="S" value="Stores\Regions\PLSQL_reswords_4.bmp"/>
+			</Node>
+			<Node name="stores\regions\plsql_reswords_47.bmp">
+				<Prp name="relpath" type="S" value="Stores\Regions\PLSQL_reswords_47.bmp"/>
+			</Node>
+			<Node name="stores\regions\plsql_reswords_5.bmp">
+				<Prp name="relpath" type="S" value="Stores\Regions\PLSQL_reswords_5.bmp"/>
+			</Node>
+			<Node name="stores\regions\plsql_reswords_57.bmp">
+				<Prp name="relpath" type="S" value="Stores\Regions\PLSQL_reswords_57.bmp"/>
+			</Node>
+			<Node name="stores\regions\plsql_reswords_6.bmp">
+				<Prp name="relpath" type="S" value="Stores\Regions\PLSQL_reswords_6.bmp"/>
+			</Node>
+			<Node name="stores\regions\plsql_reswords_67.bmp">
+				<Prp name="relpath" type="S" value="Stores\Regions\PLSQL_reswords_67.bmp"/>
+			</Node>
+			<Node name="stores\regions\plsql_reswords_7.bmp">
+				<Prp name="relpath" type="S" value="Stores\Regions\PLSQL_reswords_7.bmp"/>
+			</Node>
+			<Node name="stores\regions\plsql_reswords_77.bmp">
+				<Prp name="relpath" type="S" value="Stores\Regions\PLSQL_reswords_77.bmp"/>
+			</Node>
+			<Node name="stores\regions\sqlpluskeywords.bmp">
+				<Prp name="relpath" type="S" value="Stores\Regions\SQLPlusKeywords.bmp"/>
+			</Node>
+			<Node name="stores\regions\sqlpluskeywords7.bmp">
+				<Prp name="relpath" type="S" value="Stores\Regions\SQLPlusKeywords7.bmp"/>
+			</Node>
+			<Node name="stores\regions\strings_1.bmp">
+				<Prp name="relpath" type="S" value="Stores\Regions\Strings_1.bmp"/>
+			</Node>
+			<Node name="stores\regions\strings_17.bmp">
+				<Prp name="relpath" type="S" value="Stores\Regions\Strings_17.bmp"/>
+			</Node>
+			<Node name="stores\regions\strings_2.bmp">
+				<Prp name="relpath" type="S" value="Stores\Regions\Strings_2.bmp"/>
+			</Node>
+			<Node name="stores\regions\strings_27.bmp">
+				<Prp name="relpath" type="S" value="Stores\Regions\Strings_27.bmp"/>
+			</Node>
+			<Node name="stores\regions\symbol.bmp">
+				<Prp name="relpath" type="S" value="Stores\Regions\Symbol.bmp"/>
+			</Node>
+			<Node name="stores\regions\symbol7.bmp">
+				<Prp name="relpath" type="S" value="Stores\Regions\Symbol7.bmp"/>
+			</Node>
+			<Node name="stores\regions\teamcodingts.bmp">
+				<Prp name="relpath" type="S" value="Stores\Regions\TeamCodingTS.bmp"/>
+			</Node>
+			<Node name="stores\regions\teamcodingts7.bmp">
+				<Prp name="relpath" type="S" value="Stores\Regions\TeamCodingTS7.bmp"/>
+			</Node>
+			<Node name="stores\regions\workspacets.bmp">
+				<Prp name="relpath" type="S" value="Stores\Regions\WorkspaceTS.bmp"/>
+			</Node>
+			<Node name="stores\regions\workspacets7.bmp">
+				<Prp name="relpath" type="S" value="Stores\Regions\WorkspaceTS7.bmp"/>
+			</Node>
+			<Node name="stores\stores.tcstores">
+				<Prp name="relpath" type="S" value="Stores\Stores.tcStores"/>
 			</Node>
 		</Node>
 		<Node name="folders">

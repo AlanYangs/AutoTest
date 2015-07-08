@@ -1,0 +1,607 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Nodes [
+
+<!ENTITY % NameValue "CDATA">
+<!ENTITY % PropType "(I|S|D|L|H|B)">
+<!ENTITY % VersionValue "CDATA">
+
+<!ELEMENT Prp (#PCDATA)>
+<!ELEMENT Node (Node|Prp)*>
+<!ELEMENT Nodes (Node)+>
+
+<!ATTLIST Nodes version CDATA "1">
+
+<!ATTLIST Node name CDATA #REQUIRED>
+
+<!ATTLIST Prp name CDATA #REQUIRED>
+<!ATTLIST Prp type CDATA #REQUIRED>
+<!ATTLIST Prp value CDATA #REQUIRED>
+]>
+<Nodes version="1">
+	<Node name="root">
+		<Node name="child list">
+			<Node name="item0000000000">
+				<Node name="item data">
+					<Node name="settings"/>
+					<Prp name="caption" type="S" value="Comments.bmp"/>
+					<Prp name="filename" type="S" value="Regions\Comments.bmp"/>
+					<Prp name="id" type="S" value="{2CF1F217-3DFF-454D-A9F3-ACD60D8A2B46}"/>
+					<Prp name="signature" type="S" value="{1FD256C1-604C-48A1-9990-9A9329139EC4}"/>
+					<Prp name="update" type="B" value="0"/>
+					<Prp name="version" type="S" value="9.0"/>
+				</Node>
+				<Prp name="index" type="I" value="0"/>
+				<Prp name="key" type="S" value="{2CF1F217-3DFF-454D-A9F3-ACD60D8A2B46}"/>
+				<Prp name="pluginname" type="S" value="Stores"/>
+				<Prp name="type" type="S" value="{1FD256C1-604C-48A1-9990-9A9329139EC4}"/>
+				<Prp name="typename" type="S" value="Region"/>
+			</Node>
+			<Node name="item0000000001">
+				<Node name="item data">
+					<Node name="settings"/>
+					<Prp name="caption" type="S" value="Comments7.bmp"/>
+					<Prp name="filename" type="S" value="Regions\Comments7.bmp"/>
+					<Prp name="id" type="S" value="{0E251E0C-F5DD-44CD-B828-69C6968A5B42}"/>
+					<Prp name="signature" type="S" value="{1FD256C1-604C-48A1-9990-9A9329139EC4}"/>
+					<Prp name="update" type="B" value="0"/>
+					<Prp name="version" type="S" value="9.0"/>
+				</Node>
+				<Prp name="index" type="I" value="1"/>
+				<Prp name="key" type="S" value="{0E251E0C-F5DD-44CD-B828-69C6968A5B42}"/>
+				<Prp name="pluginname" type="S" value="Stores"/>
+				<Prp name="type" type="S" value="{1FD256C1-604C-48A1-9990-9A9329139EC4}"/>
+				<Prp name="typename" type="S" value="Region"/>
+			</Node>
+			<Node name="item0000000002">
+				<Node name="item data">
+					<Node name="settings"/>
+					<Prp name="caption" type="S" value="CommSql.bmp"/>
+					<Prp name="filename" type="S" value="Regions\CommSql.bmp"/>
+					<Prp name="id" type="S" value="{38628C7D-33B8-415F-8223-0BC5CF61BE88}"/>
+					<Prp name="signature" type="S" value="{1FD256C1-604C-48A1-9990-9A9329139EC4}"/>
+					<Prp name="update" type="B" value="0"/>
+					<Prp name="version" type="S" value="9.0"/>
+				</Node>
+				<Prp name="index" type="I" value="2"/>
+				<Prp name="key" type="S" value="{38628C7D-33B8-415F-8223-0BC5CF61BE88}"/>
+				<Prp name="pluginname" type="S" value="Stores"/>
+				<Prp name="type" type="S" value="{1FD256C1-604C-48A1-9990-9A9329139EC4}"/>
+				<Prp name="typename" type="S" value="Region"/>
+			</Node>
+			<Node name="item0000000003">
+				<Node name="item data">
+					<Node name="settings"/>
+					<Prp name="caption" type="S" value="CommSql7.bmp"/>
+					<Prp name="filename" type="S" value="Regions\CommSql7.bmp"/>
+					<Prp name="id" type="S" value="{394F5FA1-C0D2-45DB-83A3-1D0B0998BC1E}"/>
+					<Prp name="signature" type="S" value="{1FD256C1-604C-48A1-9990-9A9329139EC4}"/>
+					<Prp name="update" type="B" value="0"/>
+					<Prp name="version" type="S" value="9.0"/>
+				</Node>
+				<Prp name="index" type="I" value="3"/>
+				<Prp name="key" type="S" value="{394F5FA1-C0D2-45DB-83A3-1D0B0998BC1E}"/>
+				<Prp name="pluginname" type="S" value="Stores"/>
+				<Prp name="type" type="S" value="{1FD256C1-604C-48A1-9990-9A9329139EC4}"/>
+				<Prp name="typename" type="S" value="Region"/>
+			</Node>
+			<Node name="item0000000004">
+				<Node name="item data">
+					<Node name="settings"/>
+					<Prp name="caption" type="S" value="Functions_keywords_with_DBA_1.bmp"/>
+					<Prp name="filename" type="S" value="Regions\Functions_keywords_with_DBA_1.bmp"/>
+					<Prp name="id" type="S" value="{53A415A8-486D-485D-BF95-2F578EBB352C}"/>
+					<Prp name="signature" type="S" value="{1FD256C1-604C-48A1-9990-9A9329139EC4}"/>
+					<Prp name="update" type="B" value="0"/>
+					<Prp name="version" type="S" value="9.0"/>
+				</Node>
+				<Prp name="index" type="I" value="4"/>
+				<Prp name="key" type="S" value="{53A415A8-486D-485D-BF95-2F578EBB352C}"/>
+				<Prp name="pluginname" type="S" value="Stores"/>
+				<Prp name="type" type="S" value="{1FD256C1-604C-48A1-9990-9A9329139EC4}"/>
+				<Prp name="typename" type="S" value="Region"/>
+			</Node>
+			<Node name="item0000000005">
+				<Node name="item data">
+					<Node name="settings"/>
+					<Prp name="caption" type="S" value="Functions_keywords_with_DBA_2.bmp"/>
+					<Prp name="filename" type="S" value="Regions\Functions_keywords_with_DBA_2.bmp"/>
+					<Prp name="id" type="S" value="{2EA8ECBA-7DD5-433D-985C-BE7DBD21065C}"/>
+					<Prp name="signature" type="S" value="{1FD256C1-604C-48A1-9990-9A9329139EC4}"/>
+					<Prp name="update" type="B" value="0"/>
+					<Prp name="version" type="S" value="9.0"/>
+				</Node>
+				<Prp name="index" type="I" value="5"/>
+				<Prp name="key" type="S" value="{2EA8ECBA-7DD5-433D-985C-BE7DBD21065C}"/>
+				<Prp name="pluginname" type="S" value="Stores"/>
+				<Prp name="type" type="S" value="{1FD256C1-604C-48A1-9990-9A9329139EC4}"/>
+				<Prp name="typename" type="S" value="Region"/>
+			</Node>
+			<Node name="item0000000006">
+				<Node name="item data">
+					<Node name="settings"/>
+					<Prp name="caption" type="S" value="Functions_keywords_with_DBA_3.bmp"/>
+					<Prp name="filename" type="S" value="Regions\Functions_keywords_with_DBA_3.bmp"/>
+					<Prp name="id" type="S" value="{68690D3A-D7D7-4FAE-A9B9-1B51E4B7CD60}"/>
+					<Prp name="signature" type="S" value="{1FD256C1-604C-48A1-9990-9A9329139EC4}"/>
+					<Prp name="update" type="B" value="0"/>
+					<Prp name="version" type="S" value="9.0"/>
+				</Node>
+				<Prp name="index" type="I" value="6"/>
+				<Prp name="key" type="S" value="{68690D3A-D7D7-4FAE-A9B9-1B51E4B7CD60}"/>
+				<Prp name="pluginname" type="S" value="Stores"/>
+				<Prp name="type" type="S" value="{1FD256C1-604C-48A1-9990-9A9329139EC4}"/>
+				<Prp name="typename" type="S" value="Region"/>
+			</Node>
+			<Node name="item0000000007">
+				<Node name="item data">
+					<Node name="settings"/>
+					<Prp name="caption" type="S" value="Functions_keywords_with_DBA_17.bmp"/>
+					<Prp name="filename" type="S" value="Regions\Functions_keywords_with_DBA_17.bmp"/>
+					<Prp name="id" type="S" value="{20D0440A-D48D-4EE4-87B7-5AA16193164B}"/>
+					<Prp name="signature" type="S" value="{1FD256C1-604C-48A1-9990-9A9329139EC4}"/>
+					<Prp name="update" type="B" value="0"/>
+					<Prp name="version" type="S" value="9.0"/>
+				</Node>
+				<Prp name="index" type="I" value="7"/>
+				<Prp name="key" type="S" value="{20D0440A-D48D-4EE4-87B7-5AA16193164B}"/>
+				<Prp name="pluginname" type="S" value="Stores"/>
+				<Prp name="type" type="S" value="{1FD256C1-604C-48A1-9990-9A9329139EC4}"/>
+				<Prp name="typename" type="S" value="Region"/>
+			</Node>
+			<Node name="item0000000008">
+				<Node name="item data">
+					<Node name="settings"/>
+					<Prp name="caption" type="S" value="Functions_keywords_with_DBA_27.bmp"/>
+					<Prp name="filename" type="S" value="Regions\Functions_keywords_with_DBA_27.bmp"/>
+					<Prp name="id" type="S" value="{94706506-BE38-4907-9440-98B4765A5C79}"/>
+					<Prp name="signature" type="S" value="{1FD256C1-604C-48A1-9990-9A9329139EC4}"/>
+					<Prp name="update" type="B" value="0"/>
+					<Prp name="version" type="S" value="9.0"/>
+				</Node>
+				<Prp name="index" type="I" value="8"/>
+				<Prp name="key" type="S" value="{94706506-BE38-4907-9440-98B4765A5C79}"/>
+				<Prp name="pluginname" type="S" value="Stores"/>
+				<Prp name="type" type="S" value="{1FD256C1-604C-48A1-9990-9A9329139EC4}"/>
+				<Prp name="typename" type="S" value="Region"/>
+			</Node>
+			<Node name="item0000000009">
+				<Node name="item data">
+					<Node name="settings"/>
+					<Prp name="caption" type="S" value="Functions_keywords_with_DBA_37.bmp"/>
+					<Prp name="filename" type="S" value="Regions\Functions_keywords_with_DBA_37.bmp"/>
+					<Prp name="id" type="S" value="{B340CAF9-5CF5-431D-B40E-8902AF43C2B3}"/>
+					<Prp name="signature" type="S" value="{1FD256C1-604C-48A1-9990-9A9329139EC4}"/>
+					<Prp name="update" type="B" value="0"/>
+					<Prp name="version" type="S" value="9.0"/>
+				</Node>
+				<Prp name="index" type="I" value="9"/>
+				<Prp name="key" type="S" value="{B340CAF9-5CF5-431D-B40E-8902AF43C2B3}"/>
+				<Prp name="pluginname" type="S" value="Stores"/>
+				<Prp name="type" type="S" value="{1FD256C1-604C-48A1-9990-9A9329139EC4}"/>
+				<Prp name="typename" type="S" value="Region"/>
+			</Node>
+			<Node name="item0000000010">
+				<Node name="item data">
+					<Node name="settings"/>
+					<Prp name="caption" type="S" value="Numbers.bmp"/>
+					<Prp name="filename" type="S" value="Regions\Numbers.bmp"/>
+					<Prp name="id" type="S" value="{2B66ADEF-E1EF-4600-A6A8-2E894A6A293A}"/>
+					<Prp name="signature" type="S" value="{1FD256C1-604C-48A1-9990-9A9329139EC4}"/>
+					<Prp name="update" type="B" value="0"/>
+					<Prp name="version" type="S" value="9.0"/>
+				</Node>
+				<Prp name="index" type="I" value="10"/>
+				<Prp name="key" type="S" value="{2B66ADEF-E1EF-4600-A6A8-2E894A6A293A}"/>
+				<Prp name="pluginname" type="S" value="Stores"/>
+				<Prp name="type" type="S" value="{1FD256C1-604C-48A1-9990-9A9329139EC4}"/>
+				<Prp name="typename" type="S" value="Region"/>
+			</Node>
+			<Node name="item0000000011">
+				<Node name="item data">
+					<Node name="settings"/>
+					<Prp name="caption" type="S" value="Numbers7.bmp"/>
+					<Prp name="filename" type="S" value="Regions\Numbers7.bmp"/>
+					<Prp name="id" type="S" value="{640BF967-A0CF-4C1A-872C-7B4981B68934}"/>
+					<Prp name="signature" type="S" value="{1FD256C1-604C-48A1-9990-9A9329139EC4}"/>
+					<Prp name="update" type="B" value="0"/>
+					<Prp name="version" type="S" value="9.0"/>
+				</Node>
+				<Prp name="index" type="I" value="11"/>
+				<Prp name="key" type="S" value="{640BF967-A0CF-4C1A-872C-7B4981B68934}"/>
+				<Prp name="pluginname" type="S" value="Stores"/>
+				<Prp name="type" type="S" value="{1FD256C1-604C-48A1-9990-9A9329139EC4}"/>
+				<Prp name="typename" type="S" value="Region"/>
+			</Node>
+			<Node name="item0000000012">
+				<Node name="item data">
+					<Node name="settings"/>
+					<Prp name="caption" type="S" value="PLSQL_datatypes.bmp"/>
+					<Prp name="filename" type="S" value="Regions\PLSQL_datatypes.bmp"/>
+					<Prp name="id" type="S" value="{0421A6AA-5A55-463A-8B9F-A49397D53CC8}"/>
+					<Prp name="signature" type="S" value="{1FD256C1-604C-48A1-9990-9A9329139EC4}"/>
+					<Prp name="update" type="B" value="0"/>
+					<Prp name="version" type="S" value="9.0"/>
+				</Node>
+				<Prp name="index" type="I" value="12"/>
+				<Prp name="key" type="S" value="{0421A6AA-5A55-463A-8B9F-A49397D53CC8}"/>
+				<Prp name="pluginname" type="S" value="Stores"/>
+				<Prp name="type" type="S" value="{1FD256C1-604C-48A1-9990-9A9329139EC4}"/>
+				<Prp name="typename" type="S" value="Region"/>
+			</Node>
+			<Node name="item0000000013">
+				<Node name="item data">
+					<Node name="settings"/>
+					<Prp name="caption" type="S" value="PLSQL_datatypes7.bmp"/>
+					<Prp name="filename" type="S" value="Regions\PLSQL_datatypes7.bmp"/>
+					<Prp name="id" type="S" value="{D7C76ABF-81EC-41CE-964B-A707D14A1B10}"/>
+					<Prp name="signature" type="S" value="{1FD256C1-604C-48A1-9990-9A9329139EC4}"/>
+					<Prp name="update" type="B" value="0"/>
+					<Prp name="version" type="S" value="9.0"/>
+				</Node>
+				<Prp name="index" type="I" value="13"/>
+				<Prp name="key" type="S" value="{D7C76ABF-81EC-41CE-964B-A707D14A1B10}"/>
+				<Prp name="pluginname" type="S" value="Stores"/>
+				<Prp name="type" type="S" value="{1FD256C1-604C-48A1-9990-9A9329139EC4}"/>
+				<Prp name="typename" type="S" value="Region"/>
+			</Node>
+			<Node name="item0000000014">
+				<Node name="item data">
+					<Node name="settings"/>
+					<Prp name="caption" type="S" value="PLSQL_reswords_1.bmp"/>
+					<Prp name="filename" type="S" value="Regions\PLSQL_reswords_1.bmp"/>
+					<Prp name="id" type="S" value="{8E7F87CD-111D-4534-83A6-85C3AF0A3FC5}"/>
+					<Prp name="signature" type="S" value="{1FD256C1-604C-48A1-9990-9A9329139EC4}"/>
+					<Prp name="update" type="B" value="0"/>
+					<Prp name="version" type="S" value="9.0"/>
+				</Node>
+				<Prp name="index" type="I" value="14"/>
+				<Prp name="key" type="S" value="{8E7F87CD-111D-4534-83A6-85C3AF0A3FC5}"/>
+				<Prp name="pluginname" type="S" value="Stores"/>
+				<Prp name="type" type="S" value="{1FD256C1-604C-48A1-9990-9A9329139EC4}"/>
+				<Prp name="typename" type="S" value="Region"/>
+			</Node>
+			<Node name="item0000000015">
+				<Node name="item data">
+					<Node name="settings"/>
+					<Prp name="caption" type="S" value="PLSQL_reswords_2.bmp"/>
+					<Prp name="filename" type="S" value="Regions\PLSQL_reswords_2.bmp"/>
+					<Prp name="id" type="S" value="{994DEEE1-BEC4-4762-BF43-4171111EC620}"/>
+					<Prp name="signature" type="S" value="{1FD256C1-604C-48A1-9990-9A9329139EC4}"/>
+					<Prp name="update" type="B" value="0"/>
+					<Prp name="version" type="S" value="9.0"/>
+				</Node>
+				<Prp name="index" type="I" value="15"/>
+				<Prp name="key" type="S" value="{994DEEE1-BEC4-4762-BF43-4171111EC620}"/>
+				<Prp name="pluginname" type="S" value="Stores"/>
+				<Prp name="type" type="S" value="{1FD256C1-604C-48A1-9990-9A9329139EC4}"/>
+				<Prp name="typename" type="S" value="Region"/>
+			</Node>
+			<Node name="item0000000016">
+				<Node name="item data">
+					<Node name="settings"/>
+					<Prp name="caption" type="S" value="PLSQL_reswords_3.bmp"/>
+					<Prp name="filename" type="S" value="Regions\PLSQL_reswords_3.bmp"/>
+					<Prp name="id" type="S" value="{F06D93A5-F392-4F4E-9BE6-07A24FD7AFF5}"/>
+					<Prp name="signature" type="S" value="{1FD256C1-604C-48A1-9990-9A9329139EC4}"/>
+					<Prp name="update" type="B" value="0"/>
+					<Prp name="version" type="S" value="9.0"/>
+				</Node>
+				<Prp name="index" type="I" value="16"/>
+				<Prp name="key" type="S" value="{F06D93A5-F392-4F4E-9BE6-07A24FD7AFF5}"/>
+				<Prp name="pluginname" type="S" value="Stores"/>
+				<Prp name="type" type="S" value="{1FD256C1-604C-48A1-9990-9A9329139EC4}"/>
+				<Prp name="typename" type="S" value="Region"/>
+			</Node>
+			<Node name="item0000000017">
+				<Node name="item data">
+					<Node name="settings"/>
+					<Prp name="caption" type="S" value="PLSQL_reswords_4.bmp"/>
+					<Prp name="filename" type="S" value="Regions\PLSQL_reswords_4.bmp"/>
+					<Prp name="id" type="S" value="{E033EB4A-917A-4AFE-BFC3-CE758BB135CF}"/>
+					<Prp name="signature" type="S" value="{1FD256C1-604C-48A1-9990-9A9329139EC4}"/>
+					<Prp name="update" type="B" value="0"/>
+					<Prp name="version" type="S" value="9.0"/>
+				</Node>
+				<Prp name="index" type="I" value="17"/>
+				<Prp name="key" type="S" value="{E033EB4A-917A-4AFE-BFC3-CE758BB135CF}"/>
+				<Prp name="pluginname" type="S" value="Stores"/>
+				<Prp name="type" type="S" value="{1FD256C1-604C-48A1-9990-9A9329139EC4}"/>
+				<Prp name="typename" type="S" value="Region"/>
+			</Node>
+			<Node name="item0000000018">
+				<Node name="item data">
+					<Node name="settings"/>
+					<Prp name="caption" type="S" value="PLSQL_reswords_5.bmp"/>
+					<Prp name="filename" type="S" value="Regions\PLSQL_reswords_5.bmp"/>
+					<Prp name="id" type="S" value="{2BA659FE-6775-4BBA-B570-CCE50F1ABA2C}"/>
+					<Prp name="signature" type="S" value="{1FD256C1-604C-48A1-9990-9A9329139EC4}"/>
+					<Prp name="update" type="B" value="0"/>
+					<Prp name="version" type="S" value="9.0"/>
+				</Node>
+				<Prp name="index" type="I" value="18"/>
+				<Prp name="key" type="S" value="{2BA659FE-6775-4BBA-B570-CCE50F1ABA2C}"/>
+				<Prp name="pluginname" type="S" value="Stores"/>
+				<Prp name="type" type="S" value="{1FD256C1-604C-48A1-9990-9A9329139EC4}"/>
+				<Prp name="typename" type="S" value="Region"/>
+			</Node>
+			<Node name="item0000000019">
+				<Node name="item data">
+					<Node name="settings"/>
+					<Prp name="caption" type="S" value="PLSQL_reswords_6.bmp"/>
+					<Prp name="filename" type="S" value="Regions\PLSQL_reswords_6.bmp"/>
+					<Prp name="id" type="S" value="{33EA088E-CA82-4934-A8EF-21BEA8F8C8B7}"/>
+					<Prp name="signature" type="S" value="{1FD256C1-604C-48A1-9990-9A9329139EC4}"/>
+					<Prp name="update" type="B" value="0"/>
+					<Prp name="version" type="S" value="9.0"/>
+				</Node>
+				<Prp name="index" type="I" value="19"/>
+				<Prp name="key" type="S" value="{33EA088E-CA82-4934-A8EF-21BEA8F8C8B7}"/>
+				<Prp name="pluginname" type="S" value="Stores"/>
+				<Prp name="type" type="S" value="{1FD256C1-604C-48A1-9990-9A9329139EC4}"/>
+				<Prp name="typename" type="S" value="Region"/>
+			</Node>
+			<Node name="item0000000020">
+				<Node name="item data">
+					<Node name="settings"/>
+					<Prp name="caption" type="S" value="PLSQL_reswords_7.bmp"/>
+					<Prp name="filename" type="S" value="Regions\PLSQL_reswords_7.bmp"/>
+					<Prp name="id" type="S" value="{9A7D2B61-E0B7-4E5F-B73F-3649C207D06F}"/>
+					<Prp name="signature" type="S" value="{1FD256C1-604C-48A1-9990-9A9329139EC4}"/>
+					<Prp name="update" type="B" value="0"/>
+					<Prp name="version" type="S" value="9.0"/>
+				</Node>
+				<Prp name="index" type="I" value="20"/>
+				<Prp name="key" type="S" value="{9A7D2B61-E0B7-4E5F-B73F-3649C207D06F}"/>
+				<Prp name="pluginname" type="S" value="Stores"/>
+				<Prp name="type" type="S" value="{1FD256C1-604C-48A1-9990-9A9329139EC4}"/>
+				<Prp name="typename" type="S" value="Region"/>
+			</Node>
+			<Node name="item0000000021">
+				<Node name="item data">
+					<Node name="settings"/>
+					<Prp name="caption" type="S" value="PLSQL_reswords_17.bmp"/>
+					<Prp name="filename" type="S" value="Regions\PLSQL_reswords_17.bmp"/>
+					<Prp name="id" type="S" value="{FB7FC0BD-793A-4857-B0BC-5BA472D1ECBE}"/>
+					<Prp name="signature" type="S" value="{1FD256C1-604C-48A1-9990-9A9329139EC4}"/>
+					<Prp name="update" type="B" value="0"/>
+					<Prp name="version" type="S" value="9.0"/>
+				</Node>
+				<Prp name="index" type="I" value="21"/>
+				<Prp name="key" type="S" value="{FB7FC0BD-793A-4857-B0BC-5BA472D1ECBE}"/>
+				<Prp name="pluginname" type="S" value="Stores"/>
+				<Prp name="type" type="S" value="{1FD256C1-604C-48A1-9990-9A9329139EC4}"/>
+				<Prp name="typename" type="S" value="Region"/>
+			</Node>
+			<Node name="item0000000022">
+				<Node name="item data">
+					<Node name="settings"/>
+					<Prp name="caption" type="S" value="PLSQL_reswords_27.bmp"/>
+					<Prp name="filename" type="S" value="Regions\PLSQL_reswords_27.bmp"/>
+					<Prp name="id" type="S" value="{00C033DC-E8F2-4CD2-8C9E-00BEF52546F7}"/>
+					<Prp name="signature" type="S" value="{1FD256C1-604C-48A1-9990-9A9329139EC4}"/>
+					<Prp name="update" type="B" value="0"/>
+					<Prp name="version" type="S" value="9.0"/>
+				</Node>
+				<Prp name="index" type="I" value="22"/>
+				<Prp name="key" type="S" value="{00C033DC-E8F2-4CD2-8C9E-00BEF52546F7}"/>
+				<Prp name="pluginname" type="S" value="Stores"/>
+				<Prp name="type" type="S" value="{1FD256C1-604C-48A1-9990-9A9329139EC4}"/>
+				<Prp name="typename" type="S" value="Region"/>
+			</Node>
+			<Node name="item0000000023">
+				<Node name="item data">
+					<Node name="settings"/>
+					<Prp name="caption" type="S" value="PLSQL_reswords_37.bmp"/>
+					<Prp name="filename" type="S" value="Regions\PLSQL_reswords_37.bmp"/>
+					<Prp name="id" type="S" value="{6203B7A8-E9DC-43C3-9625-1E5C7784B4B2}"/>
+					<Prp name="signature" type="S" value="{1FD256C1-604C-48A1-9990-9A9329139EC4}"/>
+					<Prp name="update" type="B" value="0"/>
+					<Prp name="version" type="S" value="9.0"/>
+				</Node>
+				<Prp name="index" type="I" value="23"/>
+				<Prp name="key" type="S" value="{6203B7A8-E9DC-43C3-9625-1E5C7784B4B2}"/>
+				<Prp name="pluginname" type="S" value="Stores"/>
+				<Prp name="type" type="S" value="{1FD256C1-604C-48A1-9990-9A9329139EC4}"/>
+				<Prp name="typename" type="S" value="Region"/>
+			</Node>
+			<Node name="item0000000024">
+				<Node name="item data">
+					<Node name="settings"/>
+					<Prp name="caption" type="S" value="PLSQL_reswords_47.bmp"/>
+					<Prp name="filename" type="S" value="Regions\PLSQL_reswords_47.bmp"/>
+					<Prp name="id" type="S" value="{407DC4D3-AF1A-4C05-AEE5-5908FBA79739}"/>
+					<Prp name="signature" type="S" value="{1FD256C1-604C-48A1-9990-9A9329139EC4}"/>
+					<Prp name="update" type="B" value="0"/>
+					<Prp name="version" type="S" value="9.0"/>
+				</Node>
+				<Prp name="index" type="I" value="24"/>
+				<Prp name="key" type="S" value="{407DC4D3-AF1A-4C05-AEE5-5908FBA79739}"/>
+				<Prp name="pluginname" type="S" value="Stores"/>
+				<Prp name="type" type="S" value="{1FD256C1-604C-48A1-9990-9A9329139EC4}"/>
+				<Prp name="typename" type="S" value="Region"/>
+			</Node>
+			<Node name="item0000000025">
+				<Node name="item data">
+					<Node name="settings"/>
+					<Prp name="caption" type="S" value="PLSQL_reswords_57.bmp"/>
+					<Prp name="filename" type="S" value="Regions\PLSQL_reswords_57.bmp"/>
+					<Prp name="id" type="S" value="{160B0B5C-BBD5-4013-83D0-A8F981F4168C}"/>
+					<Prp name="signature" type="S" value="{1FD256C1-604C-48A1-9990-9A9329139EC4}"/>
+					<Prp name="update" type="B" value="0"/>
+					<Prp name="version" type="S" value="9.0"/>
+				</Node>
+				<Prp name="index" type="I" value="25"/>
+				<Prp name="key" type="S" value="{160B0B5C-BBD5-4013-83D0-A8F981F4168C}"/>
+				<Prp name="pluginname" type="S" value="Stores"/>
+				<Prp name="type" type="S" value="{1FD256C1-604C-48A1-9990-9A9329139EC4}"/>
+				<Prp name="typename" type="S" value="Region"/>
+			</Node>
+			<Node name="item0000000026">
+				<Node name="item data">
+					<Node name="settings"/>
+					<Prp name="caption" type="S" value="PLSQL_reswords_67.bmp"/>
+					<Prp name="filename" type="S" value="Regions\PLSQL_reswords_67.bmp"/>
+					<Prp name="id" type="S" value="{4437414F-4CC1-45F4-B102-37447007618D}"/>
+					<Prp name="signature" type="S" value="{1FD256C1-604C-48A1-9990-9A9329139EC4}"/>
+					<Prp name="update" type="B" value="0"/>
+					<Prp name="version" type="S" value="9.0"/>
+				</Node>
+				<Prp name="index" type="I" value="26"/>
+				<Prp name="key" type="S" value="{4437414F-4CC1-45F4-B102-37447007618D}"/>
+				<Prp name="pluginname" type="S" value="Stores"/>
+				<Prp name="type" type="S" value="{1FD256C1-604C-48A1-9990-9A9329139EC4}"/>
+				<Prp name="typename" type="S" value="Region"/>
+			</Node>
+			<Node name="item0000000027">
+				<Node name="item data">
+					<Node name="settings"/>
+					<Prp name="caption" type="S" value="PLSQL_reswords_77.bmp"/>
+					<Prp name="filename" type="S" value="Regions\PLSQL_reswords_77.bmp"/>
+					<Prp name="id" type="S" value="{4EC8275C-9A13-4B8B-88EF-12AC5580E7F6}"/>
+					<Prp name="signature" type="S" value="{1FD256C1-604C-48A1-9990-9A9329139EC4}"/>
+					<Prp name="update" type="B" value="0"/>
+					<Prp name="version" type="S" value="9.0"/>
+				</Node>
+				<Prp name="index" type="I" value="27"/>
+				<Prp name="key" type="S" value="{4EC8275C-9A13-4B8B-88EF-12AC5580E7F6}"/>
+				<Prp name="pluginname" type="S" value="Stores"/>
+				<Prp name="type" type="S" value="{1FD256C1-604C-48A1-9990-9A9329139EC4}"/>
+				<Prp name="typename" type="S" value="Region"/>
+			</Node>
+			<Node name="item0000000028">
+				<Node name="item data">
+					<Node name="settings"/>
+					<Prp name="caption" type="S" value="SQLPlusKeywords.bmp"/>
+					<Prp name="filename" type="S" value="Regions\SQLPlusKeywords.bmp"/>
+					<Prp name="id" type="S" value="{1F0F7718-51EC-48A0-9A5F-28A1E01177BD}"/>
+					<Prp name="signature" type="S" value="{1FD256C1-604C-48A1-9990-9A9329139EC4}"/>
+					<Prp name="update" type="B" value="0"/>
+					<Prp name="version" type="S" value="9.0"/>
+				</Node>
+				<Prp name="index" type="I" value="28"/>
+				<Prp name="key" type="S" value="{1F0F7718-51EC-48A0-9A5F-28A1E01177BD}"/>
+				<Prp name="pluginname" type="S" value="Stores"/>
+				<Prp name="type" type="S" value="{1FD256C1-604C-48A1-9990-9A9329139EC4}"/>
+				<Prp name="typename" type="S" value="Region"/>
+			</Node>
+			<Node name="item0000000029">
+				<Node name="item data">
+					<Node name="settings"/>
+					<Prp name="caption" type="S" value="SQLPlusKeywords7.bmp"/>
+					<Prp name="filename" type="S" value="Regions\SQLPlusKeywords7.bmp"/>
+					<Prp name="id" type="S" value="{9233A850-6342-4129-B080-34C2608B2B64}"/>
+					<Prp name="signature" type="S" value="{1FD256C1-604C-48A1-9990-9A9329139EC4}"/>
+					<Prp name="update" type="B" value="0"/>
+					<Prp name="version" type="S" value="9.0"/>
+				</Node>
+				<Prp name="index" type="I" value="29"/>
+				<Prp name="key" type="S" value="{9233A850-6342-4129-B080-34C2608B2B64}"/>
+				<Prp name="pluginname" type="S" value="Stores"/>
+				<Prp name="type" type="S" value="{1FD256C1-604C-48A1-9990-9A9329139EC4}"/>
+				<Prp name="typename" type="S" value="Region"/>
+			</Node>
+			<Node name="item0000000030">
+				<Node name="item data">
+					<Node name="settings"/>
+					<Prp name="caption" type="S" value="Strings_1.bmp"/>
+					<Prp name="filename" type="S" value="Regions\Strings_1.bmp"/>
+					<Prp name="id" type="S" value="{7B1CEDC4-95A3-4F28-A663-638C27ECAA37}"/>
+					<Prp name="signature" type="S" value="{1FD256C1-604C-48A1-9990-9A9329139EC4}"/>
+					<Prp name="update" type="B" value="0"/>
+					<Prp name="version" type="S" value="9.0"/>
+				</Node>
+				<Prp name="index" type="I" value="30"/>
+				<Prp name="key" type="S" value="{7B1CEDC4-95A3-4F28-A663-638C27ECAA37}"/>
+				<Prp name="pluginname" type="S" value="Stores"/>
+				<Prp name="type" type="S" value="{1FD256C1-604C-48A1-9990-9A9329139EC4}"/>
+				<Prp name="typename" type="S" value="Region"/>
+			</Node>
+			<Node name="item0000000031">
+				<Node name="item data">
+					<Node name="settings"/>
+					<Prp name="caption" type="S" value="Strings_2.bmp"/>
+					<Prp name="filename" type="S" value="Regions\Strings_2.bmp"/>
+					<Prp name="id" type="S" value="{76B0C33B-C615-453C-938C-1420BB4B6441}"/>
+					<Prp name="signature" type="S" value="{1FD256C1-604C-48A1-9990-9A9329139EC4}"/>
+					<Prp name="update" type="B" value="0"/>
+					<Prp name="version" type="S" value="9.0"/>
+				</Node>
+				<Prp name="index" type="I" value="31"/>
+				<Prp name="key" type="S" value="{76B0C33B-C615-453C-938C-1420BB4B6441}"/>
+				<Prp name="pluginname" type="S" value="Stores"/>
+				<Prp name="type" type="S" value="{1FD256C1-604C-48A1-9990-9A9329139EC4}"/>
+				<Prp name="typename" type="S" value="Region"/>
+			</Node>
+			<Node name="item0000000032">
+				<Node name="item data">
+					<Node name="settings"/>
+					<Prp name="caption" type="S" value="Strings_17.bmp"/>
+					<Prp name="filename" type="S" value="Regions\Strings_17.bmp"/>
+					<Prp name="id" type="S" value="{6D9B88F3-7104-414D-BF63-D02691E662C7}"/>
+					<Prp name="signature" type="S" value="{1FD256C1-604C-48A1-9990-9A9329139EC4}"/>
+					<Prp name="update" type="B" value="0"/>
+					<Prp name="version" type="S" value="9.0"/>
+				</Node>
+				<Prp name="index" type="I" value="32"/>
+				<Prp name="key" type="S" value="{6D9B88F3-7104-414D-BF63-D02691E662C7}"/>
+				<Prp name="pluginname" type="S" value="Stores"/>
+				<Prp name="type" type="S" value="{1FD256C1-604C-48A1-9990-9A9329139EC4}"/>
+				<Prp name="typename" type="S" value="Region"/>
+			</Node>
+			<Node name="item0000000033">
+				<Node name="item data">
+					<Node name="settings"/>
+					<Prp name="caption" type="S" value="Strings_27.bmp"/>
+					<Prp name="filename" type="S" value="Regions\Strings_27.bmp"/>
+					<Prp name="id" type="S" value="{A370970A-A0AA-4F95-9FDE-6C84725FFC8D}"/>
+					<Prp name="signature" type="S" value="{1FD256C1-604C-48A1-9990-9A9329139EC4}"/>
+					<Prp name="update" type="B" value="0"/>
+					<Prp name="version" type="S" value="9.0"/>
+				</Node>
+				<Prp name="index" type="I" value="33"/>
+				<Prp name="key" type="S" value="{A370970A-A0AA-4F95-9FDE-6C84725FFC8D}"/>
+				<Prp name="pluginname" type="S" value="Stores"/>
+				<Prp name="type" type="S" value="{1FD256C1-604C-48A1-9990-9A9329139EC4}"/>
+				<Prp name="typename" type="S" value="Region"/>
+			</Node>
+			<Node name="item0000000034">
+				<Node name="item data">
+					<Node name="settings"/>
+					<Prp name="caption" type="S" value="Symbol.bmp"/>
+					<Prp name="filename" type="S" value="Regions\Symbol.bmp"/>
+					<Prp name="id" type="S" value="{30697ECD-F897-4536-9DD2-D2359C89B74A}"/>
+					<Prp name="signature" type="S" value="{1FD256C1-604C-48A1-9990-9A9329139EC4}"/>
+					<Prp name="update" type="B" value="0"/>
+					<Prp name="version" type="S" value="9.0"/>
+				</Node>
+				<Prp name="index" type="I" value="34"/>
+				<Prp name="key" type="S" value="{30697ECD-F897-4536-9DD2-D2359C89B74A}"/>
+				<Prp name="pluginname" type="S" value="Stores"/>
+				<Prp name="type" type="S" value="{1FD256C1-604C-48A1-9990-9A9329139EC4}"/>
+				<Prp name="typename" type="S" value="Region"/>
+			</Node>
+			<Node name="item0000000035">
+				<Node name="item data">
+					<Node name="settings"/>
+					<Prp name="caption" type="S" value="Symbol7.bmp"/>
+					<Prp name="filename" type="S" value="Regions\Symbol7.bmp"/>
+					<Prp name="id" type="S" value="{B95ECF3C-1732-4CDC-AA58-FD046EB7CEDE}"/>
+					<Prp name="signature" type="S" value="{1FD256C1-604C-48A1-9990-9A9329139EC4}"/>
+					<Prp name="update" type="B" value="0"/>
+					<Prp name="version" type="S" value="9.0"/>
+				</Node>
+				<Prp name="index" type="I" value="35"/>
+				<Prp name="key" type="S" value="{B95ECF3C-1732-4CDC-AA58-FD046EB7CEDE}"/>
+				<Prp name="pluginname" type="S" value="Stores"/>
+				<Prp name="type" type="S" value="{1FD256C1-604C-48A1-9990-9A9329139EC4}"/>
+				<Prp name="typename" type="S" value="Region"/>
+			</Node>
+		</Node>
+		<Node name="folders">
+			<Node name="folders"/>
+		</Node>
+		<Node name="settings"/>
+		<Prp name="signature" type="S" value="{DA6D7EF7-5B05-4735-AAF0-A85E47D47989}"/>
+		<Prp name="version" type="S" value="9.0"/>
+	</Node>
+</Nodes>
