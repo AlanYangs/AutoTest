@@ -1,0 +1,1237 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Nodes [
+
+<!ENTITY % NameValue "CDATA">
+<!ENTITY % PropType "(I|S|D|L|H|B)">
+<!ENTITY % VersionValue "CDATA">
+
+<!ELEMENT Prp (#PCDATA)>
+<!ELEMENT Node (Node|Prp)*>
+<!ELEMENT Nodes (Node)+>
+
+<!ATTLIST Nodes version CDATA "1">
+
+<!ATTLIST Node name CDATA #REQUIRED>
+
+<!ATTLIST Prp name CDATA #REQUIRED>
+<!ATTLIST Prp type CDATA #REQUIRED>
+<!ATTLIST Prp value CDATA #REQUIRED>
+]>
+<Nodes version="1">
+	<Node name="root">
+		<Node name="message 39">
+			<Prp name="line no" type="I" value="130"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="message" type="S" value="The tab control page 0 is already selected."/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="date" type="D" value="42195.6255051736"/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Aliases.Sqlnavigator.frmLogon.grpConnection.pgTypes&#xA;(Sys.Process(&quot;sqlnavigator&quot;).VCLObject(&quot;frmLogOn&quot;).VCLObject(&quot;grpConnection&quot;).VCLObject(&quot;pnlPages&quot;).VCLObject(&quot;pgTypes&quot;))"/>
+			<Prp name="id" type="I" value="39"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+		</Node>
+		<Node name="message 7">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="object bottom" type="I" value="295"/>
+					<Prp name="object name" type="S" value="Aliases.Sqlnavigator.dlgToolBarCustomize.PageControl.ToolBarList"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="object left" type="I" value="22"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="object top" type="I" value="82"/>
+					<Prp name="version" type="I" value="1"/>
+					<Prp name="line #" type="I" value="247"/>
+					<Prp name="image file name" type="S" value="visImage2.png"/>
+					<Prp name="object right" type="I" value="249"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="datetime" type="D" value="42195.6252423727"/>
+					<Prp name="storage file name" type="S" value=""/>
+				</Node>
+			</Node>
+			<Prp name="line no" type="I" value="247"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="message" type="S" value="The listbox item 1 was selected."/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="date" type="D" value="42195.6252432407"/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Aliases.Sqlnavigator.dlgToolBarCustomize.PageControl.ToolBarList&#xA;(Sys.Process(&quot;sqlnavigator&quot;).VCLObject(&quot;dxBarCustomizationForm&quot;).VCLObject(&quot;PageControl&quot;).VCLObject(&quot;tsToolbars&quot;).VCLObject(&quot;lbBarsList&quot;))"/>
+			<Prp name="id" type="I" value="7"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+		</Node>
+		<Node name="message 1">
+			<Prp name="line no" type="I" value="56"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="message" type="S" value="SQLNavigator is been opened."/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="date" type="D" value="42195.6251610417"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="id" type="I" value="1"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+		</Node>
+		<Node name="message 40">
+			<Prp name="line no" type="I" value="134"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="message" type="S" value="Have selected database: AUTO_ORA12CR2"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="date" type="D" value="42195.6255058449"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="id" type="I" value="40"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+		</Node>
+		<Node name="message 29">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="object bottom" type="I" value="295"/>
+					<Prp name="object name" type="S" value="Aliases.Sqlnavigator.dlgToolBarCustomize.PageControl.ToolBarList"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="object left" type="I" value="22"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="object top" type="I" value="82"/>
+					<Prp name="version" type="I" value="1"/>
+					<Prp name="line #" type="I" value="265"/>
+					<Prp name="image file name" type="S" value="visImage18.png"/>
+					<Prp name="object right" type="I" value="249"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="datetime" type="D" value="42195.6254450694"/>
+					<Prp name="storage file name" type="S" value=""/>
+				</Node>
+			</Node>
+			<Prp name="line no" type="I" value="265"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="message" type="S" value="The listbox item 'Task Bar (List of Windows)' was double-clicked with the left mouse button."/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="date" type="D" value="42195.6254519676"/>
+			<Prp name="remarks" type="S" value="A click with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.Sqlnavigator.dlgToolBarCustomize.PageControl.ToolBarList&#xA;(Sys.Process(&quot;sqlnavigator&quot;).VCLObject(&quot;dxBarCustomizationForm&quot;).VCLObject(&quot;PageControl&quot;).VCLObject(&quot;tsToolbars&quot;).VCLObject(&quot;lbBarsList&quot;))"/>
+			<Prp name="id" type="I" value="29"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+		</Node>
+		<Node name="message 30">
+			<Prp name="line no" type="I" value="267"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="message" type="S" value="Success to select all Toolbars."/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="date" type="D" value="42195.6254529398"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="id" type="I" value="30"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+		</Node>
+		<Node name="message 5">
+			<Prp name="line no" type="I" value="238"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="message" type="S" value="Click on Item---[Customize]"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="date" type="D" value="42195.6252403704"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="id" type="I" value="5"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+		</Node>
+		<Node name="message 18">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="object bottom" type="I" value="295"/>
+					<Prp name="object name" type="S" value="Aliases.Sqlnavigator.dlgToolBarCustomize.PageControl.ToolBarList"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="object left" type="I" value="22"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="object top" type="I" value="82"/>
+					<Prp name="version" type="I" value="1"/>
+					<Prp name="line #" type="I" value="247"/>
+					<Prp name="image file name" type="S" value="visImage10.png"/>
+					<Prp name="object right" type="I" value="249"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="datetime" type="D" value="42195.6252884838"/>
+					<Prp name="storage file name" type="S" value=""/>
+				</Node>
+			</Node>
+			<Prp name="line no" type="I" value="247"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="message" type="S" value="The listbox item 4 was selected."/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="date" type="D" value="42195.6252894213"/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Aliases.Sqlnavigator.dlgToolBarCustomize.PageControl.ToolBarList&#xA;(Sys.Process(&quot;sqlnavigator&quot;).VCLObject(&quot;dxBarCustomizationForm&quot;).VCLObject(&quot;PageControl&quot;).VCLObject(&quot;tsToolbars&quot;).VCLObject(&quot;lbBarsList&quot;))"/>
+			<Prp name="id" type="I" value="18"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+		</Node>
+		<Node name="message 21">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="object bottom" type="I" value="295"/>
+					<Prp name="object name" type="S" value="Aliases.Sqlnavigator.dlgToolBarCustomize.PageControl.ToolBarList"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="object left" type="I" value="22"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="object top" type="I" value="82"/>
+					<Prp name="version" type="I" value="1"/>
+					<Prp name="line #" type="I" value="252"/>
+					<Prp name="image file name" type="S" value="visImage12.png"/>
+					<Prp name="object right" type="I" value="249"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="datetime" type="D" value="42195.6252985995"/>
+					<Prp name="storage file name" type="S" value=""/>
+				</Node>
+			</Node>
+			<Prp name="line no" type="I" value="252"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="message" type="S" value="The listbox item 'Object Toolbar' was double-clicked with the left mouse button."/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="date" type="D" value="42195.625305544"/>
+			<Prp name="remarks" type="S" value="A click with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.Sqlnavigator.dlgToolBarCustomize.PageControl.ToolBarList&#xA;(Sys.Process(&quot;sqlnavigator&quot;).VCLObject(&quot;dxBarCustomizationForm&quot;).VCLObject(&quot;PageControl&quot;).VCLObject(&quot;tsToolbars&quot;).VCLObject(&quot;lbBarsList&quot;))"/>
+			<Prp name="id" type="I" value="21"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+		</Node>
+		<Node name="stack"/>
+		<Node name="message 2">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="object bottom" type="I" value="74"/>
+					<Prp name="object name" type="S" value="Aliases.Sqlnavigator.frmMain.Window(&quot;TdxDockControl&quot;, &quot;&quot;, 3)"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="click point x" type="I" value="840"/>
+					<Prp name="object left" type="I" value="0"/>
+					<Prp name="click point y" type="I" value="48"/>
+					<Prp name="object top" type="I" value="22"/>
+					<Prp name="version" type="I" value="1"/>
+					<Prp name="line #" type="I" value="235"/>
+					<Prp name="image file name" type="S" value="visImage0.png"/>
+					<Prp name="object right" type="I" value="1680"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="datetime" type="D" value="42195.6252115278"/>
+					<Prp name="storage file name" type="S" value=""/>
+				</Node>
+			</Node>
+			<Prp name="line no" type="I" value="235"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="message" type="S" value="The window was clicked with the right mouse button."/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="date" type="D" value="42195.6252239005"/>
+			<Prp name="remarks" type="S" value="A click at point (840, 26) with no key pressed.&#xA;&#xA;Tested object:&#xA;Sys.Process(&quot;sqlnavigator&quot;).VCLObject(&quot;frmMain&quot;).Window(&quot;TdxDockControl&quot;, &quot;&quot;, 3)"/>
+			<Prp name="id" type="I" value="2"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+		</Node>
+		<Node name="message 34">
+			<Prp name="line no" type="I" value="104"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="message" type="S" value="Typing shortcut:~"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="date" type="D" value="42195.6254721412"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="id" type="I" value="34"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="priority" type="I" value="300"/>
+		</Node>
+		<Node name="message 35">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="object bottom" type="I" value="46"/>
+					<Prp name="object name" type="S" value="Aliases.Sqlnavigator.frmMain.HeadZone.MainMenuBar"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="object left" type="I" value="0"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="object top" type="I" value="22"/>
+					<Prp name="version" type="I" value="1"/>
+					<Prp name="line #" type="I" value="103"/>
+					<Prp name="image file name" type="S" value="visImage22.png"/>
+					<Prp name="object right" type="I" value="1680"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="datetime" type="D" value="42195.625473669"/>
+					<Prp name="storage file name" type="S" value=""/>
+				</Node>
+			</Node>
+			<Prp name="line no" type="I" value="103"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="message" type="S" value="Keyboard input."/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="date" type="D" value="42195.6254750116"/>
+			<Prp name="remarks" type="S" value="'S' was sent as a keyboard input to a window:&#xA;&#xA;Tested object:&#xA;Aliases.Sqlnavigator.frmMain.HeadZone.MainMenuBar&#xA;(Sys.Process(&quot;sqlnavigator&quot;).VCLObject(&quot;frmMain&quot;).Window(&quot;TdxDockControl&quot;, &quot;&quot;, 1).Window(&quot;TdxBarControl&quot;, &quot;Main Menu&quot;, 1))"/>
+			<Prp name="id" type="I" value="35"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="priority" type="I" value="300"/>
+		</Node>
+		<Node name="message 26">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="object bottom" type="I" value="295"/>
+					<Prp name="object name" type="S" value="Aliases.Sqlnavigator.dlgToolBarCustomize.PageControl.ToolBarList"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="object left" type="I" value="22"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="object top" type="I" value="82"/>
+					<Prp name="version" type="I" value="1"/>
+					<Prp name="line #" type="I" value="248"/>
+					<Prp name="image file name" type="S" value="visImage16.png"/>
+					<Prp name="object right" type="I" value="249"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="datetime" type="D" value="42195.6253181019"/>
+					<Prp name="storage file name" type="S" value=""/>
+				</Node>
+			</Node>
+			<Prp name="line no" type="I" value="248"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="message" type="S" value="The listbox item 'Team Coding' was double-clicked with the left mouse button."/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="date" type="D" value="42195.6253250579"/>
+			<Prp name="remarks" type="S" value="A click with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.Sqlnavigator.dlgToolBarCustomize.PageControl.ToolBarList&#xA;(Sys.Process(&quot;sqlnavigator&quot;).VCLObject(&quot;dxBarCustomizationForm&quot;).VCLObject(&quot;PageControl&quot;).VCLObject(&quot;tsToolbars&quot;).VCLObject(&quot;lbBarsList&quot;))"/>
+			<Prp name="id" type="I" value="26"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+		</Node>
+		<Node name="message 42">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="object bottom" type="I" value="349"/>
+					<Prp name="object name" type="S" value="Aliases.Sqlnavigator.frmLogon.grpConnection.edtPassword"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="object left" type="I" value="106"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="object top" type="I" value="328"/>
+					<Prp name="version" type="I" value="1"/>
+					<Prp name="line #" type="I" value="180"/>
+					<Prp name="image file name" type="S" value="visImage26.png"/>
+					<Prp name="object right" type="I" value="341"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="datetime" type="D" value="42195.6255103125"/>
+					<Prp name="storage file name" type="S" value=""/>
+				</Node>
+			</Node>
+			<Prp name="line no" type="I" value="180"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="message" type="S" value="Keyboard input."/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="date" type="D" value="42195.6255139815"/>
+			<Prp name="remarks" type="S" value="'navdev' was sent as a keyboard input to a window:&#xA;&#xA;Tested object:&#xA;Aliases.Sqlnavigator.frmLogon.grpConnection.edtPassword&#xA;(Sys.Process(&quot;sqlnavigator&quot;).VCLObject(&quot;frmLogOn&quot;).VCLObject(&quot;grpConnection&quot;).VCLObject(&quot;pnlUser&quot;).VCLObject(&quot;edtPassword&quot;))"/>
+			<Prp name="id" type="I" value="42"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+		</Node>
+		<Node name="message 43">
+			<Prp name="line no" type="I" value="181"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="message" type="S" value="Username: navdev Password: navdev"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="date" type="D" value="42195.6255147222"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="id" type="I" value="43"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+		</Node>
+		<Node name="message 11">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="object bottom" type="I" value="295"/>
+					<Prp name="object name" type="S" value="Aliases.Sqlnavigator.dlgToolBarCustomize.PageControl.ToolBarList"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="object left" type="I" value="22"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="object top" type="I" value="82"/>
+					<Prp name="version" type="I" value="1"/>
+					<Prp name="line #" type="I" value="247"/>
+					<Prp name="image file name" type="S" value="visImage5.png"/>
+					<Prp name="object right" type="I" value="249"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="datetime" type="D" value="42195.6252603588"/>
+					<Prp name="storage file name" type="S" value=""/>
+				</Node>
+			</Node>
+			<Prp name="line no" type="I" value="247"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="message" type="S" value="The listbox item 2 was selected."/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="date" type="D" value="42195.6252609606"/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Aliases.Sqlnavigator.dlgToolBarCustomize.PageControl.ToolBarList&#xA;(Sys.Process(&quot;sqlnavigator&quot;).VCLObject(&quot;dxBarCustomizationForm&quot;).VCLObject(&quot;PageControl&quot;).VCLObject(&quot;tsToolbars&quot;).VCLObject(&quot;lbBarsList&quot;))"/>
+			<Prp name="id" type="I" value="11"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+		</Node>
+		<Node name="message 44">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="object bottom" type="I" value="539"/>
+					<Prp name="object name" type="S" value="Aliases.Sqlnavigator.frmLogon.btnOK"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="click point x" type="I" value="233"/>
+					<Prp name="object left" type="I" value="195"/>
+					<Prp name="click point y" type="I" value="526"/>
+					<Prp name="object top" type="I" value="514"/>
+					<Prp name="version" type="I" value="1"/>
+					<Prp name="line #" type="I" value="183"/>
+					<Prp name="image file name" type="S" value="visImage27.png"/>
+					<Prp name="object right" type="I" value="271"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="datetime" type="D" value="42195.6255150926"/>
+					<Prp name="storage file name" type="S" value=""/>
+				</Node>
+			</Node>
+			<Prp name="line no" type="I" value="183"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="date" type="D" value="42195.6255156944"/>
+			<Prp name="remarks" type="S" value="A click at point (38, 12) with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.Sqlnavigator.frmLogon.btnOK&#xA;(Sys.Process(&quot;sqlnavigator&quot;).VCLObject(&quot;frmLogOn&quot;).VCLObject(&quot;btnOK&quot;))"/>
+			<Prp name="id" type="I" value="44"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+		</Node>
+		<Node name="message 14">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="object bottom" type="I" value="295"/>
+					<Prp name="object name" type="S" value="Aliases.Sqlnavigator.dlgToolBarCustomize.PageControl.ToolBarList"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="object left" type="I" value="22"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="object top" type="I" value="82"/>
+					<Prp name="version" type="I" value="1"/>
+					<Prp name="line #" type="I" value="247"/>
+					<Prp name="image file name" type="S" value="visImage7.png"/>
+					<Prp name="object right" type="I" value="249"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="datetime" type="D" value="42195.6252706713"/>
+					<Prp name="storage file name" type="S" value=""/>
+				</Node>
+			</Node>
+			<Prp name="line no" type="I" value="247"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="message" type="S" value="The listbox item 3 was selected."/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="date" type="D" value="42195.6252712153"/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Aliases.Sqlnavigator.dlgToolBarCustomize.PageControl.ToolBarList&#xA;(Sys.Process(&quot;sqlnavigator&quot;).VCLObject(&quot;dxBarCustomizationForm&quot;).VCLObject(&quot;PageControl&quot;).VCLObject(&quot;tsToolbars&quot;).VCLObject(&quot;lbBarsList&quot;))"/>
+			<Prp name="id" type="I" value="14"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+		</Node>
+		<Node name="message 12">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="object bottom" type="I" value="295"/>
+					<Prp name="object name" type="S" value="Aliases.Sqlnavigator.dlgToolBarCustomize.PageControl.ToolBarList"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="object left" type="I" value="22"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="object top" type="I" value="82"/>
+					<Prp name="version" type="I" value="1"/>
+					<Prp name="line #" type="I" value="248"/>
+					<Prp name="image file name" type="S" value="visImage6.png"/>
+					<Prp name="object right" type="I" value="249"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="datetime" type="D" value="42195.6252620023"/>
+					<Prp name="storage file name" type="S" value=""/>
+				</Node>
+			</Node>
+			<Prp name="line no" type="I" value="248"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="message" type="S" value="The listbox item 'Edit Toolbar' was double-clicked with the left mouse button."/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="date" type="D" value="42195.6252689236"/>
+			<Prp name="remarks" type="S" value="A click with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.Sqlnavigator.dlgToolBarCustomize.PageControl.ToolBarList&#xA;(Sys.Process(&quot;sqlnavigator&quot;).VCLObject(&quot;dxBarCustomizationForm&quot;).VCLObject(&quot;PageControl&quot;).VCLObject(&quot;tsToolbars&quot;).VCLObject(&quot;lbBarsList&quot;))"/>
+			<Prp name="id" type="I" value="12"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+		</Node>
+		<Node name="message 13">
+			<Prp name="line no" type="I" value="255"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="message" type="S" value="Selected the item: Edit Toolbar"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="date" type="D" value="42195.6252704051"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="id" type="I" value="13"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+		</Node>
+		<Node name="message 37">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="object bottom" type="I" value="46"/>
+					<Prp name="object name" type="S" value="Aliases.Sqlnavigator.frmMain.HeadZone.MainMenuBar"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="object left" type="I" value="0"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="object top" type="I" value="22"/>
+					<Prp name="version" type="I" value="1"/>
+					<Prp name="line #" type="I" value="103"/>
+					<Prp name="image file name" type="S" value="visImage23.png"/>
+					<Prp name="object right" type="I" value="1680"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="datetime" type="D" value="42195.6254772569"/>
+					<Prp name="storage file name" type="S" value=""/>
+				</Node>
+			</Node>
+			<Prp name="line no" type="I" value="103"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="message" type="S" value="Keyboard input."/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="date" type="D" value="42195.6255016319"/>
+			<Prp name="remarks" type="S" value="'N' was sent as a keyboard input to a window:&#xA;&#xA;Tested object:&#xA;Aliases.Sqlnavigator.frmMain.HeadZone.MainMenuBar&#xA;(Sys.Process(&quot;sqlnavigator&quot;).VCLObject(&quot;frmMain&quot;).Window(&quot;TdxDockControl&quot;, &quot;&quot;, 1).Window(&quot;TdxBarControl&quot;, &quot;Main Menu&quot;, 1))"/>
+			<Prp name="id" type="I" value="37"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="priority" type="I" value="300"/>
+		</Node>
+		<Node name="message 6">
+			<Prp name="line no" type="I" value="242"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="message" type="S" value="The tab control page 0 is already selected."/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="date" type="D" value="42195.6252420023"/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Aliases.Sqlnavigator.dlgToolBarCustomize.PageControl&#xA;(Sys.Process(&quot;sqlnavigator&quot;).VCLObject(&quot;dxBarCustomizationForm&quot;).VCLObject(&quot;PageControl&quot;))"/>
+			<Prp name="id" type="I" value="6"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+		</Node>
+		<Node name="message 32">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="object bottom" type="I" value="46"/>
+					<Prp name="object name" type="S" value="Aliases.Sqlnavigator.frmMain.HeadZone.MainMenuBar"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="object left" type="I" value="0"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="object top" type="I" value="22"/>
+					<Prp name="version" type="I" value="1"/>
+					<Prp name="line #" type="I" value="99"/>
+					<Prp name="image file name" type="S" value="visImage20.png"/>
+					<Prp name="object right" type="I" value="1680"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="datetime" type="D" value="42195.6254569213"/>
+					<Prp name="storage file name" type="S" value=""/>
+				</Node>
+			</Node>
+			<Prp name="line no" type="I" value="99"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="message" type="S" value="The window got focus."/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="date" type="D" value="42195.6254581713"/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Aliases.Sqlnavigator.frmMain.HeadZone.MainMenuBar&#xA;(Sys.Process(&quot;sqlnavigator&quot;).VCLObject(&quot;frmMain&quot;).Window(&quot;TdxDockControl&quot;, &quot;&quot;, 1).Window(&quot;TdxBarControl&quot;, &quot;Main Menu&quot;, 1))"/>
+			<Prp name="id" type="I" value="32"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="priority" type="I" value="300"/>
+		</Node>
+		<Node name="message 33">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="object bottom" type="I" value="46"/>
+					<Prp name="object name" type="S" value="Aliases.Sqlnavigator.frmMain.HeadZone.MainMenuBar"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="object left" type="I" value="0"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="object top" type="I" value="22"/>
+					<Prp name="version" type="I" value="1"/>
+					<Prp name="line #" type="I" value="103"/>
+					<Prp name="image file name" type="S" value="visImage21.png"/>
+					<Prp name="object right" type="I" value="1680"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="datetime" type="D" value="42195.6254590162"/>
+					<Prp name="storage file name" type="S" value=""/>
+				</Node>
+			</Node>
+			<Prp name="line no" type="I" value="103"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="message" type="S" value="Keyboard input."/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="date" type="D" value="42195.6254713657"/>
+			<Prp name="remarks" type="S" value="'~' was sent as a keyboard input to a window:&#xA;&#xA;Tested object:&#xA;Aliases.Sqlnavigator.frmMain.HeadZone.MainMenuBar&#xA;(Sys.Process(&quot;sqlnavigator&quot;).VCLObject(&quot;frmMain&quot;).Window(&quot;TdxDockControl&quot;, &quot;&quot;, 1).Window(&quot;TdxBarControl&quot;, &quot;Main Menu&quot;, 1))"/>
+			<Prp name="id" type="I" value="33"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="priority" type="I" value="300"/>
+		</Node>
+		<Node name="message 27">
+			<Prp name="line no" type="I" value="255"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="message" type="S" value="Selected the item: Team Coding"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="date" type="D" value="42195.6253262037"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="id" type="I" value="27"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+		</Node>
+		<Node name="message 28">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="object bottom" type="I" value="295"/>
+					<Prp name="object name" type="S" value="Aliases.Sqlnavigator.dlgToolBarCustomize.PageControl.ToolBarList"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="object left" type="I" value="22"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="object top" type="I" value="82"/>
+					<Prp name="version" type="I" value="1"/>
+					<Prp name="line #" type="I" value="264"/>
+					<Prp name="image file name" type="S" value="visImage17.png"/>
+					<Prp name="object right" type="I" value="249"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="datetime" type="D" value="42195.6254433565"/>
+					<Prp name="storage file name" type="S" value=""/>
+				</Node>
+			</Node>
+			<Prp name="line no" type="I" value="264"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="message" type="S" value="The listbox item 'Task Bar (List of Windows)' was selected."/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="date" type="D" value="42195.6254440046"/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Aliases.Sqlnavigator.dlgToolBarCustomize.PageControl.ToolBarList&#xA;(Sys.Process(&quot;sqlnavigator&quot;).VCLObject(&quot;dxBarCustomizationForm&quot;).VCLObject(&quot;PageControl&quot;).VCLObject(&quot;tsToolbars&quot;).VCLObject(&quot;lbBarsList&quot;))"/>
+			<Prp name="id" type="I" value="28"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+		</Node>
+		<Node name="message 16">
+			<Prp name="line no" type="I" value="251"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="message" type="S" value="Selected the item: Functions Toolbar once again."/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="date" type="D" value="42195.6252800694"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="id" type="I" value="16"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+		</Node>
+		<Node name="units">
+			<Prp name="unit 0" type="S" value="{AD3C9A39-3137-4A7B-BE5E-B2486E0245F6}"/>
+			<Prp name="unit 2" type="S" value="{1F45A3B7-0961-49F2-8D2C-C2CFBC3E6369}"/>
+			<Prp name="unit 1" type="S" value="{69BFA18A-3D3E-4FB3-A761-1DD34B8FE1CC}"/>
+		</Node>
+		<Node name="message 4">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="object bottom" type="I" value="74"/>
+					<Prp name="object name" type="S" value="Aliases.Sqlnavigator.frmMain.Window(&quot;TdxDockControl&quot;, &quot;&quot;, 3)"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="object left" type="I" value="0"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="object top" type="I" value="22"/>
+					<Prp name="version" type="I" value="1"/>
+					<Prp name="line #" type="I" value="237"/>
+					<Prp name="image file name" type="S" value="visImage1.png"/>
+					<Prp name="object right" type="I" value="1680"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="datetime" type="D" value="42195.6252247685"/>
+					<Prp name="storage file name" type="S" value=""/>
+				</Node>
+			</Node>
+			<Prp name="line no" type="I" value="237"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="message" type="S" value="Keyboard input."/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="date" type="D" value="42195.6252397569"/>
+			<Prp name="remarks" type="S" value="'C' was sent as a keyboard input to a window:&#xA;&#xA;Tested object:&#xA;Sys.Process(&quot;sqlnavigator&quot;).VCLObject(&quot;frmMain&quot;).Window(&quot;TdxDockControl&quot;, &quot;&quot;, 3)"/>
+			<Prp name="id" type="I" value="4"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+		</Node>
+		<Node name="message 17">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="object bottom" type="I" value="295"/>
+					<Prp name="object name" type="S" value="Aliases.Sqlnavigator.dlgToolBarCustomize.PageControl.ToolBarList"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="object left" type="I" value="22"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="object top" type="I" value="82"/>
+					<Prp name="version" type="I" value="1"/>
+					<Prp name="line #" type="I" value="252"/>
+					<Prp name="image file name" type="S" value="visImage9.png"/>
+					<Prp name="object right" type="I" value="249"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="datetime" type="D" value="42195.6252803935"/>
+					<Prp name="storage file name" type="S" value=""/>
+				</Node>
+			</Node>
+			<Prp name="line no" type="I" value="252"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="message" type="S" value="The listbox item 'Functions Toolbar' was double-clicked with the left mouse button."/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="date" type="D" value="42195.6252874306"/>
+			<Prp name="remarks" type="S" value="A click with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.Sqlnavigator.dlgToolBarCustomize.PageControl.ToolBarList&#xA;(Sys.Process(&quot;sqlnavigator&quot;).VCLObject(&quot;dxBarCustomizationForm&quot;).VCLObject(&quot;PageControl&quot;).VCLObject(&quot;tsToolbars&quot;).VCLObject(&quot;lbBarsList&quot;))"/>
+			<Prp name="id" type="I" value="17"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+		</Node>
+		<Node name="n-0">
+			<Node name="data">
+				<Prp name="d-0" type="D" value="42195.6255879282"/>
+			</Node>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="countertype" type="I" value="4"/>
+			<Prp name="columnindex" type="I" value="0"/>
+			<Prp name="length" type="I" value="1"/>
+			<Prp name="name" type="S" value="Date&amp;Time"/>
+			<Prp name="id" type="S" value="{5C4EF7C7-C2C9-43CB-85AE-66E5E6E35778}"/>
+			<Prp name="color" type="I" value="0"/>
+			<Prp name="isinteger" type="B" value="0"/>
+			<Prp name="description" type="S" value=""/>
+		</Node>
+		<Node name="message 10">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="object bottom" type="I" value="295"/>
+					<Prp name="object name" type="S" value="Aliases.Sqlnavigator.dlgToolBarCustomize.PageControl.ToolBarList"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="object left" type="I" value="22"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="object top" type="I" value="82"/>
+					<Prp name="version" type="I" value="1"/>
+					<Prp name="line #" type="I" value="252"/>
+					<Prp name="image file name" type="S" value="visImage4.png"/>
+					<Prp name="object right" type="I" value="249"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="datetime" type="D" value="42195.6252524074"/>
+					<Prp name="storage file name" type="S" value=""/>
+				</Node>
+			</Node>
+			<Prp name="line no" type="I" value="252"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="message" type="S" value="The listbox item 'Session Toolbar' was double-clicked with the left mouse button."/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="date" type="D" value="42195.6252593171"/>
+			<Prp name="remarks" type="S" value="A click with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.Sqlnavigator.dlgToolBarCustomize.PageControl.ToolBarList&#xA;(Sys.Process(&quot;sqlnavigator&quot;).VCLObject(&quot;dxBarCustomizationForm&quot;).VCLObject(&quot;PageControl&quot;).VCLObject(&quot;tsToolbars&quot;).VCLObject(&quot;lbBarsList&quot;))"/>
+			<Prp name="id" type="I" value="10"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+		</Node>
+		<Node name="message 24">
+			<Prp name="line no" type="I" value="255"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="message" type="S" value="Selected the item: Task Bar (List of Windows)"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="date" type="D" value="42195.6253160301"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="id" type="I" value="24"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+		</Node>
+		<Node name="message 25">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="object bottom" type="I" value="295"/>
+					<Prp name="object name" type="S" value="Aliases.Sqlnavigator.dlgToolBarCustomize.PageControl.ToolBarList"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="object left" type="I" value="22"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="object top" type="I" value="82"/>
+					<Prp name="version" type="I" value="1"/>
+					<Prp name="line #" type="I" value="247"/>
+					<Prp name="image file name" type="S" value="visImage15.png"/>
+					<Prp name="object right" type="I" value="249"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="datetime" type="D" value="42195.6253162731"/>
+					<Prp name="storage file name" type="S" value=""/>
+				</Node>
+			</Node>
+			<Prp name="line no" type="I" value="247"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="message" type="S" value="The listbox item 6 was selected."/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="date" type="D" value="42195.6253169907"/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Aliases.Sqlnavigator.dlgToolBarCustomize.PageControl.ToolBarList&#xA;(Sys.Process(&quot;sqlnavigator&quot;).VCLObject(&quot;dxBarCustomizationForm&quot;).VCLObject(&quot;PageControl&quot;).VCLObject(&quot;tsToolbars&quot;).VCLObject(&quot;lbBarsList&quot;))"/>
+			<Prp name="id" type="I" value="25"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+		</Node>
+		<Node name="message 41">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="object bottom" type="I" value="319"/>
+					<Prp name="object name" type="S" value="Aliases.Sqlnavigator.frmLogon.grpConnection.edtUserName"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="object left" type="I" value="106"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="object top" type="I" value="298"/>
+					<Prp name="version" type="I" value="1"/>
+					<Prp name="line #" type="I" value="179"/>
+					<Prp name="image file name" type="S" value="visImage25.png"/>
+					<Prp name="object right" type="I" value="341"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="datetime" type="D" value="42195.6255061111"/>
+					<Prp name="storage file name" type="S" value=""/>
+				</Node>
+			</Node>
+			<Prp name="line no" type="I" value="179"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="message" type="S" value="Keyboard input."/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="date" type="D" value="42195.6255094444"/>
+			<Prp name="remarks" type="S" value="'navdev' was sent as a keyboard input to a window:&#xA;&#xA;Tested object:&#xA;Aliases.Sqlnavigator.frmLogon.grpConnection.edtUserName&#xA;(Sys.Process(&quot;sqlnavigator&quot;).VCLObject(&quot;frmLogOn&quot;).VCLObject(&quot;grpConnection&quot;).VCLObject(&quot;pnlUser&quot;).VCLObject(&quot;edtUserName&quot;))"/>
+			<Prp name="id" type="I" value="41"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+		</Node>
+		<Node name="message 8">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="object bottom" type="I" value="295"/>
+					<Prp name="object name" type="S" value="Aliases.Sqlnavigator.dlgToolBarCustomize.PageControl.ToolBarList"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="object left" type="I" value="22"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="object top" type="I" value="82"/>
+					<Prp name="version" type="I" value="1"/>
+					<Prp name="line #" type="I" value="248"/>
+					<Prp name="image file name" type="S" value="visImage3.png"/>
+					<Prp name="object right" type="I" value="249"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="datetime" type="D" value="42195.6252442593"/>
+					<Prp name="storage file name" type="S" value=""/>
+				</Node>
+			</Node>
+			<Prp name="line no" type="I" value="248"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="message" type="S" value="The listbox item 'Session Toolbar' was double-clicked with the left mouse button."/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="date" type="D" value="42195.6252511343"/>
+			<Prp name="remarks" type="S" value="A click with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.Sqlnavigator.dlgToolBarCustomize.PageControl.ToolBarList&#xA;(Sys.Process(&quot;sqlnavigator&quot;).VCLObject(&quot;dxBarCustomizationForm&quot;).VCLObject(&quot;PageControl&quot;).VCLObject(&quot;tsToolbars&quot;).VCLObject(&quot;lbBarsList&quot;))"/>
+			<Prp name="id" type="I" value="8"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+		</Node>
+		<Node name="message 9">
+			<Prp name="line no" type="I" value="251"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="message" type="S" value="Selected the item: Session Toolbar once again."/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="date" type="D" value="42195.6252521065"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="id" type="I" value="9"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+		</Node>
+		<Node name="message 22">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="object bottom" type="I" value="295"/>
+					<Prp name="object name" type="S" value="Aliases.Sqlnavigator.dlgToolBarCustomize.PageControl.ToolBarList"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="object left" type="I" value="22"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="object top" type="I" value="82"/>
+					<Prp name="version" type="I" value="1"/>
+					<Prp name="line #" type="I" value="247"/>
+					<Prp name="image file name" type="S" value="visImage13.png"/>
+					<Prp name="object right" type="I" value="249"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="datetime" type="D" value="42195.6253065741"/>
+					<Prp name="storage file name" type="S" value=""/>
+				</Node>
+			</Node>
+			<Prp name="line no" type="I" value="247"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="message" type="S" value="The listbox item 5 was selected."/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="date" type="D" value="42195.6253071181"/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Aliases.Sqlnavigator.dlgToolBarCustomize.PageControl.ToolBarList&#xA;(Sys.Process(&quot;sqlnavigator&quot;).VCLObject(&quot;dxBarCustomizationForm&quot;).VCLObject(&quot;PageControl&quot;).VCLObject(&quot;tsToolbars&quot;).VCLObject(&quot;lbBarsList&quot;))"/>
+			<Prp name="id" type="I" value="22"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+		</Node>
+		<Node name="message 23">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="object bottom" type="I" value="295"/>
+					<Prp name="object name" type="S" value="Aliases.Sqlnavigator.dlgToolBarCustomize.PageControl.ToolBarList"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="object left" type="I" value="22"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="object top" type="I" value="82"/>
+					<Prp name="version" type="I" value="1"/>
+					<Prp name="line #" type="I" value="248"/>
+					<Prp name="image file name" type="S" value="visImage14.png"/>
+					<Prp name="object right" type="I" value="249"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="datetime" type="D" value="42195.6253081944"/>
+					<Prp name="storage file name" type="S" value=""/>
+				</Node>
+			</Node>
+			<Prp name="line no" type="I" value="248"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="message" type="S" value="The listbox item 'Task Bar (List of Windows)' was double-clicked with the left mouse button."/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="date" type="D" value="42195.6253150231"/>
+			<Prp name="remarks" type="S" value="A click with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.Sqlnavigator.dlgToolBarCustomize.PageControl.ToolBarList&#xA;(Sys.Process(&quot;sqlnavigator&quot;).VCLObject(&quot;dxBarCustomizationForm&quot;).VCLObject(&quot;PageControl&quot;).VCLObject(&quot;tsToolbars&quot;).VCLObject(&quot;lbBarsList&quot;))"/>
+			<Prp name="id" type="I" value="23"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+		</Node>
+		<Node name="message 36">
+			<Prp name="line no" type="I" value="104"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="message" type="S" value="Typing shortcut:S"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="date" type="D" value="42195.6254757292"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="id" type="I" value="36"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="priority" type="I" value="300"/>
+		</Node>
+		<Node name="message 3">
+			<Prp name="line no" type="I" value="236"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="message" type="S" value="Right click the [Main Menu Bar]."/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="date" type="D" value="42195.6252246296"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="id" type="I" value="3"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+		</Node>
+		<Node name="message 19">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="object bottom" type="I" value="295"/>
+					<Prp name="object name" type="S" value="Aliases.Sqlnavigator.dlgToolBarCustomize.PageControl.ToolBarList"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="object left" type="I" value="22"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="object top" type="I" value="82"/>
+					<Prp name="version" type="I" value="1"/>
+					<Prp name="line #" type="I" value="248"/>
+					<Prp name="image file name" type="S" value="visImage11.png"/>
+					<Prp name="object right" type="I" value="249"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="datetime" type="D" value="42195.6252905093"/>
+					<Prp name="storage file name" type="S" value=""/>
+				</Node>
+			</Node>
+			<Prp name="line no" type="I" value="248"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="message" type="S" value="The listbox item 'Object Toolbar' was double-clicked with the left mouse button."/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="date" type="D" value="42195.6252974074"/>
+			<Prp name="remarks" type="S" value="A click with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.Sqlnavigator.dlgToolBarCustomize.PageControl.ToolBarList&#xA;(Sys.Process(&quot;sqlnavigator&quot;).VCLObject(&quot;dxBarCustomizationForm&quot;).VCLObject(&quot;PageControl&quot;).VCLObject(&quot;tsToolbars&quot;).VCLObject(&quot;lbBarsList&quot;))"/>
+			<Prp name="id" type="I" value="19"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+		</Node>
+		<Node name="child data"/>
+		<Node name="message 45">
+			<Prp name="line no" type="I" value="25"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="message" type="S" value="The 'Code Editor - [NAVDEV@AUTO_ORA12CR2(1)]: Untitled1' window was activated."/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="date" type="D" value="42195.6255752199"/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Aliases.Sqlnavigator.frmMain.MiddleZone.frmUnifiedEditor&#xA;(Sys.Process(&quot;sqlnavigator&quot;).VCLObject(&quot;frmMain&quot;).Window(&quot;MDIClient&quot;, &quot;&quot;, 1).VCLObject(&quot;frmUnifiedEditor&quot;))"/>
+			<Prp name="id" type="I" value="45"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="unit id" type="I" value="2"/>
+			<Prp name="priority" type="I" value="300"/>
+		</Node>
+		<Node name="message 15">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="object bottom" type="I" value="295"/>
+					<Prp name="object name" type="S" value="Aliases.Sqlnavigator.dlgToolBarCustomize.PageControl.ToolBarList"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="object left" type="I" value="22"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="object top" type="I" value="82"/>
+					<Prp name="version" type="I" value="1"/>
+					<Prp name="line #" type="I" value="248"/>
+					<Prp name="image file name" type="S" value="visImage8.png"/>
+					<Prp name="object right" type="I" value="249"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="datetime" type="D" value="42195.6252722685"/>
+					<Prp name="storage file name" type="S" value=""/>
+				</Node>
+			</Node>
+			<Prp name="line no" type="I" value="248"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="message" type="S" value="The listbox item 'Functions Toolbar' was double-clicked with the left mouse button."/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="date" type="D" value="42195.6252791319"/>
+			<Prp name="remarks" type="S" value="A click with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.Sqlnavigator.dlgToolBarCustomize.PageControl.ToolBarList&#xA;(Sys.Process(&quot;sqlnavigator&quot;).VCLObject(&quot;dxBarCustomizationForm&quot;).VCLObject(&quot;PageControl&quot;).VCLObject(&quot;tsToolbars&quot;).VCLObject(&quot;lbBarsList&quot;))"/>
+			<Prp name="id" type="I" value="15"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+		</Node>
+		<Node name="message 31">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="object bottom" type="I" value="348"/>
+					<Prp name="object name" type="S" value="Aliases.Sqlnavigator.dlgToolBarCustomize"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="object left" type="I" value="0"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="object top" type="I" value="0"/>
+					<Prp name="version" type="I" value="1"/>
+					<Prp name="line #" type="I" value="276"/>
+					<Prp name="image file name" type="S" value="visImage19.png"/>
+					<Prp name="object right" type="I" value="382"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="datetime" type="D" value="42195.6254544907"/>
+					<Prp name="storage file name" type="S" value=""/>
+				</Node>
+			</Node>
+			<Prp name="line no" type="I" value="276"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="message" type="S" value="The 'Customize' window was closed."/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="date" type="D" value="42195.6254555556"/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Aliases.Sqlnavigator.dlgToolBarCustomize&#xA;(Sys.Process(&quot;sqlnavigator&quot;).VCLObject(&quot;dxBarCustomizationForm&quot;))"/>
+			<Prp name="id" type="I" value="31"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+		</Node>
+		<Node name="message 20">
+			<Prp name="line no" type="I" value="251"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="message" type="S" value="Selected the item: Object Toolbar once again."/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="date" type="D" value="42195.6252982407"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="id" type="I" value="20"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+		</Node>
+		<Node name="message 0">
+			<Prp name="line no" type="I" value="48"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="message" type="S" value="The target path: C:\Program Files\Dell\SQL Navigator Beta\sqlnavigator.exe"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="date" type="D" value="42195.6251206018"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="id" type="I" value="0"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+		</Node>
+		<Node name="message 46">
+			<Prp name="line no" type="I" value="189"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="message" type="S" value="Success to log on database: AUTO_ORA12CR2"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="date" type="D" value="42195.6255879282"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="id" type="I" value="46"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+		</Node>
+		<Node name="message 38">
+			<Prp name="line no" type="I" value="104"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="message" type="S" value="Typing shortcut:N"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="date" type="D" value="42195.6255022454"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="id" type="I" value="38"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="priority" type="I" value="300"/>
+		</Node>
+		<Prp name="status" type="I" value="0"/>
+		<Prp name="perfcounterslength" type="I" value="1"/>
+	</Node>
+</Nodes>

@@ -1,0 +1,9 @@
+SELECT 'SQL Navigator' AS str,
+       91203810600020000029 AS num,
+       TO_DATE ('2014-12-04 11:24:05', 'YYYY-MM-DD HH24:MI:SS') AS datetype
+  FROM DUAL
+UNION ALL
+SELECT 'Smoking Test' AS str,
+       91203810000020000030 AS num,
+       TO_DATE ('2014-12-01 10:29:05', 'YYYY-MM-DD HH24:MI:SS') AS datetype
+  FROM DUAL;

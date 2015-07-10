@@ -77,6 +77,9 @@
 			<Node name="namemapping\namemapping.tcnm">
 				<Prp name="relpath" type="S" value="NameMapping\NameMapping.tcNM"/>
 			</Node>
+			<Node name="script\codeeditor_exportdata.sj">
+				<Prp name="relpath" type="S" value="Script\CodeEditor_ExportData.sj"/>
+			</Node>
 			<Node name="script\codeeditor_syntax.sj">
 				<Prp name="relpath" type="S" value="Script\CodeEditor_Syntax.sj"/>
 			</Node>
@@ -134,6 +137,9 @@
 			<Node name="script\menu_view.sj">
 				<Prp name="relpath" type="S" value="Script\Menu_View.sj"/>
 			</Node>
+			<Node name="script\menu_window.sj">
+				<Prp name="relpath" type="S" value="Script\Menu_Window.sj"/>
+			</Node>
 			<Node name="script\script.tcscript">
 				<Prp name="relpath" type="S" value="Script\Script.tcScript"/>
 			</Node>
@@ -155,18 +161,6 @@
 			<Node name="stores\regions.tcregions">
 				<Prp name="relpath" type="S" value="Stores\Regions.tcRegions"/>
 			</Node>
-			<Node name="stores\regions\codeeditorsgeneralts.bmp">
-				<Prp name="relpath" type="S" value="Stores\Regions\CodeEditorsGeneralTS.bmp"/>
-			</Node>
-			<Node name="stores\regions\codeeditorsgeneralts7.bmp">
-				<Prp name="relpath" type="S" value="Stores\Regions\CodeEditorsGeneralTS7.bmp"/>
-			</Node>
-			<Node name="stores\regions\codeeditorssqlts.bmp">
-				<Prp name="relpath" type="S" value="Stores\Regions\CodeEditorsSQLTS.bmp"/>
-			</Node>
-			<Node name="stores\regions\codeeditorssqlts7.bmp">
-				<Prp name="relpath" type="S" value="Stores\Regions\CodeEditorsSQLTS7.bmp"/>
-			</Node>
 			<Node name="stores\regions\comments.bmp">
 				<Prp name="relpath" type="S" value="Stores\Regions\Comments.bmp"/>
 			</Node>
@@ -178,42 +172,6 @@
 			</Node>
 			<Node name="stores\regions\commsql7.bmp">
 				<Prp name="relpath" type="S" value="Stores\Regions\CommSql7.bmp"/>
-			</Node>
-			<Node name="stores\regions\diffviewerprefsts.bmp">
-				<Prp name="relpath" type="S" value="Stores\Regions\DiffViewerPrefsTS.bmp"/>
-			</Node>
-			<Node name="stores\regions\diffviewerrulests.bmp">
-				<Prp name="relpath" type="S" value="Stores\Regions\DiffViewerRulesTS.bmp"/>
-			</Node>
-			<Node name="stores\regions\extractddlcontraintsts.bmp">
-				<Prp name="relpath" type="S" value="Stores\Regions\ExtractDDLContraintsTS.bmp"/>
-			</Node>
-			<Node name="stores\regions\extractddlcontraintsts7.bmp">
-				<Prp name="relpath" type="S" value="Stores\Regions\ExtractDDLContraintsTS7.bmp"/>
-			</Node>
-			<Node name="stores\regions\extractddlgeneralts.bmp">
-				<Prp name="relpath" type="S" value="Stores\Regions\ExtractDDLGeneralTS.bmp"/>
-			</Node>
-			<Node name="stores\regions\extractddlgeneralts7.bmp">
-				<Prp name="relpath" type="S" value="Stores\Regions\ExtractDDLGeneralTS7.bmp"/>
-			</Node>
-			<Node name="stores\regions\extractddlsnapshotsts.bmp">
-				<Prp name="relpath" type="S" value="Stores\Regions\ExtractDDLSnapshotsTS.bmp"/>
-			</Node>
-			<Node name="stores\regions\extractddlsnapshotsts7.bmp">
-				<Prp name="relpath" type="S" value="Stores\Regions\ExtractDDLSnapshotsTS7.bmp"/>
-			</Node>
-			<Node name="stores\regions\extractddltableviewts.bmp">
-				<Prp name="relpath" type="S" value="Stores\Regions\ExtractDDLTableViewTS.bmp"/>
-			</Node>
-			<Node name="stores\regions\extractddltableviewts7.bmp">
-				<Prp name="relpath" type="S" value="Stores\Regions\ExtractDDLTableViewTS7.bmp"/>
-			</Node>
-			<Node name="stores\regions\extractddlusersts.bmp">
-				<Prp name="relpath" type="S" value="Stores\Regions\ExtractDDLUsersTS.bmp"/>
-			</Node>
-			<Node name="stores\regions\extractddlusersts7.bmp">
-				<Prp name="relpath" type="S" value="Stores\Regions\ExtractDDLUsersTS7.bmp"/>
 			</Node>
 			<Node name="stores\regions\functions_keywords_with_dba_1.bmp">
 				<Prp name="relpath" type="S" value="Stores\Regions\Functions_keywords_with_DBA_1.bmp"/>
@@ -232,66 +190,6 @@
 			</Node>
 			<Node name="stores\regions\functions_keywords_with_dba_37.bmp">
 				<Prp name="relpath" type="S" value="Stores\Regions\Functions_keywords_with_DBA_37.bmp"/>
-			</Node>
-			<Node name="stores\regions\gencodeassistantts.bmp">
-				<Prp name="relpath" type="S" value="Stores\Regions\GenCodeAssistantTS.bmp"/>
-			</Node>
-			<Node name="stores\regions\gencodeassistantts7.bmp">
-				<Prp name="relpath" type="S" value="Stores\Regions\GenCodeAssistantTS7.bmp"/>
-			</Node>
-			<Node name="stores\regions\gendefaulttablests.bmp">
-				<Prp name="relpath" type="S" value="Stores\Regions\GenDefaultTablesTS.bmp"/>
-			</Node>
-			<Node name="stores\regions\gendefaulttablests7.bmp">
-				<Prp name="relpath" type="S" value="Stores\Regions\GenDefaultTablesTS7.bmp"/>
-			</Node>
-			<Node name="stores\regions\gendroptruncatets.bmp">
-				<Prp name="relpath" type="S" value="Stores\Regions\GenDropTruncateTS.bmp"/>
-			</Node>
-			<Node name="stores\regions\gendroptruncatets7.bmp">
-				<Prp name="relpath" type="S" value="Stores\Regions\GenDropTruncateTS7.bmp"/>
-			</Node>
-			<Node name="stores\regions\genexplainplants.bmp">
-				<Prp name="relpath" type="S" value="Stores\Regions\GenExplainPlanTS.bmp"/>
-			</Node>
-			<Node name="stores\regions\genexplainplants7.bmp">
-				<Prp name="relpath" type="S" value="Stores\Regions\GenExplainPlanTS7.bmp"/>
-			</Node>
-			<Node name="stores\regions\genobjecteditorsts.bmp">
-				<Prp name="relpath" type="S" value="Stores\Regions\GenObjectEditorsTS.bmp"/>
-			</Node>
-			<Node name="stores\regions\genobjecteditorsts7.bmp">
-				<Prp name="relpath" type="S" value="Stores\Regions\GenObjectEditorsTS7.bmp"/>
-			</Node>
-			<Node name="stores\regions\genprintingts.bmp">
-				<Prp name="relpath" type="S" value="Stores\Regions\GenPrintingTS.bmp"/>
-			</Node>
-			<Node name="stores\regions\genprintingts7.bmp">
-				<Prp name="relpath" type="S" value="Stores\Regions\GenPrintingTS7.bmp"/>
-			</Node>
-			<Node name="stores\regions\gensessionts.bmp">
-				<Prp name="relpath" type="S" value="Stores\Regions\GenSessionTS.bmp"/>
-			</Node>
-			<Node name="stores\regions\gensessionts7.bmp">
-				<Prp name="relpath" type="S" value="Stores\Regions\GenSessionTS7.bmp"/>
-			</Node>
-			<Node name="stores\regions\gentaskbarts.bmp">
-				<Prp name="relpath" type="S" value="Stores\Regions\GenTaskBarTS.bmp"/>
-			</Node>
-			<Node name="stores\regions\gentaskbarts7.bmp">
-				<Prp name="relpath" type="S" value="Stores\Regions\GenTaskBarTS7.bmp"/>
-			</Node>
-			<Node name="stores\regions\genuserinterfacets.bmp">
-				<Prp name="relpath" type="S" value="Stores\Regions\GenUserInterfaceTS.bmp"/>
-			</Node>
-			<Node name="stores\regions\genuserinterfacets7.bmp">
-				<Prp name="relpath" type="S" value="Stores\Regions\GenUserInterfaceTS7.bmp"/>
-			</Node>
-			<Node name="stores\regions\lobviewerts.bmp">
-				<Prp name="relpath" type="S" value="Stores\Regions\LOBViewerTS.bmp"/>
-			</Node>
-			<Node name="stores\regions\lobviewerts7.bmp">
-				<Prp name="relpath" type="S" value="Stores\Regions\LOBViewerTS7.bmp"/>
 			</Node>
 			<Node name="stores\regions\numbers.bmp">
 				<Prp name="relpath" type="S" value="Stores\Regions\Numbers.bmp"/>
@@ -370,18 +268,6 @@
 			</Node>
 			<Node name="stores\regions\symbol7.bmp">
 				<Prp name="relpath" type="S" value="Stores\Regions\Symbol7.bmp"/>
-			</Node>
-			<Node name="stores\regions\teamcodingts.bmp">
-				<Prp name="relpath" type="S" value="Stores\Regions\TeamCodingTS.bmp"/>
-			</Node>
-			<Node name="stores\regions\teamcodingts7.bmp">
-				<Prp name="relpath" type="S" value="Stores\Regions\TeamCodingTS7.bmp"/>
-			</Node>
-			<Node name="stores\regions\workspacets.bmp">
-				<Prp name="relpath" type="S" value="Stores\Regions\WorkspaceTS.bmp"/>
-			</Node>
-			<Node name="stores\regions\workspacets7.bmp">
-				<Prp name="relpath" type="S" value="Stores\Regions\WorkspaceTS7.bmp"/>
 			</Node>
 			<Node name="stores\stores.tcstores">
 				<Prp name="relpath" type="S" value="Stores\Stores.tcStores"/>
@@ -1314,7 +1200,290 @@
 			<Prp name="settingsversion" type="S" value="9.31"/>
 		</Node>
 		<Node name="test data">
-			<Node name="child list"/>
+			<Node name="child list">
+				<Node name="item0000000000">
+					<Node name="child list">
+						<Node name="item0000000000">
+							<Node name="child list"/>
+							<Node name="test parameters"/>
+							<Prp name="count" type="I" value="1"/>
+							<Prp name="description" type="S" value=""/>
+							<Prp name="enabled" type="B" value="-1"/>
+							<Prp name="group" type="B" value="0"/>
+							<Prp name="index" type="I" value="0"/>
+							<Prp name="key" type="S" value="{52A6CF1B-0606-44B7-9A67-7981D566CDEC}"/>
+							<Prp name="name" type="S" value="Install MSI"/>
+							<Prp name="stoponerror" type="I" value="2"/>
+							<Prp name="stoponexception" type="I" value="2"/>
+							<Prp name="test moniker" type="S" value="{8FF7367B-3D11-4681-8B49-DEF463ED3468}MSIInstaller"/>
+							<Prp name="timeout" type="I" value="0"/>
+						</Node>
+					</Node>
+					<Node name="test parameters"/>
+					<Prp name="count" type="I" value="1"/>
+					<Prp name="description" type="S" value=""/>
+					<Prp name="enabled" type="B" value="-1"/>
+					<Prp name="group" type="B" value="-1"/>
+					<Prp name="index" type="I" value="0"/>
+					<Prp name="key" type="S" value="{8654C522-5DBC-4B5C-8F79-3094CD418510}"/>
+					<Prp name="name" type="S" value="Installation"/>
+					<Prp name="stoponerror" type="I" value="2"/>
+					<Prp name="stoponexception" type="I" value="2"/>
+					<Prp name="test moniker" type="S" value=""/>
+					<Prp name="timeout" type="I" value="0"/>
+				</Node>
+				<Node name="item0000000001">
+					<Node name="child list"/>
+					<Node name="test parameters">
+						<Node name="param0">
+							<Prp name="index" type="I" value="0"/>
+							<Prp name="localvarname" type="S" value=""/>
+							<Prp name="name" type="S" value="isFirstTime"/>
+							<Prp name="type" type="I" value="3"/>
+							<Prp name="value" type="S" value="False"/>
+							<Prp name="vartype" type="I" value="11"/>
+						</Node>
+					</Node>
+					<Prp name="count" type="I" value="1"/>
+					<Prp name="description" type="S" value=""/>
+					<Prp name="enabled" type="B" value="-1"/>
+					<Prp name="group" type="B" value="0"/>
+					<Prp name="index" type="I" value="1"/>
+					<Prp name="key" type="S" value="{C713C7C7-619C-43B0-AEB7-E2612EB70C98}"/>
+					<Prp name="name" type="S" value="Logon SQLNav"/>
+					<Prp name="stoponerror" type="I" value="2"/>
+					<Prp name="stoponexception" type="I" value="2"/>
+					<Prp name="test moniker" type="S" value="{AD3C9A39-3137-4A7B-BE5E-B2486E0245F6}logon"/>
+					<Prp name="timeout" type="I" value="0"/>
+				</Node>
+				<Node name="item0000000002">
+					<Node name="child list">
+						<Node name="item0000000000">
+							<Node name="child list"/>
+							<Node name="test parameters"/>
+							<Prp name="count" type="I" value="1"/>
+							<Prp name="description" type="S" value=""/>
+							<Prp name="enabled" type="B" value="-1"/>
+							<Prp name="group" type="B" value="0"/>
+							<Prp name="index" type="I" value="0"/>
+							<Prp name="key" type="S" value="{16B2168E-6E1A-410C-80CB-2012261557BB}"/>
+							<Prp name="name" type="S" value="Check MainMenu-File"/>
+							<Prp name="stoponerror" type="I" value="2"/>
+							<Prp name="stoponexception" type="I" value="2"/>
+							<Prp name="test moniker" type="S" value="{C7F9684D-CDEC-4549-A8E8-F9DD83148E39}traverseFileMenu"/>
+							<Prp name="timeout" type="I" value="0"/>
+						</Node>
+						<Node name="item0000000001">
+							<Node name="child list"/>
+							<Node name="test parameters"/>
+							<Prp name="count" type="I" value="1"/>
+							<Prp name="description" type="S" value=""/>
+							<Prp name="enabled" type="B" value="-1"/>
+							<Prp name="group" type="B" value="0"/>
+							<Prp name="index" type="I" value="1"/>
+							<Prp name="key" type="S" value="{9640F1A7-41CB-496E-A4D2-EEA4CC474DE5}"/>
+							<Prp name="name" type="S" value="Check MainMenu-Edit"/>
+							<Prp name="stoponerror" type="I" value="2"/>
+							<Prp name="stoponexception" type="I" value="2"/>
+							<Prp name="test moniker" type="S" value="{8F8C865B-CEB4-46DE-B2FF-CEEA24199115}traverseEditMenu"/>
+							<Prp name="timeout" type="I" value="0"/>
+						</Node>
+						<Node name="item0000000002">
+							<Node name="child list"/>
+							<Node name="test parameters"/>
+							<Prp name="count" type="I" value="1"/>
+							<Prp name="description" type="S" value=""/>
+							<Prp name="enabled" type="B" value="-1"/>
+							<Prp name="group" type="B" value="0"/>
+							<Prp name="index" type="I" value="2"/>
+							<Prp name="key" type="S" value="{F16A1BE5-E720-463E-ABB5-905F8478F2DC}"/>
+							<Prp name="name" type="S" value="Check MainMenu-Search"/>
+							<Prp name="stoponerror" type="I" value="2"/>
+							<Prp name="stoponexception" type="I" value="2"/>
+							<Prp name="test moniker" type="S" value="{217529D8-B87A-44A6-9042-FCF290DC942F}traverseSearchMenu"/>
+							<Prp name="timeout" type="I" value="0"/>
+						</Node>
+						<Node name="item0000000003">
+							<Node name="child list"/>
+							<Node name="test parameters"/>
+							<Prp name="count" type="I" value="1"/>
+							<Prp name="description" type="S" value=""/>
+							<Prp name="enabled" type="B" value="-1"/>
+							<Prp name="group" type="B" value="0"/>
+							<Prp name="index" type="I" value="3"/>
+							<Prp name="key" type="S" value="{4C529C7B-AB2D-45E9-BD65-6837B6D12FDF}"/>
+							<Prp name="name" type="S" value="Check MainMenu-View"/>
+							<Prp name="stoponerror" type="I" value="2"/>
+							<Prp name="stoponexception" type="I" value="2"/>
+							<Prp name="test moniker" type="S" value="{6FF30700-2BC5-431C-91F8-118F61A449D2}traverseViewMenu"/>
+							<Prp name="timeout" type="I" value="0"/>
+						</Node>
+						<Node name="item0000000004">
+							<Node name="child list"/>
+							<Node name="test parameters"/>
+							<Prp name="count" type="I" value="1"/>
+							<Prp name="description" type="S" value=""/>
+							<Prp name="enabled" type="B" value="-1"/>
+							<Prp name="group" type="B" value="0"/>
+							<Prp name="index" type="I" value="4"/>
+							<Prp name="key" type="S" value="{72922212-A8C9-45AE-8E6E-3507D7609A42}"/>
+							<Prp name="name" type="S" value="Check MainMenu-Session"/>
+							<Prp name="stoponerror" type="I" value="2"/>
+							<Prp name="stoponexception" type="I" value="2"/>
+							<Prp name="test moniker" type="S" value="{9E90A2A8-D70F-456B-8C98-9BA79F677B11}traverseSessionMenu"/>
+							<Prp name="timeout" type="I" value="0"/>
+						</Node>
+						<Node name="item0000000005">
+							<Node name="child list"/>
+							<Node name="test parameters"/>
+							<Prp name="count" type="I" value="1"/>
+							<Prp name="description" type="S" value=""/>
+							<Prp name="enabled" type="B" value="-1"/>
+							<Prp name="group" type="B" value="0"/>
+							<Prp name="index" type="I" value="5"/>
+							<Prp name="key" type="S" value="{184BC7AB-C63A-49D3-B9A4-1E892360E77F}"/>
+							<Prp name="name" type="S" value="Check MainMenu-Object"/>
+							<Prp name="stoponerror" type="I" value="2"/>
+							<Prp name="stoponexception" type="I" value="2"/>
+							<Prp name="test moniker" type="S" value="{0E23A511-3D63-462F-9401-8922D7536E93}traverseObjectMenu"/>
+							<Prp name="timeout" type="I" value="0"/>
+						</Node>
+						<Node name="item0000000006">
+							<Node name="child list"/>
+							<Node name="test parameters"/>
+							<Prp name="count" type="I" value="1"/>
+							<Prp name="description" type="S" value=""/>
+							<Prp name="enabled" type="B" value="-1"/>
+							<Prp name="group" type="B" value="0"/>
+							<Prp name="index" type="I" value="6"/>
+							<Prp name="key" type="S" value="{91EF78FE-CA2B-4419-8433-1ABA4DE9F161}"/>
+							<Prp name="name" type="S" value="Check MainMenu-Tools"/>
+							<Prp name="stoponerror" type="I" value="2"/>
+							<Prp name="stoponexception" type="I" value="2"/>
+							<Prp name="test moniker" type="S" value="{1E06F6BF-3EC5-4AC5-94F2-B51DEA54A108}traverseToolsMenu"/>
+							<Prp name="timeout" type="I" value="0"/>
+						</Node>
+						<Node name="item0000000007">
+							<Node name="child list"/>
+							<Node name="test parameters"/>
+							<Prp name="count" type="I" value="1"/>
+							<Prp name="description" type="S" value=""/>
+							<Prp name="enabled" type="B" value="-1"/>
+							<Prp name="group" type="B" value="0"/>
+							<Prp name="index" type="I" value="7"/>
+							<Prp name="key" type="S" value="{8583BCC9-34FC-4DDE-9835-DDF7F8A40F31}"/>
+							<Prp name="name" type="S" value="Check MainMenu-Window"/>
+							<Prp name="stoponerror" type="I" value="2"/>
+							<Prp name="stoponexception" type="I" value="2"/>
+							<Prp name="test moniker" type="S" value="{6771A711-256A-4309-A683-EDC103041A6D}traverseWindowMenu"/>
+							<Prp name="timeout" type="I" value="0"/>
+						</Node>
+						<Node name="item0000000008">
+							<Node name="child list"/>
+							<Node name="test parameters"/>
+							<Prp name="count" type="I" value="1"/>
+							<Prp name="description" type="S" value=""/>
+							<Prp name="enabled" type="B" value="-1"/>
+							<Prp name="group" type="B" value="0"/>
+							<Prp name="index" type="I" value="8"/>
+							<Prp name="key" type="S" value="{AB5FFD75-4BAA-4303-A034-3212AA0F2F19}"/>
+							<Prp name="name" type="S" value="Check MainMenu-Help"/>
+							<Prp name="stoponerror" type="I" value="2"/>
+							<Prp name="stoponexception" type="I" value="2"/>
+							<Prp name="test moniker" type="S" value="{74A74C4F-DC6E-4AB5-82CF-8201CF422B63}traverseHelpMenu"/>
+							<Prp name="timeout" type="I" value="0"/>
+						</Node>
+					</Node>
+					<Node name="test parameters"/>
+					<Prp name="count" type="I" value="1"/>
+					<Prp name="description" type="S" value=""/>
+					<Prp name="enabled" type="B" value="-1"/>
+					<Prp name="group" type="B" value="-1"/>
+					<Prp name="index" type="I" value="2"/>
+					<Prp name="key" type="S" value="{E9F41826-1E5E-442A-9AF1-E175C990E829}"/>
+					<Prp name="name" type="S" value="Main Menu"/>
+					<Prp name="stoponerror" type="I" value="2"/>
+					<Prp name="stoponexception" type="I" value="2"/>
+					<Prp name="test moniker" type="S" value=""/>
+					<Prp name="timeout" type="I" value="0"/>
+				</Node>
+				<Node name="item0000000003">
+					<Node name="child list">
+						<Node name="item0000000000">
+							<Node name="child list"/>
+							<Node name="test parameters"/>
+							<Prp name="count" type="I" value="1"/>
+							<Prp name="description" type="S" value=""/>
+							<Prp name="enabled" type="B" value="-1"/>
+							<Prp name="group" type="B" value="0"/>
+							<Prp name="index" type="I" value="0"/>
+							<Prp name="key" type="S" value="{76C2C95B-DD0D-40C4-8EEB-3E8BC55D0E49}"/>
+							<Prp name="name" type="S" value="Check Syntax"/>
+							<Prp name="stoponerror" type="I" value="2"/>
+							<Prp name="stoponexception" type="I" value="2"/>
+							<Prp name="test moniker" type="S" value="{15298733-B2BF-4E3F-A689-AF29468A3121}checkCodeEditorSyntax"/>
+							<Prp name="timeout" type="I" value="0"/>
+						</Node>
+						<Node name="item0000000001">
+							<Node name="child list"/>
+							<Node name="test parameters"/>
+							<Prp name="count" type="I" value="1"/>
+							<Prp name="description" type="S" value=""/>
+							<Prp name="enabled" type="B" value="-1"/>
+							<Prp name="group" type="B" value="0"/>
+							<Prp name="index" type="I" value="1"/>
+							<Prp name="key" type="S" value="{CAF57E4F-5B2B-4782-9DA8-0E323B7B9854}"/>
+							<Prp name="name" type="S" value="Check Export Data"/>
+							<Prp name="stoponerror" type="I" value="2"/>
+							<Prp name="stoponexception" type="I" value="2"/>
+							<Prp name="test moniker" type="S" value="{9CECE79B-5505-47E0-830E-160D1A1C3E9C}checkExportData"/>
+							<Prp name="timeout" type="I" value="0"/>
+						</Node>
+						<Node name="item0000000002">
+							<Node name="child list"/>
+							<Node name="test parameters"/>
+							<Prp name="count" type="I" value="1"/>
+							<Prp name="description" type="S" value=""/>
+							<Prp name="enabled" type="B" value="-1"/>
+							<Prp name="group" type="B" value="0"/>
+							<Prp name="index" type="I" value="2"/>
+							<Prp name="key" type="S" value="{AA033EC9-6D58-495F-B485-CA35CBB55857}"/>
+							<Prp name="name" type="S" value="Check DB Exporer"/>
+							<Prp name="stoponerror" type="I" value="2"/>
+							<Prp name="stoponexception" type="I" value="2"/>
+							<Prp name="test moniker" type="S" value="{671F1A30-62E1-4CAA-870A-089DE4BDC535}checkDBExplorer"/>
+							<Prp name="timeout" type="I" value="0"/>
+						</Node>
+						<Node name="item0000000003">
+							<Node name="child list"/>
+							<Node name="test parameters"/>
+							<Prp name="count" type="I" value="1"/>
+							<Prp name="description" type="S" value=""/>
+							<Prp name="enabled" type="B" value="-1"/>
+							<Prp name="group" type="B" value="0"/>
+							<Prp name="index" type="I" value="3"/>
+							<Prp name="key" type="S" value="{CB2C6F4E-115B-40D9-9E33-CC479C143D97}"/>
+							<Prp name="name" type="S" value="Check History"/>
+							<Prp name="stoponerror" type="I" value="2"/>
+							<Prp name="stoponexception" type="I" value="2"/>
+							<Prp name="test moniker" type="S" value="{D05D3894-C479-46C5-9CF4-2DD4193EEC26}checkHistory"/>
+							<Prp name="timeout" type="I" value="0"/>
+						</Node>
+					</Node>
+					<Node name="test parameters"/>
+					<Prp name="count" type="I" value="1"/>
+					<Prp name="description" type="S" value=""/>
+					<Prp name="enabled" type="B" value="-1"/>
+					<Prp name="group" type="B" value="-1"/>
+					<Prp name="index" type="I" value="3"/>
+					<Prp name="key" type="S" value="{77D9FD99-3B9C-4280-8E93-7CDEDF6BB8F3}"/>
+					<Prp name="name" type="S" value="Code Editor"/>
+					<Prp name="stoponerror" type="I" value="2"/>
+					<Prp name="stoponexception" type="I" value="2"/>
+					<Prp name="test moniker" type="S" value=""/>
+					<Prp name="timeout" type="I" value="0"/>
+				</Node>
+			</Node>
 			<Prp name="key" type="S" value="{715F8A76-099E-4C7E-95B3-32FDDEA613C9}"/>
 		</Node>
 		<Node name="variables">

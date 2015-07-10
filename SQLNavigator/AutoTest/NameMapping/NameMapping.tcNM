@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<Root Signature="{5DCBAC3B-D39C-497C-9BE8-744CBADD37AA}" NameMappingVersion="4" Cookie="718">
+<Root Signature="{5DCBAC3B-D39C-497C-9BE8-744CBADD37AA}" NameMappingVersion="4" Cookie="727">
 	<Nodes Name="NameMapping" Key="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}" ParallelWalk="True">
 		<Properties />
 		<Children>
@@ -915,6 +915,12 @@
 												</Properties>
 												<Children />
 											</Child40>
+											<Child41 Name="frmCodeTest" Key="{0C3D1F0A-39F6-4835-94B0-768510497A2C}" ParallelWalk="True">
+												<Properties>
+													<Property0 Name="Name" Cookie="726" />
+												</Properties>
+												<Children />
+											</Child41>
 										</Children>
 									</Child1>
 									<Child2 Name="BottomZone" Key="{A1EC0A1B-4283-49CF-A8B0-D328C4A4B224}" ParallelWalk="True">
@@ -1942,6 +1948,51 @@
 								</Properties>
 								<Children />
 							</Child54>
+							<Child55 Name="dlgExportData" Key="{1F3177C8-22F9-407F-86F0-8FD56B172066}" ParallelWalk="True">
+								<Properties>
+									<Property0 Name="Name" Cookie="718" />
+								</Properties>
+								<Children>
+									<Child0 Name="GroupBox1" Key="{B6C76961-73BD-4070-BA1E-579215A57FE6}" ParallelWalk="True">
+										<Properties>
+											<Property0 Name="Name" Cookie="719" />
+										</Properties>
+										<Children>
+											<Child0 Name="cmbFormat" Key="{DAE93A10-0A47-4F15-991F-A9CC97952444}" ParallelWalk="True">
+												<Properties>
+													<Property0 Name="Name" Cookie="720" />
+												</Properties>
+												<Children />
+											</Child0>
+											<Child1 Name="rbToClipboard" Key="{03656DDE-3C5F-4376-97FB-539B5EE78CDE}" ParallelWalk="True">
+												<Properties>
+													<Property0 Name="Name" Cookie="721" />
+												</Properties>
+												<Children />
+											</Child1>
+										</Children>
+									</Child0>
+									<Child1 Name="btnOK" Key="{1F8E5B77-B965-4C5C-8A41-F336EC0CEC73}" ParallelWalk="True">
+										<Properties>
+											<Property0 Name="Name" Cookie="722" />
+										</Properties>
+										<Children />
+									</Child1>
+								</Children>
+							</Child55>
+							<Child56 Name="dlgWindowList" Key="{F920F8DE-F30A-4869-A0B6-025709BAC8C1}" ParallelWalk="True">
+								<Properties>
+									<Property0 Name="Name" Cookie="723" />
+								</Properties>
+								<Children />
+							</Child56>
+							<Child57 Name="dlgError_NotFind" Key="{0E638B79-B236-40CF-8948-B2FE09109A9D}" ParallelWalk="True">
+								<Properties>
+									<Property0 Name="WndClass" Cookie="724" />
+									<Property1 Name="WndCaption" Cookie="725" />
+								</Properties>
+								<Children />
+							</Child57>
 						</Children>
 					</Child1>
 					<Child2 Name="KnowledgeXpert" Key="{A123EF24-1271-43B0-82A2-E6FC3148114E}" ParallelWalk="True">
@@ -2298,6 +2349,7 @@
 					<Child38 Name="frmProfiler" Owner="{95B25E7F-6FD1-4089-8251-1379A7344FF0}" />
 					<Child39 Name="frmJobScheduler" Owner="{72004526-D470-4A7A-98EA-012F7152787E}" />
 					<Child40 Name="frmJavaManager" Owner="{AB3390CA-72FC-4DFE-9E2E-BE5D376C5A5D}" />
+					<Child41 Name="frmCodeTest" Owner="{0C3D1F0A-39F6-4835-94B0-768510497A2C}" />
 				</Child1>
 				<Child2 Name="BottomZone" Owner="{A1EC0A1B-4283-49CF-A8B0-D328C4A4B224}">
 					<Child0 Name="pnlOutput" Owner="{58D280BF-1F5E-45A7-A698-615040001048}">
@@ -2471,6 +2523,13 @@
 			<Child52 Name="wndNewSynonym" Owner="{43827D48-AA94-4BC6-BA49-9224F4E19B10}" />
 			<Child53 Name="frmModelCode" Owner="{8AE9C93A-AB4C-4E09-9AF2-2D91CED06B9F}" />
 			<Child54 Name="frmHistoryCleanup" Owner="{FAABFEC4-0947-4CE5-83C8-ECA6D679334C}" />
+			<Child55 Name="dlgExportData" Owner="{1F3177C8-22F9-407F-86F0-8FD56B172066}">
+				<Child0 Name="cmbFormat" Owner="{DAE93A10-0A47-4F15-991F-A9CC97952444}" />
+				<Child1 Name="rbToClipboard" Owner="{03656DDE-3C5F-4376-97FB-539B5EE78CDE}" />
+				<Child2 Name="btnOK" Owner="{1F8E5B77-B965-4C5C-8A41-F336EC0CEC73}" />
+			</Child55>
+			<Child56 Name="dlgWindowList" Owner="{F920F8DE-F30A-4869-A0B6-025709BAC8C1}" />
+			<Child57 Name="dlgError_NotFind" Owner="{0E638B79-B236-40CF-8948-B2FE09109A9D}" />
 		</Child1>
 		<Child2 Name="KnowledgeXpert" Owner="{A123EF24-1271-43B0-82A2-E6FC3148114E}">
 			<Child0 Name="wndHome" Owner="{89606F3B-855F-40ED-8838-154B328C7334}" />
@@ -3053,6 +3112,15 @@
 			<Property547 Cookie="715" PropertyType="0" Value="VCLObject(&quot;pnlButtons&quot;)" Type="5" />
 			<Property548 Cookie="716" PropertyType="0" Value="VCLObject(&quot;btnReset&quot;)" Type="5" />
 			<Property549 Cookie="717" PropertyType="0" Value="VCLObject(&quot;btnOK&quot;)" Type="5" />
+			<Property550 Cookie="718" PropertyType="0" Value="VCLObject(&quot;dlgExport&quot;)" Type="5" />
+			<Property551 Cookie="719" PropertyType="0" Value="VCLObject(&quot;GroupBox1&quot;)" Type="5" />
+			<Property552 Cookie="720" PropertyType="0" Value="VCLObject(&quot;cmbFormat&quot;)" Type="5" />
+			<Property553 Cookie="721" PropertyType="0" Value="VCLObject(&quot;rbToClipboard&quot;)" Type="5" />
+			<Property554 Cookie="722" PropertyType="0" Value="VCLObject(&quot;OKBtn&quot;)" Type="5" />
+			<Property555 Cookie="723" PropertyType="0" Value="VCLObject(&quot;WindowListUI&quot;)" Type="5" />
+			<Property556 Cookie="724" PropertyType="0" Value="#32770" Type="5" />
+			<Property557 Cookie="725" PropertyType="0" Value="Error" Type="5" />
+			<Property558 Cookie="726" PropertyType="0" Value="VCLObject(&quot;frmTester&quot;)" Type="5" />
 		</Child0>
 		<Child1 Name="Version_Win8">
 			<Property0 Cookie="0" PropertyType="0" Value="Sys" Type="5" />
@@ -3605,6 +3673,15 @@
 			<Property547 Cookie="715" PropertyType="0" Value="VCLObject(&quot;pnlButtons&quot;)" Type="5" />
 			<Property548 Cookie="716" PropertyType="0" Value="VCLObject(&quot;btnReset&quot;)" Type="5" />
 			<Property549 Cookie="717" PropertyType="0" Value="VCLObject(&quot;btnOK&quot;)" Type="5" />
+			<Property550 Cookie="718" PropertyType="0" Value="VCLObject(&quot;dlgExport&quot;)" Type="5" />
+			<Property551 Cookie="719" PropertyType="0" Value="VCLObject(&quot;GroupBox1&quot;)" Type="5" />
+			<Property552 Cookie="720" PropertyType="0" Value="VCLObject(&quot;cmbFormat&quot;)" Type="5" />
+			<Property553 Cookie="721" PropertyType="0" Value="VCLObject(&quot;rbToClipboard&quot;)" Type="5" />
+			<Property554 Cookie="722" PropertyType="0" Value="VCLObject(&quot;OKBtn&quot;)" Type="5" />
+			<Property555 Cookie="723" PropertyType="0" Value="VCLObject(&quot;WindowListUI&quot;)" Type="5" />
+			<Property556 Cookie="724" PropertyType="0" Value="#32770" Type="5" />
+			<Property557 Cookie="725" PropertyType="0" Value="Error" Type="5" />
+			<Property558 Cookie="726" PropertyType="0" Value="VCLObject(&quot;frmTester&quot;)" Type="5" />
 		</Child1>
 	</Storages>
 	<TypeInfo StoreCodeCompletion="0">

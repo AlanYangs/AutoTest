@@ -250,6 +250,26 @@
 				<Prp name="type" type="S" value="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}"/>
 				<Prp name="typename" type="S" value="Script Unit"/>
 			</Node>
+			<Node name="item0000000023">
+				<Node name="item data">
+					<Prp name="relpath" type="S" value="CodeEditor_ExportData.sj"/>
+				</Node>
+				<Prp name="index" type="I" value="23"/>
+				<Prp name="key" type="S" value="{9CECE79B-5505-47E0-830E-160D1A1C3E9C}"/>
+				<Prp name="pluginname" type="S" value="Script"/>
+				<Prp name="type" type="S" value="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}"/>
+				<Prp name="typename" type="S" value="Script Unit"/>
+			</Node>
+			<Node name="item0000000024">
+				<Node name="item data">
+					<Prp name="relpath" type="S" value="Menu_Window.sj"/>
+				</Node>
+				<Prp name="index" type="I" value="24"/>
+				<Prp name="key" type="S" value="{6771A711-256A-4309-A683-EDC103041A6D}"/>
+				<Prp name="pluginname" type="S" value="Script"/>
+				<Prp name="type" type="S" value="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}"/>
+				<Prp name="typename" type="S" value="Script Unit"/>
+			</Node>
 		</Node>
 		<Node name="folders">
 			<Node name="folders">
@@ -330,6 +350,10 @@
 							<Prp name="index" type="I" value="7"/>
 							<Prp name="key" type="S" value="{74A74C4F-DC6E-4AB5-82CF-8201CF422B63}"/>
 						</Node>
+						<Node name="ref0000000008">
+							<Prp name="index" type="I" value="8"/>
+							<Prp name="key" type="S" value="{6771A711-256A-4309-A683-EDC103041A6D}"/>
+						</Node>
 					</Node>
 					<Prp name="caption" type="S" value="2_MainMenu"/>
 					<Prp name="description" type="S" value="A logical folder that is used to organize project items and elements."/>
@@ -375,6 +399,10 @@
 						<Node name="ref0000000002">
 							<Prp name="index" type="I" value="2"/>
 							<Prp name="key" type="S" value="{D05D3894-C479-46C5-9CF4-2DD4193EEC26}"/>
+						</Node>
+						<Node name="ref0000000003">
+							<Prp name="index" type="I" value="3"/>
+							<Prp name="key" type="S" value="{9CECE79B-5505-47E0-830E-160D1A1C3E9C}"/>
 						</Node>
 					</Node>
 					<Prp name="caption" type="S" value="3_CodeEditor"/>

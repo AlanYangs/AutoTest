@@ -1,3 +1,6 @@
+--format date
+ALTER SESSION SET nls_date_format='YYYY-MM-DD';
+
 INSERT INTO auto_tab_emp
 ("EMPNO","ENAME","JOB","MGR","HIREDATE","SAL","COMM","DEPTNO")
 VALUES
