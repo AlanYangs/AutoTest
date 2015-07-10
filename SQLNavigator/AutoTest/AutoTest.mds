@@ -1240,7 +1240,7 @@
 							<Prp name="localvarname" type="S" value=""/>
 							<Prp name="name" type="S" value="isFirstTime"/>
 							<Prp name="type" type="I" value="3"/>
-							<Prp name="value" type="S" value="False"/>
+							<Prp name="value" type="S" value="True"/>
 							<Prp name="vartype" type="I" value="11"/>
 						</Node>
 					</Node>

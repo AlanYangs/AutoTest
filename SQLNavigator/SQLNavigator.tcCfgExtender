@@ -27,17 +27,13 @@
 			<Node name="{24b6fa0b-0143-461a-9758-aeb9e9a9428b}">
 				<Prp name="activity" type="S" value="{BA6D911E-4419-4DBC-9579-E0BF035909A2}"/>
 			</Node>
-			<Node name="{2c786620-2489-4cbb-9c1e-1a94437a9245}">
-				<Node name="{bdc1df37-6435-494f-95fa-cebfa5eddd35}">
-					<Prp name="hash" type="I" value="1"/>
-				</Node>
-			</Node>
+			<Node name="{2c786620-2489-4cbb-9c1e-1a94437a9245}"/>
 			<Node name="{415b5aa1-c6ac-4d4d-9a53-063a521a45ab}">
 				<Node name="workspace">
 					<Node name="0">
 						<Node name="editor">
 							<Node name="{93765269-c25d-4cd5-b6bf-5d7454869c93}">
-								<Prp name="key" type="S" value="{0BAC6A9E-C881-479A-85E0-FF2573EA991F}"/>
+								<Prp name="key" type="S" value="{6D9659F2-4F98-4F02-B021-B3BD53C184DB}"/>
 							</Node>
 							<Prp name="editor" type="S" value="{E8DA7B82-7231-4439-82FF-FD5CB9D72A13}"/>
 							<Prp name="focused" type="S" value="{0BAC6A9E-C881-479A-85E0-FF2573EA991F}"/>
