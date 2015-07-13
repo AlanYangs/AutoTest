@@ -22,28 +22,7 @@
 		<Node name="folders">
 			<Node name="folders"/>
 		</Node>
-		<Node name="logs">
-			<Node name="log0">
-				<Prp name="caption" type="S" value=""/>
-				<Prp name="datetime" type="D" value="42195.6043980556"/>
-				<Prp name="description" type="S" value=""/>
-				<Prp name="index" type="I" value="0"/>
-				<Prp name="key" type="S" value="{FDBB6B4A-BB2C-4922-88D4-B1DA6C2761C3}"/>
-				<Prp name="nameofroot" type="S" value="SQLNavigator"/>
-				<Prp name="relpath" type="S" value="7_10_2015_2_30 PM_19_992\Description.tcLog"/>
-				<Prp name="status" type="I" value="2"/>
-			</Node>
-			<Node name="log1">
-				<Prp name="caption" type="S" value=""/>
-				<Prp name="datetime" type="D" value="42195.6249984028"/>
-				<Prp name="description" type="S" value=""/>
-				<Prp name="index" type="I" value="1"/>
-				<Prp name="key" type="S" value="{D3AF4757-3D73-4303-99AD-300D45476457}"/>
-				<Prp name="nameofroot" type="S" value="SQLNavigator"/>
-				<Prp name="relpath" type="S" value="7_10_2015_2_59 PM_59_861\Description.tcLog"/>
-				<Prp name="status" type="I" value="2"/>
-			</Node>
-		</Node>
+		<Node name="logs"/>
 		<Prp name="signature" type="S" value="{6511DB44-2372-47B8-8349-ADA0DB4D9E14}"/>
 		<Prp name="version" type="S" value="7.0"/>
 	</Node>

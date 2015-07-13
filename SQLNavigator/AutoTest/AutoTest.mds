@@ -1483,6 +1483,21 @@
 					<Prp name="test moniker" type="S" value=""/>
 					<Prp name="timeout" type="I" value="0"/>
 				</Node>
+				<Node name="item0000000004">
+					<Node name="child list"/>
+					<Node name="test parameters"/>
+					<Prp name="count" type="I" value="1"/>
+					<Prp name="description" type="S" value=""/>
+					<Prp name="enabled" type="B" value="-1"/>
+					<Prp name="group" type="B" value="0"/>
+					<Prp name="index" type="I" value="4"/>
+					<Prp name="key" type="S" value="{D4CD6F9F-B78A-4D0C-94F3-0CBE3592B115}"/>
+					<Prp name="name" type="S" value="Exit SQLNav"/>
+					<Prp name="stoponerror" type="I" value="2"/>
+					<Prp name="stoponexception" type="I" value="2"/>
+					<Prp name="test moniker" type="S" value="{69BFA18A-3D3E-4FB3-A761-1DD34B8FE1CC}closeSqlnavigator"/>
+					<Prp name="timeout" type="I" value="0"/>
+				</Node>
 			</Node>
 			<Prp name="key" type="S" value="{715F8A76-099E-4C7E-95B3-32FDDEA613C9}"/>
 		</Node>
