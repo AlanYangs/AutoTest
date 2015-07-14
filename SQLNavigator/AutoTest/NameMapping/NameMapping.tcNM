@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<Root Signature="{5DCBAC3B-D39C-497C-9BE8-744CBADD37AA}" NameMappingVersion="4" Cookie="727">
+<Root Signature="{5DCBAC3B-D39C-497C-9BE8-744CBADD37AA}" NameMappingVersion="4" Cookie="755">
 	<Nodes Name="NameMapping" Key="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}" ParallelWalk="True">
 		<Properties />
 		<Children>
@@ -439,6 +439,93 @@
 															</Child0>
 														</Children>
 													</Child2>
+													<Child3 Name="CEToolbarControl" Key="{0BE8778C-AB34-4C43-9CEF-82CC4D2042F9}" ParallelWalk="True">
+														<Properties>
+															<Property0 Name="WndClass" Cookie="740" />
+															<Property1 Name="Index" Cookie="741" />
+															<Property2 Name="ChildCount" Cookie="742" />
+														</Properties>
+														<Children>
+															<Child0 Name="FileToolbar" Key="{9E56C0C1-FB39-4509-889D-FB92C0724B32}" ParallelWalk="True">
+																<Properties>
+																	<Property0 Name="WndClass" Cookie="730" />
+																	<Property1 Name="WndCaption" Cookie="731" />
+																</Properties>
+																<Children />
+															</Child0>
+															<Child1 Name="EditToolbar" Key="{C1AC6155-1857-4F07-81C9-99C32733DA97}" ParallelWalk="True">
+																<Properties>
+																	<Property0 Name="WndClass" Cookie="732" />
+																	<Property1 Name="WndCaption" Cookie="733" />
+																</Properties>
+																<Children />
+															</Child1>
+															<Child2 Name="SqlToolbar" Key="{3157779A-8195-4BA9-AC3A-DFD7A7486CD4}" ParallelWalk="True">
+																<Properties>
+																	<Property0 Name="WndClass" Cookie="734" />
+																	<Property1 Name="WndCaption" Cookie="735" />
+																</Properties>
+																<Children />
+															</Child2>
+															<Child3 Name="ObjectToolbar" Key="{2308CDC8-B439-4EE4-ABCB-79D4BF4ED48E}" ParallelWalk="True">
+																<Properties>
+																	<Property0 Name="WndClass" Cookie="736" />
+																	<Property1 Name="WndCaption" Cookie="737" />
+																</Properties>
+																<Children />
+															</Child3>
+															<Child4 Name="ToolsToolbar" Key="{B949DCE7-CAAC-4951-BBCB-819BC6166D7D}" ParallelWalk="True">
+																<Properties>
+																	<Property0 Name="WndClass" Cookie="743" />
+																	<Property1 Name="WndCaption" Cookie="744" />
+																</Properties>
+																<Children />
+															</Child4>
+															<Child5 Name="TeamCodingToolbar" Key="{C6FF1E77-34D0-471A-82C3-755EA1D91A9C}" ParallelWalk="True">
+																<Properties>
+																	<Property0 Name="WndClass" Cookie="745" />
+																	<Property1 Name="WndCaption" Cookie="746" />
+																</Properties>
+																<Children />
+															</Child5>
+														</Children>
+													</Child3>
+													<Child4 Name="bbtnOpenFile" Key="{DCBD6688-710B-461F-AA6E-F9C210811A77}" ParallelWalk="True">
+														<Properties>
+															<Property0 Name="Name" Cookie="749" />
+														</Properties>
+														<Children />
+													</Child4>
+													<Child5 Name="bbtnNewSQLTab" Key="{6DA0DA62-577F-4896-9E87-1034FEFD43FD}" ParallelWalk="True">
+														<Properties>
+															<Property0 Name="Name" Cookie="750" />
+														</Properties>
+														<Children />
+													</Child5>
+													<Child6 Name="bbtnNewStoredObj" Key="{96D55044-56DD-4424-8B26-EDCB4C031BD5}" ParallelWalk="True">
+														<Properties>
+															<Property0 Name="Name" Cookie="751" />
+														</Properties>
+														<Children />
+													</Child6>
+													<Child7 Name="bbtnSaveToFile" Key="{CA1CC358-6245-4C0F-854C-625D7709CC71}" ParallelWalk="True">
+														<Properties>
+															<Property0 Name="Name" Cookie="752" />
+														</Properties>
+														<Children />
+													</Child7>
+													<Child8 Name="bbtnOpenObj" Key="{04143E17-2835-40B7-BBFE-614FED65714D}" ParallelWalk="True">
+														<Properties>
+															<Property0 Name="Name" Cookie="753" />
+														</Properties>
+														<Children />
+													</Child8>
+													<Child9 Name="bbtnAutoComplete" Key="{9A26A771-E95E-48C8-8C39-BEAA15FE9169}" ParallelWalk="True">
+														<Properties>
+															<Property0 Name="Name" Cookie="754" />
+														</Properties>
+														<Children />
+													</Child9>
 												</Children>
 											</Child0>
 											<Child1 Name="frmHtmlEditor" Key="{10623CFD-7E65-4C27-8F40-ED0BBFCD83C7}" ParallelWalk="True">
@@ -2203,6 +2290,13 @@
 					</Child6>
 				</Children>
 			</Child0>
+			<Child1 Name="ToolsToolbar" Key="{BCCA89E8-6C7F-40D6-8E5E-7378DCF87C43}" ParallelWalk="True">
+				<Properties>
+					<Property0 Name="WndClass" Cookie="738" />
+					<Property1 Name="WndCaption" Cookie="739" />
+				</Properties>
+				<Children />
+			</Child1>
 		</Children>
 	</Nodes>
 	<LogicalNodes Name="Aliases" Owner="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}">
@@ -2268,6 +2362,20 @@
 								<Child12 Name="ckbOther" Owner="{D0F35763-4FF1-4959-80CB-533E75C6FC06}" />
 							</Child0>
 						</Child2>
+						<Child3 Name="CEToolbarControl" Owner="{0BE8778C-AB34-4C43-9CEF-82CC4D2042F9}">
+							<Child0 Name="FileToolbar" Owner="{9E56C0C1-FB39-4509-889D-FB92C0724B32}" />
+							<Child1 Name="EditToolbar" Owner="{C1AC6155-1857-4F07-81C9-99C32733DA97}" />
+							<Child2 Name="SqlToolbar" Owner="{3157779A-8195-4BA9-AC3A-DFD7A7486CD4}" />
+							<Child3 Name="ObjectToolbar" Owner="{2308CDC8-B439-4EE4-ABCB-79D4BF4ED48E}" />
+							<Child4 Name="ToolsToolbar" Owner="{B949DCE7-CAAC-4951-BBCB-819BC6166D7D}" />
+							<Child5 Name="TeamCodingToolbar" Owner="{C6FF1E77-34D0-471A-82C3-755EA1D91A9C}" />
+						</Child3>
+						<Child4 Name="bbtnOpenFile" Owner="{DCBD6688-710B-461F-AA6E-F9C210811A77}" />
+						<Child5 Name="bbtnNewSQLTab" Owner="{6DA0DA62-577F-4896-9E87-1034FEFD43FD}" />
+						<Child6 Name="bbtnNewStoredObj" Owner="{96D55044-56DD-4424-8B26-EDCB4C031BD5}" />
+						<Child7 Name="bbtnSaveToFile" Owner="{CA1CC358-6245-4C0F-854C-625D7709CC71}" />
+						<Child8 Name="bbtnOpenObj" Owner="{04143E17-2835-40B7-BBFE-614FED65714D}" />
+						<Child9 Name="bbtnAutoComplete" Owner="{9A26A771-E95E-48C8-8C39-BEAA15FE9169}" />
 					</Child0>
 					<Child1 Name="frmHtmlEditor" Owner="{10623CFD-7E65-4C27-8F40-ED0BBFCD83C7}">
 						<Child0 Name="PageTab" Owner="{124EE44F-C80C-481A-A2C0-5CA3A25AFE48}">
@@ -2559,6 +2667,7 @@
 			<Child1 Name="dlgConfirm" Owner="{D5431FA5-6DC5-43D5-A73A-2156572620AC}" />
 			<Child2 Name="dlgInformation" Owner="{8A67AF26-44C5-4785-BD6E-AA4557E2386C}" />
 		</Child6>
+		<Child7 Name="ToolsToolbar" Owner="{BCCA89E8-6C7F-40D6-8E5E-7378DCF87C43}" />
 	</LogicalNodes>
 	<Storages Current="0">
 		<Child0 Name="Version_Win7">
@@ -3121,6 +3230,31 @@
 			<Property556 Cookie="724" PropertyType="0" Value="#32770" Type="5" />
 			<Property557 Cookie="725" PropertyType="0" Value="Error" Type="5" />
 			<Property558 Cookie="726" PropertyType="0" Value="VCLObject(&quot;frmTester&quot;)" Type="5" />
+			<Property559 Cookie="730" PropertyType="0" Value="TdxBarControl" Type="5" />
+			<Property560 Cookie="731" PropertyType="0" Value="File" Type="5" />
+			<Property561 Cookie="732" PropertyType="0" Value="TdxBarControl" Type="5" />
+			<Property562 Cookie="733" PropertyType="0" Value="Edit Toolbar" Type="5" />
+			<Property563 Cookie="734" PropertyType="0" Value="TdxBarControl" Type="5" />
+			<Property564 Cookie="735" PropertyType="0" Value="SQL Toolbar" Type="5" />
+			<Property565 Cookie="736" PropertyType="0" Value="TdxBarControl" Type="5" />
+			<Property566 Cookie="737" PropertyType="0" Value="Object Toolbar" Type="5" />
+			<Property567 Cookie="738" PropertyType="0" Value="TdxBarControl" Type="5" />
+			<Property568 Cookie="739" PropertyType="0" Value="Tools" Type="5" />
+			<Property569 Cookie="740" PropertyType="0" Value="TdxDockControl" Type="5" />
+			<Property570 Cookie="741" PropertyType="0" Value="1" Type="0" />
+			<Property571 Cookie="742" PropertyType="0" Value="6" Type="0" />
+			<Property572 Cookie="743" PropertyType="0" Value="TdxBarControl" Type="5" />
+			<Property573 Cookie="744" PropertyType="0" Value="Tools" Type="5" />
+			<Property574 Cookie="745" PropertyType="0" Value="TdxBarControl" Type="5" />
+			<Property575 Cookie="746" PropertyType="0" Value="Team Coding" Type="5" />
+			<Property576 Cookie="747" PropertyType="0" Value="VCLObject(&quot;bbtnNewSQLTab&quot;)" Type="5" />
+			<Property577 Cookie="748" PropertyType="0" Value="VCLObject(&quot;bbtnFile&quot;)" Type="5" />
+			<Property578 Cookie="749" PropertyType="0" Value="VCLObject(&quot;bbtnOpenFile&quot;)" Type="5" />
+			<Property579 Cookie="750" PropertyType="0" Value="VCLObject(&quot;bbtnNewSQLTab&quot;)" Type="5" />
+			<Property580 Cookie="751" PropertyType="0" Value="VCLObject(&quot;bbtnNewStoredObj&quot;)" Type="5" />
+			<Property581 Cookie="752" PropertyType="0" Value="VCLObject(&quot;bbtnSaveToFile&quot;)" Type="5" />
+			<Property582 Cookie="753" PropertyType="0" Value="VCLObject(&quot;bbtnOpenObj&quot;)" Type="5" />
+			<Property583 Cookie="754" PropertyType="0" Value="VCLObject(&quot;bbtnAutoComplete&quot;)" Type="5" />
 		</Child0>
 		<Child1 Name="Version_Win8">
 			<Property0 Cookie="0" PropertyType="0" Value="Sys" Type="5" />
@@ -3682,6 +3816,31 @@
 			<Property556 Cookie="724" PropertyType="0" Value="#32770" Type="5" />
 			<Property557 Cookie="725" PropertyType="0" Value="Error" Type="5" />
 			<Property558 Cookie="726" PropertyType="0" Value="VCLObject(&quot;frmTester&quot;)" Type="5" />
+			<Property559 Cookie="730" PropertyType="0" Value="TdxBarControl" Type="5" />
+			<Property560 Cookie="731" PropertyType="0" Value="File" Type="5" />
+			<Property561 Cookie="732" PropertyType="0" Value="TdxBarControl" Type="5" />
+			<Property562 Cookie="733" PropertyType="0" Value="Edit Toolbar" Type="5" />
+			<Property563 Cookie="734" PropertyType="0" Value="TdxBarControl" Type="5" />
+			<Property564 Cookie="735" PropertyType="0" Value="SQL Toolbar" Type="5" />
+			<Property565 Cookie="736" PropertyType="0" Value="TdxBarControl" Type="5" />
+			<Property566 Cookie="737" PropertyType="0" Value="Object Toolbar" Type="5" />
+			<Property567 Cookie="738" PropertyType="0" Value="TdxBarControl" Type="5" />
+			<Property568 Cookie="739" PropertyType="0" Value="Tools" Type="5" />
+			<Property569 Cookie="740" PropertyType="0" Value="TdxDockControl" Type="5" />
+			<Property570 Cookie="741" PropertyType="0" Value="1" Type="0" />
+			<Property571 Cookie="742" PropertyType="0" Value="6" Type="0" />
+			<Property572 Cookie="743" PropertyType="0" Value="TdxBarControl" Type="5" />
+			<Property573 Cookie="744" PropertyType="0" Value="Tools" Type="5" />
+			<Property574 Cookie="745" PropertyType="0" Value="TdxBarControl" Type="5" />
+			<Property575 Cookie="746" PropertyType="0" Value="Team Coding" Type="5" />
+			<Property576 Cookie="747" PropertyType="0" Value="VCLObject(&quot;bbtnNewSQLTab&quot;)" Type="5" />
+			<Property577 Cookie="748" PropertyType="0" Value="VCLObject(&quot;bbtnFile&quot;)" Type="5" />
+			<Property578 Cookie="749" PropertyType="0" Value="VCLObject(&quot;bbtnOpenFile&quot;)" Type="5" />
+			<Property579 Cookie="750" PropertyType="0" Value="VCLObject(&quot;bbtnNewSQLTab&quot;)" Type="5" />
+			<Property580 Cookie="751" PropertyType="0" Value="VCLObject(&quot;bbtnNewStoredObj&quot;)" Type="5" />
+			<Property581 Cookie="752" PropertyType="0" Value="VCLObject(&quot;bbtnSaveToFile&quot;)" Type="5" />
+			<Property582 Cookie="753" PropertyType="0" Value="VCLObject(&quot;bbtnOpenObj&quot;)" Type="5" />
+			<Property583 Cookie="754" PropertyType="0" Value="VCLObject(&quot;bbtnAutoComplete&quot;)" Type="5" />
 		</Child1>
 	</Storages>
 	<TypeInfo StoreCodeCompletion="0">

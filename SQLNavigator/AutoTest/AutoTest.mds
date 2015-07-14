@@ -1222,7 +1222,7 @@
 					<Node name="test parameters"/>
 					<Prp name="count" type="I" value="1"/>
 					<Prp name="description" type="S" value=""/>
-					<Prp name="enabled" type="B" value="-1"/>
+					<Prp name="enabled" type="B" value="0"/>
 					<Prp name="group" type="B" value="-1"/>
 					<Prp name="index" type="I" value="0"/>
 					<Prp name="key" type="S" value="{8654C522-5DBC-4B5C-8F79-3094CD418510}"/>
@@ -1240,7 +1240,7 @@
 							<Prp name="localvarname" type="S" value=""/>
 							<Prp name="name" type="S" value="isFirstTime"/>
 							<Prp name="type" type="I" value="3"/>
-							<Prp name="value" type="S" value="True"/>
+							<Prp name="value" type="S" value="False"/>
 							<Prp name="vartype" type="I" value="11"/>
 						</Node>
 					</Node>
