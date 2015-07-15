@@ -83,6 +83,9 @@
 			<Node name="script\codeeditor_syntax.sj">
 				<Prp name="relpath" type="S" value="Script\CodeEditor_Syntax.sj"/>
 			</Node>
+			<Node name="script\codeeditortoolbar.sj">
+				<Prp name="relpath" type="S" value="Script\CodeEditorToolbar.sj"/>
+			</Node>
 			<Node name="script\fcheckerrors.sj">
 				<Prp name="relpath" type="S" value="Script\fCheckErrors.sj"/>
 			</Node>
@@ -112,6 +115,9 @@
 			</Node>
 			<Node name="script\fmsiinstaller.sj">
 				<Prp name="relpath" type="S" value="Script\fMSIInstaller.sj"/>
+			</Node>
+			<Node name="script\maintoolbar.sj">
+				<Prp name="relpath" type="S" value="Script\MainToolbar.sj"/>
 			</Node>
 			<Node name="script\menu_edit.sj">
 				<Prp name="relpath" type="S" value="Script\Menu_Edit.sj"/>
