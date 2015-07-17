@@ -1,1 +1,1 @@
-select hiredate,extract(day from hiredate) from emp;
+select hiredate,extract(day from hiredate) from auto_tab_emp;

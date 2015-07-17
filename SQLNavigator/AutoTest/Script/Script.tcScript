@@ -442,7 +442,7 @@
 							<Prp name="key" type="S" value="{A35AEB4C-D73D-4B1F-93B3-43F45624C773}"/>
 						</Node>
 					</Node>
-					<Prp name="caption" type="S" value="4_ToolBar"/>
+					<Prp name="caption" type="S" value="4_ToolBarButton"/>
 					<Prp name="description" type="S" value="A logical folder that is used to organize project items and elements."/>
 					<Prp name="index" type="I" value="5"/>
 					<Prp name="moniker" type="S" value=""/>
