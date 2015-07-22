@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<Root Signature="{5DCBAC3B-D39C-497C-9BE8-744CBADD37AA}" NameMappingVersion="4" Cookie="808">
+<Root Signature="{5DCBAC3B-D39C-497C-9BE8-744CBADD37AA}" NameMappingVersion="4" Cookie="838">
 	<Nodes Name="NameMapping" Key="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}" ParallelWalk="True">
 		<Properties />
 		<Children>
@@ -243,6 +243,40 @@
 																					</Child0>
 																				</Children>
 																			</Child0>
+																			<Child1 Name="TPanel" Key="{AE491DEE-572D-4F0A-9FF1-A04495B1EB66}" ParallelWalk="True">
+																				<Properties>
+																					<Property0 Name="WndClass" Cookie="817" />
+																				</Properties>
+																				<Children>
+																					<Child0 Name="CXFram" Key="{BDB2C653-46DB-4199-8427-CA8DDCDB940E}" ParallelWalk="True">
+																						<Properties>
+																							<Property0 Name="Name" Cookie="818" />
+																						</Properties>
+																						<Children>
+																							<Child0 Name="pnlBottom" Key="{95665F54-9928-4D60-BBBE-0BDF33406DF5}" ParallelWalk="True">
+																								<Properties>
+																									<Property0 Name="Name" Cookie="819" />
+																								</Properties>
+																								<Children>
+																									<Child0 Name="Panel1" Key="{F4302A35-412D-420B-B8CF-5D708B5EBE41}" ParallelWalk="True">
+																										<Properties>
+																											<Property0 Name="Name" Cookie="820" />
+																										</Properties>
+																										<Children>
+																											<Child0 Name="pcOutput" Key="{CC4D614C-FAF4-46A3-A8BD-70E67930A442}" ParallelWalk="True">
+																												<Properties>
+																													<Property0 Name="Name" Cookie="821" />
+																												</Properties>
+																												<Children />
+																											</Child0>
+																										</Children>
+																									</Child0>
+																								</Children>
+																							</Child0>
+																						</Children>
+																					</Child0>
+																				</Children>
+																			</Child1>
 																		</Children>
 																	</Child1>
 																</Children>
@@ -433,6 +467,26 @@
 																					</Child2>
 																				</Children>
 																			</Child2>
+																			<Child3 Name="NavBarGroupControl" Key="{763FA1B1-AEFB-4FA4-9952-4E98E61FBA94}" ParallelWalk="True">
+																				<Properties>
+																					<Property0 Name="Name" Cookie="808" />
+																				</Properties>
+																				<Children>
+																					<Child0 Name="TPanel" Key="{A8985D2E-3EC4-49C3-96CD-775A75A38635}" ParallelWalk="True">
+																						<Properties>
+																							<Property0 Name="ClassName" Cookie="809" />
+																						</Properties>
+																						<Children>
+																							<Child0 Name="frmWatches" Key="{8AC69260-C79A-4A58-BEBE-49FFCD057E0A}" ParallelWalk="True">
+																								<Properties>
+																									<Property0 Name="Name" Cookie="810" />
+																								</Properties>
+																								<Children />
+																							</Child0>
+																						</Children>
+																					</Child0>
+																				</Children>
+																			</Child3>
 																		</Children>
 																	</Child0>
 																</Children>
@@ -699,6 +753,90 @@
 														</Properties>
 														<Children />
 													</Child38>
+													<Child39 Name="bbtnCodeXpert" Key="{A36F7206-2502-4552-B68B-6E38AFCF76BA}" ParallelWalk="True">
+														<Properties>
+															<Property0 Name="Name" Cookie="812" />
+														</Properties>
+														<Children />
+													</Child39>
+													<Child40 Name="bbtnExplainPlan" Key="{FEA52D92-DED9-4997-9A71-085FD67E6471}" ParallelWalk="True">
+														<Properties>
+															<Property0 Name="Name" Cookie="813" />
+														</Properties>
+														<Children />
+													</Child40>
+													<Child41 Name="bbtnKX" Key="{73D0DD1E-E750-4BDE-94C1-4C33C27CFA3A}" ParallelWalk="True">
+														<Properties>
+															<Property0 Name="Name" Cookie="814" />
+														</Properties>
+														<Children />
+													</Child41>
+													<Child42 Name="bbtnFormatter" Key="{00691253-4383-4D87-B81D-92935A97A42B}" ParallelWalk="True">
+														<Properties>
+															<Property0 Name="Name" Cookie="815" />
+														</Properties>
+														<Children />
+													</Child42>
+													<Child43 Name="bbtnTuning" Key="{FEE03FC8-9408-4610-8834-FC5014B8EFF8}" ParallelWalk="True">
+														<Properties>
+															<Property0 Name="Name" Cookie="816" />
+														</Properties>
+														<Children />
+													</Child43>
+													<Child44 Name="bbtnRevert" Key="{CAEEF5D9-9B7C-4B5C-B754-450F8E3A4A9A}" ParallelWalk="True">
+														<Properties>
+															<Property0 Name="Name" Cookie="822" />
+														</Properties>
+														<Children />
+													</Child44>
+													<Child45 Name="bbtnGenDDLScript" Key="{4FD4AEDB-FEF5-4E05-A741-9D0D7A207667}" ParallelWalk="True">
+														<Properties>
+															<Property0 Name="Name" Cookie="823" />
+														</Properties>
+														<Children />
+													</Child45>
+													<Child46 Name="bbtnSaveToDB" Key="{3A770F06-69B4-4700-9305-73A95F4540C6}" ParallelWalk="True">
+														<Properties>
+															<Property0 Name="Name" Cookie="824" />
+														</Properties>
+														<Children />
+													</Child46>
+													<Child47 Name="bbtnSaveToDbAs" Key="{BA19396F-76F9-41FA-A11D-E3F86CBBBE29}" ParallelWalk="True">
+														<Properties>
+															<Property0 Name="Name" Cookie="825" />
+														</Properties>
+														<Children />
+													</Child47>
+													<Child48 Name="bbtnExecProc" Key="{EEEF8343-7BF7-42A9-858A-52F9C00A58BC}" ParallelWalk="True">
+														<Properties>
+															<Property0 Name="Name" Cookie="826" />
+														</Properties>
+														<Children />
+													</Child48>
+													<Child49 Name="bbtnStopProc" Key="{9D3962FF-5A3E-45C3-A279-9C41D83F5E98}" ParallelWalk="True">
+														<Properties>
+															<Property0 Name="Name" Cookie="827" />
+														</Properties>
+														<Children />
+													</Child49>
+													<Child50 Name="bbtnToggleBreakpoint" Key="{27858611-8985-4526-975E-F11B114CCAE7}" ParallelWalk="True">
+														<Properties>
+															<Property0 Name="Name" Cookie="828" />
+														</Properties>
+														<Children />
+													</Child50>
+													<Child51 Name="bbtnOpenCreatePkgBody" Key="{AD5B9D77-7846-4279-BD98-5832392C0BAD}" ParallelWalk="True">
+														<Properties>
+															<Property0 Name="Name" Cookie="829" />
+														</Properties>
+														<Children />
+													</Child51>
+													<Child52 Name="cmbEntry" Key="{1EE85158-6AA0-48E7-9C52-738748C3928B}" ParallelWalk="True">
+														<Properties>
+															<Property0 Name="Name" Cookie="830" />
+														</Properties>
+														<Children />
+													</Child52>
 												</Children>
 											</Child0>
 											<Child1 Name="frmHtmlEditor" Key="{10623CFD-7E65-4C27-8F40-ED0BBFCD83C7}" ParallelWalk="True">
@@ -1298,6 +1436,48 @@
 											</Child0>
 										</Children>
 									</Child4>
+									<Child5 Name="bbNewSession" Key="{F327F74D-5012-41FF-8649-F2FC64384B57}" ParallelWalk="True">
+										<Properties>
+											<Property0 Name="Name" Cookie="831" />
+										</Properties>
+										<Children />
+									</Child5>
+									<Child6 Name="bbServerOutput" Key="{FB613065-6265-409A-BA56-E83005689309}" ParallelWalk="True">
+										<Properties>
+											<Property0 Name="Name" Cookie="832" />
+										</Properties>
+										<Children />
+									</Child6>
+									<Child7 Name="bbWebOutput" Key="{0EAF302D-B6DE-4EB0-BB67-47C5B0B5E540}" ParallelWalk="True">
+										<Properties>
+											<Property0 Name="Name" Cookie="833" />
+										</Properties>
+										<Children />
+									</Child7>
+									<Child8 Name="bbSessionSuspend" Key="{732D8B76-769B-499B-8E46-419C0B615F12}" ParallelWalk="True">
+										<Properties>
+											<Property0 Name="Name" Cookie="834" />
+										</Properties>
+										<Children />
+									</Child8>
+									<Child9 Name="bbStop" Key="{60D45288-EE9B-4977-8BE7-F6EF536743E8}" ParallelWalk="True">
+										<Properties>
+											<Property0 Name="Name" Cookie="835" />
+										</Properties>
+										<Children />
+									</Child9>
+									<Child10 Name="bbCommit" Key="{46D7F13C-85D1-4B2A-A742-C1290276A510}" ParallelWalk="True">
+										<Properties>
+											<Property0 Name="Name" Cookie="836" />
+										</Properties>
+										<Children />
+									</Child10>
+									<Child11 Name="bbRollback" Key="{EC6DBECD-B24A-4767-B505-4C705B349923}" ParallelWalk="True">
+										<Properties>
+											<Property0 Name="Name" Cookie="837" />
+										</Properties>
+										<Children />
+									</Child11>
 								</Children>
 							</Child0>
 							<Child1 Name="wnAuthorizeForm" Key="{484D6067-9F20-41E9-8562-5868F3814D0B}" ParallelWalk="True">
@@ -2621,6 +2801,9 @@
 							<Child2 Name="frmRun" Owner="{DB575E9E-CD22-4186-89DE-17A36EED6D7A}">
 								<Child0 Name="btnRun" Owner="{0C71A398-4601-40AD-A0C7-D2CF114B6D44}" />
 							</Child2>
+							<Child3 Name="pnlBottom" Owner="{95665F54-9928-4D60-BBBE-0BDF33406DF5}">
+								<Child0 Name="pcOutput" Owner="{CC4D614C-FAF4-46A3-A8BD-70E67930A442}" />
+							</Child3>
 						</Child1>
 						<Child2 Name="dpToolbox" Owner="{552C3EDD-3661-4AAE-A5A5-32CDD40F1EB6}">
 							<Child0 Name="NavBar" Owner="{2DEC587B-8C2D-4300-AAB4-C4150B7E2E74}">
@@ -2641,6 +2824,7 @@
 								<Child10 Name="ckbPLSQL" Owner="{5DE6D896-81FF-4BA7-9DAB-D991DB3B9C70}" />
 								<Child11 Name="ckbDML" Owner="{484D9C36-F029-4366-9D91-9F60DFA018EE}" />
 								<Child12 Name="ckbOther" Owner="{D0F35763-4FF1-4959-80CB-533E75C6FC06}" />
+								<Child13 Name="frmWatches" Owner="{8AC69260-C79A-4A58-BEBE-49FFCD057E0A}" />
 							</Child0>
 						</Child2>
 						<Child3 Name="CEToolbarControl" Owner="{0BE8778C-AB34-4C43-9CEF-82CC4D2042F9}">
@@ -2686,6 +2870,20 @@
 						<Child36 Name="bbtnSkipToNext" Owner="{E9494486-34B3-4897-9A37-FBF82FCF5FE6}" />
 						<Child37 Name="bbtnSkipToTop" Owner="{729EA2EA-6CE7-481F-B79E-8AFA1DF1141B}" />
 						<Child38 Name="bbtnSkipToBottom" Owner="{CD965F90-FD5A-4A9F-8531-EC97676B7D8E}" />
+						<Child39 Name="bbtnCodeXpert" Owner="{A36F7206-2502-4552-B68B-6E38AFCF76BA}" />
+						<Child40 Name="bbtnExplainPlan" Owner="{FEA52D92-DED9-4997-9A71-085FD67E6471}" />
+						<Child41 Name="bbtnKX" Owner="{73D0DD1E-E750-4BDE-94C1-4C33C27CFA3A}" />
+						<Child42 Name="bbtnFormatter" Owner="{00691253-4383-4D87-B81D-92935A97A42B}" />
+						<Child43 Name="bbtnTuning" Owner="{FEE03FC8-9408-4610-8834-FC5014B8EFF8}" />
+						<Child44 Name="bbtnRevert" Owner="{CAEEF5D9-9B7C-4B5C-B754-450F8E3A4A9A}" />
+						<Child45 Name="bbtnGenDDLScript" Owner="{4FD4AEDB-FEF5-4E05-A741-9D0D7A207667}" />
+						<Child46 Name="bbtnSaveToDB" Owner="{3A770F06-69B4-4700-9305-73A95F4540C6}" />
+						<Child47 Name="bbtnSaveToDbAs" Owner="{BA19396F-76F9-41FA-A11D-E3F86CBBBE29}" />
+						<Child48 Name="bbtnExecProc" Owner="{EEEF8343-7BF7-42A9-858A-52F9C00A58BC}" />
+						<Child49 Name="bbtnStopProc" Owner="{9D3962FF-5A3E-45C3-A279-9C41D83F5E98}" />
+						<Child50 Name="bbtnToggleBreakpoint" Owner="{27858611-8985-4526-975E-F11B114CCAE7}" />
+						<Child51 Name="bbtnOpenCreatePkgBody" Owner="{AD5B9D77-7846-4279-BD98-5832392C0BAD}" />
+						<Child52 Name="cmbEntry" Owner="{1EE85158-6AA0-48E7-9C52-738748C3928B}" />
 					</Child0>
 					<Child1 Name="frmHtmlEditor" Owner="{10623CFD-7E65-4C27-8F40-ED0BBFCD83C7}">
 						<Child0 Name="PageTab" Owner="{124EE44F-C80C-481A-A2C0-5CA3A25AFE48}">
@@ -2793,6 +2991,13 @@
 				<Child4 Name="TaskBarZone" Owner="{61DF2143-D588-467C-9B5C-F299FE66176B}">
 					<Child0 Name="TaskBar" Owner="{C765011E-805F-426F-AD15-9E13F2FE31BC}" />
 				</Child4>
+				<Child5 Name="bbNewSession" Owner="{F327F74D-5012-41FF-8649-F2FC64384B57}" />
+				<Child6 Name="bbServerOutput" Owner="{FB613065-6265-409A-BA56-E83005689309}" />
+				<Child7 Name="bbWebOutput" Owner="{0EAF302D-B6DE-4EB0-BB67-47C5B0B5E540}" />
+				<Child8 Name="bbSessionSuspend" Owner="{732D8B76-769B-499B-8E46-419C0B615F12}" />
+				<Child9 Name="bbStop" Owner="{60D45288-EE9B-4977-8BE7-F6EF536743E8}" />
+				<Child10 Name="bbCommit" Owner="{46D7F13C-85D1-4B2A-A742-C1290276A510}" />
+				<Child11 Name="bbRollback" Owner="{EC6DBECD-B24A-4767-B505-4C705B349923}" />
 			</Child0>
 			<Child1 Name="wnAuthorizeForm" Owner="{484D6067-9F20-41E9-8562-5868F3814D0B}">
 				<Child0 Name="btnOK" Owner="{9BA3D121-E5CE-4D65-8C36-259D11E38C9D}" />
@@ -3637,6 +3842,36 @@
 			<Property631 Cookie="805" PropertyType="0" Value="VCLObject(&quot;cmbField&quot;)" Type="5" />
 			<Property632 Cookie="806" PropertyType="0" Value="VCLObject(&quot;cmbOperator&quot;)" Type="5" />
 			<Property633 Cookie="807" PropertyType="0" Value="VCLObject(&quot;ckbModifySQL&quot;)" Type="5" />
+			<Property634 Cookie="808" PropertyType="0" Value="VCLObject(&quot;NavBardxNavBarGroup1Control&quot;)" Type="5" />
+			<Property635 Cookie="809" PropertyType="0" Value="TPanel" Type="5" />
+			<Property636 Cookie="810" PropertyType="0" Value="VCLObject(&quot;frmWatches&quot;)" Type="5" />
+			<Property637 Cookie="811" PropertyType="0" Value="VCLObject(&quot;btnCancel&quot;)" Type="5" />
+			<Property638 Cookie="812" PropertyType="0" Value="VCLObject(&quot;bbtnCodeXpert&quot;)" Type="5" />
+			<Property639 Cookie="813" PropertyType="0" Value="VCLObject(&quot;bbtnExplainPlan&quot;)" Type="5" />
+			<Property640 Cookie="814" PropertyType="0" Value="VCLObject(&quot;bbtnKX&quot;)" Type="5" />
+			<Property641 Cookie="815" PropertyType="0" Value="VCLObject(&quot;bbtnFormatter&quot;)" Type="5" />
+			<Property642 Cookie="816" PropertyType="0" Value="VCLObject(&quot;bbtnTuning&quot;)" Type="5" />
+			<Property643 Cookie="817" PropertyType="0" Value="TPanel" Type="5" />
+			<Property644 Cookie="818" PropertyType="0" Value="VCLObject(&quot;CXFram&quot;)" Type="5" />
+			<Property645 Cookie="819" PropertyType="0" Value="VCLObject(&quot;pnlBottom&quot;)" Type="5" />
+			<Property646 Cookie="820" PropertyType="0" Value="VCLObject(&quot;Panel1&quot;)" Type="5" />
+			<Property647 Cookie="821" PropertyType="0" Value="VCLObject(&quot;pcOutput&quot;)" Type="5" />
+			<Property648 Cookie="822" PropertyType="0" Value="VCLObject(&quot;bbtnRevert&quot;)" Type="5" />
+			<Property649 Cookie="823" PropertyType="0" Value="VCLObject(&quot;bbtnGenDDLDef&quot;)" Type="5" />
+			<Property650 Cookie="824" PropertyType="0" Value="VCLObject(&quot;bbtnSaveToDB&quot;)" Type="5" />
+			<Property651 Cookie="825" PropertyType="0" Value="VCLObject(&quot;bbtnSaveToDbAs&quot;)" Type="5" />
+			<Property652 Cookie="826" PropertyType="0" Value="VCLObject(&quot;bbtnExecProc&quot;)" Type="5" />
+			<Property653 Cookie="827" PropertyType="0" Value="VCLObject(&quot;bbtnStopSess&quot;)" Type="5" />
+			<Property654 Cookie="828" PropertyType="0" Value="VCLObject(&quot;bbtnToggleBreakpoint&quot;)" Type="5" />
+			<Property655 Cookie="829" PropertyType="0" Value="VCLObject(&quot;bbtnOpenCreatePkgBody&quot;)" Type="5" />
+			<Property656 Cookie="830" PropertyType="0" Value="VCLObject(&quot;cmbEntry&quot;)" Type="5" />
+			<Property657 Cookie="831" PropertyType="0" Value="VCLObject(&quot;bbNewSession&quot;)" Type="5" />
+			<Property658 Cookie="832" PropertyType="0" Value="VCLObject(&quot;bbServerOutput&quot;)" Type="5" />
+			<Property659 Cookie="833" PropertyType="0" Value="VCLObject(&quot;bbWebOption&quot;)" Type="5" />
+			<Property660 Cookie="834" PropertyType="0" Value="VCLObject(&quot;bbSessionSuspend&quot;)" Type="5" />
+			<Property661 Cookie="835" PropertyType="0" Value="VCLObject(&quot;bbStop&quot;)" Type="5" />
+			<Property662 Cookie="836" PropertyType="0" Value="VCLObject(&quot;bbCommit&quot;)" Type="5" />
+			<Property663 Cookie="837" PropertyType="0" Value="VCLObject(&quot;bbRollback&quot;)" Type="5" />
 		</Child0>
 		<Child1 Name="Version_Win8">
 			<Property0 Cookie="0" PropertyType="0" Value="Sys" Type="5" />
@@ -4273,6 +4508,36 @@
 			<Property631 Cookie="805" PropertyType="0" Value="VCLObject(&quot;cmbField&quot;)" Type="5" />
 			<Property632 Cookie="806" PropertyType="0" Value="VCLObject(&quot;cmbOperator&quot;)" Type="5" />
 			<Property633 Cookie="807" PropertyType="0" Value="VCLObject(&quot;ckbModifySQL&quot;)" Type="5" />
+			<Property634 Cookie="808" PropertyType="0" Value="VCLObject(&quot;NavBardxNavBarGroup1Control&quot;)" Type="5" />
+			<Property635 Cookie="809" PropertyType="0" Value="TPanel" Type="5" />
+			<Property636 Cookie="810" PropertyType="0" Value="VCLObject(&quot;frmWatches&quot;)" Type="5" />
+			<Property637 Cookie="811" PropertyType="0" Value="VCLObject(&quot;btnCancel&quot;)" Type="5" />
+			<Property638 Cookie="812" PropertyType="0" Value="VCLObject(&quot;bbtnCodeXpert&quot;)" Type="5" />
+			<Property639 Cookie="813" PropertyType="0" Value="VCLObject(&quot;bbtnExplainPlan&quot;)" Type="5" />
+			<Property640 Cookie="814" PropertyType="0" Value="VCLObject(&quot;bbtnKX&quot;)" Type="5" />
+			<Property641 Cookie="815" PropertyType="0" Value="VCLObject(&quot;bbtnFormatter&quot;)" Type="5" />
+			<Property642 Cookie="816" PropertyType="0" Value="VCLObject(&quot;bbtnTuning&quot;)" Type="5" />
+			<Property643 Cookie="817" PropertyType="0" Value="TPanel" Type="5" />
+			<Property644 Cookie="818" PropertyType="0" Value="VCLObject(&quot;CXFram&quot;)" Type="5" />
+			<Property645 Cookie="819" PropertyType="0" Value="VCLObject(&quot;pnlBottom&quot;)" Type="5" />
+			<Property646 Cookie="820" PropertyType="0" Value="VCLObject(&quot;Panel1&quot;)" Type="5" />
+			<Property647 Cookie="821" PropertyType="0" Value="VCLObject(&quot;pcOutput&quot;)" Type="5" />
+			<Property648 Cookie="822" PropertyType="0" Value="VCLObject(&quot;bbtnRevert&quot;)" Type="5" />
+			<Property649 Cookie="823" PropertyType="0" Value="VCLObject(&quot;bbtnGenDDLDef&quot;)" Type="5" />
+			<Property650 Cookie="824" PropertyType="0" Value="VCLObject(&quot;bbtnSaveToDB&quot;)" Type="5" />
+			<Property651 Cookie="825" PropertyType="0" Value="VCLObject(&quot;bbtnSaveToDbAs&quot;)" Type="5" />
+			<Property652 Cookie="826" PropertyType="0" Value="VCLObject(&quot;bbtnExecProc&quot;)" Type="5" />
+			<Property653 Cookie="827" PropertyType="0" Value="VCLObject(&quot;bbtnStopSess&quot;)" Type="5" />
+			<Property654 Cookie="828" PropertyType="0" Value="VCLObject(&quot;bbtnToggleBreakpoint&quot;)" Type="5" />
+			<Property655 Cookie="829" PropertyType="0" Value="VCLObject(&quot;bbtnOpenCreatePkgBody&quot;)" Type="5" />
+			<Property656 Cookie="830" PropertyType="0" Value="VCLObject(&quot;cmbEntry&quot;)" Type="5" />
+			<Property657 Cookie="831" PropertyType="0" Value="VCLObject(&quot;bbNewSession&quot;)" Type="5" />
+			<Property658 Cookie="832" PropertyType="0" Value="VCLObject(&quot;bbServerOutput&quot;)" Type="5" />
+			<Property659 Cookie="833" PropertyType="0" Value="VCLObject(&quot;bbWebOption&quot;)" Type="5" />
+			<Property660 Cookie="834" PropertyType="0" Value="VCLObject(&quot;bbSessionSuspend&quot;)" Type="5" />
+			<Property661 Cookie="835" PropertyType="0" Value="VCLObject(&quot;bbStop&quot;)" Type="5" />
+			<Property662 Cookie="836" PropertyType="0" Value="VCLObject(&quot;bbCommit&quot;)" Type="5" />
+			<Property663 Cookie="837" PropertyType="0" Value="VCLObject(&quot;bbRollback&quot;)" Type="5" />
 		</Child1>
 	</Storages>
 	<TypeInfo StoreCodeCompletion="0">
