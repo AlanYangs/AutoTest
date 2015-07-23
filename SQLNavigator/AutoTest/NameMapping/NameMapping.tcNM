@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<Root Signature="{5DCBAC3B-D39C-497C-9BE8-744CBADD37AA}" NameMappingVersion="4" Cookie="838">
+<Root Signature="{5DCBAC3B-D39C-497C-9BE8-744CBADD37AA}" NameMappingVersion="4" Cookie="855">
 	<Nodes Name="NameMapping" Key="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}" ParallelWalk="True">
 		<Properties />
 		<Children>
@@ -1407,6 +1407,12 @@
 																		</Properties>
 																		<Children />
 																	</Child1>
+																	<Child2 Name="lvPM" Key="{04E18B83-0083-4E0C-AE37-156B5C8E1BDA}" ParallelWalk="True">
+																		<Properties>
+																			<Property0 Name="Name" Cookie="841" />
+																		</Properties>
+																		<Children />
+																	</Child2>
 																</Children>
 															</Child0>
 														</Children>
@@ -1478,6 +1484,97 @@
 										</Properties>
 										<Children />
 									</Child11>
+									<Child12 Name="bbObjectCreate" Key="{EEBBA716-145F-4B60-A053-518B06AB0989}" ParallelWalk="True">
+										<Properties>
+											<Property0 Name="Name" Cookie="838" />
+										</Properties>
+										<Children />
+									</Child12>
+									<Child13 Name="bbObjectCompile" Key="{1E6B3635-350A-4920-BB94-E1D1A8C83DFD}" ParallelWalk="True">
+										<Properties>
+											<Property0 Name="Name" Cookie="839" />
+										</Properties>
+										<Children />
+									</Child13>
+									<Child14 Name="bbObjectQuickBrowse" Key="{E95FDDAB-01B2-48FE-B863-B8456BAEADA1}" ParallelWalk="True">
+										<Properties>
+											<Property0 Name="Name" Cookie="840" />
+										</Properties>
+										<Children />
+									</Child14>
+									<Child15 Name="bbAddToProject" Key="{A184E928-2716-41BC-96B0-2B6CA6C5C7A5}" ParallelWalk="True">
+										<Properties>
+											<Property0 Name="Name" Cookie="842" />
+										</Properties>
+										<Children />
+									</Child15>
+									<Child16 Name="bbProjectManager" Key="{63C5CC00-D472-4A79-B3E5-142ABDEF8886}" ParallelWalk="True">
+										<Properties>
+											<Property0 Name="Name" Cookie="843" />
+										</Properties>
+										<Children />
+									</Child16>
+									<Child17 Name="bbDBNavigator" Key="{4E04442F-6A98-40D0-A36D-2B61CC603181}" ParallelWalk="True">
+										<Properties>
+											<Property0 Name="Name" Cookie="844" />
+										</Properties>
+										<Children />
+									</Child17>
+									<Child18 Name="bbShowOutput" Key="{72CE9E79-9506-4549-B7AC-45158341A853}" ParallelWalk="True">
+										<Properties>
+											<Property0 Name="Name" Cookie="845" />
+										</Properties>
+										<Children />
+									</Child18>
+									<Child19 Name="bbNewCodeEditor" Key="{DDA131EB-319B-4F42-B25E-A1997FAA8C0D}" ParallelWalk="True">
+										<Properties>
+											<Property0 Name="Name" Cookie="846" />
+										</Properties>
+										<Children />
+									</Child19>
+									<Child20 Name="bbViewDifference" Key="{A0F360D5-E745-4D0C-A85D-7F2E263C9849}" ParallelWalk="True">
+										<Properties>
+											<Property0 Name="ClassName" Cookie="847" />
+											<Property1 Name="NativeDelphiObject.Name" Cookie="848" />
+										</Properties>
+										<Children />
+									</Child20>
+									<Child21 Name="bbCodeRoadMap" Key="{A04D4E0A-8ED0-40A3-93DF-91443E5A13C6}" ParallelWalk="True">
+										<Properties>
+											<Property0 Name="Name" Cookie="849" />
+										</Properties>
+										<Children />
+									</Child21>
+									<Child22 Name="bbERDiagram" Key="{15DA1259-DB93-41ED-974E-30849BC211F8}" ParallelWalk="True">
+										<Properties>
+											<Property0 Name="Name" Cookie="850" />
+										</Properties>
+										<Children />
+									</Child22>
+									<Child23 Name="bbPLSQLProfiler" Key="{686F5757-B1C2-4048-A25C-38DA56E43FA3}" ParallelWalk="True">
+										<Properties>
+											<Property0 Name="Name" Cookie="851" />
+										</Properties>
+										<Children />
+									</Child23>
+									<Child24 Name="bbSqlModeler" Key="{A09BF2EE-FFE8-4D2B-8B1C-A24167778AB4}" ParallelWalk="True">
+										<Properties>
+											<Property0 Name="Name" Cookie="852" />
+										</Properties>
+										<Children />
+									</Child24>
+									<Child25 Name="bbHelpContext" Key="{DC735B95-82DE-4D8A-8DE7-3960E5B04137}" ParallelWalk="True">
+										<Properties>
+											<Property0 Name="Name" Cookie="853" />
+										</Properties>
+										<Children />
+									</Child25>
+									<Child26 Name="bbCommunity" Key="{9153124C-68F5-40B2-A326-F0419673F2F1}" ParallelWalk="True">
+										<Properties>
+											<Property0 Name="Name" Cookie="854" />
+										</Properties>
+										<Children />
+									</Child26>
 								</Children>
 							</Child0>
 							<Child1 Name="wnAuthorizeForm" Key="{484D6067-9F20-41E9-8562-5868F3814D0B}" ParallelWalk="True">
@@ -2984,6 +3081,7 @@
 						<Child0 Name="frmWorkspace" Owner="{1673C8BD-3C86-49AD-B129-21E1E3C362A7}">
 							<Child0 Name="ToolBtnViewTree" Owner="{13783957-C69F-4F20-9993-0C274112B003}" />
 							<Child1 Name="treePM" Owner="{B66A87C6-99B9-4E2F-9F55-B39B5ABF1A81}" />
+							<Child2 Name="lvPM" Owner="{04E18B83-0083-4E0C-AE37-156B5C8E1BDA}" />
 						</Child0>
 						<Child1 Name="dpCodeTemplates" Owner="{4AE00A01-6BD6-4EB3-94A7-B28CF8D654E7}" />
 					</Child0>
@@ -2998,6 +3096,21 @@
 				<Child9 Name="bbStop" Owner="{60D45288-EE9B-4977-8BE7-F6EF536743E8}" />
 				<Child10 Name="bbCommit" Owner="{46D7F13C-85D1-4B2A-A742-C1290276A510}" />
 				<Child11 Name="bbRollback" Owner="{EC6DBECD-B24A-4767-B505-4C705B349923}" />
+				<Child12 Name="bbObjectCreate" Owner="{EEBBA716-145F-4B60-A053-518B06AB0989}" />
+				<Child13 Name="bbObjectCompile" Owner="{1E6B3635-350A-4920-BB94-E1D1A8C83DFD}" />
+				<Child14 Name="bbObjectQuickBrowse" Owner="{E95FDDAB-01B2-48FE-B863-B8456BAEADA1}" />
+				<Child15 Name="bbAddToProject" Owner="{A184E928-2716-41BC-96B0-2B6CA6C5C7A5}" />
+				<Child16 Name="bbProjectManager" Owner="{63C5CC00-D472-4A79-B3E5-142ABDEF8886}" />
+				<Child17 Name="bbDBNavigator" Owner="{4E04442F-6A98-40D0-A36D-2B61CC603181}" />
+				<Child18 Name="bbShowOutput" Owner="{72CE9E79-9506-4549-B7AC-45158341A853}" />
+				<Child19 Name="bbNewCodeEditor" Owner="{DDA131EB-319B-4F42-B25E-A1997FAA8C0D}" />
+				<Child20 Name="bbViewDifference" Owner="{A0F360D5-E745-4D0C-A85D-7F2E263C9849}" />
+				<Child21 Name="bbCodeRoadMap" Owner="{A04D4E0A-8ED0-40A3-93DF-91443E5A13C6}" />
+				<Child22 Name="bbERDiagram" Owner="{15DA1259-DB93-41ED-974E-30849BC211F8}" />
+				<Child23 Name="bbPLSQLProfiler" Owner="{686F5757-B1C2-4048-A25C-38DA56E43FA3}" />
+				<Child24 Name="bbSqlModeler" Owner="{A09BF2EE-FFE8-4D2B-8B1C-A24167778AB4}" />
+				<Child25 Name="bbHelpContext" Owner="{DC735B95-82DE-4D8A-8DE7-3960E5B04137}" />
+				<Child26 Name="bbCommunity" Owner="{9153124C-68F5-40B2-A326-F0419673F2F1}" />
 			</Child0>
 			<Child1 Name="wnAuthorizeForm" Owner="{484D6067-9F20-41E9-8562-5868F3814D0B}">
 				<Child0 Name="btnOK" Owner="{9BA3D121-E5CE-4D65-8C36-259D11E38C9D}" />
@@ -3872,6 +3985,23 @@
 			<Property661 Cookie="835" PropertyType="0" Value="VCLObject(&quot;bbStop&quot;)" Type="5" />
 			<Property662 Cookie="836" PropertyType="0" Value="VCLObject(&quot;bbCommit&quot;)" Type="5" />
 			<Property663 Cookie="837" PropertyType="0" Value="VCLObject(&quot;bbRollback&quot;)" Type="5" />
+			<Property664 Cookie="838" PropertyType="0" Value="VCLObject(&quot;bbObjectCreate&quot;)" Type="5" />
+			<Property665 Cookie="839" PropertyType="0" Value="VCLObject(&quot;bbObjectCompileOpt&quot;)" Type="5" />
+			<Property666 Cookie="840" PropertyType="0" Value="VCLObject(&quot;bbObjectQuickBrowse&quot;)" Type="5" />
+			<Property667 Cookie="841" PropertyType="0" Value="VCLObject(&quot;lvPM&quot;)" Type="5" />
+			<Property668 Cookie="842" PropertyType="0" Value="VCLObject(&quot;bbAddToWorkspace&quot;)" Type="5" />
+			<Property669 Cookie="843" PropertyType="0" Value="VCLObject(&quot;bbProjectManager&quot;)" Type="5" />
+			<Property670 Cookie="844" PropertyType="0" Value="VCLObject(&quot;bbDBNavigator&quot;)" Type="5" />
+			<Property671 Cookie="845" PropertyType="0" Value="VCLObject(&quot;bbViewOutput&quot;)" Type="5" />
+			<Property672 Cookie="846" PropertyType="0" Value="VCLObject(&quot;bbNewSQL&quot;)" Type="5" />
+			<Property673 Cookie="847" PropertyType="0" Value="TdxBarButton" Type="5" />
+			<Property674 Cookie="848" PropertyType="0" Value="bbObjectDifferenceViewer" Type="5" />
+			<Property675 Cookie="849" PropertyType="0" Value="VCLObject(&quot;bbObjectCodeRoadMap&quot;)" Type="5" />
+			<Property676 Cookie="850" PropertyType="0" Value="VCLObject(&quot;bbObjectERDiagram&quot;)" Type="5" />
+			<Property677 Cookie="851" PropertyType="0" Value="VCLObject(&quot;bbPLSQLProfiler&quot;)" Type="5" />
+			<Property678 Cookie="852" PropertyType="0" Value="VCLObject(&quot;bbQueryBuilder&quot;)" Type="5" />
+			<Property679 Cookie="853" PropertyType="0" Value="VCLObject(&quot;bbHelpContext&quot;)" Type="5" />
+			<Property680 Cookie="854" PropertyType="0" Value="VCLObject(&quot;bbUsersForum&quot;)" Type="5" />
 		</Child0>
 		<Child1 Name="Version_Win8">
 			<Property0 Cookie="0" PropertyType="0" Value="Sys" Type="5" />
@@ -4538,6 +4668,23 @@
 			<Property661 Cookie="835" PropertyType="0" Value="VCLObject(&quot;bbStop&quot;)" Type="5" />
 			<Property662 Cookie="836" PropertyType="0" Value="VCLObject(&quot;bbCommit&quot;)" Type="5" />
 			<Property663 Cookie="837" PropertyType="0" Value="VCLObject(&quot;bbRollback&quot;)" Type="5" />
+			<Property664 Cookie="838" PropertyType="0" Value="VCLObject(&quot;bbObjectCreate&quot;)" Type="5" />
+			<Property665 Cookie="839" PropertyType="0" Value="VCLObject(&quot;bbObjectCompileOpt&quot;)" Type="5" />
+			<Property666 Cookie="840" PropertyType="0" Value="VCLObject(&quot;bbObjectQuickBrowse&quot;)" Type="5" />
+			<Property667 Cookie="841" PropertyType="0" Value="VCLObject(&quot;lvPM&quot;)" Type="5" />
+			<Property668 Cookie="842" PropertyType="0" Value="VCLObject(&quot;bbAddToWorkspace&quot;)" Type="5" />
+			<Property669 Cookie="843" PropertyType="0" Value="VCLObject(&quot;bbProjectManager&quot;)" Type="5" />
+			<Property670 Cookie="844" PropertyType="0" Value="VCLObject(&quot;bbDBNavigator&quot;)" Type="5" />
+			<Property671 Cookie="845" PropertyType="0" Value="VCLObject(&quot;bbViewOutput&quot;)" Type="5" />
+			<Property672 Cookie="846" PropertyType="0" Value="VCLObject(&quot;bbNewSQL&quot;)" Type="5" />
+			<Property673 Cookie="847" PropertyType="0" Value="TdxBarButton" Type="5" />
+			<Property674 Cookie="848" PropertyType="0" Value="bbObjectDifferenceViewer" Type="5" />
+			<Property675 Cookie="849" PropertyType="0" Value="VCLObject(&quot;bbObjectCodeRoadMap&quot;)" Type="5" />
+			<Property676 Cookie="850" PropertyType="0" Value="VCLObject(&quot;bbObjectERDiagram&quot;)" Type="5" />
+			<Property677 Cookie="851" PropertyType="0" Value="VCLObject(&quot;bbPLSQLProfiler&quot;)" Type="5" />
+			<Property678 Cookie="852" PropertyType="0" Value="VCLObject(&quot;bbQueryBuilder&quot;)" Type="5" />
+			<Property679 Cookie="853" PropertyType="0" Value="VCLObject(&quot;bbHelpContext&quot;)" Type="5" />
+			<Property680 Cookie="854" PropertyType="0" Value="VCLObject(&quot;bbUsersForum&quot;)" Type="5" />
 		</Child1>
 	</Storages>
 	<TypeInfo StoreCodeCompletion="0">

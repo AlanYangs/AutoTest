@@ -1499,6 +1499,21 @@
 							<Prp name="enabled" type="B" value="-1"/>
 							<Prp name="group" type="B" value="0"/>
 							<Prp name="index" type="I" value="0"/>
+							<Prp name="key" type="S" value="{25CCE8FE-6224-4837-950E-14E74D48B7F0}"/>
+							<Prp name="name" type="S" value="MainMenu Toolbar Button"/>
+							<Prp name="stoponerror" type="I" value="2"/>
+							<Prp name="stoponexception" type="I" value="2"/>
+							<Prp name="test moniker" type="S" value="{25AEC001-3A27-444F-BA6C-5F3E72BA86EA}checkMainToolbar"/>
+							<Prp name="timeout" type="I" value="0"/>
+						</Node>
+						<Node name="item0000000001">
+							<Node name="child list"/>
+							<Node name="test parameters"/>
+							<Prp name="count" type="I" value="1"/>
+							<Prp name="description" type="S" value=""/>
+							<Prp name="enabled" type="B" value="-1"/>
+							<Prp name="group" type="B" value="0"/>
+							<Prp name="index" type="I" value="1"/>
 							<Prp name="key" type="S" value="{4FC93E34-2FAD-4E89-9C6C-54DA1A5730DF}"/>
 							<Prp name="name" type="S" value="CodeEditor Toolbar Button"/>
 							<Prp name="stoponerror" type="I" value="2"/>
