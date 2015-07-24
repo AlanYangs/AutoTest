@@ -290,6 +290,16 @@
 				<Prp name="type" type="S" value="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}"/>
 				<Prp name="typename" type="S" value="Script Unit"/>
 			</Node>
+			<Node name="item0000000027">
+				<Node name="item data">
+					<Prp name="relpath" type="S" value="CodeEditor_RightClickMenu.sj"/>
+				</Node>
+				<Prp name="index" type="I" value="27"/>
+				<Prp name="key" type="S" value="{3BAB59C1-4F2D-4489-AB91-0D1750D169BC}"/>
+				<Prp name="pluginname" type="S" value="Script"/>
+				<Prp name="type" type="S" value="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}"/>
+				<Prp name="typename" type="S" value="Script Unit"/>
+			</Node>
 		</Node>
 		<Node name="folders">
 			<Node name="folders">
@@ -423,6 +433,10 @@
 						<Node name="ref0000000003">
 							<Prp name="index" type="I" value="3"/>
 							<Prp name="key" type="S" value="{9CECE79B-5505-47E0-830E-160D1A1C3E9C}"/>
+						</Node>
+						<Node name="ref0000000004">
+							<Prp name="index" type="I" value="4"/>
+							<Prp name="key" type="S" value="{3BAB59C1-4F2D-4489-AB91-0D1750D169BC}"/>
 						</Node>
 					</Node>
 					<Prp name="caption" type="S" value="3_CodeEditor"/>

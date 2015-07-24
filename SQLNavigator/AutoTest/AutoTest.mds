@@ -80,6 +80,9 @@
 			<Node name="script\codeeditor_exportdata.sj">
 				<Prp name="relpath" type="S" value="Script\CodeEditor_ExportData.sj"/>
 			</Node>
+			<Node name="script\codeeditor_rightclickmenu.sj">
+				<Prp name="relpath" type="S" value="Script\CodeEditor_RightClickMenu.sj"/>
+			</Node>
 			<Node name="script\codeeditor_syntax.sj">
 				<Prp name="relpath" type="S" value="Script\CodeEditor_Syntax.sj"/>
 			</Node>
@@ -1228,7 +1231,7 @@
 					<Node name="test parameters"/>
 					<Prp name="count" type="I" value="1"/>
 					<Prp name="description" type="S" value=""/>
-					<Prp name="enabled" type="B" value="0"/>
+					<Prp name="enabled" type="B" value="-1"/>
 					<Prp name="group" type="B" value="-1"/>
 					<Prp name="index" type="I" value="0"/>
 					<Prp name="key" type="S" value="{8654C522-5DBC-4B5C-8F79-3094CD418510}"/>
@@ -1554,7 +1557,9 @@
 			<Prp name="key" type="S" value="{715F8A76-099E-4C7E-95B3-32FDDEA613C9}"/>
 		</Node>
 		<Node name="variables">
+			<Node name="datav3"/>
 			<Prp name="key" type="S" value="{92F279A2-E2ED-49F6-99E4-A75571808395}"/>
+			<Prp name="version" type="I" value="3"/>
 		</Node>
 		<Prp name="signature" type="S" value="{362A8EE5-675E-43A9-869D-06ECE80B0CB4}"/>
 		<Prp name="version" type="S" value="9.0"/>
