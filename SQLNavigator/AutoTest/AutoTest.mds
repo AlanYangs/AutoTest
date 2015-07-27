@@ -1231,7 +1231,7 @@
 					<Node name="test parameters"/>
 					<Prp name="count" type="I" value="1"/>
 					<Prp name="description" type="S" value=""/>
-					<Prp name="enabled" type="B" value="-1"/>
+					<Prp name="enabled" type="B" value="0"/>
 					<Prp name="group" type="B" value="-1"/>
 					<Prp name="index" type="I" value="0"/>
 					<Prp name="key" type="S" value="{8654C522-5DBC-4B5C-8F79-3094CD418510}"/>
@@ -1441,11 +1441,11 @@
 							<Prp name="enabled" type="B" value="-1"/>
 							<Prp name="group" type="B" value="0"/>
 							<Prp name="index" type="I" value="1"/>
-							<Prp name="key" type="S" value="{CAF57E4F-5B2B-4782-9DA8-0E323B7B9854}"/>
-							<Prp name="name" type="S" value="Check Export Data"/>
+							<Prp name="key" type="S" value="{3764DEBE-1582-4BAD-904D-57F6A97D0F4A}"/>
+							<Prp name="name" type="S" value="Check Right Click Menu"/>
 							<Prp name="stoponerror" type="I" value="2"/>
 							<Prp name="stoponexception" type="I" value="2"/>
-							<Prp name="test moniker" type="S" value="{9CECE79B-5505-47E0-830E-160D1A1C3E9C}checkExportData"/>
+							<Prp name="test moniker" type="S" value="{3BAB59C1-4F2D-4489-AB91-0D1750D169BC}checkRightClickMenu"/>
 							<Prp name="timeout" type="I" value="0"/>
 						</Node>
 						<Node name="item0000000002">
@@ -1456,11 +1456,11 @@
 							<Prp name="enabled" type="B" value="-1"/>
 							<Prp name="group" type="B" value="0"/>
 							<Prp name="index" type="I" value="2"/>
-							<Prp name="key" type="S" value="{AA033EC9-6D58-495F-B485-CA35CBB55857}"/>
-							<Prp name="name" type="S" value="Check DB Exporer"/>
+							<Prp name="key" type="S" value="{CAF57E4F-5B2B-4782-9DA8-0E323B7B9854}"/>
+							<Prp name="name" type="S" value="Check Export Data"/>
 							<Prp name="stoponerror" type="I" value="2"/>
 							<Prp name="stoponexception" type="I" value="2"/>
-							<Prp name="test moniker" type="S" value="{671F1A30-62E1-4CAA-870A-089DE4BDC535}checkDBExplorer"/>
+							<Prp name="test moniker" type="S" value="{9CECE79B-5505-47E0-830E-160D1A1C3E9C}checkExportData"/>
 							<Prp name="timeout" type="I" value="0"/>
 						</Node>
 						<Node name="item0000000003">
@@ -1471,6 +1471,21 @@
 							<Prp name="enabled" type="B" value="-1"/>
 							<Prp name="group" type="B" value="0"/>
 							<Prp name="index" type="I" value="3"/>
+							<Prp name="key" type="S" value="{AA033EC9-6D58-495F-B485-CA35CBB55857}"/>
+							<Prp name="name" type="S" value="Check DB Exporer"/>
+							<Prp name="stoponerror" type="I" value="2"/>
+							<Prp name="stoponexception" type="I" value="2"/>
+							<Prp name="test moniker" type="S" value="{671F1A30-62E1-4CAA-870A-089DE4BDC535}checkDBExplorer"/>
+							<Prp name="timeout" type="I" value="0"/>
+						</Node>
+						<Node name="item0000000004">
+							<Node name="child list"/>
+							<Node name="test parameters"/>
+							<Prp name="count" type="I" value="1"/>
+							<Prp name="description" type="S" value=""/>
+							<Prp name="enabled" type="B" value="-1"/>
+							<Prp name="group" type="B" value="0"/>
+							<Prp name="index" type="I" value="4"/>
 							<Prp name="key" type="S" value="{CB2C6F4E-115B-40D9-9E33-CC479C143D97}"/>
 							<Prp name="name" type="S" value="Check History"/>
 							<Prp name="stoponerror" type="I" value="2"/>
