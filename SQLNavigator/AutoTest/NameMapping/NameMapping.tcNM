@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<Root Signature="{5DCBAC3B-D39C-497C-9BE8-744CBADD37AA}" NameMappingVersion="4" Cookie="857">
+<Root Signature="{5DCBAC3B-D39C-497C-9BE8-744CBADD37AA}" NameMappingVersion="4" Cookie="859">
 	<Nodes Name="NameMapping" Key="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}" ParallelWalk="True">
 		<Properties />
 		<Children>
@@ -2657,6 +2657,13 @@
 								</Properties>
 								<Children />
 							</Child66>
+							<Child67 Name="TMessageForm" Key="{D426030A-080B-4B3C-A54D-D71FB97389E9}" ParallelWalk="True">
+								<Properties>
+									<Property0 Name="WndClass" Cookie="857" />
+									<Property1 Name="WndCaption" Cookie="858" />
+								</Properties>
+								<Children />
+							</Child67>
 						</Children>
 					</Child1>
 					<Child2 Name="KnowledgeXpert" Key="{A123EF24-1271-43B0-82A2-E6FC3148114E}" ParallelWalk="True">
@@ -3302,6 +3309,7 @@
 			</Child64>
 			<Child65 Name="frmDefines" Owner="{24267847-B11D-45A9-8686-A7F369282C29}" />
 			<Child66 Name="frmSubstitutions" Owner="{8F8C6CDD-AAE0-4DCD-B26E-CFDE18EAE05B}" />
+			<Child67 Name="TMessageForm" Owner="{D426030A-080B-4B3C-A54D-D71FB97389E9}" />
 		</Child1>
 		<Child2 Name="KnowledgeXpert" Owner="{A123EF24-1271-43B0-82A2-E6FC3148114E}">
 			<Child0 Name="wndHome" Owner="{89606F3B-855F-40ED-8838-154B328C7334}" />
@@ -4018,6 +4026,8 @@
 			<Property680 Cookie="854" PropertyType="0" Value="VCLObject(&quot;bbUsersForum&quot;)" Type="5" />
 			<Property681 Cookie="855" PropertyType="0" Value="VCLObject(&quot;frmDefines&quot;)" Type="5" />
 			<Property682 Cookie="856" PropertyType="0" Value="VCLObject(&quot;frmSubstitutions&quot;)" Type="5" />
+			<Property683 Cookie="857" PropertyType="0" Value="TMessageForm" Type="5" />
+			<Property684 Cookie="858" PropertyType="0" Value="Error!" Type="5" />
 		</Child0>
 		<Child1 Name="Version_Win8">
 			<Property0 Cookie="0" PropertyType="0" Value="Sys" Type="5" />
@@ -4703,6 +4713,8 @@
 			<Property680 Cookie="854" PropertyType="0" Value="VCLObject(&quot;bbUsersForum&quot;)" Type="5" />
 			<Property681 Cookie="855" PropertyType="0" Value="VCLObject(&quot;frmDefines&quot;)" Type="5" />
 			<Property682 Cookie="856" PropertyType="0" Value="VCLObject(&quot;frmSubstitutions&quot;)" Type="5" />
+			<Property683 Cookie="857" PropertyType="0" Value="TMessageForm" Type="5" />
+			<Property684 Cookie="858" PropertyType="0" Value="Error!" Type="5" />
 		</Child1>
 	</Storages>
 	<TypeInfo StoreCodeCompletion="0">
