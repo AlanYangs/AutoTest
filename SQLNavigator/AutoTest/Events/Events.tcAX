@@ -166,12 +166,19 @@
 						<Prp name="info_id" type="I" value="1610743821"/>
 						<Prp name="info_tlbver" type="S" value="version.dll"/>
 					</Node>
+					<Node name="handler0info">
+						<Prp name="handler_eventname" type="S" value="OnUnexpectedWindow"/>
+						<Prp name="handler_moniker" type="S" value="{CF0FE9A1-1077-4EA5-B96F-879D19F11184}GeneralEvents_OnUnexpectedWindow"/>
+						<Prp name="handler_name" type="S" value="GeneralEvents_OnUnexpectedWindow"/>
+						<Prp name="handler_realdispid" type="I" value="1610743818"/>
+						<Prp name="handler_realiid" type="S" value="{4C03E9F2-BB22-4E21-B2E7-E51B754FCBBA}"/>
+					</Node>
 					<Prp name="eventinfocount" type="I" value="16"/>
 					<Prp name="generatedclsid" type="S" value="{08EF21D0-43B5-494B-A73A-D5151B8661B2}"/>
 					<Prp name="generatedeventskey" type="S" value="{3357882E-1CC7-4F23-AC1C-AD30E1316842}"/>
 					<Prp name="generatedtlbdesc" type="S" value="TestComplete GeneralEvents Control - 5/11/2015 10:52:15 AM"/>
 					<Prp name="generatedtlbkey" type="S" value="{A1B65B99-C6A2-4FF1-8E9D-F9AAB30CEC78}"/>
-					<Prp name="handlerinfocount" type="I" value="0"/>
+					<Prp name="handlerinfocount" type="I" value="1"/>
 					<Prp name="lastopenedtlb" type="S" value=""/>
 					<Prp name="node name" type="S" value="GeneralEvents"/>
 				</Node>
